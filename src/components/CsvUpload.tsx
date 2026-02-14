@@ -6,12 +6,14 @@ interface CsvUploadProps {
   onImport: (pokemon: Pokemon[]) => void;
   hasExistingData: boolean;
   onClear: () => void;
+  showClear?: boolean;
 }
 
 export function CsvUpload({
   onImport,
   hasExistingData,
   onClear,
+  showClear = true,
 }: CsvUploadProps) {
   const [error, setError] = useState<string | null>(null);
 
@@ -59,7 +61,7 @@ export function CsvUpload({
             className="hidden"
           />
         </label>
-        {hasExistingData && (
+        {hasExistingData && showClear && (
           <button
             onClick={onClear}
             className="text-sm text-red-500 hover:text-red-700 transition-colors"

@@ -8,7 +8,13 @@ import { PriorityList } from "./components/PriorityList";
 import { RaidBosses } from "./components/RaidBosses";
 import { EventsFeed } from "./components/EventsFeed";
 import { PokedexView, type Filter as PokedexFilter } from "./components/PokedexView";
-import { encodeLuckyDexBitset, MAX_DEX_NUMBER } from "./utils/luckyShare";
+import {
+  encodeLuckyDexBitset,
+  MAX_DEX_NUMBER,
+  collectLuckyDexNumbers,
+  decodeLuckyDexBitset,
+  checksumDexPayload,
+} from "./utils/luckyShare";
 
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
@@ -16,6 +22,8 @@ const TAB_QUERY_KEY = "tab";
 const POKEDEX_SEARCH_QUERY_KEY = "q";
 const POKEDEX_FILTER_QUERY_KEY = "pf";
 const DEX_QUERY_KEY = "dex";
+const DEX_COUNT_QUERY_KEY = "dxc";
+const DEX_HASH_QUERY_KEY = "dxh";
 
 function isTab(value: string | null): value is Tab {
   return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
@@ -96,6 +104,24 @@ function App() {
   async function copyShareLink() {
     if (!luckyList) return;
 
+    const luckyDex = collectLuckyDexNumbers(luckyList.pokemon, MAX_DEX_NUMBER);
+    const encodedDex = encodeLuckyDexBitset(luckyList.pokemon, MAX_DEX_NUMBER);
+    const decodedRoundTrip = decodeLuckyDexBitset(encodedDex, MAX_DEX_NUMBER);
+    const payloadHash = checksumDexPayload(encodedDex);
+
+    if (!decodedRoundTrip || decodedRoundTrip.size !== luckyDex.size) {
+      setShareStatus("Could not generate a valid share link. Try again.");
+      return;
+    }
+
+    if (import.meta.env.DEV) {
+      console.info("[shared-dex] generated", {
+        luckyCount: luckyDex.size,
+        noibatLucky: luckyDex.has(714),
+        hash: payloadHash,
+      });
+    }
+
     const url = new URL(window.location.href);
     url.searchParams.set(TAB_QUERY_KEY, tab);
     if (pokedexSearch) {
@@ -104,14 +130,13 @@ function App() {
       url.searchParams.delete(POKEDEX_SEARCH_QUERY_KEY);
     }
     url.searchParams.set(POKEDEX_FILTER_QUERY_KEY, pokedexFilter);
-    url.searchParams.set(
-      DEX_QUERY_KEY,
-      encodeLuckyDexBitset(luckyList.pokemon, MAX_DEX_NUMBER),
-    );
+    url.searchParams.set(DEX_QUERY_KEY, encodedDex);
+    url.searchParams.set(DEX_COUNT_QUERY_KEY, String(luckyDex.size));
+    url.searchParams.set(DEX_HASH_QUERY_KEY, payloadHash);
 
     try {
       await navigator.clipboard.writeText(url.toString());
-      setShareStatus("Share link copied to clipboard.");
+      setShareStatus(`Share link copied (${luckyDex.size} lucky entries).`);
     } catch {
       setShareStatus("Could not access clipboard. Copy the URL from your browser bar.");
     }
@@ -164,30 +189,42 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-yellow-400 shadow-sm">
         <div className="max-w-2xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center justify-between gap-3">
             <h1 className="text-xl font-bold text-gray-900">Lucky PGO</h1>
             <div className="flex items-center gap-2">
-              {luckyList && (
-                <>
-                  <button
-                    onClick={exportBackupCsv}
-                    className="bg-white text-gray-900 px-3 py-2 rounded-lg text-sm font-medium border border-gray-300 hover:bg-gray-100 transition-colors"
-                  >
-                    Export Backup CSV
-                  </button>
-                  <button
-                    onClick={copyShareLink}
-                    className="bg-gray-900 text-white px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors"
-                  >
-                    Share Link
-                  </button>
-                </>
-              )}
               <CsvUpload
                 onImport={importPokemon}
                 hasExistingData={!!luckyList}
                 onClear={clearList}
+                showClear={false}
               />
+              {luckyList && (
+                <details className="relative">
+                  <summary className="list-none cursor-pointer bg-white/90 text-gray-800 px-3 py-2 rounded-lg text-sm font-medium border border-yellow-300 hover:bg-white transition-colors">
+                    Tools
+                  </summary>
+                  <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-10 p-1.5">
+                    <button
+                      onClick={exportBackupCsv}
+                      className="w-full text-left px-2.5 py-2 text-sm rounded hover:bg-gray-100"
+                    >
+                      Export Backup CSV
+                    </button>
+                    <button
+                      onClick={copyShareLink}
+                      className="w-full text-left px-2.5 py-2 text-sm rounded hover:bg-gray-100"
+                    >
+                      Share Link
+                    </button>
+                    <button
+                      onClick={clearList}
+                      className="w-full text-left px-2.5 py-2 text-sm rounded text-red-600 hover:bg-red-50"
+                    >
+                      Clear data
+                    </button>
+                  </div>
+                </details>
+              )}
             </div>
           </div>
           {shareStatus && (
@@ -230,7 +267,7 @@ function App() {
             </div>
           )}
           {luckyList && (
-            <div className="mt-3">
+            <div className="mt-4">
               <ProgressBar luckyCount={luckyCount} totalCount={totalCount} />
             </div>
           )}

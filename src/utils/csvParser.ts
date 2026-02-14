@@ -15,6 +15,47 @@ function isPokemonName(s: string): boolean {
   return true;
 }
 
+// Split a CSV line respecting quoted fields (handles commas inside quotes).
+function splitCsvLine(line: string, delimiter: string): string[] {
+  if (delimiter !== ",") return line.split(delimiter);
+  const parts: string[] = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (inQuotes) {
+      if (ch === '"') {
+        if (i + 1 < line.length && line[i + 1] === '"') {
+          current += '"';
+          i++; // skip escaped quote
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        current += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === delimiter) {
+      parts.push(current);
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  parts.push(current);
+  return parts;
+}
+
+// Detect delimiter by sampling a few lines. Tabs are unambiguous; commas need
+// quote-awareness to avoid false positives from quoted fields.
+function detectDelimiter(lines: string[]): string {
+  const sample = lines.slice(0, Math.min(20, lines.length));
+  const tabCount = sample.filter((l) => l.includes("\t")).length;
+  if (tabCount >= sample.length / 2) return "\t";
+  return ",";
+}
+
 // Parse the Google Sheet CSV which has:
 // - A large header section (trainer name, stats, generation labels, column headers)
 // - Multiple Pokemon per row in repeating 4-column groups: No. | Name | (blank) | Lucky
@@ -24,11 +65,10 @@ export function parseCsv(text: string): Pokemon[] {
   const pokemon: Pokemon[] = [];
   const seen = new Set<number>();
 
-  // Detect delimiter: if first data-ish line has comma, use comma; otherwise try tabs
-  const delimiter = text.includes(",") ? "," : "\t";
+  const delimiter = detectDelimiter(lines);
 
   for (const line of lines) {
-    const parts = line.split(delimiter);
+    const parts = splitCsvLine(line, delimiter);
 
     // Scan across all columns looking for [dexNumber, name, ..., TRUE/FALSE] groups
     for (let i = 0; i < parts.length - 1; i++) {

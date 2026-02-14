@@ -11,6 +11,19 @@ import { PokedexView } from "./components/PokedexView";
 
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
+const TAB_QUERY_KEY = "tab";
+
+function isTab(value: string | null): value is Tab {
+  return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
+}
+
+function getInitialTab(): Tab {
+  const params = new URLSearchParams(window.location.search);
+  const tabFromUrl = params.get(TAB_QUERY_KEY);
+  if (isTab(tabFromUrl)) return tabFromUrl;
+  return "priority";
+}
+
 function App() {
   const {
     luckyList,
@@ -21,7 +34,14 @@ function App() {
     totalCount,
   } = useLuckyList();
   const { data, loading, error } = useScrapedDuck();
-  const [tab, setTab] = useState<Tab>("priority");
+  const [tab, setTab] = useState<Tab>(getInitialTab);
+
+  function setTabAndSyncUrl(nextTab: Tab) {
+    setTab(nextTab);
+    const url = new URL(window.location.href);
+    url.searchParams.set(TAB_QUERY_KEY, nextTab);
+    window.history.replaceState(null, "", url.toString());
+  }
 
   const priorities = useMemo(() => {
     if (!luckyList || !data) return [];
@@ -76,7 +96,7 @@ function App() {
               {tabs.map((t) => (
                 <button
                   key={t.key}
-                  onClick={() => setTab(t.key)}
+                  onClick={() => setTabAndSyncUrl(t.key)}
                   className={`px-4 py-2 text-sm font-medium rounded-lg whitespace-nowrap transition-colors ${
                     tab === t.key
                       ? "bg-yellow-400 text-gray-900"

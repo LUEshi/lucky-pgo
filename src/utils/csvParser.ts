@@ -7,8 +7,9 @@ function isPokemonName(s: string): boolean {
   if (!s || s.length < 2 || s.length > 30) return false;
   // Reject if it contains colons, percent signs, digits, or equals
   if (/[:%=0-9]/.test(s)) return false;
-  // Reject common header words
-  if (/^(no\.?|name|lucky|owned|obtainable|generation|total|confirm|regional|untradable|unreleased|trainer|spreadsheet)/i.test(s)) return false;
+  // IMPORTANT: keep this as a whole-label match via `(?:\b|$)`.
+  // Prefix matching (`^no`) will incorrectly reject real names like "Noibat"/"Noivern".
+  if (/^(no\.?|name|lucky|owned|obtainable|generation|total|confirm|regional|untradable|unreleased|trainer|spreadsheet)(?:\b|$)/i.test(s)) return false;
   // Must start with a letter
   if (!/^[a-zA-Z]/.test(s)) return false;
   return true;

@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
 import { useLuckyList } from "./hooks/useLuckyList";
 import { useScrapedDuck } from "./hooks/useScrapedDuck";
 import { scorePokemon } from "./utils/priorityScorer";
@@ -7,14 +7,22 @@ import { ProgressBar } from "./components/ProgressBar";
 import { PriorityList } from "./components/PriorityList";
 import { RaidBosses } from "./components/RaidBosses";
 import { EventsFeed } from "./components/EventsFeed";
-import { PokedexView } from "./components/PokedexView";
+import { PokedexView, type Filter as PokedexFilter } from "./components/PokedexView";
+import { encodeLuckyDexBitset, MAX_DEX_NUMBER } from "./utils/luckyShare";
 
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
 const TAB_QUERY_KEY = "tab";
+const POKEDEX_SEARCH_QUERY_KEY = "q";
+const POKEDEX_FILTER_QUERY_KEY = "pf";
+const DEX_QUERY_KEY = "dex";
 
 function isTab(value: string | null): value is Tab {
   return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
+}
+
+function isPokedexFilter(value: string | null): value is PokedexFilter {
+  return value === "all" || value === "missing" || value === "lucky";
 }
 
 function getInitialTab(): Tab {
@@ -22,6 +30,17 @@ function getInitialTab(): Tab {
   const tabFromUrl = params.get(TAB_QUERY_KEY);
   if (isTab(tabFromUrl)) return tabFromUrl;
   return "priority";
+}
+
+function getInitialPokedexSearch(): string {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(POKEDEX_SEARCH_QUERY_KEY) ?? "";
+}
+
+function getInitialPokedexFilter(): PokedexFilter {
+  const params = new URLSearchParams(window.location.search);
+  const fromUrl = params.get(POKEDEX_FILTER_QUERY_KEY);
+  return isPokedexFilter(fromUrl) ? fromUrl : "all";
 }
 
 function App() {
@@ -32,15 +51,66 @@ function App() {
     clearList,
     luckyCount,
     totalCount,
+    linkImportError,
+    linkImportMessage,
   } = useLuckyList();
   const { data, loading, error } = useScrapedDuck();
   const [tab, setTab] = useState<Tab>(getInitialTab);
+  const [pokedexSearch, setPokedexSearch] = useState<string>(
+    getInitialPokedexSearch,
+  );
+  const [pokedexFilter, setPokedexFilter] = useState<PokedexFilter>(
+    getInitialPokedexFilter,
+  );
+  const [shareStatus, setShareStatus] = useState<string | null>(null);
+
+  const setUrlQueryParam = useCallback((key: string, value: string) => {
+    const url = new URL(window.location.href);
+    if (value) {
+      url.searchParams.set(key, value);
+    } else {
+      url.searchParams.delete(key);
+    }
+    window.history.replaceState(null, "", url.toString());
+  }, []);
 
   function setTabAndSyncUrl(nextTab: Tab) {
     setTab(nextTab);
+    setUrlQueryParam(TAB_QUERY_KEY, nextTab);
+  }
+
+  function setPokedexSearchAndSyncUrl(nextSearch: string) {
+    setPokedexSearch(nextSearch);
+    setUrlQueryParam(POKEDEX_SEARCH_QUERY_KEY, nextSearch);
+  }
+
+  function setPokedexFilterAndSyncUrl(nextFilter: PokedexFilter) {
+    setPokedexFilter(nextFilter);
+    setUrlQueryParam(POKEDEX_FILTER_QUERY_KEY, nextFilter);
+  }
+
+  async function copyShareLink() {
+    if (!luckyList) return;
+
     const url = new URL(window.location.href);
-    url.searchParams.set(TAB_QUERY_KEY, nextTab);
-    window.history.replaceState(null, "", url.toString());
+    url.searchParams.set(TAB_QUERY_KEY, tab);
+    if (pokedexSearch) {
+      url.searchParams.set(POKEDEX_SEARCH_QUERY_KEY, pokedexSearch);
+    } else {
+      url.searchParams.delete(POKEDEX_SEARCH_QUERY_KEY);
+    }
+    url.searchParams.set(POKEDEX_FILTER_QUERY_KEY, pokedexFilter);
+    url.searchParams.set(
+      DEX_QUERY_KEY,
+      encodeLuckyDexBitset(luckyList.pokemon, MAX_DEX_NUMBER),
+    );
+
+    try {
+      await navigator.clipboard.writeText(url.toString());
+      setShareStatus("Share link copied to clipboard.");
+    } catch {
+      setShareStatus("Could not access clipboard. Copy the URL from your browser bar.");
+    }
   }
 
   const priorities = useMemo(() => {
@@ -59,14 +129,39 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-yellow-400 shadow-sm">
         <div className="max-w-2xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-2">
             <h1 className="text-xl font-bold text-gray-900">Lucky PGO</h1>
-            <CsvUpload
-              onImport={importPokemon}
-              hasExistingData={!!luckyList}
-              onClear={clearList}
-            />
+            <div className="flex items-center gap-2">
+              {luckyList && (
+                <button
+                  onClick={copyShareLink}
+                  className="bg-gray-900 text-white px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors"
+                >
+                  Share Link
+                </button>
+              )}
+              <CsvUpload
+                onImport={importPokemon}
+                hasExistingData={!!luckyList}
+                onClear={clearList}
+              />
+            </div>
           </div>
+          {shareStatus && (
+            <div className="mt-2 text-xs text-gray-700 bg-white/80 rounded px-3 py-2">
+              {shareStatus}
+            </div>
+          )}
+          {linkImportMessage && (
+            <div className="mt-2 text-xs text-green-700 bg-green-50 rounded px-3 py-2">
+              {linkImportMessage}
+            </div>
+          )}
+          {linkImportError && (
+            <div className="mt-2 text-xs text-red-700 bg-red-50 rounded px-3 py-2">
+              {linkImportError}
+            </div>
+          )}
           {luckyList && (
             <div className="mt-3">
               <ProgressBar luckyCount={luckyCount} totalCount={totalCount} />
@@ -143,6 +238,10 @@ function App() {
                   <PokedexView
                     pokemon={luckyList.pokemon}
                     onToggleLucky={toggleLucky}
+                    search={pokedexSearch}
+                    filter={pokedexFilter}
+                    onSearchChange={setPokedexSearchAndSyncUrl}
+                    onFilterChange={setPokedexFilterAndSyncUrl}
                   />
                 )}
               </>

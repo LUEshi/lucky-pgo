@@ -1,17 +1,25 @@
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import type { Pokemon } from "../types";
 
 interface PokedexViewProps {
   pokemon: Pokemon[];
   onToggleLucky: (dexNumber: number) => void;
+  search: string;
+  filter: Filter;
+  onSearchChange: (value: string) => void;
+  onFilterChange: (value: Filter) => void;
 }
 
-type Filter = "all" | "missing" | "lucky";
+export type Filter = "all" | "missing" | "lucky";
 
-export function PokedexView({ pokemon, onToggleLucky }: PokedexViewProps) {
-  const [search, setSearch] = useState("");
-  const [filter, setFilter] = useState<Filter>("all");
-
+export function PokedexView({
+  pokemon,
+  onToggleLucky,
+  search,
+  filter,
+  onSearchChange,
+  onFilterChange,
+}: PokedexViewProps) {
   const filtered = useMemo(() => {
     let list = pokemon;
     if (filter === "missing") list = list.filter((p) => !p.isLucky);
@@ -33,14 +41,14 @@ export function PokedexView({ pokemon, onToggleLucky }: PokedexViewProps) {
           type="text"
           placeholder="Search by name or number..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => onSearchChange(e.target.value)}
           className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
         />
         <div className="flex gap-1">
           {(["all", "missing", "lucky"] as Filter[]).map((f) => (
             <button
               key={f}
-              onClick={() => setFilter(f)}
+              onClick={() => onFilterChange(f)}
               className={`px-3 py-2 text-xs font-medium rounded-lg capitalize transition-colors ${
                 filter === f
                   ? "bg-blue-600 text-white"

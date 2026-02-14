@@ -14,6 +14,16 @@ npm run dev
 1. Export your Google Sheet lucky tracker as a TSV file (File > Download > Tab-separated values)
 2. Open the app and click "Upload CSV"
 3. Check the "Trade Next" tab for prioritized recommendations
+4. Use "Share Link" to generate a URL that includes your full lucky dex bitset (`dex`) so another device can import without CSV
+
+## History Snapshots
+
+- Daily ScrapedDuck snapshots are stored in `public/history/` by `.github/workflows/snapshot-history.yml`.
+- The workflow keeps a rolling 7-day window for diff features.
+
+## Roadmap
+
+- Planned feature backlog is tracked in `ROADMAP.md`.
 
 ## Data Sources & Credits
 

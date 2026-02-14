@@ -148,11 +148,14 @@ export function scorePokemon(
 
   // Score Team Rocket Pokemon (only encounter-eligible ones matter for trading)
   for (const lineup of data.rockets) {
-    const allSlots = [
-      ...lineup.firstPokemon,
+    const allSlots = Array.from(new Map(
+      [...lineup.firstPokemon, 
       ...lineup.secondPokemon,
-      ...lineup.thirdPokemon,
-    ];
+      ...lineup.thirdPokemon]
+      .map(p => [p.name, p])
+     ).values()
+    );
+
     const encounters = allSlots.filter((p) => p.isEncounter);
     for (const rocketMon of encounters) {
       const rocketBase = baseName(rocketMon.name);

@@ -69,9 +69,10 @@ function cardBg(sources: PrioritySource[]): string {
 
 // Egg distance colors
 const eggDistanceColors: Record<string, string> = {
+  "1 km": "bg-blue-100 border-blue-300",
   "2 km": "bg-green-100 border-green-300",
-  "5 km": "bg-orange-100 border-orange-300",
-  "7 km": "bg-yellow-100 border-yellow-300",
+  "5 km": "bg-yellow-100 border-yellow-300",
+  "7 km": "bg-pink-100 border-pink-300",
   "10 km": "bg-purple-100 border-purple-300",
   "12 km": "bg-red-100 border-red-300",
 };

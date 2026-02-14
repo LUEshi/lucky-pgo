@@ -93,7 +93,7 @@ export function scorePokemon(
       entry.score += 4;
       entry.sources.push({
         type: "event",
-        label: "Event Spawn",
+        label: "Event",
         detail: event.name,
       });
     }
@@ -140,6 +140,10 @@ export function scorePokemon(
     const match = findMatch(baseName(egg.name));
     if (!match) continue;
     const entry = getOrCreate(match);
+    const hasSameEggSource = entry.sources.some(
+      (source) => source.type === "egg" && source.label === egg.eggType,
+    );
+    if (hasSameEggSource) continue;
     entry.score += 1;
     entry.sources.push({
       type: "egg",

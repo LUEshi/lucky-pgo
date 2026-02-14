@@ -1,11 +1,44 @@
-import type { ScrapedDuckEvent } from "../types";
+import type { Pokemon, ScrapedDuckEvent } from "../types";
 import { partitionEventsByTime } from "../utils/eventFilters";
+import { baseName, normalizeName, pokemonMatches } from "../utils/pokemonMatcher";
 
 interface EventsFeedProps {
   events: ScrapedDuckEvent[];
+  luckyList?: Pokemon[];
 }
 
-export function EventsFeed({ events }: EventsFeedProps) {
+function dedupeNames(names: string[]): string[] {
+  const deduped = new Map<string, string>();
+  for (const name of names) {
+    const key = normalizeName(baseName(name));
+    if (!deduped.has(key)) deduped.set(key, baseName(name));
+  }
+  return Array.from(deduped.values());
+}
+
+function getNeededLuckyForEvent(event: ScrapedDuckEvent, luckyList?: Pokemon[]): string[] {
+  if (!luckyList) return [];
+  const missing = luckyList.filter((pokemon) => !pokemon.isLucky);
+  if (missing.length === 0) return [];
+
+  const featured = event.extraData?.raidbattles?.bosses ?? [];
+  const needed = featured
+    .map((boss) => {
+      const base = baseName(boss.name);
+      return missing.find((pokemon) => pokemonMatches(pokemon.name, base));
+    })
+    .filter((pokemon): pokemon is Pokemon => Boolean(pokemon))
+    .map((pokemon) => pokemon.name);
+
+  return dedupeNames(needed);
+}
+
+function getShinyFeaturedForEvent(event: ScrapedDuckEvent): string[] {
+  const shinies = event.extraData?.raidbattles?.shinies?.map((s) => s.name) ?? [];
+  return dedupeNames(shinies);
+}
+
+export function EventsFeed({ events, luckyList }: EventsFeedProps) {
   const now = new Date();
   const { active, upcoming } = partitionEventsByTime(events, now);
   const upcomingSorted = upcoming
@@ -24,6 +57,9 @@ export function EventsFeed({ events }: EventsFeedProps) {
   }
 
   function EventCard({ event }: { event: ScrapedDuckEvent }) {
+    const neededLucky = getNeededLuckyForEvent(event, luckyList);
+    const shinyFeatured = getShinyFeaturedForEvent(event);
+
     return (
       <a
         href={event.link}
@@ -44,11 +80,21 @@ export function EventsFeed({ events }: EventsFeedProps) {
               {event.name}
             </div>
             <div className="text-xs text-gray-500 mt-0.5">
-              {event.eventType}
+              {event.heading}
             </div>
             <div className="text-xs text-gray-400 mt-1">
               {formatDate(event.start)} — {formatDate(event.end)}
             </div>
+            {neededLucky.length > 0 && (
+              <div className="text-xs text-red-700 mt-1 line-clamp-2">
+                Need lucky (featured): {neededLucky.join(", ")}
+              </div>
+            )}
+            {shinyFeatured.length > 0 && (
+              <div className="text-xs text-purple-700 mt-1 line-clamp-2">
+                Shiny available: {shinyFeatured.join(", ")}
+              </div>
+            )}
           </div>
         </div>
       </a>

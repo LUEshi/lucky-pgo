@@ -28,7 +28,9 @@ export function RaidBosses({ raids, luckyList }: RaidBossesProps) {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             {bosses.map((boss) => {
               const lucky = findLuckyStatus(boss.name, luckyList);
-              const isShadow = tier.toLowerCase().includes("shadow");
+              const isShadow =
+                tier.toLowerCase().includes("shadow") ||
+                boss.name.toLowerCase().startsWith("shadow ");
               return (
                 <div
                   key={boss.name}

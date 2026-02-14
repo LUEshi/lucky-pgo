@@ -114,7 +114,10 @@ function App() {
                   />
                 )}
                 {tab === "events" && (
-                  <EventsFeed events={data?.events ?? []} />
+                  <EventsFeed
+                    events={data?.events ?? []}
+                    luckyList={luckyList.pokemon}
+                  />
                 )}
                 {tab === "pokedex" && (
                   <PokedexView

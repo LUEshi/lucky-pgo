@@ -29,7 +29,7 @@ export function cardBg(sources: PrioritySource[]): string {
   if (types.includes("shadow-raid")) return "bg-purple-50 border-purple-200";
   if (types.includes("raid") || types.includes("upcoming-raid"))
     return "bg-red-50 border-red-200";
-  if (types.includes("rocket")) return "bg-gray-50 border-gray-300";
+  if (types.includes("rocket")) return "bg-gray-100 border-gray-300";
   if (types.includes("event") || types.includes("research"))
     return "bg-green-50 border-green-200";
   return "bg-white border-gray-200";
@@ -59,8 +59,8 @@ export function raidCardStyle(
   lucky: boolean | null,
   isShadow: boolean,
 ): string {
+  if (isShadow) return "bg-purple-50 border-purple-300";
   if (lucky === true) return "bg-yellow-50 border-yellow-300";
-  if (lucky === false && isShadow) return "bg-purple-50 border-purple-300";
   if (lucky === false) return "bg-white border-red-200";
   return "bg-white border-gray-200";
 }

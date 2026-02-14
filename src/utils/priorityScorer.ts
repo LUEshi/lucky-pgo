@@ -11,6 +11,9 @@ function tierScore(tier: string): number {
   if (tier.includes("1")) return 3;
   return 3;
 }
+export function dedupeByKey<T>(list: T[], keyFn: (item: T) => string): T[] {
+  return Array.from(new Map(list.map((item) => [keyFn(item), item])).values());
+}
 
 export function scorePokemon(
   luckyList: Pokemon[],

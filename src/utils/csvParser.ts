@@ -14,7 +14,7 @@ function isPokemonName(s: string): boolean {
   return true;
 }
 
-// Parse the Google Sheet TSV which has:
+// Parse the Google Sheet CSV which has:
 // - A large header section (trainer name, stats, generation labels, column headers)
 // - Multiple Pokemon per row in repeating 4-column groups: No. | Name | (blank) | Lucky
 //   (some groups may be 3 columns: No. | Name | Lucky)
@@ -23,8 +23,8 @@ export function parseCsv(text: string): Pokemon[] {
   const pokemon: Pokemon[] = [];
   const seen = new Set<number>();
 
-  // Detect delimiter: if first data-ish line has tabs, use tab; otherwise try comma
-  const delimiter = text.includes("\t") ? "\t" : ",";
+  // Detect delimiter: if first data-ish line has comma, use comma; otherwise try tabs
+  const delimiter = text.includes(",") ? "," : "\t";
 
   for (const line of lines) {
     const parts = line.split(delimiter);

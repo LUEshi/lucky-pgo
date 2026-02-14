@@ -7,6 +7,16 @@ interface RaidBossesProps {
   luckyList: Pokemon[] | undefined;
 }
 
+function requiresSpecialTrade(tier: string): boolean {
+  const normalized = tier.toLowerCase();
+  return (
+    normalized.includes("5-star") ||
+    normalized.includes("5 star") ||
+    normalized.startsWith("5") ||
+    normalized.includes("elite")
+  );
+}
+
 export function RaidBosses({ raids, luckyList }: RaidBossesProps) {
   if (raids.length === 0) {
     return <p className="text-gray-500 text-sm">No raid data available.</p>;
@@ -31,6 +41,15 @@ export function RaidBosses({ raids, luckyList }: RaidBossesProps) {
               const isShadow =
                 tier.toLowerCase().includes("shadow") ||
                 boss.name.toLowerCase().startsWith("shadow ");
+              const needsSpecialTrade = requiresSpecialTrade(tier);
+              const needsTradeNote =
+                lucky === false &&
+                (isShadow || needsSpecialTrade);
+              const tradeNote = isShadow
+                ? needsSpecialTrade
+                  ? "Purify + Special Trade"
+                  : "Purify"
+                : "Special Trade";
               return (
                 <div
                   key={boss.name}
@@ -57,9 +76,9 @@ export function RaidBosses({ raids, luckyList }: RaidBossesProps) {
                       NEED
                     </span>
                   )}
-                  {lucky === false && isShadow && (
+                  {needsTradeNote && (
                     <div className="text-[10px] text-gray-400 mt-0.5">
-                      Purify + Special Trade
+                      {tradeNote}
                     </div>
                   )}
                 </div>

@@ -11,20 +11,17 @@ import { buildPokedexFromLuckyDexSet } from "../utils/pokedexCatalog";
 
 const STORAGE_KEY = "lucky-pgo-list";
 const DEX_QUERY_KEY = "dex";
-const DEX_COUNT_QUERY_KEY = "dxc";
-const DEX_HASH_QUERY_KEY = "dxh";
+const DEX_HASH_QUERY_KEY = "dex-hash";
 
 function removeDexParamFromUrl() {
   const url = new URL(window.location.href);
   if (
     !url.searchParams.has(DEX_QUERY_KEY) &&
-    !url.searchParams.has(DEX_COUNT_QUERY_KEY) &&
     !url.searchParams.has(DEX_HASH_QUERY_KEY)
   ) {
     return;
   }
   url.searchParams.delete(DEX_QUERY_KEY);
-  url.searchParams.delete(DEX_COUNT_QUERY_KEY);
   url.searchParams.delete(DEX_HASH_QUERY_KEY);
   window.history.replaceState(null, "", url.toString());
 }
@@ -92,9 +89,11 @@ export function useLuckyList() {
     luckyCount: number;
   } | null>(null);
   const [importingFromLink, setImportingFromLink] = useState(false);
+  const canonicalizeVersion = useRef(0);
 
   const canonicalizeAndSetLuckyList = useCallback(
     async (sourcePokemon: Pokemon[], statusMessage?: string) => {
+      const version = ++canonicalizeVersion.current;
       const luckyDex = collectLuckyDexNumbers(sourcePokemon, MAX_DEX_NUMBER);
       const fallback = buildFallbackCanonicalPokemon(luckyDex, sourcePokemon);
       const now = new Date().toISOString();
@@ -107,6 +106,7 @@ export function useLuckyList() {
 
       try {
         const canonical = await buildPokedexFromLuckyDexSet(luckyDex, MAX_DEX_NUMBER);
+        if (canonicalizeVersion.current !== version) return;
         setLuckyList({
           pokemon: canonical,
           lastUpdated: new Date().toISOString(),
@@ -139,7 +139,6 @@ export function useLuckyList() {
     const dexParam = params.get(DEX_QUERY_KEY);
     if (!dexParam) return;
 
-    const expectedCountParam = params.get(DEX_COUNT_QUERY_KEY);
     const expectedHashParam = params.get(DEX_HASH_QUERY_KEY);
 
     if (expectedHashParam && checksumDexPayload(dexParam) !== expectedHashParam) {
@@ -152,14 +151,6 @@ export function useLuckyList() {
     const decoded = decodeLuckyDexBitset(dexParam, MAX_DEX_NUMBER);
     if (!decoded) {
       setLinkImportError("Shared dex link is invalid or corrupted.");
-      return;
-    }
-
-    const expectedCount = expectedCountParam ? parseInt(expectedCountParam, 10) : NaN;
-    if (!Number.isNaN(expectedCount) && expectedCount !== decoded.size) {
-      setLinkImportError(
-        `Shared dex link appears corrupted (expected ${expectedCount} lucky entries, got ${decoded.size}).`,
-      );
       return;
     }
 
@@ -204,6 +195,7 @@ export function useLuckyList() {
   }, []);
 
   const clearList = useCallback(() => {
+    canonicalizeVersion.current += 1;
     localStorage.removeItem(STORAGE_KEY);
     setLuckyList(null);
   }, []);

@@ -19,11 +19,10 @@ import {
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
 const TAB_QUERY_KEY = "tab";
-const POKEDEX_SEARCH_QUERY_KEY = "q";
-const POKEDEX_FILTER_QUERY_KEY = "pf";
+const POKEDEX_SEARCH_QUERY_KEY = "search";
+const POKEDEX_FILTER_QUERY_KEY = "filter";
 const DEX_QUERY_KEY = "dex";
-const DEX_COUNT_QUERY_KEY = "dxc";
-const DEX_HASH_QUERY_KEY = "dxh";
+const DEX_HASH_QUERY_KEY = "dex-hash";
 
 function isTab(value: string | null): value is Tab {
   return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
@@ -132,7 +131,6 @@ function App() {
     }
     url.searchParams.set(POKEDEX_FILTER_QUERY_KEY, pokedexFilter);
     url.searchParams.set(DEX_QUERY_KEY, encodedDex);
-    url.searchParams.set(DEX_COUNT_QUERY_KEY, String(luckyDex.size));
     url.searchParams.set(DEX_HASH_QUERY_KEY, payloadHash);
 
     try {

@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import type { Pokemon, LuckyList } from "../types";
 import {
   decodeLuckyDexBitset,
@@ -9,6 +9,13 @@ import { buildPokedexFromLuckyDexSet } from "../utils/pokedexCatalog";
 
 const STORAGE_KEY = "lucky-pgo-list";
 const DEX_QUERY_KEY = "dex";
+
+function removeDexParamFromUrl() {
+  const url = new URL(window.location.href);
+  if (!url.searchParams.has(DEX_QUERY_KEY)) return;
+  url.searchParams.delete(DEX_QUERY_KEY);
+  window.history.replaceState(null, "", url.toString());
+}
 
 function loadFromStorage(): LuckyList | null {
   try {
@@ -28,8 +35,14 @@ export function useLuckyList() {
   const [luckyList, setLuckyList] = useState<LuckyList | null>(() =>
     loadFromStorage(),
   );
+  const initialLuckyListRef = useRef<LuckyList | null>(luckyList);
   const [linkImportError, setLinkImportError] = useState<string | null>(null);
   const [linkImportMessage, setLinkImportMessage] = useState<string | null>(null);
+  const [pendingDexImport, setPendingDexImport] = useState<{
+    encoded: string;
+    luckyCount: number;
+  } | null>(null);
+  const [importingFromLink, setImportingFromLink] = useState(false);
 
   useEffect(() => {
     if (luckyList) {
@@ -38,53 +51,30 @@ export function useLuckyList() {
   }, [luckyList]);
 
   useEffect(() => {
-    let cancelled = false;
+    const params = new URLSearchParams(window.location.search);
+    const dexParam = params.get(DEX_QUERY_KEY);
+    if (!dexParam) return;
 
-    async function importFromLinkIfPresent() {
-      const params = new URLSearchParams(window.location.search);
-      const dexParam = params.get(DEX_QUERY_KEY);
-      if (!dexParam) return;
+    const decoded = decodeLuckyDexBitset(dexParam, MAX_DEX_NUMBER);
+    if (!decoded) {
+      setLinkImportError("Shared dex link is invalid or corrupted.");
+      return;
+    }
 
-      const decoded = decodeLuckyDexBitset(dexParam, MAX_DEX_NUMBER);
-      if (!decoded) {
-        setLinkImportError("Shared dex link is invalid or corrupted.");
+    if (initialLuckyListRef.current) {
+      const currentBitset = encodeLuckyDexBitset(
+        initialLuckyListRef.current.pokemon,
+        MAX_DEX_NUMBER,
+      );
+      if (currentBitset === dexParam) {
+        setLinkImportMessage("Shared dex matches your current list.");
+        removeDexParamFromUrl();
         return;
-      }
-
-      if (luckyList) {
-        const currentBitset = encodeLuckyDexBitset(luckyList.pokemon, MAX_DEX_NUMBER);
-        if (currentBitset === dexParam) return;
-
-        const replace = window.confirm(
-          "This link contains a shared lucky list. Replace your current local list with it?",
-        );
-        if (!replace) return;
-      }
-
-      try {
-        const pokemon = await buildPokedexFromLuckyDexSet(decoded, MAX_DEX_NUMBER);
-        if (cancelled) return;
-
-        setLuckyList({
-          pokemon,
-          lastUpdated: new Date().toISOString(),
-        });
-        setLinkImportError(null);
-        setLinkImportMessage("Imported lucky list from shared link.");
-      } catch {
-        if (cancelled) return;
-        setLinkImportError(
-          "Could not load the full Pokedex names needed for link import.",
-        );
       }
     }
 
-    importFromLinkIfPresent();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [luckyList]);
+    setPendingDexImport({ encoded: dexParam, luckyCount: decoded.size });
+  }, []);
 
   const importPokemon = useCallback((pokemon: Pokemon[]) => {
     setLuckyList({
@@ -111,6 +101,43 @@ export function useLuckyList() {
     setLuckyList(null);
   }, []);
 
+  const applyPendingDexImport = useCallback(async () => {
+    if (!pendingDexImport) return;
+
+    const decoded = decodeLuckyDexBitset(pendingDexImport.encoded, MAX_DEX_NUMBER);
+    if (!decoded) {
+      setLinkImportError("Shared dex link is invalid or corrupted.");
+      setPendingDexImport(null);
+      removeDexParamFromUrl();
+      return;
+    }
+
+    try {
+      setImportingFromLink(true);
+      const pokemon = await buildPokedexFromLuckyDexSet(decoded, MAX_DEX_NUMBER);
+      setLuckyList({
+        pokemon,
+        lastUpdated: new Date().toISOString(),
+      });
+      setLinkImportError(null);
+      setLinkImportMessage("Imported lucky list from shared link.");
+    } catch {
+      setLinkImportError(
+        "Could not load the full Pokedex names needed for link import.",
+      );
+    } finally {
+      setImportingFromLink(false);
+      setPendingDexImport(null);
+      removeDexParamFromUrl();
+    }
+  }, [pendingDexImport]);
+
+  const dismissPendingDexImport = useCallback(() => {
+    setPendingDexImport(null);
+    setLinkImportMessage("Ignored shared dex link. Your local list is unchanged.");
+    removeDexParamFromUrl();
+  }, []);
+
   const luckyCount = luckyList?.pokemon.filter((p) => p.isLucky).length ?? 0;
   const totalCount = luckyList?.pokemon.length ?? 0;
 
@@ -123,5 +150,9 @@ export function useLuckyList() {
     totalCount,
     linkImportError,
     linkImportMessage,
+    pendingDexImport,
+    importingFromLink,
+    applyPendingDexImport,
+    dismissPendingDexImport,
   };
 }

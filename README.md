@@ -11,7 +11,7 @@ npm run dev
 
 ## Usage
 
-1. Export your Google Sheet lucky tracker as a TSV file (File > Download > Tab-separated values)
+1. Export your Google Sheet lucky tracker as a CSV file (File > Download > Comma-separated values)
 2. Open the app and click "Upload CSV"
 3. Check the "Trade Next" tab for prioritized recommendations
 4. Use "Share Link" to generate a URL that includes your full lucky dex bitset (`dex`) so another device can import without CSV

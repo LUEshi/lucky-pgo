@@ -53,6 +53,10 @@ function App() {
     totalCount,
     linkImportError,
     linkImportMessage,
+    pendingDexImport,
+    importingFromLink,
+    applyPendingDexImport,
+    dismissPendingDexImport,
   } = useLuckyList();
   const { data, loading, error } = useScrapedDuck();
   const [tab, setTab] = useState<Tab>(getInitialTab);
@@ -113,6 +117,37 @@ function App() {
     }
   }
 
+  const exportBackupCsv = useCallback(() => {
+    if (!luckyList) return;
+
+    const escapeCsv = (value: string) => {
+      if (/[",\n]/.test(value)) {
+        return `"${value.replace(/"/g, "\"\"")}"`;
+      }
+      return value;
+    };
+
+    const rows = ["No,Name,Lucky"];
+    const sorted = [...luckyList.pokemon].sort((a, b) => a.dexNumber - b.dexNumber);
+    for (const pokemon of sorted) {
+      rows.push(
+        `${pokemon.dexNumber},${escapeCsv(pokemon.name)},${pokemon.isLucky ? "TRUE" : "FALSE"}`,
+      );
+    }
+
+    const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    const date = new Date().toISOString().slice(0, 10);
+    a.download = `lucky-pgo-backup-${date}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    setShareStatus("Backup CSV downloaded.");
+  }, [luckyList]);
+
   const priorities = useMemo(() => {
     if (!luckyList || !data) return [];
     return scorePokemon(luckyList.pokemon, data);
@@ -133,12 +168,20 @@ function App() {
             <h1 className="text-xl font-bold text-gray-900">Lucky PGO</h1>
             <div className="flex items-center gap-2">
               {luckyList && (
-                <button
-                  onClick={copyShareLink}
-                  className="bg-gray-900 text-white px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors"
-                >
-                  Share Link
-                </button>
+                <>
+                  <button
+                    onClick={exportBackupCsv}
+                    className="bg-white text-gray-900 px-3 py-2 rounded-lg text-sm font-medium border border-gray-300 hover:bg-gray-100 transition-colors"
+                  >
+                    Export Backup CSV
+                  </button>
+                  <button
+                    onClick={copyShareLink}
+                    className="bg-gray-900 text-white px-3 py-2 rounded-lg text-sm font-medium hover:bg-gray-700 transition-colors"
+                  >
+                    Share Link
+                  </button>
+                </>
               )}
               <CsvUpload
                 onImport={importPokemon}
@@ -162,6 +205,30 @@ function App() {
               {linkImportError}
             </div>
           )}
+          {pendingDexImport && (
+            <div className="mt-2 text-xs text-gray-800 bg-white/90 border border-yellow-300 rounded px-3 py-2">
+              <div>
+                Shared link detected with <strong>{pendingDexImport.luckyCount}</strong> lucky entries.
+                Importing will replace your local list.
+              </div>
+              <div className="mt-2 flex gap-2">
+                <button
+                  onClick={applyPendingDexImport}
+                  disabled={importingFromLink}
+                  className="px-2.5 py-1 rounded bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-60"
+                >
+                  {importingFromLink ? "Importing..." : "Import Shared Dex"}
+                </button>
+                <button
+                  onClick={dismissPendingDexImport}
+                  disabled={importingFromLink}
+                  className="px-2.5 py-1 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 disabled:opacity-60"
+                >
+                  Keep My Dex
+                </button>
+              </div>
+            </div>
+          )}
           {luckyList && (
             <div className="mt-3">
               <ProgressBar luckyCount={luckyCount} totalCount={totalCount} />
@@ -175,11 +242,11 @@ function App() {
           <div className="text-center py-16 text-gray-500">
             <p className="text-lg font-medium mb-2">Welcome to Lucky PGO!</p>
             <p className="text-sm">
-              Export your Google Sheet as a TSV/CSV file and upload it to get
+              Export your Google Sheet as a CSV file and upload it to get
               started.
             </p>
             <p className="text-xs mt-4 text-gray-400">
-              Expected format: dex number, name, (blank), TRUE/FALSE — tab
+              Expected format: dex number, name, (blank), TRUE/FALSE — comma
               separated
             </p>
           </div>

@@ -34,7 +34,7 @@ export function CsvUpload({
           setError(null);
         } else {
           setError(
-            `No Pokemon found. Make sure to download as "Tab-separated values (.tsv)" from Google Sheets.`,
+            `No Pokemon found. Make sure to download as "Comma-separated values (.csv)" from Google Sheets.`,
           );
         }
       };
@@ -54,7 +54,7 @@ export function CsvUpload({
           {hasExistingData ? "Re-upload CSV" : "Upload CSV"}
           <input
             type="file"
-            accept=".csv,.tsv,.txt,.xlsx"
+            accept=".csv,.txt"
             onChange={handleFile}
             className="hidden"
           />

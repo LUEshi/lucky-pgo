@@ -15,7 +15,12 @@ npm run dev
 2. Open the app and click "Upload CSV"
 3. Check the "Trade Next" tab for prioritized recommendations
 
-## Data Sources
+## Data Sources & Credits
 
-- [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck) — events, raids, research, eggs, rocket lineups from LeekDuck
+All Pokemon GO game data is provided by [LeekDuck.com](https://leekduck.com/) via the [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck) project. Thank you to LeekDuck for making this data available.
+
+- [LeekDuck.com](https://leekduck.com/) — original source for events, raids, research, eggs, and rocket lineup data
+- [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck) — JSON API that scrapes LeekDuck data
 - Your Google Sheet CSV — lucky Pokedex tracking
+
+This project is free, non-commercial, and not monetized, in accordance with ScrapedDuck's terms of use.

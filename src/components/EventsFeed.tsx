@@ -7,6 +7,14 @@ interface EventsFeedProps {
   luckyList?: Pokemon[];
 }
 
+function toTitleCase(value: string): string {
+  return value
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 function dedupeNames(names: string[]): string[] {
   const deduped = new Map<string, string>();
   for (const name of names) {
@@ -16,15 +24,49 @@ function dedupeNames(names: string[]): string[] {
   return Array.from(deduped.values());
 }
 
+function splitCompositeNames(value: string): string[] {
+  return value
+    .split(/\s*(?:,|&| and )\s*/i)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function inferFeaturedFromName(name: string): string[] {
+  const direct = name.match(/^(.+?)\s+(?:Raid Day|Max Battle Day|Elite Raid Day)$/i);
+  if (direct) return splitCompositeNames(direct[1]);
+
+  const inRaids = name.match(/^(.+?)\s+in\s+.+\s+Raid Battles$/i);
+  if (inRaids) return splitCompositeNames(inRaids[1]);
+
+  return [];
+}
+
+function inferFeaturedFromEventId(eventID: string): string[] {
+  const slug = eventID.match(/^(.+?)-(?:raid-day|max-battle-day)(?:-\d{4})?$/i);
+  if (!slug) return [];
+  return [toTitleCase(slug[1].replace(/-/g, " "))];
+}
+
+function getFeaturedNamesForEvent(event: ScrapedDuckEvent): string[] {
+  const explicit =
+    event.extraData?.raidbattles?.bosses?.map((boss) => boss.name) ?? [];
+  if (explicit.length > 0) return dedupeNames(explicit);
+
+  return dedupeNames([
+    ...inferFeaturedFromName(event.name),
+    ...inferFeaturedFromEventId(event.eventID),
+  ]);
+}
+
 function getNeededLuckyForEvent(event: ScrapedDuckEvent, luckyList?: Pokemon[]): string[] {
   if (!luckyList) return [];
   const missing = luckyList.filter((pokemon) => !pokemon.isLucky);
   if (missing.length === 0) return [];
 
-  const featured = event.extraData?.raidbattles?.bosses ?? [];
+  const featured = getFeaturedNamesForEvent(event);
   const needed = featured
-    .map((boss) => {
-      const base = baseName(boss.name);
+    .map((name) => {
+      const base = baseName(name);
       return missing.find((pokemon) => pokemonMatches(pokemon.name, base));
     })
     .filter((pokemon): pokemon is Pokemon => Boolean(pokemon))

@@ -10,6 +10,13 @@ interface PriorityCardProps {
 
 export function PriorityCard({ name, sources, category }: PriorityCardProps) {
   const bg = category === "eggs" ? eggCardBg(sources) : cardBg(sources);
+  const availabilityRows = Array.from(
+    new Set(
+      sources
+        .filter((s) => s.availability)
+        .map((s) => `${s.label}: ${s.availability}`),
+    ),
+  );
 
   return (
     <div className={`border rounded-lg px-3 py-2 ${bg}`}>
@@ -25,6 +32,13 @@ export function PriorityCard({ name, sources, category }: PriorityCardProps) {
           </span>
         ))}
       </div>
+      {availabilityRows.length > 0 && (
+        <div className="mt-1 text-[10px] text-gray-600">
+          {availabilityRows.map((row) => (
+            <div key={row}>{row}</div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

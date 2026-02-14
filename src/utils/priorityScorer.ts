@@ -17,6 +17,24 @@ function tierScore(tier: string): number {
   return 3;
 }
 
+function formatDateRange(startIso: string, endIso: string): string {
+  const start = new Date(startIso);
+  const end = new Date(endIso);
+
+  const sameYear = start.getFullYear() === end.getFullYear();
+  const startLabel = start.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    ...(sameYear ? {} : { year: "numeric" }),
+  });
+  const endLabel = end.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+  return `${startLabel} - ${endLabel}`;
+}
+
 /**
  * Index of missing Pokemon by normalized name for O(1) lookup.
  * Falls back to linear scan for fuzzy matches (e.g. "Alolan Vulpix" → "Vulpix").
@@ -45,6 +63,11 @@ export function scorePokemon(
   const includeUpcoming = options.includeUpcoming ?? true;
   const now = new Date();
   const sevenDaysFromNow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
+  const currentAsOf = now.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
 
   const missing = luckyList.filter((p) => !p.isLucky);
   const findMatch = buildMissingIndex(missing);
@@ -123,6 +146,7 @@ export function scorePokemon(
           type: isRaidEvent ? "upcoming-raid" : "upcoming",
           label: "Upcoming",
           detail: event.name,
+          availability: formatDateRange(event.start, event.end),
         });
       }
     }
@@ -139,6 +163,7 @@ export function scorePokemon(
         type: "research",
         label: "Research",
         detail: task.text,
+        availability: `Current as of ${currentAsOf} (range not published)`,
       });
     }
   }
@@ -157,6 +182,7 @@ export function scorePokemon(
       type: "egg",
       label: egg.eggType,
       detail: egg.name,
+      availability: `Current as of ${currentAsOf} (range not published)`,
     });
   }
 
@@ -184,6 +210,7 @@ export function scorePokemon(
         type: "rocket",
         label: isLeader ? lineup.name : `Rocket ${lineup.type || "Grunt"}`,
         detail: `${lineup.title}: ${lineup.name}`,
+        availability: `Current as of ${currentAsOf} (range not published)`,
       });
     }
   }

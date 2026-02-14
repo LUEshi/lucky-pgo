@@ -313,6 +313,18 @@ function App() {
               ))}
             </div>
 
+            {tab === "priority" && (
+              <label className="mb-3 inline-flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  checked={includeUpcoming}
+                  onChange={(e) => setIncludeUpcoming(e.target.checked)}
+                  className="h-4 w-4 accent-yellow-500"
+                />
+                Include upcoming
+              </label>
+            )}
+
             {loading && (
               <div className="text-center py-8 text-gray-500">
                 Loading event data...
@@ -326,20 +338,7 @@ function App() {
 
             {!loading && (
               <>
-                {tab === "priority" && (
-                  <div>
-                    <label className="mb-3 inline-flex items-center gap-2 text-sm text-gray-700">
-                      <input
-                        type="checkbox"
-                        checked={includeUpcoming}
-                        onChange={(e) => setIncludeUpcoming(e.target.checked)}
-                        className="h-4 w-4 accent-yellow-500"
-                      />
-                      Include upcoming
-                    </label>
-                    <PriorityList priorities={priorities} />
-                  </div>
-                )}
+                {tab === "priority" && <PriorityList priorities={priorities} />}
                 {tab === "raids" && (
                   <RaidBosses
                     raids={data?.raids ?? []}

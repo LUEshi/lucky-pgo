@@ -104,4 +104,5 @@ export interface PrioritySource {
   type: "raid" | "shadow-raid" | "event" | "research" | "egg" | "upcoming-raid" | "upcoming" | "rocket";
   label: string;
   detail: string;
+  availability?: string;
 }

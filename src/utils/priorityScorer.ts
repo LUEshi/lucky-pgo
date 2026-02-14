@@ -3,7 +3,8 @@ import type {
   ScrapedDuckData,
   PriorityPokemon,
 } from "../types";
-import { pokemonMatches, baseName } from "./pokemonMatcher";
+import { pokemonMatches, baseName, normalizeName } from "./pokemonMatcher";
+import { partitionEventsByTime } from "./eventFilters";
 
 function tierScore(tier: string): number {
   if (tier.includes("Mega") || tier.includes("5")) return 5;
@@ -11,8 +12,25 @@ function tierScore(tier: string): number {
   if (tier.includes("1")) return 3;
   return 3;
 }
-export function dedupeByKey<T>(list: T[], keyFn: (item: T) => string): T[] {
-  return Array.from(new Map(list.map((item) => [keyFn(item), item])).values());
+
+/**
+ * Index of missing Pokemon by normalized name for O(1) lookup.
+ * Falls back to linear scan for fuzzy matches (e.g. "Alolan Vulpix" → "Vulpix").
+ */
+function buildMissingIndex(missing: Pokemon[]) {
+  const byName = new Map<string, Pokemon>();
+  for (const p of missing) {
+    byName.set(normalizeName(p.name), p);
+  }
+
+  return function findMatch(sourceName: string): Pokemon | undefined {
+    const normalized = normalizeName(sourceName);
+    // Fast path: exact normalized match
+    const exact = byName.get(normalized);
+    if (exact) return exact;
+    // Slow path: fuzzy match (handles form prefixes, etc.)
+    return missing.find((p) => pokemonMatches(p.name, sourceName));
+  };
 }
 
 export function scorePokemon(
@@ -22,8 +40,8 @@ export function scorePokemon(
   const now = new Date();
   const sevenDaysFromNow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
 
-  // Only look at Pokemon we DON'T have lucky
   const missing = luckyList.filter((p) => !p.isLucky);
+  const findMatch = buildMissingIndex(missing);
 
   const priorityMap = new Map<number, PriorityPokemon>();
 
@@ -43,51 +61,41 @@ export function scorePokemon(
 
   // Score raid bosses
   for (const raid of data.raids) {
-    const raidBase = baseName(raid.name);
-    const isShadow = raid.tier.toLowerCase().includes("shadow");
-    for (const pokemon of missing) {
-      if (pokemonMatches(pokemon.name, raidBase)) {
-        const entry = getOrCreate(pokemon);
-        // Shadow raids score lower: need to purify + uses special trade
-        const points = isShadow ? 2 : tierScore(raid.tier);
-        entry.score += points;
-        entry.sources.push({
-          type: isShadow ? "shadow-raid" : "raid",
-          label: isShadow ? `Shadow ${raid.tier}` : raid.tier,
-          detail: raid.name,
-        });
-      }
-    }
+    const match = findMatch(baseName(raid.name));
+    if (!match) continue;
+    const entry = getOrCreate(match);
+    const isShadow =
+      raid.tier.toLowerCase().includes("shadow") ||
+      raid.name.toLowerCase().startsWith("shadow ");
+    const points = isShadow ? 2 : tierScore(raid.tier);
+    entry.score += points;
+    entry.sources.push({
+      type: isShadow ? "shadow-raid" : "raid",
+      label: isShadow ? `Shadow ${raid.tier}` : raid.tier,
+      detail: raid.name,
+    });
   }
 
   // Score active event spawns
-  const activeEvents = data.events.filter((e) => {
-    const start = new Date(e.start);
-    const end = new Date(e.end);
-    return start <= now && end >= now;
-  });
-
-  const upcomingEvents = data.events.filter((e) => {
-    const start = new Date(e.start);
-    return start > now && start <= sevenDaysFromNow;
-  });
+  const { active: activeEvents, upcoming: upcomingEvents } = partitionEventsByTime(
+    data.events,
+    now,
+    sevenDaysFromNow,
+  );
 
   for (const event of activeEvents) {
     if (!event.extraData?.generic?.hasSpawns) continue;
     const bosses = event.extraData?.raidbattles?.bosses ?? [];
     for (const boss of bosses) {
-      const bossBase = baseName(boss.name);
-      for (const pokemon of missing) {
-        if (pokemonMatches(pokemon.name, bossBase)) {
-          const entry = getOrCreate(pokemon);
-          entry.score += 4;
-          entry.sources.push({
-            type: "event",
-            label: "Event Spawn",
-            detail: event.name,
-          });
-        }
-      }
+      const match = findMatch(baseName(boss.name));
+      if (!match) continue;
+      const entry = getOrCreate(match);
+      entry.score += 4;
+      entry.sources.push({
+        type: "event",
+        label: "Event Spawn",
+        detail: event.name,
+      });
     }
   }
 
@@ -100,83 +108,71 @@ export function scorePokemon(
       event.name.toLowerCase().includes("raid");
     const bosses = event.extraData?.raidbattles?.bosses ?? [];
     for (const boss of bosses) {
-      const bossBase = baseName(boss.name);
-      for (const pokemon of missing) {
-        if (pokemonMatches(pokemon.name, bossBase)) {
-          const entry = getOrCreate(pokemon);
-          entry.score += 1;
-          entry.sources.push({
-            type: isRaidEvent ? "upcoming-raid" : "upcoming",
-            label: "Upcoming",
-            detail: event.name,
-          });
-        }
-      }
+      const match = findMatch(baseName(boss.name));
+      if (!match) continue;
+      const entry = getOrCreate(match);
+      entry.score += 1;
+      entry.sources.push({
+        type: isRaidEvent ? "upcoming-raid" : "upcoming",
+        label: "Upcoming",
+        detail: event.name,
+      });
     }
   }
 
   // Score research rewards
   for (const task of data.research) {
     for (const reward of task.rewards) {
-      const rewardBase = baseName(reward.name);
-      for (const pokemon of missing) {
-        if (pokemonMatches(pokemon.name, rewardBase)) {
-          const entry = getOrCreate(pokemon);
-          entry.score += 2;
-          entry.sources.push({
-            type: "research",
-            label: "Research",
-            detail: task.text,
-          });
-        }
-      }
+      const match = findMatch(baseName(reward.name));
+      if (!match) continue;
+      const entry = getOrCreate(match);
+      entry.score += 2;
+      entry.sources.push({
+        type: "research",
+        label: "Research",
+        detail: task.text,
+      });
     }
   }
 
   // Score egg Pokemon
   for (const egg of data.eggs) {
-    const eggBase = baseName(egg.name);
-    for (const pokemon of missing) {
-      if (pokemonMatches(pokemon.name, eggBase)) {
-        const entry = getOrCreate(pokemon);
-        entry.score += 1;
-        entry.sources.push({
-          type: "egg",
-          label: egg.eggType,
-          detail: egg.name,
-        });
-      }
-    }
+    const match = findMatch(baseName(egg.name));
+    if (!match) continue;
+    const entry = getOrCreate(match);
+    entry.score += 1;
+    entry.sources.push({
+      type: "egg",
+      label: egg.eggType,
+      detail: egg.name,
+    });
   }
 
   // Score Team Rocket Pokemon (only encounter-eligible ones matter for trading)
   for (const lineup of data.rockets) {
-    const allSlots = Array.from(new Map(
-      [...lineup.firstPokemon, 
-      ...lineup.secondPokemon,
-      ...lineup.thirdPokemon]
-      .map(p => [p.name, p])
-     ).values()
+    const allSlots = Array.from(
+      new Map(
+        [
+          ...lineup.firstPokemon,
+          ...lineup.secondPokemon,
+          ...lineup.thirdPokemon,
+        ].map((p) => [p.name, p]),
+      ).values(),
     );
 
     const encounters = allSlots.filter((p) => p.isEncounter);
     for (const rocketMon of encounters) {
-      const rocketBase = baseName(rocketMon.name);
-      for (const pokemon of missing) {
-        if (pokemonMatches(pokemon.name, rocketBase)) {
-          const entry = getOrCreate(pokemon);
-          // Leaders/Giovanni are more notable
-          const isLeader =
-            lineup.title.includes("Leader") ||
-            lineup.title.includes("Boss");
-          entry.score += isLeader ? 2 : 1;
-          entry.sources.push({
-            type: "rocket",
-            label: isLeader ? lineup.name : `Rocket ${lineup.type || "Grunt"}`,
-            detail: `${lineup.title}: ${lineup.name}`,
-          });
-        }
-      }
+      const match = findMatch(baseName(rocketMon.name));
+      if (!match) continue;
+      const entry = getOrCreate(match);
+      const isLeader =
+        lineup.title.includes("Leader") || lineup.title.includes("Boss");
+      entry.score += isLeader ? 2 : 1;
+      entry.sources.push({
+        type: "rocket",
+        label: isLeader ? lineup.name : `Rocket ${lineup.type || "Grunt"}`,
+        detail: `${lineup.title}: ${lineup.name}`,
+      });
     }
   }
 

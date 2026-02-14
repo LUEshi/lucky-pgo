@@ -7,7 +7,7 @@ import type {
   EggPokemon,
   RocketLineup,
 } from "../types";
-import { dedupeByKey } from "../utils/priorityScorer";
+import { dedupeByKey } from "../utils/array";
 
 const BASE =
   "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data";
@@ -28,13 +28,18 @@ export function useScrapedDuck() {
 
     async function load() {
       try {
-        let [events, raids, research, eggs, rockets] = await Promise.all([
+        const [events, initialRaids, research, initialEggs, initialRockets] =
+          await Promise.all([
           fetchJson<ScrapedDuckEvent[]>(`${BASE}/events.min.json`),
           fetchJson<RaidBoss[]>(`${BASE}/raids.min.json`),
           fetchJson<ResearchTask[]>(`${BASE}/research.min.json`),
           fetchJson<EggPokemon[]>(`${BASE}/eggs.min.json`),
           fetchJson<RocketLineup[]>(`${BASE}/rocketLineups.min.json`),
-        ]);
+          ]);
+
+        let raids = initialRaids;
+        let eggs = initialEggs;
+        let rockets = initialRockets;
 
         // Dedup where the API has duplicates
         raids = dedupeByKey(raids, (r) => r.name);

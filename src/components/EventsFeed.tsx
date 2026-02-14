@@ -1,4 +1,5 @@
 import type { ScrapedDuckEvent } from "../types";
+import { partitionEventsByTime } from "../utils/eventFilters";
 
 interface EventsFeedProps {
   events: ScrapedDuckEvent[];
@@ -6,15 +7,8 @@ interface EventsFeedProps {
 
 export function EventsFeed({ events }: EventsFeedProps) {
   const now = new Date();
-
-  const active = events.filter((e) => {
-    const start = new Date(e.start);
-    const end = new Date(e.end);
-    return start <= now && end >= now;
-  });
-
-  const upcoming = events
-    .filter((e) => new Date(e.start) > now)
+  const { active, upcoming } = partitionEventsByTime(events, now);
+  const upcomingSorted = upcoming
     .sort(
       (a, b) => new Date(a.start).getTime() - new Date(b.start).getTime(),
     )
@@ -81,13 +75,13 @@ export function EventsFeed({ events }: EventsFeedProps) {
             Upcoming
           </h3>
           <div className="space-y-2">
-            {upcoming.map((e) => (
+            {upcomingSorted.map((e) => (
               <EventCard key={e.eventID} event={e} />
             ))}
           </div>
         </div>
       )}
-      {active.length === 0 && upcoming.length === 0 && (
+      {active.length === 0 && upcomingSorted.length === 0 && (
         <p className="text-gray-500 text-sm">No events found.</p>
       )}
     </div>

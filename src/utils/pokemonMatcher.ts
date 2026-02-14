@@ -62,3 +62,15 @@ export function baseName(name: string): string {
 
   return name.trim();
 }
+
+// Look up whether a Pokemon (by ScrapedDuck name) is lucky in the user's list.
+// Returns true/false if found, null if the list isn't loaded or the Pokemon isn't in it.
+export function findLuckyStatus(
+  sourceName: string,
+  luckyList: { name: string; isLucky: boolean }[] | undefined,
+): boolean | null {
+  if (!luckyList) return null;
+  const base = baseName(sourceName);
+  const match = luckyList.find((p) => pokemonMatches(p.name, base));
+  return match?.isLucky ?? null;
+}

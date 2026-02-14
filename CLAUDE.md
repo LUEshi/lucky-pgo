@@ -8,8 +8,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run build` — type-check with `tsc -b` then build with Vite
 - `npm run lint` — ESLint
 - `npx tsc -b --noEmit` — type-check only (no emit)
-
-No test framework is configured yet.
+- `npm test` — compile tests with tsc then run with Node's built-in test runner
+- `node --test dist-tests/tests/csvParser.test.js` — run a single test file (must compile first with `npx tsc -b tsconfig.tests.json`)
 
 ## Architecture
 
@@ -20,7 +20,8 @@ Client-side-only React app (no backend). Fetches live Pokemon GO data from Scrap
 1. **User uploads CSV** → `csvParser.ts` parses the complex Google Sheet format (large header section, multiple Pokemon per row in 4-column groups across 9+ generations) → stored in localStorage via `useLuckyList` hook
 2. **App fetches 5 ScrapedDuck endpoints** on mount via `useScrapedDuck` hook: events, raids, research, eggs, rocketLineups
 3. **Priority scorer** (`priorityScorer.ts`) cross-references non-lucky Pokemon against all live data sources, assigns scores, and categorizes into Raids / Wild / Team Rocket / Eggs
-4. **PriorityList component** renders a 2x2 category grid with color-coded cards
+4. **Pokedex canonicalization** — dex numbers are resolved to canonical names via PokéAPI v2, cached in localStorage (`lucky-pgo-pokedex-names-v1`)
+5. **PriorityList component** renders a 2x2 category grid with color-coded cards
 
 ### Key Design Decisions
 
@@ -40,6 +41,20 @@ Client-side-only React app (no backend). Fetches live Pokemon GO data from Scrap
 - `rocketLineups.min.json` — grunt/leader/Giovanni lineups with encounter flags
 
 Data is updated every 12 hours. GitHub caches raw files for 5 minutes. Rate limit: 5000 requests/hour.
+
+### Share Links & URL State
+
+The app uses query parameters for deep linking and sharing lucky dex state:
+- `tab` — current tab (`priority`|`raids`|`events`|`pokedex`)
+- `search` / `filter` — Pokedex search query and filter (`all`|`missing`|`lucky`)
+- `dex` — base64url-encoded bitset of lucky dex numbers (up to MAX_DEX_NUMBER=1025)
+- `dex-hash` — FNV-1a 32-bit checksum for corruption detection
+
+Share link encoding/decoding lives in `luckyShare.ts`. Trade rules (special trade, mythical untradable) are in `tradeRules.ts`.
+
+### History Snapshots
+
+Daily ScrapedDuck data snapshots are stored in `public/history/` by the `snapshot-history.yml` GitHub Actions workflow (7-day rolling window). Used for future diff features.
 
 ### Credits
 

@@ -74,6 +74,7 @@ function App() {
   const [pokedexFilter, setPokedexFilter] = useState<PokedexFilter>(
     getInitialPokedexFilter,
   );
+  const [includeUpcoming, setIncludeUpcoming] = useState(true);
   const [shareStatus, setShareStatus] = useState<string | null>(null);
 
   const setUrlQueryParam = useCallback((key: string, value: string) => {
@@ -175,8 +176,8 @@ function App() {
 
   const priorities = useMemo(() => {
     if (!luckyList || !data) return [];
-    return scorePokemon(luckyList.pokemon, data);
-  }, [luckyList, data]);
+    return scorePokemon(luckyList.pokemon, data, { includeUpcoming });
+  }, [luckyList, data, includeUpcoming]);
 
   const tabs: { key: Tab; label: string }[] = [
     { key: "priority", label: "Trade Next" },
@@ -325,7 +326,20 @@ function App() {
 
             {!loading && (
               <>
-                {tab === "priority" && <PriorityList priorities={priorities} />}
+                {tab === "priority" && (
+                  <div>
+                    <label className="mb-3 inline-flex items-center gap-2 text-sm text-gray-700">
+                      <input
+                        type="checkbox"
+                        checked={includeUpcoming}
+                        onChange={(e) => setIncludeUpcoming(e.target.checked)}
+                        className="h-4 w-4 accent-yellow-500"
+                      />
+                      Include upcoming
+                    </label>
+                    <PriorityList priorities={priorities} />
+                  </div>
+                )}
                 {tab === "raids" && (
                   <RaidBosses
                     raids={data?.raids ?? []}

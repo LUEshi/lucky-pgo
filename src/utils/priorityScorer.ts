@@ -6,6 +6,10 @@ import type {
 import { pokemonMatches, baseName, normalizeName } from "./pokemonMatcher";
 import { partitionEventsByTime } from "./eventFilters";
 
+interface ScoreOptions {
+  includeUpcoming?: boolean;
+}
+
 function tierScore(tier: string): number {
   if (tier.includes("Mega") || tier.includes("5")) return 5;
   if (tier.includes("3")) return 4;
@@ -36,7 +40,9 @@ function buildMissingIndex(missing: Pokemon[]) {
 export function scorePokemon(
   luckyList: Pokemon[],
   data: ScrapedDuckData,
+  options: ScoreOptions = {},
 ): PriorityPokemon[] {
+  const includeUpcoming = options.includeUpcoming ?? true;
   const now = new Date();
   const sevenDaysFromNow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
 
@@ -100,23 +106,25 @@ export function scorePokemon(
   }
 
   // Score upcoming events — distinguish raid events from spawn events
-  for (const event of upcomingEvents) {
-    const isRaidEvent =
-      event.eventType === "raid-day" ||
-      event.eventType === "raid-battles" ||
-      event.eventType === "raid-hour" ||
-      event.name.toLowerCase().includes("raid");
-    const bosses = event.extraData?.raidbattles?.bosses ?? [];
-    for (const boss of bosses) {
-      const match = findMatch(baseName(boss.name));
-      if (!match) continue;
-      const entry = getOrCreate(match);
-      entry.score += 1;
-      entry.sources.push({
-        type: isRaidEvent ? "upcoming-raid" : "upcoming",
-        label: "Upcoming",
-        detail: event.name,
-      });
+  if (includeUpcoming) {
+    for (const event of upcomingEvents) {
+      const isRaidEvent =
+        event.eventType === "raid-day" ||
+        event.eventType === "raid-battles" ||
+        event.eventType === "raid-hour" ||
+        event.name.toLowerCase().includes("raid");
+      const bosses = event.extraData?.raidbattles?.bosses ?? [];
+      for (const boss of bosses) {
+        const match = findMatch(baseName(boss.name));
+        if (!match) continue;
+        const entry = getOrCreate(match);
+        entry.score += 1;
+        entry.sources.push({
+          type: isRaidEvent ? "upcoming-raid" : "upcoming",
+          label: "Upcoming",
+          detail: event.name,
+        });
+      }
     }
   }
 

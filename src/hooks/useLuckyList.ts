@@ -13,6 +13,12 @@ const STORAGE_KEY = "lucky-pgo-list";
 const DEX_QUERY_KEY = "dex";
 const DEX_HASH_QUERY_KEY = "dex-hash";
 
+export interface PendingDexPayload {
+  dex: Set<number>;
+  luckyCount: number;
+  hash: string;
+}
+
 function removeDexParamFromUrl() {
   const url = new URL(window.location.href);
   if (
@@ -200,21 +206,37 @@ export function useLuckyList() {
     setLuckyList(null);
   }, []);
 
-  const applyPendingDexImport = useCallback(async () => {
-    if (!pendingDexImport) return;
+  const consumePendingDexImport = useCallback((): PendingDexPayload | null => {
+    if (!pendingDexImport) return null;
 
-    const decoded = decodeLuckyDexBitset(pendingDexImport.encoded, MAX_DEX_NUMBER);
+    const { encoded } = pendingDexImport;
+    const decoded = decodeLuckyDexBitset(encoded, MAX_DEX_NUMBER);
     if (!decoded) {
       setLinkImportError("Shared dex link is invalid or corrupted.");
       setPendingDexImport(null);
       removeDexParamFromUrl();
-      return;
+      return null;
     }
+
+    setPendingDexImport(null);
+    setLinkImportError(null);
+    removeDexParamFromUrl();
+
+    return {
+      dex: decoded,
+      luckyCount: decoded.size,
+      hash: checksumDexPayload(encoded),
+    };
+  }, [pendingDexImport]);
+
+  const applyPendingDexImport = useCallback(async () => {
+    const payload = consumePendingDexImport();
+    if (!payload) return;
 
     try {
       setImportingFromLink(true);
       await canonicalizeAndSetLuckyList(
-        Array.from(decoded).map((dexNumber) => ({
+        Array.from(payload.dex).map((dexNumber) => ({
           dexNumber,
           name: `Pokemon ${dexNumber}`,
           isLucky: true,
@@ -231,7 +253,7 @@ export function useLuckyList() {
       setPendingDexImport(null);
       removeDexParamFromUrl();
     }
-  }, [pendingDexImport, canonicalizeAndSetLuckyList]);
+  }, [consumePendingDexImport, canonicalizeAndSetLuckyList]);
 
   const dismissPendingDexImport = useCallback(() => {
     setPendingDexImport(null);
@@ -253,6 +275,7 @@ export function useLuckyList() {
     linkImportMessage,
     pendingDexImport,
     importingFromLink,
+    consumePendingDexImport,
     applyPendingDexImport,
     dismissPendingDexImport,
   };

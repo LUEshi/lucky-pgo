@@ -1,5 +1,5 @@
-import { useState, useMemo, useCallback } from "react";
-import { useLuckyList } from "./hooks/useLuckyList";
+import { useState, useMemo, useCallback, useEffect } from "react";
+import { useLuckyList, type PendingDexPayload } from "./hooks/useLuckyList";
 import { useScrapedDuck } from "./hooks/useScrapedDuck";
 import { scorePokemon } from "./utils/priorityScorer";
 import { CsvUpload } from "./components/CsvUpload";
@@ -15,6 +15,7 @@ import {
   decodeLuckyDexBitset,
   checksumDexPayload,
 } from "./utils/luckyShare";
+import { usePartnerDex } from "./hooks/usePartnerDex";
 
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
@@ -23,6 +24,8 @@ const POKEDEX_SEARCH_QUERY_KEY = "search";
 const POKEDEX_FILTER_QUERY_KEY = "filter";
 const DEX_QUERY_KEY = "dex";
 const DEX_HASH_QUERY_KEY = "dex-hash";
+const PARTNER_CONFIRM_DIFF_THRESHOLD = 0.05;
+const OWN_IMPORT_CONFIRM_DIFF_THRESHOLD = 0.2;
 
 function isTab(value: string | null): value is Tab {
   return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
@@ -50,6 +53,35 @@ function getInitialPokedexFilter(): PokedexFilter {
   return isPokedexFilter(fromUrl) ? fromUrl : "all";
 }
 
+function formatPartnerUpdatedAt(value: string | null): string {
+  if (!value) return "-";
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return "-";
+  return parsed.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+  });
+}
+
+function toPokemonFromDex(dex: Set<number>) {
+  return Array.from(dex).map((dexNumber) => ({
+    dexNumber,
+    name: `Pokemon ${dexNumber}`,
+    isLucky: true,
+  }));
+}
+
+function symmetricDiffRatio(a: Set<number>, b: Set<number>): number {
+  let diff = 0;
+  for (const value of a) {
+    if (!b.has(value)) diff += 1;
+  }
+  for (const value of b) {
+    if (!a.has(value)) diff += 1;
+  }
+  return diff / Math.max(a.size, 1);
+}
+
 function App() {
   const {
     luckyList,
@@ -61,10 +93,18 @@ function App() {
     linkImportError,
     linkImportMessage,
     pendingDexImport,
-    importingFromLink,
-    applyPendingDexImport,
+    consumePendingDexImport,
     dismissPendingDexImport,
   } = useLuckyList();
+  const {
+    partnerDex,
+    partnerName,
+    partnerUpdatedAt,
+    partnerLuckyCount,
+    setPartnerDex,
+    clearPartnerDex,
+    hasPartner,
+  } = usePartnerDex();
   const { data, loading, error } = useScrapedDuck();
   const [tab, setTab] = useState<Tab>(getInitialTab);
   const [pokedexSearch, setPokedexSearch] = useState<string>(
@@ -75,6 +115,15 @@ function App() {
   );
   const [includeUpcoming, setIncludeUpcoming] = useState(true);
   const [shareStatus, setShareStatus] = useState<string | null>(null);
+  const [partnerToast, setPartnerToast] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!partnerToast) return;
+    const timeout = window.setTimeout(() => {
+      setPartnerToast(null);
+    }, 5000);
+    return () => window.clearTimeout(timeout);
+  }, [partnerToast]);
 
   const setUrlQueryParam = useCallback((key: string, value: string) => {
     const url = new URL(window.location.href);
@@ -174,8 +223,8 @@ function App() {
 
   const priorities = useMemo(() => {
     if (!luckyList || !data) return [];
-    return scorePokemon(luckyList.pokemon, data, { includeUpcoming });
-  }, [luckyList, data, includeUpcoming]);
+    return scorePokemon(luckyList.pokemon, data, { includeUpcoming, partnerDex });
+  }, [luckyList, data, includeUpcoming, partnerDex]);
 
   const tabs: { key: Tab; label: string }[] = [
     { key: "priority", label: "Trade Next" },
@@ -183,6 +232,67 @@ function App() {
     { key: "events", label: "Events" },
     { key: "pokedex", label: "Pokedex" },
   ];
+
+  function getPendingPayloadPreview(): PendingDexPayload | null {
+    if (!pendingDexImport) return null;
+    const dex = decodeLuckyDexBitset(pendingDexImport.encoded, MAX_DEX_NUMBER);
+    if (!dex) return null;
+    return {
+      dex,
+      luckyCount: dex.size,
+      hash: checksumDexPayload(pendingDexImport.encoded),
+    };
+  }
+
+  function shouldConfirmOwnImport(incomingDex: Set<number>): string | null {
+    if (!luckyList) return null;
+    const currentDex = collectLuckyDexNumbers(luckyList.pokemon, MAX_DEX_NUMBER);
+    const diffRatio = symmetricDiffRatio(currentDex, incomingDex);
+    if (hasPartner && diffRatio > PARTNER_CONFIRM_DIFF_THRESHOLD) {
+      return "Did you mean to set this as Partner instead?";
+    }
+    if (diffRatio > OWN_IMPORT_CONFIRM_DIFF_THRESHOLD) {
+      return `You already have a list with ${currentDex.size} entries. Replace it?`;
+    }
+    return null;
+  }
+
+  function handleImportPendingAsMine() {
+    const preview = getPendingPayloadPreview();
+    if (!preview) {
+      dismissPendingDexImport();
+      return;
+    }
+
+    const confirmCopy = shouldConfirmOwnImport(preview.dex);
+    if (confirmCopy && !window.confirm(confirmCopy)) return;
+
+    const payload = consumePendingDexImport();
+    if (!payload) return;
+
+    importPokemon(toPokemonFromDex(payload.dex));
+    setShareStatus("Imported shared dex as your list.");
+  }
+
+  function handleSetPendingAsPartner() {
+    if (!luckyList) return;
+    const payload = consumePendingDexImport();
+    if (!payload) return;
+
+    setPartnerDex(payload.dex);
+    setTabAndSyncUrl("priority");
+
+    const liveBothNeedCount =
+      data
+        ? scorePokemon(luckyList.pokemon, data, {
+            includeUpcoming,
+            partnerDex: payload.dex,
+          }).filter((p) => p.neededBy === "both").length
+        : 0;
+    setPartnerToast(
+      `Partner dex saved! ${liveBothNeedCount} Pokemon you both need are available right now.`,
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -215,6 +325,17 @@ function App() {
                     >
                       Share Link
                     </button>
+                    {hasPartner && (
+                      <button
+                        onClick={() => {
+                          clearPartnerDex();
+                          setShareStatus("Cleared partner dex.");
+                        }}
+                        className="w-full text-left px-2.5 py-2 text-sm rounded hover:bg-gray-100"
+                      >
+                        Clear Partner
+                      </button>
+                    )}
                     <button
                       onClick={clearList}
                       className="w-full text-left px-2.5 py-2 text-sm rounded text-red-600 hover:bg-red-50"
@@ -231,6 +352,11 @@ function App() {
               {shareStatus}
             </div>
           )}
+          {partnerToast && (
+            <div className="mt-2 text-xs text-emerald-800 bg-emerald-50 rounded px-3 py-2">
+              {partnerToast}
+            </div>
+          )}
           {linkImportMessage && (
             <div className="mt-2 text-xs text-green-700 bg-green-50 rounded px-3 py-2">
               {linkImportMessage}
@@ -245,22 +371,32 @@ function App() {
             <div className="mt-2 text-xs text-gray-800 bg-white/90 border border-yellow-300 rounded px-3 py-2">
               <div>
                 Shared link detected with <strong>{pendingDexImport.luckyCount}</strong> lucky entries.
-                Importing will replace your local list.
+                Whose list is this?
               </div>
+              {!luckyList && (
+                <div className="mt-1 text-amber-700">
+                  You don't have your own list yet - import this as yours first.
+                </div>
+              )}
               <div className="mt-2 flex gap-2">
                 <button
-                  onClick={applyPendingDexImport}
-                  disabled={importingFromLink}
+                  onClick={handleImportPendingAsMine}
                   className="px-2.5 py-1 rounded bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-60"
                 >
-                  {importingFromLink ? "Importing..." : "Import Shared Dex"}
+                  Mine
+                </button>
+                <button
+                  onClick={handleSetPendingAsPartner}
+                  disabled={!luckyList}
+                  className="px-2.5 py-1 rounded bg-amber-500 text-white hover:bg-amber-600 disabled:opacity-60 disabled:cursor-not-allowed"
+                >
+                  {hasPartner ? "Update Partner" : "My partner's"}
                 </button>
                 <button
                   onClick={dismissPendingDexImport}
-                  disabled={importingFromLink}
                   className="px-2.5 py-1 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 disabled:opacity-60"
                 >
-                  Keep My Dex
+                  Dismiss
                 </button>
               </div>
             </div>
@@ -268,6 +404,11 @@ function App() {
           {luckyList && (
             <div className="mt-4">
               <ProgressBar luckyCount={luckyCount} totalCount={totalCount} />
+              {hasPartner && (
+                <div className="mt-1 text-xs text-gray-700">
+                  You: {luckyCount}/{totalCount} lucky · {partnerName ?? "Partner"}: {partnerLuckyCount}/{totalCount} · Updated {formatPartnerUpdatedAt(partnerUpdatedAt)}
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -336,7 +477,13 @@ function App() {
 
             {!loading && (
               <>
-                {tab === "priority" && <PriorityList priorities={priorities} />}
+                {tab === "priority" && (
+                  <PriorityList
+                    priorities={priorities}
+                    hasPartner={hasPartner}
+                    partnerName={partnerName ?? "Partner"}
+                  />
+                )}
                 {tab === "raids" && (
                   <RaidBosses
                     raids={data?.raids ?? []}

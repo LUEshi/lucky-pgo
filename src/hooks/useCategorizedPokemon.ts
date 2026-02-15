@@ -6,6 +6,7 @@ export type Category = "raids" | "wild" | "rocket" | "eggs";
 export interface CategorizedPokemon {
   name: string;
   sources: PrioritySource[];
+  neededBy?: PriorityPokemon["neededBy"];
 }
 
 export const categoryOrder: Category[] = ["raids", "wild", "rocket", "eggs"];
@@ -43,7 +44,11 @@ export function useCategorizedPokemon(priorities: PriorityPokemon[]) {
           categorySourceTypes[cat].includes(s.type),
         );
         if (matchingSources.length > 0) {
-          result[cat].push({ name: p.name, sources: matchingSources });
+          result[cat].push({
+            name: p.name,
+            sources: matchingSources,
+            neededBy: p.neededBy,
+          });
         }
       }
     }

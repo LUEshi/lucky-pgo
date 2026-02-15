@@ -3,12 +3,15 @@ import type {
   ScrapedDuckData,
   PriorityPokemon,
 } from "../types";
-import { pokemonMatches, baseName, normalizeName } from "./pokemonMatcher";
-import { partitionEventsByTime } from "./eventFilters";
+import { pokemonMatches, baseName, normalizeName } from "./pokemonMatcher.js";
+import { partitionEventsByTime } from "./eventFilters.js";
 
 interface ScoreOptions {
   includeUpcoming?: boolean;
+  partnerDex?: Set<number> | null;
 }
+
+type NeededBy = PriorityPokemon["neededBy"];
 
 function tierScore(tier: string): number {
   if (tier.includes("Mega") || tier.includes("5")) return 5;
@@ -55,20 +58,102 @@ function buildMissingIndex(missing: Pokemon[]) {
   };
 }
 
+function neededByRank(neededBy: NeededBy): number {
+  if (neededBy === "both") return 0;
+  if (neededBy === "you" || neededBy === undefined) return 1;
+  return 2;
+}
+
+function buildMissingPool(
+  luckyList: Pokemon[],
+  partnerDex: Set<number> | null,
+): {
+  missingPokemon: Pokemon[];
+  userMissingDex: Set<number>;
+  partnerMissingDex: Set<number> | null;
+  hasPartner: boolean;
+} {
+  const userMissing = luckyList.filter((p) => !p.isLucky);
+  const userMissingDex = new Set(userMissing.map((p) => p.dexNumber));
+
+  if (!partnerDex) {
+    return {
+      missingPokemon: userMissing,
+      userMissingDex,
+      partnerMissingDex: null,
+      hasPartner: false,
+    };
+  }
+
+  const byDex = new Map<number, Pokemon>();
+  for (const pokemon of luckyList) {
+    byDex.set(pokemon.dexNumber, pokemon);
+  }
+
+  const partnerMissingDex = new Set<number>();
+  for (const pokemon of luckyList) {
+    if (!partnerDex.has(pokemon.dexNumber)) {
+      partnerMissingDex.add(pokemon.dexNumber);
+    }
+  }
+
+  const unionDex = new Set<number>([
+    ...Array.from(userMissingDex),
+    ...Array.from(partnerMissingDex),
+  ]);
+  const missingPokemon = Array.from(unionDex).map((dexNumber) => {
+    const existing = byDex.get(dexNumber);
+    if (existing) return existing;
+    return {
+      dexNumber,
+      name: `Pokemon ${dexNumber}`,
+      isLucky: false,
+    } as Pokemon;
+  });
+
+  return {
+    missingPokemon,
+    userMissingDex,
+    partnerMissingDex,
+    hasPartner: true,
+  };
+}
+
+function classifyNeededBy(
+  dexNumber: number,
+  userMissingDex: Set<number>,
+  partnerMissingDex: Set<number> | null,
+): NeededBy {
+  if (!partnerMissingDex) return undefined;
+
+  const userNeeds = userMissingDex.has(dexNumber);
+  const partnerNeeds = partnerMissingDex.has(dexNumber);
+  if (userNeeds && partnerNeeds) return "both";
+  if (userNeeds) return "you";
+  return "partner";
+}
+
 export function scorePokemon(
   luckyList: Pokemon[],
   data: ScrapedDuckData,
   options: ScoreOptions = {},
 ): PriorityPokemon[] {
   const includeUpcoming = options.includeUpcoming ?? true;
+  const partnerDex = options.partnerDex ?? null;
   const now = new Date();
   const sevenDaysFromNow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
-  const missing = luckyList.filter((p) => !p.isLucky);
-  const findMatch = buildMissingIndex(missing);
+  const { missingPokemon, userMissingDex, partnerMissingDex, hasPartner } =
+    buildMissingPool(luckyList, partnerDex);
+  const findMatch = buildMissingIndex(missingPokemon);
 
   const priorityMap = new Map<number, PriorityPokemon>();
 
   function getOrCreate(pokemon: Pokemon): PriorityPokemon {
+    const neededBy = classifyNeededBy(
+      pokemon.dexNumber,
+      userMissingDex,
+      partnerMissingDex,
+    );
     let entry = priorityMap.get(pokemon.dexNumber);
     if (!entry) {
       entry = {
@@ -76,8 +161,11 @@ export function scorePokemon(
         normalizedName: pokemon.name.toLowerCase(),
         score: 0,
         sources: [],
+        ...(hasPartner ? { neededBy } : {}),
       };
       priorityMap.set(pokemon.dexNumber, entry);
+    } else if (hasPartner) {
+      entry.neededBy = neededBy;
     }
     return entry;
   }
@@ -206,7 +294,15 @@ export function scorePokemon(
     }
   }
 
-  return Array.from(priorityMap.values())
-    .filter((p) => p.score > 0)
-    .sort((a, b) => b.score - a.score);
+  const scored = Array.from(priorityMap.values()).filter((p) => p.score > 0);
+  if (!hasPartner) {
+    return scored.sort((a, b) => b.score - a.score);
+  }
+
+  return scored.sort(
+    (a, b) =>
+      b.score - a.score ||
+      neededByRank(a.neededBy) - neededByRank(b.neededBy) ||
+      a.name.localeCompare(b.name),
+  );
 }

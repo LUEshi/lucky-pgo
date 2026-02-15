@@ -98,6 +98,7 @@ export interface PriorityPokemon {
   normalizedName: string;
   score: number;
   sources: PrioritySource[];
+  neededBy?: "both" | "you" | "partner";
 }
 
 export interface PrioritySource {

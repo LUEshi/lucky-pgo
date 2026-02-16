@@ -194,19 +194,90 @@ export function scorePokemon(
     sevenDaysFromNow,
   );
 
+  // Dedupe: avoid double-scoring the same Pokemon from the same event + source type
+  const seenEventSource = new Set<string>();
+  function eventDedupKey(eventId: string, name: string, type: string): string {
+    return `${eventId}:${normalizeName(name)}:${type}`;
+  }
+
   for (const event of activeEvents) {
-    if (!event.extraData?.generic?.hasSpawns) continue;
-    const bosses = event.extraData?.raidbattles?.bosses ?? [];
-    for (const boss of bosses) {
-      const match = findMatch(baseName(boss.name));
-      if (!match) continue;
-      const entry = getOrCreate(match);
-      entry.score += 4;
-      entry.sources.push({
-        type: "event",
-        label: "Event",
-        detail: event.name,
-      });
+    const generic = event.extraData?.generic;
+
+    // Use enriched spawns if available
+    if (generic?.spawns && generic.spawns.length > 0) {
+      for (const spawn of generic.spawns) {
+        const key = eventDedupKey(event.eventID, spawn.name, "event");
+        if (seenEventSource.has(key)) continue;
+        const match = findMatch(baseName(spawn.name));
+        if (!match) continue;
+        seenEventSource.add(key);
+        const entry = getOrCreate(match);
+        entry.score += 4;
+        entry.sources.push({
+          type: "event",
+          label: "Event",
+          detail: event.name,
+        });
+      }
+    } else if (generic?.hasSpawns) {
+      // Fallback: use raidbattles.bosses when no enriched spawns
+      const bosses = event.extraData?.raidbattles?.bosses ?? [];
+      for (const boss of bosses) {
+        const key = eventDedupKey(event.eventID, boss.name, "event");
+        if (seenEventSource.has(key)) continue;
+        const match = findMatch(baseName(boss.name));
+        if (!match) continue;
+        seenEventSource.add(key);
+        const entry = getOrCreate(match);
+        entry.score += 4;
+        entry.sources.push({
+          type: "event",
+          label: "Event",
+          detail: event.name,
+        });
+      }
+    }
+
+    // Use enriched event research if available
+    if (generic?.eventResearch && generic.eventResearch.length > 0) {
+      for (const task of generic.eventResearch) {
+        for (const reward of task.rewards) {
+          const key = eventDedupKey(event.eventID, reward.name, "research");
+          if (seenEventSource.has(key)) continue;
+          const match = findMatch(baseName(reward.name));
+          if (!match) continue;
+          seenEventSource.add(key);
+          const entry = getOrCreate(match);
+          entry.score += 2;
+          entry.sources.push({
+            type: "research",
+            label: "Event Research",
+            detail: `${event.name}: ${task.task}`,
+          });
+        }
+      }
+    }
+
+    // Use enriched event eggs if available
+    if (generic?.eventEggs && generic.eventEggs.length > 0) {
+      for (const egg of generic.eventEggs) {
+        const key = eventDedupKey(event.eventID, egg.name, `egg:${egg.eggDistance}`);
+        if (seenEventSource.has(key)) continue;
+        const match = findMatch(baseName(egg.name));
+        if (!match) continue;
+        seenEventSource.add(key);
+        const entry = getOrCreate(match);
+        const hasSameEggSource = entry.sources.some(
+          (source) => source.type === "egg" && source.label === egg.eggDistance,
+        );
+        if (hasSameEggSource) continue;
+        entry.score += 1;
+        entry.sources.push({
+          type: "egg",
+          label: egg.eggDistance,
+          detail: egg.name,
+        });
+      }
     }
   }
 
@@ -218,18 +289,43 @@ export function scorePokemon(
         event.eventType === "raid-battles" ||
         event.eventType === "raid-hour" ||
         event.name.toLowerCase().includes("raid");
-      const bosses = event.extraData?.raidbattles?.bosses ?? [];
-      for (const boss of bosses) {
-        const match = findMatch(baseName(boss.name));
-        if (!match) continue;
-        const entry = getOrCreate(match);
-        entry.score += 1;
-        entry.sources.push({
-          type: isRaidEvent ? "upcoming-raid" : "upcoming",
-          label: "Upcoming",
-          detail: event.name,
-          availability: formatDateRange(event.start, event.end),
-        });
+      const generic = event.extraData?.generic;
+
+      // Upcoming enriched spawns
+      if (generic?.spawns && generic.spawns.length > 0) {
+        for (const spawn of generic.spawns) {
+          const key = eventDedupKey(event.eventID, spawn.name, "upcoming");
+          if (seenEventSource.has(key)) continue;
+          const match = findMatch(baseName(spawn.name));
+          if (!match) continue;
+          seenEventSource.add(key);
+          const entry = getOrCreate(match);
+          entry.score += 1;
+          entry.sources.push({
+            type: isRaidEvent ? "upcoming-raid" : "upcoming",
+            label: "Upcoming",
+            detail: event.name,
+            availability: formatDateRange(event.start, event.end),
+          });
+        }
+      } else {
+        // Fallback: upcoming raid bosses when enriched spawns are unavailable
+        const bosses = event.extraData?.raidbattles?.bosses ?? [];
+        for (const boss of bosses) {
+          const key = eventDedupKey(event.eventID, boss.name, "upcoming");
+          if (seenEventSource.has(key)) continue;
+          const match = findMatch(baseName(boss.name));
+          if (!match) continue;
+          seenEventSource.add(key);
+          const entry = getOrCreate(match);
+          entry.score += 1;
+          entry.sources.push({
+            type: isRaidEvent ? "upcoming-raid" : "upcoming",
+            label: "Upcoming",
+            detail: event.name,
+            availability: formatDateRange(event.start, event.end),
+          });
+        }
       }
     }
   }

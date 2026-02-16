@@ -5,6 +5,11 @@
 - Trade planner mode for marking targets and tracking completed trades in a session.
 - Daily diff view ("what changed since yesterday") using `public/history` snapshots.
 
+## Done
+- **Partner dex overlay** - shipped partner lucky dex storage/import, partner-aware scoring, and "Both need" / "Partner only" badges on Trade Next cards. Design doc: [`docs/partner-dex-overlay.md`](docs/partner-dex-overlay.md).
+- Partner dex import validation and UX safeguards for mismatched or stale payloads.
+- Shared Missing Lucky Dex now excludes mythicals (not tradeable) and has quick-copy buttons for Non-Legendary and Legendary dex-number lists.
+
 ## Later
 - Browser notifications when relevant raid/event/rocket targets appear.
 - Event detail summaries with short human-readable highlights.

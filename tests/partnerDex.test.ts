@@ -12,9 +12,9 @@ test("rejects malformed payloads", () => {
   assert.equal(parsePartnerDexData(JSON.stringify({ dex: [1, "2"] })), null);
 });
 
-test("clamps out-of-range dex numbers and dedupes", () => {
+test("filters out-of-range dex numbers and dedupes", () => {
   const normalized = normalizePartnerDexNumbers([0, 1, 1, 1026, 7]);
-  assert.deepEqual(normalized, [1, 7, 1025]);
+  assert.deepEqual(normalized, [1, 7]);
 });
 
 test("round-trips partner dex data", () => {
@@ -23,6 +23,6 @@ test("round-trips partner dex data", () => {
 
   assert.ok(parsed);
   assert.equal(parsed.name, "Partner");
-  assert.deepEqual(parsed.dex, [1, 5, 1025]);
+  assert.deepEqual(parsed.dex, [1, 5]);
   assert.equal(typeof parsed.updatedAt, "string");
 });

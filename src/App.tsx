@@ -370,6 +370,7 @@ function App() {
           {pendingDexImport && (
             <div className="mt-2 text-xs text-gray-800 bg-white/90 border border-yellow-300 rounded px-3 py-2">
               <div>
+                <span className="text-[10px] uppercase tracking-wide text-gray-500">Step 1</span>{" "}
                 Shared link detected with <strong>{pendingDexImport.luckyCount}</strong> lucky entries.
                 Whose list is this?
               </div>
@@ -385,16 +386,19 @@ function App() {
                 >
                   Mine
                 </button>
-                <button
-                  onClick={handleSetPendingAsPartner}
-                  disabled={!luckyList}
-                  className="px-2.5 py-1 rounded bg-amber-500 text-white hover:bg-amber-600 disabled:opacity-60 disabled:cursor-not-allowed"
-                >
-                  {hasPartner ? "Update Partner" : "My partner's"}
-                </button>
+                {luckyList && (
+                  <button
+                    onClick={handleSetPendingAsPartner}
+                    className="px-2.5 py-1 rounded bg-amber-500 text-white hover:bg-amber-600"
+                  >
+                    {hasPartner ? "Update Partner" : "My partner's"}
+                  </button>
+                )}
+              </div>
+              <div className="mt-1">
                 <button
                   onClick={dismissPendingDexImport}
-                  className="px-2.5 py-1 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 disabled:opacity-60"
+                  className="text-xs text-gray-500 hover:text-gray-700"
                 >
                   Dismiss
                 </button>

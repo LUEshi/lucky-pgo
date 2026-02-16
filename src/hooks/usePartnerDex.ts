@@ -10,12 +10,6 @@ export interface PartnerDexData {
 const STORAGE_KEY = "lucky-pgo-partner-dex";
 const DEFAULT_PARTNER_NAME = "Partner";
 
-function clampDexNumber(value: number): number {
-  if (value < 1) return 1;
-  if (value > MAX_DEX_NUMBER) return MAX_DEX_NUMBER;
-  return value;
-}
-
 export function normalizePartnerDexNumbers(
   input: unknown,
 ): number[] | null {
@@ -24,7 +18,8 @@ export function normalizePartnerDexNumbers(
   const deduped = new Set<number>();
   for (const value of input) {
     if (typeof value !== "number" || !Number.isFinite(value)) return null;
-    const dex = clampDexNumber(Math.trunc(value));
+    const dex = Math.trunc(value);
+    if (dex < 1 || dex > MAX_DEX_NUMBER) continue;
     deduped.add(dex);
   }
 

@@ -306,6 +306,7 @@ export function scorePokemon(
             label: "Upcoming",
             detail: event.name,
             availability: formatDateRange(event.start, event.end),
+            link: event.link,
           });
         }
       } else {
@@ -324,6 +325,7 @@ export function scorePokemon(
             label: "Upcoming",
             detail: event.name,
             availability: formatDateRange(event.start, event.end),
+            link: event.link,
           });
         }
       }

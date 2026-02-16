@@ -125,4 +125,5 @@ export interface PrioritySource {
   label: string;
   detail: string;
   availability?: string;
+  link?: string;
 }

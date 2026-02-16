@@ -11,6 +11,22 @@ export interface LuckyList {
 
 // ScrapedDuck types
 
+export interface EventSpawn {
+  name: string;
+  canBeShiny: boolean;
+}
+
+export interface EventEgg {
+  name: string;
+  eggDistance: string;
+  canBeShiny: boolean;
+}
+
+export interface EventResearchTask {
+  task: string;
+  rewards: Array<{ name: string; canBeShiny: boolean }>;
+}
+
 export interface ScrapedDuckEvent {
   eventID: string;
   name: string;
@@ -24,6 +40,9 @@ export interface ScrapedDuckEvent {
     generic?: {
       hasSpawns?: boolean;
       hasFieldResearchTasks?: boolean;
+      spawns?: EventSpawn[];
+      eventEggs?: EventEgg[];
+      eventResearch?: EventResearchTask[];
     };
     raidbattles?: {
       bosses?: Array<{ name: string; image: string; canBeShiny: boolean }>;

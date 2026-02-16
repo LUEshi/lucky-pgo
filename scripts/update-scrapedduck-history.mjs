@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { scrapeEventPageHtml } from "./scrapers/event-page.mjs";
 
 const KEEP_DAYS = 7;
 const SNAPSHOT_DIR = path.resolve("public/history");
@@ -14,26 +15,8 @@ const ENDPOINTS = {
   rockets: "rocketLineups.min.json",
 };
 
-const RAID_EVENT_TYPES = new Set([
-  "raid-day",
-  "raid-battles",
-  "max-battles",
-  "elite-raids",
-  "shadow-raid-day",
-  "shadow-raids",
-]);
-
-const GENERIC_FEATURED_KEYS = new Set([
-  "raid",
-  "day",
-  "shadow",
-  "max",
-  "battle",
-  "elite",
-  "event",
-  "pokemon",
-  "go",
-]);
+// Delay between page fetches to be polite to LeekDuck
+const FETCH_DELAY_MS = 1000;
 
 function dateKey(date = new Date()) {
   return date.toISOString().slice(0, 10);
@@ -53,9 +36,9 @@ async function fetchJson(url) {
   return response.json();
 }
 
-async function fetchText(url) {
+async function fetchText(url, timeoutMs = 12000) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12000);
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const response = await fetch(url, { signal: controller.signal });
     if (!response.ok) {
@@ -66,6 +49,14 @@ async function fetchText(url) {
     clearTimeout(timeout);
   }
 }
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// ---------------------------------------------------------------------------
+// Enrichment helpers (kept for fallback when page scraping yields no bosses)
+// ---------------------------------------------------------------------------
 
 function normalizeNameKey(name) {
   return name.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -83,16 +74,28 @@ function dedupeNames(names) {
   return Array.from(deduped.values());
 }
 
+const GENERIC_FEATURED_KEYS = new Set([
+  "raid",
+  "day",
+  "shadow",
+  "max",
+  "battle",
+  "elite",
+  "event",
+  "pokemon",
+  "go",
+]);
+
+function isGenericFeaturedName(name) {
+  const key = normalizeNameKey(name);
+  return key.length < 4 || GENERIC_FEATURED_KEYS.has(key);
+}
+
 function splitCompositeNames(value) {
   return value
     .split(/\s*(?:,|&| and )\s*/i)
     .map((part) => part.trim())
     .filter(Boolean);
-}
-
-function isGenericFeaturedName(name) {
-  const key = normalizeNameKey(name);
-  return key.length < 4 || GENERIC_FEATURED_KEYS.has(key);
 }
 
 function toTitleCase(value) {
@@ -119,53 +122,6 @@ function inferFeaturedFromEventId(eventID) {
   return [toTitleCase(slug[1].replace(/-/g, " "))];
 }
 
-function extractBossNamesFromJsonLike(html) {
-  const names = [];
-  const variants = [html, html.replace(/\\"/g, '"')];
-
-  for (const source of variants) {
-    const blockRegex = /"bosses"\s*:\s*\[([\s\S]*?)\]/gi;
-    for (const blockMatch of source.matchAll(blockRegex)) {
-      const block = blockMatch[1];
-      for (const nameMatch of block.matchAll(/"name"\s*:\s*"([^"]+)"/gi)) {
-        names.push(nameMatch[1]);
-      }
-    }
-  }
-
-  return dedupeNames(names);
-}
-
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function extractNamesFromPageText(html, knownNames) {
-  const text = html
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
-    .toLowerCase();
-
-  const found = [];
-  for (const name of knownNames) {
-    const pattern = new RegExp(`\\b${escapeRegExp(name.toLowerCase())}\\b`, "i");
-    if (pattern.test(text)) {
-      found.push(name);
-    }
-  }
-  return dedupeNames(found);
-}
-
-function hasBosses(event) {
-  return (event.extraData?.raidbattles?.bosses?.length ?? 0) > 0;
-}
-
-function needsRaidEnrichment(event) {
-  return RAID_EVENT_TYPES.has(event.eventType) && !hasBosses(event);
-}
-
 function buildBosses(names) {
   return names.map((name) => ({
     name,
@@ -174,71 +130,171 @@ function buildBosses(names) {
   }));
 }
 
-async function inferFeaturedBossesForEvent(event, knownRaidNames) {
-  const inferred = dedupeNames([
-    ...inferFeaturedFromName(event.name),
-    ...inferFeaturedFromEventId(event.eventID),
-  ]).filter((name) => !isGenericFeaturedName(name));
+// ---------------------------------------------------------------------------
+// Unified event enrichment — single page fetch for everything
+// ---------------------------------------------------------------------------
 
-  let scraped = [];
-  try {
-    const html = await fetchText(event.link);
-    const fromJson = extractBossNamesFromJsonLike(html);
-    if (fromJson.length > 0) {
-      scraped = fromJson;
-    } else {
-      scraped = extractNamesFromPageText(html, knownRaidNames);
-    }
-  } catch (error) {
-    console.warn(
-      `[history] raid enrichment failed for ${event.eventID}: ${error instanceof Error ? error.message : String(error)}`,
-    );
-  }
+const LEEKDUCK_HOST = "https://leekduck.com/";
 
-  return dedupeNames([...scraped, ...inferred]).filter(
-    (name) => !isGenericFeaturedName(name),
+function isLeekDuckLink(link) {
+  return typeof link === "string" && link.startsWith(LEEKDUCK_HOST);
+}
+
+function hasEnrichedData(event) {
+  const g = event.extraData?.generic;
+  return (
+    (g?.spawns?.length ?? 0) > 0 ||
+    (g?.eventEggs?.length ?? 0) > 0 ||
+    (g?.eventResearch?.length ?? 0) > 0
   );
 }
 
-async function enrichEventsWithRaidBosses(events, raids) {
-  const knownRaidNames = dedupeNames(raids.map((raid) => raid.name)).filter(
+function hasBosses(event) {
+  return (event.extraData?.raidbattles?.bosses?.length ?? 0) > 0;
+}
+
+const RAID_EVENT_TYPES = new Set([
+  "raid-day",
+  "raid-battles",
+  "max-battles",
+  "elite-raids",
+  "shadow-raid-day",
+  "shadow-raids",
+]);
+
+/**
+ * Enrich events by scraping their LeekDuck pages.
+ * Combines raid boss extraction and generic content (spawns, eggs, research)
+ * into a single fetch per page. Caches HTML by URL to avoid re-fetching if
+ * multiple events share a page.
+ */
+async function enrichEventsFromPages(events, raids) {
+  const knownRaidNames = dedupeNames(raids.map((r) => r.name)).filter(
     (name) => !isGenericFeaturedName(name),
   );
 
-  const enriched = await Promise.all(
-    events.map(async (event) => {
-      if (!needsRaidEnrichment(event)) return event;
+  // Cache fetched HTML by URL
+  const htmlCache = new Map();
 
-      const featuredBosses = await inferFeaturedBossesForEvent(
-        event,
-        knownRaidNames,
-      );
-      if (featuredBosses.length === 0) return event;
+  let enrichedCount = 0;
+  let raidEnrichedCount = 0;
 
+  const enriched = [];
+  for (const event of events) {
+    // Skip events that are already fully enriched and have bosses
+    if (hasEnrichedData(event) && hasBosses(event)) {
+      enriched.push(event);
+      continue;
+    }
+
+    // Only scrape LeekDuck links
+    if (!isLeekDuckLink(event.link)) {
+      enriched.push(event);
+      continue;
+    }
+
+    let html = htmlCache.get(event.link);
+    if (!html) {
+      try {
+        html = await fetchText(event.link);
+        htmlCache.set(event.link, html);
+        // Polite delay between fetches
+        await sleep(FETCH_DELAY_MS);
+      } catch (error) {
+        console.warn(
+          `[history] page fetch failed for ${event.eventID}: ${error instanceof Error ? error.message : String(error)}`,
+        );
+        enriched.push(event);
+        continue;
+      }
+    }
+
+    try {
+      const pageData = scrapeEventPageHtml(html);
       const existingExtraData = event.extraData ?? {};
+      const existingGeneric = existingExtraData.generic ?? {};
       const existingRaidbattles = existingExtraData.raidbattles ?? {};
 
-      return {
+      // Merge generic enrichment (spawns, eggs, research)
+      const newGeneric = { ...existingGeneric };
+      if (pageData.spawns.length > 0) {
+        newGeneric.spawns = pageData.spawns;
+      }
+      if (pageData.eventEggs.length > 0) {
+        newGeneric.eventEggs = pageData.eventEggs;
+      }
+      if (pageData.eventResearch.length > 0) {
+        newGeneric.eventResearch = pageData.eventResearch;
+      }
+
+      // Merge raid bosses — page-scraped bosses take priority, then existing,
+      // then fallback to name inference for raid-type events
+      let bosses = existingRaidbattles.bosses ?? [];
+      if (pageData.raidBosses.length > 0 && bosses.length === 0) {
+        bosses = pageData.raidBosses.map((b) => ({
+          name: b.name,
+          image: "",
+          canBeShiny: b.canBeShiny,
+        }));
+      }
+
+      // For raid events still without bosses, try name inference
+      if (bosses.length === 0 && RAID_EVENT_TYPES.has(event.eventType)) {
+        const inferred = dedupeNames([
+          ...inferFeaturedFromName(event.name),
+          ...inferFeaturedFromEventId(event.eventID),
+        ]).filter((name) => !isGenericFeaturedName(name));
+        if (inferred.length > 0) {
+          bosses = buildBosses(inferred);
+        }
+      }
+
+      const newRaidbattles =
+        bosses.length > 0
+          ? {
+              ...existingRaidbattles,
+              bosses,
+              shinies: existingRaidbattles.shinies ?? [],
+            }
+          : existingRaidbattles;
+
+      const didEnrichGeneric =
+        pageData.spawns.length > 0 ||
+        pageData.eventEggs.length > 0 ||
+        pageData.eventResearch.length > 0;
+      const didEnrichRaids =
+        !hasBosses(event) && (newRaidbattles.bosses?.length ?? 0) > 0;
+
+      if (didEnrichGeneric) enrichedCount++;
+      if (didEnrichRaids) raidEnrichedCount++;
+
+      enriched.push({
         ...event,
         extraData: {
           ...existingExtraData,
-          raidbattles: {
-            ...existingRaidbattles,
-            bosses: buildBosses(featuredBosses),
-            shinies: existingRaidbattles.shinies ?? [],
-          },
+          generic: newGeneric,
+          ...(Object.keys(newRaidbattles).length > 0
+            ? { raidbattles: newRaidbattles }
+            : {}),
         },
-      };
-    }),
+      });
+    } catch (error) {
+      console.warn(
+        `[history] page enrichment failed for ${event.eventID}: ${error instanceof Error ? error.message : String(error)}`,
+      );
+      enriched.push(event);
+    }
+  }
+
+  console.log(
+    `[history] page enrichment: ${enrichedCount} event(s) with spawns/eggs/research, ${raidEnrichedCount} event(s) with raid bosses`,
   );
-
-  const enrichedCount = enriched.filter(
-    (event, idx) => !hasBosses(events[idx]) && hasBosses(event),
-  ).length;
-  console.log(`[history] raid boss enrichment added bosses to ${enrichedCount} event(s)`);
-
   return enriched;
 }
+
+// ---------------------------------------------------------------------------
+// Snapshot building
+// ---------------------------------------------------------------------------
 
 async function buildSnapshot() {
   const [initialEvents, raids, research, eggs, rockets] = await Promise.all([
@@ -248,7 +304,7 @@ async function buildSnapshot() {
     fetchJson(`${BASE_URL}/${ENDPOINTS.eggs}`),
     fetchJson(`${BASE_URL}/${ENDPOINTS.rockets}`),
   ]);
-  const events = await enrichEventsWithRaidBosses(initialEvents, raids);
+  const events = await enrichEventsFromPages(initialEvents, raids);
 
   const generatedAt = new Date().toISOString();
 

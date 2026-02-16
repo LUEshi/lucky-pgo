@@ -16,6 +16,7 @@ import {
   checksumDexPayload,
 } from "./utils/luckyShare";
 import { usePartnerDex } from "./hooks/usePartnerDex";
+import { isLegendaryDex, isMythicalDex } from "./utils/legendaryDex";
 
 type Tab = "priority" | "raids" | "events" | "pokedex";
 
@@ -69,6 +70,10 @@ function toPokemonFromDex(dex: Set<number>) {
     name: `Pokemon ${dexNumber}`,
     isLucky: true,
   }));
+}
+
+function formatForClipboard(pokemonList: number[]): string {
+  return pokemonList.map((dexNumber) => `${dexNumber}`).join(",");
 }
 
 function symmetricDiffRatio(a: Set<number>, b: Set<number>): number {
@@ -225,6 +230,26 @@ function App() {
     if (!luckyList || !data) return [];
     return scorePokemon(luckyList.pokemon, data, { includeUpcoming, partnerDex });
   }, [luckyList, data, includeUpcoming, partnerDex]);
+  const sharedMissingByTier = useMemo(() => {
+    if (!luckyList || !partnerDex) return null;
+    const tradeableMissing = luckyList.pokemon
+      .filter((pokemon) => !pokemon.isLucky && !partnerDex.has(pokemon.dexNumber))
+      .filter((pokemon) => !isMythicalDex(pokemon.dexNumber))
+      .sort((a, b) => a.dexNumber - b.dexNumber);
+
+    const nonLegendary = tradeableMissing.filter(
+      (pokemon) => !isLegendaryDex(pokemon.dexNumber),
+    );
+    const legendary = tradeableMissing.filter((pokemon) =>
+      isLegendaryDex(pokemon.dexNumber),
+    );
+
+    return {
+      total: tradeableMissing.length,
+      nonLegendary,
+      legendary,
+    };
+  }, [luckyList, partnerDex]);
 
   const tabs: { key: Tab; label: string }[] = [
     { key: "priority", label: "Trade Next" },
@@ -457,15 +482,74 @@ function App() {
             </div>
 
             {tab === "priority" && (
-              <label className="mb-3 inline-flex items-center gap-2 text-sm text-gray-700">
-                <input
-                  type="checkbox"
-                  checked={includeUpcoming}
-                  onChange={(e) => setIncludeUpcoming(e.target.checked)}
-                  className="h-4 w-4 accent-yellow-500"
-                />
-                Include upcoming
-              </label>
+              <>
+                <label className="mb-3 inline-flex items-center gap-2 text-sm text-gray-700">
+                  <input
+                    type="checkbox"
+                    checked={includeUpcoming}
+                    onChange={(e) => setIncludeUpcoming(e.target.checked)}
+                    className="h-4 w-4 accent-yellow-500"
+                  />
+                  Include upcoming
+                </label>
+                {hasPartner && sharedMissingByTier && (
+                  <details className="mb-4 bg-white border border-gray-200 rounded-lg p-3">
+                    <summary className="cursor-pointer text-sm font-medium text-gray-800">
+                      Shared Missing Lucky Dex ({sharedMissingByTier.total})
+                    </summary>
+                    <div className="mt-2 text-xs text-gray-700 space-y-3">
+                      <div>
+                        <div className="mb-1 flex items-center justify-between">
+                          <div className="font-semibold text-gray-800">
+                            Non-Legendary ({sharedMissingByTier.nonLegendary.length})
+                          </div>
+                          <button
+                            onClick={() => navigator.clipboard.writeText(formatForClipboard(sharedMissingByTier.nonLegendary.map((pokemon) => (pokemon.dexNumber))))}
+                            className="text-xs text-gray-500 hover:text-gray-700 active:text-green-600 flex items-center gap-1 transition-colors"
+                          >
+                            ⧉ Copy list
+                          </button>
+                        </div>
+                        <div className="max-h-40 overflow-y-auto space-y-0.5 pr-1">
+                          {sharedMissingByTier.nonLegendary.length === 0 ? (
+                            <div className="text-gray-500">None</div>
+                          ) : (
+                            sharedMissingByTier.nonLegendary.map((pokemon) => (
+                              <div key={pokemon.dexNumber}>
+                                #{pokemon.dexNumber} {pokemon.name}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mb-1 flex items-center justify-between">
+                          <div className="font-semibold text-gray-800">
+                            Legendary ({sharedMissingByTier.legendary.length})
+                          </div>
+                          <button
+                            onClick={() => navigator.clipboard.writeText(formatForClipboard(sharedMissingByTier.legendary.map((pokemon) => (pokemon.dexNumber))))}
+                            className="text-xs text-gray-500 hover:text-gray-700 active:text-green-600 flex items-center gap-1 transition-colors"
+                          >
+                            ⧉ Copy list
+                          </button>
+                        </div>
+                        <div className="max-h-40 overflow-y-auto space-y-0.5 pr-1">
+                          {sharedMissingByTier.legendary.length === 0 ? (
+                            <div className="text-gray-500">None</div>
+                          ) : (
+                            sharedMissingByTier.legendary.map((pokemon) => (
+                              <div key={pokemon.dexNumber}>
+                                #{pokemon.dexNumber} {pokemon.name}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </details>
+                )}
+              </>
             )}
 
             {loading && (

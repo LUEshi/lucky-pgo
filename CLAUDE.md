@@ -59,3 +59,15 @@ Daily ScrapedDuck data snapshots are stored in `public/history/` by the `snapsho
 ### Credits
 
 This project uses data from [LeekDuck.com](https://leekduck.com/) via [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck). Per their terms: no paywalls, no ads, and always credit LeekDuck.com.
+
+## Development Workflow
+
+This is a TypeScript project. Always maintain type safety and run `tsc --noEmit` before considering a task complete.
+
+## UI & Styling
+
+When implementing UI features, always check for edge cases in styling: ensure text contrast (fg vs bg colors), and verify conditional logic covers all variants (e.g., shadow vs regular Pokemon, raid tiers).
+
+## Git & Commits
+
+When refactoring, extract utilities and split components incrementally—commit after each logical unit rather than batching all changes together.

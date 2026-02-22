@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Update history snapshots
         run: node scripts/update-scrapedduck-history.mjs
 

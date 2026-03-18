@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-12",
-  "generatedAt": "2026-03-12T09:03:34.263Z",
+  "date": "2026-03-18",
+  "generatedAt": "2026-03-18T09:09:08.755Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
@@ -17,505 +17,6 @@
           "promocodes": [
             "TH4NKY0UF41RYMUCH"
           ],
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "march-communityday2026",
-        "name": "Scorbunny Community Day",
-        "eventType": "community-day",
-        "heading": "Community Day",
-        "link": "https://leekduck.com/events/march-communityday2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-03-14-march-communityday2026/scorbunny-cd-march-2026.jpg",
-        "start": "2026-03-14T14:00:00.000",
-        "end": "2026-03-14T17:00:00.000",
-        "extraData": {
-          "communityday": {
-            "spawns": [
-              {
-                "name": "Scorbunny",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png"
-              }
-            ],
-            "bonuses": [
-              {
-                "text": "Increased Spawns",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
-              },
-              {
-                "text": "1/4 Hatch Distance",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/eggdistance.png"
-              },
-              {
-                "text": "3-hour Incense",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
-              },
-              {
-                "text": "1-hour Lures*",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
-              },
-              {
-                "text": "2x Catch Candy",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
-              },
-              {
-                "text": "2x Chance to receive Candy XL from catching Pokémon",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
-              },
-              {
-                "text": "One additional Special Trade can be made for a maximum of two for the day*",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
-              },
-              {
-                "text": "Trades made will require 50% less Stardust*",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
-              }
-            ],
-            "bonusDisclaimers": [
-              "* While most bonuses are only active during the three hours of the event (2:00 p.m. to 5:00 p.m. local time), these bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
-              "The three-hour Incense bonus excludes Daily Adventure Incense and the one-hour Lure bonus excludes Golden Lure Modules."
-            ],
-            "shinies": [
-              {
-                "name": "Scorbunny",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.s.icon.png"
-              },
-              {
-                "name": "Raboot",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm814.s.icon.png"
-              },
-              {
-                "name": "Cinderace",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm815.s.icon.png"
-              }
-            ],
-            "specialresearch": [
-              {
-                "name": "Scorbunny Community Day (1/3)",
-                "step": 1,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Make 7 Nice Throws",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Make 5 Great Throws",
-                    "reward": {
-                      "text": "???",
-                      "image": "https://cdn.leekduck.com/assets/img/icons/unknown.png"
-                    }
-                  },
-                  {
-                    "text": "Make 5 Curveball Throws",
-                    "reward": {
-                      "text": "Incense ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Scorbunny",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                  },
-                  {
-                    "text": "×50",
-                    "image": "https://cdn.leekduck.com/assets/img/candy/regular/813.png"
-                  },
-                  {
-                    "text": "×5",
-                    "image": "https://cdn.leekduck.com/assets/img/candy/xl/813.png"
-                  }
-                ]
-              },
-              {
-                "name": "Scorbunny Community Day (2/3)",
-                "step": 2,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokémon",
-                    "reward": {
-                      "text": "Raboot",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm814.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Use 3 Berries to help catch Pokémon",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Use 5 Berries to help catch Pokémon",
-                    "reward": {
-                      "text": "Charged TM ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
-                    }
-                  },
-                  {
-                    "text": "Use 7 Berries to help catch Pokémon",
-                    "reward": {
-                      "text": "Silver Pinap Berry ×3",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Scorbunny",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                  },
-                  {
-                    "text": "×7500",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
-                  },
-                  {
-                    "text": "×3",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
-                  }
-                ]
-              },
-              {
-                "name": "Scorbunny Community Day (3/3)",
-                "step": 3,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokémon",
-                    "reward": {
-                      "text": "Scorbunny",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokémon",
-                    "reward": {
-                      "text": "Cinderace",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm815.icon.png"
-                    }
-                  },
-                  {
-                    "text": "Spin 3 PokéStops or Gyms",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Spin 5 PokéStops or Gyms",
-                    "reward": {
-                      "text": "Rocket Radar ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
-                    }
-                  },
-                  {
-                    "text": "Explore 1 km",
-                    "reward": {
-                      "text": "Premium Battle Pass ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Scorbunny",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png"
-                  },
-                  {
-                    "text": "10000 XP",
-                    "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
-                  },
-                  {
-                    "text": "×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
-                  }
-                ]
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": true,
-            "spawns": [
-              {
-                "name": "Scorbunny",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch 3 Scorbunny",
-                "rewards": [
-                  {
-                    "name": "Scorbunny",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "×5",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×2",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×2",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×500",
-                    "canBeShiny": false
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "pokemon-pokopia-celebration-event-2026",
-        "name": "Pokémon Pokopia Celebration Event",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/pokemon-pokopia-celebration-event-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-03-10-pokemon-pokopia-celebration-event-2026/pokopia-celebration-event.jpg",
-        "start": "2026-03-10T10:00:00.000",
-        "end": "2026-03-16T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Bulbasaur",
-                "canBeShiny": true
-              },
-              {
-                "name": "Charmander",
-                "canBeShiny": true
-              },
-              {
-                "name": "Squirtle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pikachu",
-                "canBeShiny": true
-              },
-              {
-                "name": "Hitmonchan",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scyther",
-                "canBeShiny": true
-              },
-              {
-                "name": "Marill",
-                "canBeShiny": true
-              },
-              {
-                "name": "Sudowoodo",
-                "canBeShiny": true
-              },
-              {
-                "name": "Combee",
-                "canBeShiny": true
-              },
-              {
-                "name": "Drilbur",
-                "canBeShiny": true
-              },
-              {
-                "name": "Timburr",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zorua",
-                "canBeShiny": true
-              },
-              {
-                "name": "Goomy",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch a Ditto",
-                "rewards": [
-                  {
-                    "name": "×1",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Catch 5 Pokémon",
-                "rewards": [
-                  {
-                    "name": "×3",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×3",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×1000",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Catch 10 Pokémon",
-                "rewards": [
-                  {
-                    "name": "Hitmonchan",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Sudowoodo",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Scyther",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Explore 1 km",
-                "rewards": [
-                  {
-                    "name": "Pikachu",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Marill",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Gulpin",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Spin 5 PokéStops or Gyms",
-                "rewards": [
-                  {
-                    "name": "Bulbasaur",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Charmander",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Squirtle",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Win 3 raids",
-                "rewards": [
-                  {
-                    "name": "Lapras",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Snorlax",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Dragonite",
-                    "canBeShiny": true
-                  }
-                ]
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Lapras",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Snorlax",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Dragonite",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-03-16",
-        "name": "Dynamax Falinks during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-03-16/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-03-16T06:00:00.000",
-        "end": "2026-03-16T21:00:00.000",
-        "extraData": {
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
@@ -605,6 +106,22 @@
         }
       },
       {
+        "eventID": "pokemon-showcase-showcase-tuesday-march-2026",
+        "name": "Showcase Tuesday PokéStop Showcases – March 17",
+        "eventType": "pokestop-showcase",
+        "heading": "PokéStop Showcase",
+        "link": "https://leekduck.com/events/pokemon-showcase-showcase-tuesday-march-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/pokestop-showcases-default.jpg",
+        "start": "2026-03-17T10:00:00.000",
+        "end": "2026-03-17T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "raidhour20260318",
         "name": "Zamazenta (Hero of Many Battles) Raid Hour",
         "eventType": "raid-hour",
@@ -669,11 +186,35 @@
                 "canBeShiny": true
               },
               {
-                "name": "Scyther",
+                "name": "Weedle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pineco",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wurmple",
+                "canBeShiny": true
+              },
+              {
+                "name": "Kricketot",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skorupi",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sewaddle",
                 "canBeShiny": true
               },
               {
                 "name": "Dwebble",
+                "canBeShiny": true
+              },
+              {
+                "name": "Joltik",
                 "canBeShiny": true
               },
               {
@@ -682,6 +223,10 @@
               },
               {
                 "name": "Nymble",
+                "canBeShiny": true
+              },
+              {
+                "name": "Scyther",
                 "canBeShiny": true
               },
               {
@@ -707,6 +252,86 @@
               {
                 "name": "Sizzlipede",
                 "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 5 Pokémon",
+                "rewards": [
+                  {
+                    "name": "×10",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×5",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×3",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Catch 10 Pokémon",
+                "rewards": [
+                  {
+                    "name": "Nincada",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Catch 15 Pokémon",
+                "rewards": [
+                  {
+                    "name": "Burmy (Plant)",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Burmy (Sandy)",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Burmy (Trash)",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Catch 25 Pokémon",
+                "rewards": [
+                  {
+                    "name": "Volbeat",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Illumise",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Win a raid",
+                "rewards": [
+                  {
+                    "name": "Durant",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Trade a Pokémon",
+                "rewards": [
+                  {
+                    "name": "Karrablast",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Shelmet",
+                    "canBeShiny": true
+                  }
+                ]
               }
             ]
           },
@@ -1268,17 +893,298 @@
       },
       {
         "eventID": "april-communityday2026",
-        "name": "April Community Day",
+        "name": "Tinkatink Community Day",
         "eventType": "community-day",
         "heading": "Community Day",
         "link": "https://leekduck.com/events/april-communityday2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-04-11-april-communityday2026/tinkatink-cd-april-2026-key.jpg",
         "start": "2026-04-11T14:00:00.000",
         "end": "2026-04-11T17:00:00.000",
         "extraData": {
+          "communityday": {
+            "spawns": [
+              {
+                "name": "Tinkatink",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm957.icon.png"
+              }
+            ],
+            "bonuses": [
+              {
+                "text": "Increased Spawns",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
+              },
+              {
+                "text": "3x Catch Stardust",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust3x.png"
+              },
+              {
+                "text": "3-hour Incense",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
+              },
+              {
+                "text": "1-hour Lures*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+              },
+              {
+                "text": "2x Catch Candy",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
+              },
+              {
+                "text": "2x Chance to receive Candy XL from catching Pokémon",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
+              },
+              {
+                "text": "One additional Special Trade can be made for a maximum of two for the day*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
+              },
+              {
+                "text": "Trades made will require 50% less Stardust*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
+              }
+            ],
+            "bonusDisclaimers": [
+              "* While most bonuses are only active during the three hours of the event (2:00 p.m. to 5:00 p.m. local time), these bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
+              "The three-hour Incense bonus excludes Daily Adventure Incense and the one-hour Lure bonus excludes Golden Lure Modules."
+            ],
+            "shinies": [
+              {
+                "name": "Tinkatink",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm957.s.icon.png"
+              },
+              {
+                "name": "Tinkatuff",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm958.s.icon.png"
+              },
+              {
+                "name": "Tinkaton",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm959.s.icon.png"
+              }
+            ],
+            "specialresearch": [
+              {
+                "name": "Tinkatink Community Day (1/3)",
+                "step": 1,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Make 7 Nice Throws",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Make 5 Great Throws",
+                    "reward": {
+                      "text": "Star Piece ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Star%20Piece.png"
+                    }
+                  },
+                  {
+                    "text": "Make 5 Curveball Throws",
+                    "reward": {
+                      "text": "Incense ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Tinkatink",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                  },
+                  {
+                    "text": "×50",
+                    "image": "https://cdn.leekduck.com/assets/img/candy/regular/957.png"
+                  },
+                  {
+                    "text": "×5",
+                    "image": "https://cdn.leekduck.com/assets/img/candy/xl/957.png"
+                  }
+                ]
+              },
+              {
+                "name": "Tinkatink Community Day (2/3)",
+                "step": 2,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokémon",
+                    "reward": {
+                      "text": "Tinkatuff",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm958.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Use 3 Berries to help catch Pokémon",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Use 5 Berries to help catch Pokémon",
+                    "reward": {
+                      "text": "Charged TM ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
+                    }
+                  },
+                  {
+                    "text": "Use 7 Berries to help catch Pokémon",
+                    "reward": {
+                      "text": "Silver Pinap Berry ×3",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Tinkatink",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                  },
+                  {
+                    "text": "×7500",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                  },
+                  {
+                    "text": "×3",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                  }
+                ]
+              },
+              {
+                "name": "Tinkatink Community Day (3/3)",
+                "step": 3,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokémon",
+                    "reward": {
+                      "text": "Tinkatink",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokémon",
+                    "reward": {
+                      "text": "Tinkaton",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm959.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Spin 3 PokéStops or Gyms",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Spin 5 PokéStops or Gyms",
+                    "reward": {
+                      "text": "Rocket Radar ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                    }
+                  },
+                  {
+                    "text": "Explore 1 km",
+                    "reward": {
+                      "text": "Premium Battle Pass ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Tinkatink",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png"
+                  },
+                  {
+                    "text": "10000 XP",
+                    "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
+                  },
+                  {
+                    "text": "×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                  }
+                ]
+              }
+            ]
+          },
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": true,
+            "spawns": [
+              {
+                "name": "Tinkatink",
+                "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 3 Tinkatink",
+                "rewards": [
+                  {
+                    "name": "Tinkatink",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "×5",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×2",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×2",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×500",
+                    "canBeShiny": false
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -2140,139 +2046,83 @@
     ],
     "raids": [
       {
-        "name": "Gulpin",
+        "name": "Blipbug",
         "tier": "1-Star Raids",
-        "canBeShiny": true,
+        "canBeShiny": false,
         "types": [
           {
-            "name": "poison",
-            "image": "https://leekduck.com/assets/img/types/poison.png"
+            "name": "bug",
+            "image": "https://leekduck.com/assets/img/types/bug.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 452,
-            "max": 495
+            "min": 177,
+            "max": 204
           },
           "boosted": {
-            "min": 565,
-            "max": 618
+            "min": 222,
+            "max": 256
           }
         },
         "boostedWeather": [
           {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm316.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0824_000_mf_n_00000000_f_n.png"
       },
       {
-        "name": "Drilbur",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ground",
-            "image": "https://leekduck.com/assets/img/types/ground.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 732,
-            "max": 786
-          },
-          "boosted": {
-            "min": 916,
-            "max": 983
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm529.icon.png"
-      },
-      {
-        "name": "Timburr",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 699,
-            "max": 751
-          },
-          "boosted": {
-            "min": 874,
-            "max": 939
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm532.icon.png"
-      },
-      {
-        "name": "Minccino",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 456,
-            "max": 498
-          },
-          "boosted": {
-            "min": 570,
-            "max": 623
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm572.icon.png"
-      },
-      {
-        "name": "Lapras",
+        "name": "Pinsir",
         "tier": "3-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "water",
-            "image": "https://leekduck.com/assets/img/types/water.png"
-          },
-          {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
+            "name": "bug",
+            "image": "https://leekduck.com/assets/img/types/bug.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1435,
-            "max": 1509
+            "min": 1613,
+            "max": 1690
           },
           "boosted": {
-            "min": 1794,
-            "max": 1886
+            "min": 2016,
+            "max": 2113
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm127.icon.png"
+      },
+      {
+        "name": "Scizor",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "bug",
+            "image": "https://leekduck.com/assets/img/types/bug.png"
+          },
+          {
+            "name": "steel",
+            "image": "https://leekduck.com/assets/img/types/steel.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1636,
+            "max": 1714
+          },
+          "boosted": {
+            "min": 2046,
+            "max": 2143
           }
         },
         "boostedWeather": [
@@ -2285,67 +2135,43 @@
             "image": "https://leekduck.com/assets/img/weather/snowy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm131.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm212.icon.png"
       },
       {
-        "name": "Snorlax",
+        "name": "Kleavor",
         "tier": "3-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
+            "name": "bug",
+            "image": "https://leekduck.com/assets/img/types/bug.png"
+          },
+          {
+            "name": "rock",
+            "image": "https://leekduck.com/assets/img/types/rock.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1760,
-            "max": 1843
+            "min": 1717,
+            "max": 1798
           },
           "boosted": {
-            "min": 2201,
-            "max": 2304
+            "min": 2147,
+            "max": 2247
           }
         },
         "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          },
           {
             "name": "partly cloudy",
             "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm143.icon.png"
-      },
-      {
-        "name": "Dragonite",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2079,
-            "max": 2167
-          },
-          "boosted": {
-            "min": 2599,
-            "max": 2709
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm149.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm900.icon.png"
       },
       {
         "name": "Zacian (Hero)",
@@ -2673,6 +2499,15 @@
         "text": "Catch 10 Pokémon",
         "rewards": [
           {
+            "name": "Nincada",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm290.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 299,
+              "max": 329
+            }
+          },
+          {
             "name": "Hitmonchan",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm107.icon.png",
             "canBeShiny": true,
@@ -2697,6 +2532,98 @@
             "combatPower": {
               "min": 871,
               "max": 920
+            }
+          }
+        ]
+      },
+      {
+        "text": "Catch 15 Pokémon",
+        "rewards": [
+          {
+            "name": "Burmy (Plant)",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm412.fBURMY_PLANT.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 185,
+              "max": 209
+            }
+          },
+          {
+            "name": "Burmy (Sandy)",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm412.fBURMY_SANDY.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 185,
+              "max": 209
+            }
+          },
+          {
+            "name": "Burmy (Trash)",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm412.fBURMY_TRASH.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 185,
+              "max": 209
+            }
+          }
+        ]
+      },
+      {
+        "text": "Catch 25 Pokémon",
+        "rewards": [
+          {
+            "name": "Volbeat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm313.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 714,
+              "max": 759
+            }
+          },
+          {
+            "name": "Illumise",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm314.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 714,
+              "max": 759
+            }
+          }
+        ]
+      },
+      {
+        "text": "Win a raid",
+        "rewards": [
+          {
+            "name": "Durant",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm632.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 1084,
+              "max": 1140
+            }
+          }
+        ]
+      },
+      {
+        "text": "Trade a Pokémon",
+        "rewards": [
+          {
+            "name": "Karrablast",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm588.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 469,
+              "max": 506
+            }
+          },
+          {
+            "name": "Shelmet",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm616.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 325,
+              "max": 357
             }
           }
         ]
@@ -5107,7 +5034,7 @@
         "eggType": "5 km",
         "isAdventureSync": false,
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm850.icon.png",
-        "canBeShiny": false,
+        "canBeShiny": true,
         "combatPower": {
           "min": 599,
           "max": 599

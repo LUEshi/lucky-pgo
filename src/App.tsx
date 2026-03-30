@@ -1,4 +1,5 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
+import { PvpIvChecker } from "./pages/PvpIvChecker";
 import { useLuckyList, type PendingDexPayload } from "./hooks/useLuckyList";
 import { useScrapedDuck } from "./hooks/useScrapedDuck";
 import { scorePokemon } from "./utils/priorityScorer";
@@ -88,6 +89,22 @@ function symmetricDiffRatio(a: Set<number>, b: Set<number>): number {
 }
 
 function App() {
+  const [currentView, setCurrentView] = useState<"app" | "pvp">(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("view") === "pvp" ? "pvp" : "app";
+  });
+
+  function setView(view: "app" | "pvp") {
+    setCurrentView(view);
+    const url = new URL(window.location.href);
+    if (view === "pvp") {
+      url.searchParams.set("view", "pvp");
+    } else {
+      url.searchParams.delete("view");
+    }
+    window.history.replaceState(null, "", url.toString());
+  }
+
   const {
     luckyList,
     importPokemon,
@@ -319,12 +336,24 @@ function App() {
     );
   }
 
+  if (currentView === "pvp") {
+    return <PvpIvChecker onBack={() => setView("app")} />;
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="bg-yellow-400 shadow-sm">
         <div className="max-w-2xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-3">
-            <h1 className="text-xl font-bold text-gray-900">Lucky PGO</h1>
+            <div className="flex items-center gap-2">
+              <h1 className="text-xl font-bold text-gray-900">Lucky PGO</h1>
+              <button
+                onClick={() => setView("pvp")}
+                className="text-xs bg-purple-600 text-white px-2 py-1 rounded font-medium hover:bg-purple-700 transition-colors"
+              >
+                PvP IV
+              </button>
+            </div>
             <div className="flex items-center gap-2">
               <CsvUpload
                 onImport={importPokemon}

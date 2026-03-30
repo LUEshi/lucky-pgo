@@ -19,6 +19,8 @@
     "src/utils/pokemonMatcher.ts",
     "src/utils/eventFilters.ts",
     "src/utils/eventOverlay.ts",
-    "src/types/index.ts"
+    "src/types/index.ts",
+    "src/utils/ivRankEngine.ts",
+    "src/types/pvp.ts"
   ]
 }

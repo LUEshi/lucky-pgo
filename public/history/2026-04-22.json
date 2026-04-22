@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-16",
-  "generatedAt": "2026-04-16T09:50:17.455Z",
+  "date": "2026-04-22",
+  "generatedAt": "2026-04-22T09:53:50.880Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
@@ -17,328 +17,6 @@
           "promocodes": [
             "TH4NKY0UF41RYMUCH"
           ],
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "gbl-memories-in-motion_ultra-league_fantasy-cup-great-league-edition",
-        "name": "Ultra League and Fantasy Cup: Great League Edition | Memories in Motion",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-memories-in-motion_ultra-league_fantasy-cup-great-league-edition/",
-        "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
-        "start": "2026-04-07T20:00:00.000Z",
-        "end": "2026-04-14T20:00:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "kyogre-in-5-star-raid-battles-april-2026",
-        "name": "Kyogre in 5-star Raid Battles",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/kyogre-in-5-star-raid-battles-april-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/kyogre.jpg",
-        "start": "2026-04-08T06:00:00.000",
-        "end": "2026-04-14T22:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Kyogre",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_382_00.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Kyogre",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_382_00_shiny.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "mega-aerodactyl-in-mega-raids-april-2026",
-        "name": "Mega Aerodactyl in Mega Raids",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/mega-aerodactyl-in-mega-raids-april-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-04-08T06:00:00.000",
-        "end": "2026-04-14T22:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Aerodactyl",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm142.fMEGA.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Aerodactyl",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_142_00_shiny.png"
-              },
-              {
-                "name": "Mega Aerodactyl",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm142.fMEGA.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "raidhour20260415",
-        "name": "Groudon Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20260415/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-04-15T18:00:00.000",
-        "end": "2026-04-15T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "replay-riolu-hatch-day-2026",
-        "name": "Replay: Riolu Hatch Day",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/replay-riolu-hatch-day-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-04-18-replay-riolu-hatch-day-2026/replay-riolu-hatch-day-2026.jpg",
-        "start": "2026-04-18T11:00:00.000",
-        "end": "2026-04-18T17:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "sustainability-week-2026",
-        "name": "Sustainability Week 2026",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/sustainability-week-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-04-14-sustainability-week-2026/sustainability-week-2026.jpg",
-        "start": "2026-04-14T10:00:00.000",
-        "end": "2026-04-20T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Seedot",
-                "canBeShiny": true
-              },
-              {
-                "name": "Castform",
-                "canBeShiny": true
-              },
-              {
-                "name": "Foongus",
-                "canBeShiny": true
-              },
-              {
-                "name": "Binacle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Cutiefly",
-                "canBeShiny": true
-              },
-              {
-                "name": "Gossifleur",
-                "canBeShiny": false
-              },
-              {
-                "name": "Silicobra",
-                "canBeShiny": false
-              },
-              {
-                "name": "Toedscool",
-                "canBeShiny": true
-              },
-              {
-                "name": "Wiglett",
-                "canBeShiny": true
-              },
-              {
-                "name": "Togetic",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Corsola wearing pink sunglasses",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Corsola wearing pink sunglasses",
-                "canBeShiny": true
-              },
-              {
-                "name": "Trubbish",
-                "canBeShiny": true
-              },
-              {
-                "name": "Lapras",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Corsola wearing pink sunglasses",
-                "canBeShiny": true
-              }
-            ],
-            "eventEggs": [
-              {
-                "name": "Lapras",
-                "eggDistance": "7 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Togepi",
-                "eggDistance": "7 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Corsola wearing pink sunglasses",
-                "eggDistance": "7 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Castform",
-                "eggDistance": "7 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Trubbish",
-                "eggDistance": "7 km",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch 5 Pokémon",
-                "rewards": [
-                  {
-                    "name": "×10",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×5",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×3",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Catch 10 Pokémon",
-                "rewards": [
-                  {
-                    "name": "Castform",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 15 Pokémon",
-                "rewards": [
-                  {
-                    "name": "Combee",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Cherubi",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Foongus",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Explore 3 km",
-                "rewards": [
-                  {
-                    "name": "Lapras",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Togetic",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Trubbish",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Hatch 2 Eggs",
-                "rewards": [
-                  {
-                    "name": "Galarian Corsola wearing pink sunglasses",
-                    "canBeShiny": true
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-04-20",
-        "name": "Dynamax Regirock during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-04-20/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-04-20T06:00:00.000",
-        "end": "2026-04-20T21:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "gbl-memories-in-motion_master-league_spring-cup-great-league-edition",
-        "name": "Master League and Spring Cup: Great League Edition | Memories in Motion",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-memories-in-motion_master-league_spring-cup-great-league-edition/",
-        "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-        "start": "2026-04-14T20:00:00.000Z",
-        "end": "2026-04-21T20:00:00.000Z",
-        "extraData": {
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
@@ -794,6 +472,22 @@
         }
       },
       {
+        "eventID": "max-mondays-2026-05-04",
+        "name": "Dynamax Cottonee during Max Monday",
+        "eventType": "max-mondays",
+        "heading": "Max Mondays",
+        "link": "https://leekduck.com/events/max-mondays-2026-05-04/",
+        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+        "start": "2026-05-04T06:00:00.000",
+        "end": "2026-05-04T21:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "go-pass-april-2026",
         "name": "GO Pass: April",
         "eventType": "go-pass",
@@ -916,6 +610,22 @@
               }
             ]
           },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "raidhour20260506",
+        "name": "Nihilego Raid Hour",
+        "eventType": "raid-hour",
+        "heading": "Raid Hour",
+        "link": "https://leekduck.com/events/raidhour20260506/",
+        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+        "start": "2026-05-06T18:00:00.000",
+        "end": "2026-05-06T19:00:00.000",
+        "extraData": {
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
@@ -1220,6 +930,22 @@
         }
       },
       {
+        "eventID": "max-mondays-2026-05-11",
+        "name": "Dynamax Growlithe during Max Monday",
+        "eventType": "max-mondays",
+        "heading": "Max Mondays",
+        "link": "https://leekduck.com/events/max-mondays-2026-05-11/",
+        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+        "start": "2026-05-11T06:00:00.000",
+        "end": "2026-05-11T21:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "gbl-memories-in-motion_ultra-league_jungle-cup-great-league-edition",
         "name": "Ultra League and Jungle Cup: Great League Edition | Memories in Motion",
         "eventType": "go-battle-league",
@@ -1228,6 +954,88 @@
         "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
         "start": "2026-05-05T20:00:00.000Z",
         "end": "2026-05-12T20:00:00.000Z",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "mega-camerupt-in-mega-raids-may-2026",
+        "name": "Mega Camerupt in Mega Raids",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/mega-camerupt-in-mega-raids-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+        "start": "2026-05-06T06:00:00.000",
+        "end": "2026-05-13T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Camerupt",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm323.fMEGA.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Camerupt",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_323_00_shiny.png"
+              },
+              {
+                "name": "Mega Camerupt",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm323.fMEGA.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "nihilego-in-5-star-raid-battles-may-2026",
+        "name": "Nihilego in 5-star Raid Battles",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/nihilego-in-5-star-raid-battles-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-05-06T06:00:00.000",
+        "end": "2026-05-13T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Nihilego",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm793.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Nihilego",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm793.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "raidhour20260513",
+        "name": "Buzzwole, Pheromosa, and Xurkitree Raid Hour",
+        "eventType": "raid-hour",
+        "heading": "Raid Hour",
+        "link": "https://leekduck.com/events/raidhour20260513/",
+        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+        "start": "2026-05-13T18:00:00.000",
+        "end": "2026-05-13T19:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -1252,6 +1060,80 @@
         }
       },
       {
+        "eventID": "spring-marathon-2026",
+        "name": "Spring Marathon 2026",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/spring-marathon-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-05-12-spring-marathon-2026/spring-marathon-2026.jpg",
+        "start": "2026-05-12T10:00:00.000",
+        "end": "2026-05-18T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false,
+            "eventEggs": [
+              {
+                "name": "Flower Crown Pichu",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flower Crown Togepi",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flower Crown Happiny",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flittle",
+                "eggDistance": "5 km",
+                "canBeShiny": false
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Cherry Blossom Eevee",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Flower Crown Buneary",
+                    "canBeShiny": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "eventID": "max-mondays-2026-05-18",
+        "name": "Dynamax Registeel during Max Monday",
+        "eventType": "max-mondays",
+        "heading": "Max Mondays",
+        "link": "https://leekduck.com/events/max-mondays-2026-05-18/",
+        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+        "start": "2026-05-18T06:00:00.000",
+        "end": "2026-05-18T21:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "gbl-memories-in-motion_master-league_catch-cup-memories-in-motion-great-league-edition",
         "name": "Master League and Catch Cup: Memories in Motion: Great League Edition | Memories in Motion",
         "eventType": "go-battle-league",
@@ -1260,6 +1142,106 @@
         "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
         "start": "2026-05-12T20:00:00.000Z",
         "end": "2026-05-19T20:00:00.000Z",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-may-2026",
+        "name": "Buzzwole, Pheromosa, and Xurkitree in 5-star Raid Battles",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-05-13T06:00:00.000",
+        "end": "2026-05-20T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Buzzwole",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pheromosa",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png",
+                "canBeShiny": true
+              },
+              {
+                "name": "Xurkitree",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Buzzwole",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.s.icon.png"
+              },
+              {
+                "name": "Pheromosa",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.s.icon.png"
+              },
+              {
+                "name": "Xurkitree",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "mega-glalie-in-mega-raids-may-2026",
+        "name": "Mega Glalie in Mega Raids",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/mega-glalie-in-mega-raids-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+        "start": "2026-05-13T06:00:00.000",
+        "end": "2026-05-20T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Glalie",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm362.fMEGA.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Glalie",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_362_00_shiny.png"
+              },
+              {
+                "name": "Mega Glalie",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm362.fMEGA.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "raidhour20260520",
+        "name": "Tapu Bulu Raid Hour",
+        "eventType": "raid-hour",
+        "heading": "Raid Hour",
+        "link": "https://leekduck.com/events/raidhour20260520/",
+        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+        "start": "2026-05-20T18:00:00.000",
+        "end": "2026-05-20T19:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -1284,6 +1266,22 @@
         }
       },
       {
+        "eventID": "max-mondays-2026-05-25",
+        "name": "Dynamax Combee during Max Monday",
+        "eventType": "max-mondays",
+        "heading": "Max Mondays",
+        "link": "https://leekduck.com/events/max-mondays-2026-05-25/",
+        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
+        "start": "2026-05-25T06:00:00.000",
+        "end": "2026-05-25T21:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "gbl-memories-in-motion_great-league_ultra-league_master-league-split-3",
         "name": "Great League, Ultra League, and Master League | Memories in Motion",
         "eventType": "go-battle-league",
@@ -1292,6 +1290,88 @@
         "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-26-memories-in-motion.jpg",
         "start": "2026-05-19T20:00:00.000Z",
         "end": "2026-05-26T20:00:00.000Z",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "mega-altaria-in-mega-raids-may-2026",
+        "name": "Mega Altaria in Mega Raids",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/mega-altaria-in-mega-raids-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+        "start": "2026-05-20T06:00:00.000",
+        "end": "2026-05-27T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Altaria",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_334_51.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Altaria",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_334_00_shiny.png"
+              },
+              {
+                "name": "Mega Altaria",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_334_51_shiny.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "tapu-bulu-in-5-star-raid-battles-may-2026",
+        "name": "Tapu Bulu in 5-star Raid Battles",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-may-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-05-20T06:00:00.000",
+        "end": "2026-05-27T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Tapu Bulu",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm787.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Tapu Bulu",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm787.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "raidhour20260527",
+        "name": "Tapu Fini Raid Hour",
+        "eventType": "raid-hour",
+        "heading": "Raid Hour",
+        "link": "https://leekduck.com/events/raidhour20260527/",
+        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
+        "start": "2026-05-27T18:00:00.000",
+        "end": "2026-05-27T19:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -1673,6 +1753,103 @@
         }
       },
       {
+        "eventID": "shadow-cresselia-in-shadow-raids-may-june-2026",
+        "name": "Shadow Cresselia in Shadow Raids",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/shadow-cresselia-in-shadow-raids-may-june-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-05-06T06:00:00.000",
+        "end": "2026-06-03T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Cresselia",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Cresselia",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00_shiny.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "mega-medicham-in-mega-raids-may-june-2026",
+        "name": "Mega Medicham in Mega Raids",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/mega-medicham-in-mega-raids-may-june-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
+        "start": "2026-05-27T06:00:00.000",
+        "end": "2026-06-03T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Medicham",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm308.fMEGA.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Medicham",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_308_00_shiny.png"
+              },
+              {
+                "name": "Mega Medicham",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm308.fMEGA.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "tapu-fini-in-5-star-raid-battles-may-june-2026",
+        "name": "Tapu Fini in 5-star Raid Battles",
+        "eventType": "raid-battles",
+        "heading": "Raid Battles",
+        "link": "https://leekduck.com/events/tapu-fini-in-5-star-raid-battles-may-june-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-05-27T06:00:00.000",
+        "end": "2026-06-03T06:00:00.000",
+        "extraData": {
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Tapu Fini",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm788.icon.png",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": [
+              {
+                "name": "Tapu Fini",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm788.s.icon.png"
+              }
+            ]
+          },
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "pokemon-go-fest-2026-chicago",
         "name": "Pokémon GO Fest 2026: Chicago",
         "eventType": "pokemon-go-fest",
@@ -1931,6 +2108,22 @@
         }
       },
       {
+        "eventID": "pokemon-go-fest-2026-global",
+        "name": "Pokémon GO Fest 2026: Global",
+        "eventType": "pokemon-go-fest",
+        "heading": "Pokémon GO Fest",
+        "link": "https://leekduck.com/events/pokemon-go-fest-2026-global/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-11-pokemon-go-fest-2026-global/pokemon-go-fest-2026-global.jpg",
+        "start": "2026-07-11T10:00:00.000",
+        "end": "2026-07-12T18:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "example_event",
         "name": "Example Event Template (Auto ToC Demo)",
         "eventType": "event",
@@ -1949,167 +2142,27 @@
     ],
     "raids": [
       {
-        "name": "Alolan Vulpix",
+        "name": "Foongus",
         "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 463,
-            "max": 504
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
           },
-          "boosted": {
-            "min": 579,
-            "max": 631
-          }
-        },
-        "boostedWeather": [
           {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm37.fALOLA.icon.png"
-      },
-      {
-        "name": "Goomy",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
+            "name": "poison",
+            "image": "https://leekduck.com/assets/img/types/poison.png"
           }
         ],
         "combatPower": {
           "normal": {
             "min": 514,
-            "max": 557
+            "max": 559
           },
           "boosted": {
-            "min": 642,
-            "max": 697
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm704.icon.png"
-      },
-      {
-        "name": "Rookidee",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 344,
-            "max": 380
-          },
-          "boosted": {
-            "min": 430,
-            "max": 476
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm821.icon.png"
-      },
-      {
-        "name": "Sinistea",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ghost",
-            "image": "https://leekduck.com/assets/img/types/ghost.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 603,
-            "max": 650
-          },
-          "boosted": {
-            "min": 754,
-            "max": 813
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm854.icon.png"
-      },
-      {
-        "name": "Ampharos",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1554,
-            "max": 1630
-          },
-          "boosted": {
-            "min": 1943,
-            "max": 2037
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm181.icon.png"
-      },
-      {
-        "name": "Shiftry",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "grass",
-            "image": "https://leekduck.com/assets/img/types/grass.png"
-          },
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1263,
-            "max": 1333
-          },
-          "boosted": {
-            "min": 1579,
-            "max": 1666
+            "min": 643,
+            "max": 699
           }
         },
         "boostedWeather": [
@@ -2118,15 +2171,15 @@
             "image": "https://leekduck.com/assets/img/weather/sunny.png"
           },
           {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+            "name": "cloudy",
+            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm275.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm590.icon.png"
       },
       {
-        "name": "Dhelmise",
-        "tier": "3-Star Raids",
+        "name": "Phantump",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
@@ -2140,12 +2193,12 @@
         ],
         "combatPower": {
           "normal": {
-            "min": 1608,
-            "max": 1685
+            "min": 595,
+            "max": 642
           },
           "boosted": {
-            "min": 2010,
-            "max": 2107
+            "min": 743,
+            "max": 802
           }
         },
         "boostedWeather": [
@@ -2158,16 +2211,176 @@
             "image": "https://leekduck.com/assets/img/weather/sunny.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm781.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm708.icon.png"
       },
       {
-        "name": "Kyogre",
+        "name": "Sandygast",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
+          },
+          {
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 655,
+            "max": 705
+          },
+          "boosted": {
+            "min": 819,
+            "max": 881
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          },
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm769.icon.png"
+      },
+      {
+        "name": "Gossifleur",
+        "tier": "1-Star Raids",
+        "canBeShiny": false,
+        "types": [
+          {
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 347,
+            "max": 384
+          },
+          "boosted": {
+            "min": 434,
+            "max": 480
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm829.icon.png"
+      },
+      {
+        "name": "Vileplume",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
+          },
+          {
+            "name": "poison",
+            "image": "https://leekduck.com/assets/img/types/poison.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1391,
+            "max": 1462
+          },
+          "boosted": {
+            "min": 1739,
+            "max": 1828
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          },
+          {
+            "name": "cloudy",
+            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm45.icon.png"
+      },
+      {
+        "name": "Dugtrio",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 833,
+            "max": 889
+          },
+          "boosted": {
+            "min": 1042,
+            "max": 1112
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm51.icon.png"
+      },
+      {
+        "name": "Torterra",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
+          },
+          {
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1600,
+            "max": 1677
+          },
+          "boosted": {
+            "min": 2000,
+            "max": 2096
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm389.icon.png"
+      },
+      {
+        "name": "Groudon",
         "tier": "5-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "water",
-            "image": "https://leekduck.com/assets/img/types/water.png"
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
           }
         ],
         "combatPower": {
@@ -2182,47 +2395,39 @@
         },
         "boostedWeather": [
           {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm382.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm383.icon.png"
       },
       {
-        "name": "Mega Aerodactyl",
+        "name": "Mega Alakazam",
         "tier": "Mega Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
+            "name": "psychic",
+            "image": "https://leekduck.com/assets/img/types/psychic.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1515,
-            "max": 1590
+            "min": 1666,
+            "max": 1747
           },
           "boosted": {
-            "min": 1894,
-            "max": 1988
+            "min": 2083,
+            "max": 2184
           }
         },
         "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          },
           {
             "name": "windy",
             "image": "https://leekduck.com/assets/img/weather/windy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm142.fMEGA.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm65.fMEGA.icon.png"
       },
       {
         "name": "Shadow Dratini",

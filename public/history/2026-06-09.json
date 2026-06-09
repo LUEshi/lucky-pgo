@@ -1,243 +1,9 @@
 {
-  "date": "2026-06-03",
-  "generatedAt": "2026-06-03T12:51:13.536Z",
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-09T11:31:50.545Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "go-tour-fairy-type-timed-research",
-        "name": "[Promo Code] GO Tour Fairy Type Timed Research",
-        "eventType": "research",
-        "heading": "Research",
-        "link": "https://leekduck.com/events/go-tour-fairy-type-timed-research/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-02-20-go-tour-fairy-type-timed-research/sylveon.jpg",
-        "start": "2026-02-19T19:00:00.000",
-        "end": "2026-03-02T00:00:00.000",
-        "extraData": {
-          "promocodes": [
-            "TH4NKY0UF41RYMUCH"
-          ],
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "tapu-fini-in-5-star-raid-battles-may-june-2026",
-        "name": "Tapu Fini in 5-star Raid Battles",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/tapu-fini-in-5-star-raid-battles-may-june-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-05-27T06:00:00.000",
-        "end": "2026-06-02T22:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Tapu Fini",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm788.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Tapu Fini",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm788.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "mega-medicham-in-mega-raids-may-june-2026",
-        "name": "Mega Medicham in Mega Raids",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/mega-medicham-in-mega-raids-may-june-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-05-27T06:00:00.000",
-        "end": "2026-06-03T06:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Medicham",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm308.fMEGA.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Medicham",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_308_00_shiny.png"
-              },
-              {
-                "name": "Mega Medicham",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm308.fMEGA.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "raidhour20260603",
-        "name": "Reshiram Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20260603/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-06-03T18:00:00.000",
-        "end": "2026-06-03T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemon-go-fest-2026-chicago",
-        "name": "Pokémon GO Fest 2026: Chicago",
-        "eventType": "pokemon-go-fest",
-        "heading": "Pokémon GO Fest",
-        "link": "https://leekduck.com/events/pokemon-go-fest-2026-chicago/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-05-pokemon-go-fest-2026-chicago/pokemon-go-fest-chicago.jpg",
-        "start": "2026-06-05T15:00:00.000Z",
-        "end": "2026-06-08T01:00:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Bulbasaur",
-                "canBeShiny": true
-              },
-              {
-                "name": "Caterpie wearing a Poké Ball hat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Alolan Raichu",
-                "canBeShiny": true
-              },
-              {
-                "name": "Electabuzz",
-                "canBeShiny": true
-              },
-              {
-                "name": "Jolteon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Dratini",
-                "canBeShiny": true
-              },
-              {
-                "name": "Unown",
-                "canBeShiny": true
-              },
-              {
-                "name": "Houndour",
-                "canBeShiny": true
-              },
-              {
-                "name": "Lileep",
-                "canBeShiny": true
-              },
-              {
-                "name": "Combee",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mudbray",
-                "canBeShiny": true
-              },
-              {
-                "name": "Comfey",
-                "canBeShiny": false
-              },
-              {
-                "name": "Dhelmise",
-                "canBeShiny": true
-              },
-              {
-                "name": "Varoom",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Corsola",
-                "canBeShiny": true
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Paldean Tauros (Blaze)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zapdos",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mewtwo",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Raikou",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Primal Kyogre",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Primal Groudon",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zapdos",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Raikou",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kyogre",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Groudon",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
       {
         "eventID": "sparks-caretaking-quest",
         "name": "Spark's Caretaking Quest",
@@ -683,35 +449,16 @@
             ],
             "eventResearch": [
               {
-                "task": "???",
+                "task": "Catch 10 Pokémon",
                 "rewards": [
                   {
                     "name": "Charmander",
                     "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
+                  },
                   {
-                    "name": "Mankey",
+                    "name": "Fletchling",
                     "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
-                  {
-                    "name": "Hisuian Growlithe",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
+                  },
                   {
                     "name": "Machop",
                     "canBeShiny": true
@@ -719,8 +466,16 @@
                 ]
               },
               {
-                "task": "???",
+                "task": "Battle in a raid with your buddy",
                 "rewards": [
+                  {
+                    "name": "Rockruff",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Scraggy",
+                    "canBeShiny": true
+                  },
                   {
                     "name": "Scyther",
                     "canBeShiny": true
@@ -728,8 +483,12 @@
                 ]
               },
               {
-                "task": "???",
+                "task": "Win a raid",
                 "rewards": [
+                  {
+                    "name": "Rockruff",
+                    "canBeShiny": true
+                  },
                   {
                     "name": "Flareon",
                     "canBeShiny": true
@@ -737,34 +496,7 @@
                 ]
               },
               {
-                "task": "???",
-                "rewards": [
-                  {
-                    "name": "Slugma",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
-                  {
-                    "name": "Scraggy",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
-                  {
-                    "name": "Fletchling",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "???",
+                "task": "Win 2 raids",
                 "rewards": [
                   {
                     "name": "Honedge",
@@ -773,10 +505,27 @@
                 ]
               },
               {
-                "task": "???",
+                "task": "Use a Charged Attack",
                 "rewards": [
                   {
-                    "name": "Rockruff",
+                    "name": "Hisuian Growlithe",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Slugma",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Power up Pokémon 5 times",
+                "rewards": [
+                  {
+                    "name": "Mankey",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Scraggy",
                     "canBeShiny": true
                   }
                 ]
@@ -787,21 +536,6 @@
             "bosses": [
               {
                 "name": "Hisuian Growlithe",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Machamp",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scizor",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magcargo",
                 "image": "",
                 "canBeShiny": true
               },
@@ -817,6 +551,21 @@
               },
               {
                 "name": "Rockruff",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Machamp",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Scizor",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Magcargo",
                 "image": "",
                 "canBeShiny": true
               }
@@ -1351,12 +1100,12 @@
         }
       },
       {
-        "eventID": "raid-day-june-2026",
-        "name": "Mega Raid Day",
+        "eventID": "skarmory-super-mega-raid-day-2026",
+        "name": "Skarmory Super Mega Raid Day",
         "eventType": "raid-day",
         "heading": "Raid Day",
-        "link": "https://leekduck.com/events/raid-day-june-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "link": "https://leekduck.com/events/skarmory-super-mega-raid-day-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-27-skarmory-super-mega-raid-day-2026/skarmory-super-mega-raid-day-2026.jpg",
         "start": "2026-06-27T14:00:00.000",
         "end": "2026-06-27T17:00:00.000",
         "extraData": {
@@ -1367,9 +1116,9 @@
           "raidbattles": {
             "bosses": [
               {
-                "name": "Mega",
+                "name": "Mega Skarmory",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               }
             ],
             "shinies": []
@@ -2521,12 +2270,22 @@
                 "canBeShiny": true
               },
               {
+                "name": "Gible",
+                "eggDistance": "10 km",
+                "canBeShiny": true
+              },
+              {
                 "name": "Druddigon",
                 "eggDistance": "10 km",
                 "canBeShiny": true
               },
               {
                 "name": "Drampa",
+                "eggDistance": "10 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Toxel",
                 "eggDistance": "10 km",
                 "canBeShiny": true
               }
@@ -2563,76 +2322,6 @@
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemon-fossil-museum-chicago-2026",
-        "name": "Pokemon Fossil Museum - Chicago",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/pokemon-fossil-museum-chicago-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-05-22-pokemon-fossil-museum-chicago-2026/pokemon-fossil-museum-chicago-2026.jpg",
-        "start": "2026-05-22T09:00:00.000",
-        "end": "2027-04-11T17:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Omanyte",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kabuto",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Take snapshots of 5 different wild Pokémon",
-                "rewards": [
-                  {
-                    "name": "Excavator Pikachu",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 8 Rock‑type Pokémon",
-                "rewards": [
-                  {
-                    "name": "Excavator Pikachu",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Use 5 Berries to help catch Pokémon",
-                "rewards": [
-                  {
-                    "name": "Excavator Pikachu",
-                    "canBeShiny": true
-                  }
-                ]
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Excavator Pikachu",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Aerodactyl",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
           }
         }
       }
@@ -3161,6 +2850,153 @@
     ],
     "research": [
       {
+        "text": "Catch 10 Pokémon",
+        "rewards": [
+          {
+            "name": "Charmander",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 387,
+              "max": 420
+            }
+          },
+          {
+            "name": "Machop",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm66.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 509,
+              "max": 548
+            }
+          },
+          {
+            "name": "Fletchling",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm661.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 313,
+              "max": 343
+            }
+          }
+        ]
+      },
+      {
+        "text": "Battle in a raid with your buddy",
+        "rewards": [
+          {
+            "name": "Scyther",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 1104,
+              "max": 1160
+            }
+          },
+          {
+            "name": "Scraggy",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm559.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 549,
+              "max": 588
+            }
+          },
+          {
+            "name": "Rockruff",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm744.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 374,
+              "max": 407
+            }
+          }
+        ]
+      },
+      {
+        "text": "Win a raid",
+        "rewards": [
+          {
+            "name": "Flareon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm136.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 1239,
+              "max": 1298
+            }
+          },
+          {
+            "name": "Rockruff",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm744.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 374,
+              "max": 407
+            }
+          }
+        ]
+      },
+      {
+        "text": "Win 2 raids",
+        "rewards": [
+          {
+            "name": "Honedge",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm679.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 556,
+              "max": 595
+            }
+          }
+        ]
+      },
+      {
+        "text": "Use a Charged Attack",
+        "rewards": [
+          {
+            "name": "Hisuian Growlithe",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 527,
+              "max": 566
+            }
+          },
+          {
+            "name": "Slugma",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm218.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 351,
+              "max": 383
+            }
+          }
+        ]
+      },
+      {
+        "text": "Power up Pokémon 5 times",
+        "rewards": [
+          {
+            "name": "Mankey",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm56.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 462,
+              "max": 499
+            }
+          },
+          {
+            "name": "Scraggy",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm559.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 549,
+              "max": 588
+            }
+          }
+        ]
+      },
+      {
         "text": "Explore 1 km",
         "rewards": [
           {
@@ -3304,12 +3140,30 @@
         "type": "catch",
         "rewards": [
           {
+            "name": "Dratini",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 397,
+              "max": 430
+            }
+          },
+          {
             "name": "Bagon",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 459,
               "max": 495
+            }
+          },
+          {
+            "name": "Axew",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm610.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 547,
+              "max": 586
             }
           }
         ]
@@ -3970,6 +3824,15 @@
         "type": "throw",
         "rewards": [
           {
+            "name": "Larvitar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm246.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 411,
+              "max": 445
+            }
+          },
+          {
             "name": "Beldum",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm374.icon.png",
             "canBeShiny": true,
@@ -4069,8 +3932,8 @@
         "type": "throw",
         "rewards": [
           {
-            "name": "Spinda 1",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f00.icon.png",
+            "name": "Spinda 2",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f01.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 486,
@@ -4078,8 +3941,8 @@
             }
           },
           {
-            "name": "Spinda 2",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f01.icon.png",
+            "name": "Spinda 3",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f02.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 486,
@@ -5156,6 +5019,15 @@
               "min": 469,
               "max": 506
             }
+          },
+          {
+            "name": "Shelmet",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm616.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 325,
+              "max": 357
+            }
           }
         ]
       },
@@ -6105,20 +5977,6 @@
         "rarity": 3
       },
       {
-        "name": "Bagon",
-        "eggType": "10 km",
-        "isAdventureSync": true,
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
-        "canBeShiny": true,
-        "combatPower": {
-          "min": 660,
-          "max": 660
-        },
-        "isRegional": false,
-        "isGiftExchange": false,
-        "rarity": 1
-      },
-      {
         "name": "Druddigon",
         "eggType": "10 km",
         "isAdventureSync": true,
@@ -6133,6 +5991,34 @@
         "rarity": 1
       },
       {
+        "name": "Toxel",
+        "eggType": "10 km",
+        "isAdventureSync": true,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm848.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 415,
+          "max": 415
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Bagon",
+        "eggType": "10 km",
+        "isAdventureSync": true,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 660,
+          "max": 660
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
         "name": "Drampa",
         "eggType": "10 km",
         "isAdventureSync": true,
@@ -6141,6 +6027,20 @@
         "combatPower": {
           "min": 1665,
           "max": 1665
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Gible",
+        "eggType": "10 km",
+        "isAdventureSync": true,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm443.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 635,
+          "max": 635
         },
         "isRegional": false,
         "isGiftExchange": false,

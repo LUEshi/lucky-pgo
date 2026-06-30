@@ -1,168 +1,9 @@
 {
-  "date": "2026-06-24",
-  "generatedAt": "2026-06-24T11:18:26.417Z",
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T11:22:22.123Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "gbl-forever-forward_master-league-mega-edition_sunshine-cup-great-league-edition",
-        "name": "Master League: Mega Edition and Sunshine Cup: Great League Edition | Forever Forward",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-forever-forward_master-league-mega-edition_sunshine-cup-great-league-edition/",
-        "image": "https://cdn.leekduck.com/assets/img/events/gobattleleague-master-key.jpg",
-        "start": "2026-06-16T20:00:00.000Z",
-        "end": "2026-06-23T20:00:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "necrozma-in-5-star-raid-battles-june-2026",
-        "name": "Necrozma in 5-star Raid Battles",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/necrozma-in-5-star-raid-battles-june-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-06-17T06:00:00.000",
-        "end": "2026-06-23T22:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Necrozma",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm800.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Necrozma",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/poke_capture_0800_000_uk_n_00000000_f_r.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "mega-scizor-in-mega-raids-june-2026",
-        "name": "Mega Scizor in Mega Raids",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/mega-scizor-in-mega-raids-june-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-06-17T06:00:00.000",
-        "end": "2026-06-24T06:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Scizor",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm212.fMEGA.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Scizor",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_212_00_shiny.png"
-              },
-              {
-                "name": "Mega Scizor",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm212.fMEGA.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "raidhour20260624",
-        "name": "Celesteela and Kartana Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20260624/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-06-24T18:00:00.000",
-        "end": "2026-06-24T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemonspotlighthour2026-06-25",
-        "name": "Wingull Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-06-25/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-06-25T18:00:00.000",
-        "end": "2026-06-25T19:00:00.000",
-        "extraData": {
-          "spotlight": {
-            "name": "Wingull",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_278_00.png",
-            "bonus": "2× Catch Stardust",
-            "list": [
-              {
-                "name": "Wingull",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_278_00.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Wingull",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "skarmory-super-mega-raid-day-2026",
-        "name": "Skarmory Super Mega Raid Day",
-        "eventType": "raid-day",
-        "heading": "Raid Day",
-        "link": "https://leekduck.com/events/skarmory-super-mega-raid-day-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-06-27-skarmory-super-mega-raid-day-2026/skarmory-super-mega-raid-day-2026.jpg",
-        "start": "2026-06-27T14:00:00.000",
-        "end": "2026-06-27T17:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Skarmory",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
       {
         "eventID": "flying-taxi-2026",
         "name": "Flying Taxi",
@@ -334,7 +175,7 @@
             "hasFieldResearchTasks": true,
             "eventResearch": [
               {
-                "task": "???",
+                "task": "Defeat a Team GO Rocket Grunt",
                 "rewards": [
                   {
                     "name": "×1",
@@ -343,17 +184,12 @@
                 ]
               },
               {
-                "task": "???",
+                "task": "Purify 3 Shadow Pokémon",
                 "rewards": [
                   {
                     "name": "×1",
                     "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "???",
-                "rewards": [
+                  },
                   {
                     "name": "×1",
                     "canBeShiny": false
@@ -411,7 +247,7 @@
               {
                 "name": "Dialga",
                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_483_00.png",
-                "canBeShiny": false
+                "canBeShiny": true
               }
             ],
             "shinies": [
@@ -565,7 +401,48 @@
         "extraData": {
           "generic": {
             "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasFieldResearchTasks": false,
+            "eventResearch": [
+              {
+                "task": "Defeat a Team GO Rocket Grunt",
+                "rewards": [
+                  {
+                    "name": "Electabuzz",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Magmar",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Make 5 Nice Throws",
+                "rewards": [
+                  {
+                    "name": "Electabuzz",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Magmar",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Explore 1 km",
+                "rewards": [
+                  {
+                    "name": "Electabuzz",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Magmar",
+                    "canBeShiny": true
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -674,8 +551,8 @@
                   {
                     "text": "Make 5 Great Throws",
                     "reward": {
-                      "text": "Star Piece ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Star%20Piece.png"
+                      "text": "Incubator ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Incubator.png"
                     }
                   },
                   {
@@ -1329,12 +1206,12 @@
               {
                 "name": "Dialga",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Origin Forme Dialga",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Palkia",
@@ -1494,7 +1371,7 @@
               {
                 "name": "Solgaleo",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Lunala",
@@ -1644,7 +1521,7 @@
               {
                 "name": "Origin Forme Dialga",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Origin Forme Palkia",
@@ -1814,7 +1691,7 @@
               {
                 "name": "Dialga",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Palkia",
@@ -1844,7 +1721,7 @@
               {
                 "name": "Solgaleo",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Lunala",
@@ -1929,7 +1806,7 @@
               {
                 "name": "Origin Forme Dialga",
                 "image": "",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Origin Forme Palkia",
@@ -2341,34 +2218,82 @@
         }
       },
       {
-        "eventID": "weekend-event-july-2026",
-        "name": "Weekend Event",
+        "eventID": "special-anniversary-pikachu-celebration-2026",
+        "name": "Special Anniversary Pikachu Celebration",
         "eventType": "event",
         "heading": "Event",
-        "link": "https://leekduck.com/events/weekend-event-july-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-07-18T10:00:00.000",
-        "end": "2026-07-18T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "july-event-2026",
-        "name": "July Event",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/july-event-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "link": "https://leekduck.com/events/special-anniversary-pikachu-celebration-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-13-special-anniversary-pikachu-celebration-2026/special-anniversary-pikachu-celebration-2026.jpg",
         "start": "2026-07-13T10:00:00.000",
         "end": "2026-07-20T20:00:00.000",
         "extraData": {
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Pikachu wearing a Tricks & Treats costume",
+                "canBeShiny": true
+              },
+              {
+                "name": "Winter Carnival Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Summer Style Pikachu",
+                "canBeShiny": true
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Dapper Pikachu with red accents",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with yellow accents",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with blue accents",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Safari Hat Pikachu",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu wearing a varsity jacket",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Amethyst Crown Pikachu",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "World Championships 2022 Pikachu",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "World Championships 2023 Pikachu",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "World Championships 2024 Pikachu",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
@@ -2401,6 +2326,61 @@
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "happy-birthday-professor-willow-2026",
+        "name": "Happy Birthday, Professor Willow!",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/happy-birthday-professor-willow-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-21-happy-birthday-professor-willow-2026/happy-birthday-professor-willow-2026.jpg",
+        "start": "2026-07-21T10:00:00.000",
+        "end": "2026-07-21T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false,
+            "eventResearch": [
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Professor Willow's assistant Pikachu",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "×1",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "×",
+                    "canBeShiny": false
+                  }
+                ]
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Professor Willow's assistant Pikachu",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
@@ -2522,14 +2502,14 @@
         }
       },
       {
-        "eventID": "july-event-2026-july-21",
-        "name": "July Event - July 21",
+        "eventID": "ozone-ascent-2026",
+        "name": "Ozone Ascent",
         "eventType": "event",
         "heading": "Event",
-        "link": "https://leekduck.com/events/july-event-2026-july-21/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-07-21T10:00:00.000",
-        "end": "2026-07-27T20:00:00.000",
+        "link": "https://leekduck.com/events/ozone-ascent-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-25-ozone-ascent-2026/ozone-ascent-2026.jpg",
+        "start": "2026-07-25T10:00:00.000",
+        "end": "2026-07-26T20:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -2619,7 +2599,7 @@
               {
                 "name": "Solgaleo",
                 "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm791.icon.png",
-                "canBeShiny": false
+                "canBeShiny": true
               }
             ],
             "shinies": [
@@ -3415,41 +3395,49 @@
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm962.icon.png"
       },
       {
-        "name": "Necrozma",
+        "name": "Celesteela",
         "tier": "5-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
+            "name": "steel",
+            "image": "https://leekduck.com/assets/img/types/steel.png"
+          },
+          {
+            "name": "flying",
+            "image": "https://leekduck.com/assets/img/types/flying.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 2018,
-            "max": 2104
+            "min": 1694,
+            "max": 1772
           },
           "boosted": {
-            "min": 2522,
-            "max": 2630
+            "min": 2117,
+            "max": 2216
           }
         },
         "boostedWeather": [
+          {
+            "name": "snow",
+            "image": "https://leekduck.com/assets/img/weather/snowy.png"
+          },
           {
             "name": "windy",
             "image": "https://leekduck.com/assets/img/weather/windy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm800.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm797.icon.png"
       },
       {
-        "name": "Mega Scizor",
-        "tier": "Mega Raids",
+        "name": "Kartana",
+        "tier": "5-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
           },
           {
             "name": "steel",
@@ -3458,25 +3446,61 @@
         ],
         "combatPower": {
           "normal": {
-            "min": 1636,
-            "max": 1714
+            "min": 2010,
+            "max": 2101
           },
           "boosted": {
-            "min": 2046,
-            "max": 2143
+            "min": 2512,
+            "max": 2626
           }
         },
         "boostedWeather": [
           {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
           },
           {
             "name": "snow",
             "image": "https://leekduck.com/assets/img/weather/snowy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm212.fMEGA.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm798.icon.png"
+      },
+      {
+        "name": "Mega Pidgeot",
+        "tier": "Mega Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "normal",
+            "image": "https://leekduck.com/assets/img/types/normal.png"
+          },
+          {
+            "name": "flying",
+            "image": "https://leekduck.com/assets/img/types/flying.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1151,
+            "max": 1216
+          },
+          "boosted": {
+            "min": 1439,
+            "max": 1521
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "partly cloudy",
+            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
+          },
+          {
+            "name": "windy",
+            "image": "https://leekduck.com/assets/img/weather/windy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm18.fMEGA.icon.png"
       },
       {
         "name": "Shadow Horsea",
@@ -3837,6 +3861,75 @@
             "combatPower": {
               "min": 258,
               "max": 285
+            }
+          }
+        ]
+      },
+      {
+        "text": "Defeat a Team GO Rocket Grunt",
+        "rewards": [
+          {
+            "name": "Electabuzz",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm125.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 949,
+              "max": 1000
+            }
+          },
+          {
+            "name": "Magmar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm126.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 973,
+              "max": 1026
+            }
+          }
+        ]
+      },
+      {
+        "text": "Make 5 Nice Throws",
+        "rewards": [
+          {
+            "name": "Electabuzz",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm125.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 949,
+              "max": 1000
+            }
+          },
+          {
+            "name": "Magmar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm126.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 973,
+              "max": 1026
+            }
+          }
+        ]
+      },
+      {
+        "text": "Explore 1 km",
+        "rewards": [
+          {
+            "name": "Electabuzz",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm125.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 949,
+              "max": 1000
+            }
+          },
+          {
+            "name": "Magmar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm126.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 973,
+              "max": 1026
             }
           }
         ]
@@ -6897,15 +6990,6 @@
             "canBeShiny": false
           },
           {
-            "name": "Machamp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm68.icon.png",
-            "types": [
-              "fighting"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
             "name": "Rhyperior",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm464.icon.png",
             "types": [
@@ -6914,15 +6998,24 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Machamp",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm68.icon.png",
+            "types": [
+              "fighting"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ],
         "thirdPokemon": [
           {
-            "name": "Landorus (Incarnate)",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm645.fINCARNATE.icon.png",
+            "name": "Reshiram",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm643.icon.png",
             "types": [
-              "ground",
-              "flying"
+              "dragon",
+              "fire"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -6935,10 +7028,10 @@
         "type": "",
         "firstPokemon": [
           {
-            "name": "Snorlax",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm143.icon.png",
+            "name": "Axew",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm610.icon.png",
             "types": [
-              "normal"
+              "dragon"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -6946,11 +7039,10 @@
         ],
         "secondPokemon": [
           {
-            "name": "Gardevoir",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm282.icon.png",
+            "name": "Snorlax",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm143.icon.png",
             "types": [
-              "psychic",
-              "fairy"
+              "normal"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -7015,10 +7107,11 @@
         "type": "",
         "firstPokemon": [
           {
-            "name": "Pineco",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm204.icon.png",
+            "name": "Tyrunt",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm696.icon.png",
             "types": [
-              "bug"
+              "rock",
+              "dragon"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7036,10 +7129,11 @@
             "canBeShiny": false
           },
           {
-            "name": "Gigalith",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm526.icon.png",
+            "name": "Golurk",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm623.icon.png",
             "types": [
-              "rock"
+              "ground",
+              "ghost"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -7056,16 +7150,6 @@
           }
         ],
         "thirdPokemon": [
-          {
-            "name": "Scizor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm212.icon.png",
-            "types": [
-              "bug",
-              "steel"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Alakazam",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm65.icon.png",
@@ -7084,6 +7168,16 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Scizor",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm212.icon.png",
+            "types": [
+              "bug",
+              "steel"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -7093,26 +7187,17 @@
         "type": "",
         "firstPokemon": [
           {
-            "name": "Duskull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm355.icon.png",
+            "name": "Amaura",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm698.icon.png",
             "types": [
-              "ghost"
+              "rock",
+              "ice"
             ],
             "isEncounter": true,
             "canBeShiny": true
           }
         ],
         "secondPokemon": [
-          {
-            "name": "Ferrothorn",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm598.icon.png",
-            "types": [
-              "grass",
-              "steel"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Blastoise",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm9.icon.png",
@@ -7131,9 +7216,28 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Ferrothorn",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm598.icon.png",
+            "types": [
+              "grass",
+              "steel"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ],
         "thirdPokemon": [
+          {
+            "name": "Milotic",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm350.icon.png",
+            "types": [
+              "water"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
           {
             "name": "Houndoom",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm229.icon.png",
@@ -7153,15 +7257,6 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
-          {
-            "name": "Milotic",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm350.icon.png",
-            "types": [
-              "water"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
           }
         ]
       },
@@ -7171,18 +7266,8 @@
         "type": "normal",
         "firstPokemon": [
           {
-            "name": "Stufful",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm759.icon.png",
-            "types": [
-              "normal",
-              "fighting"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Meowth",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm52.icon.png",
+            "name": "Teddiursa",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm216.icon.png",
             "types": [
               "normal"
             ],
@@ -7190,11 +7275,20 @@
             "canBeShiny": true
           },
           {
-            "name": "Swablu",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm333.icon.png",
+            "name": "Hoothoot",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm163.icon.png",
             "types": [
               "normal",
               "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Porygon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm137.icon.png",
+            "types": [
+              "normal"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7202,10 +7296,20 @@
         ],
         "secondPokemon": [
           {
-            "name": "Teddiursa",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm216.icon.png",
+            "name": "Loudred",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm294.icon.png",
             "types": [
               "normal"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Stufful",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm759.icon.png",
+            "types": [
+              "normal",
+              "fighting"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7219,18 +7323,18 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
-          },
-          {
-            "name": "Loudred",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm294.icon.png",
-            "types": [
-              "normal"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
+          {
+            "name": "Ursaring",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm217.icon.png",
+            "types": [
+              "normal"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
           {
             "name": "Swellow",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm277.icon.png",
@@ -7249,15 +7353,6 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
-          {
-            "name": "Ursaring",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm217.icon.png",
-            "types": [
-              "normal"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
           }
         ]
       },
@@ -7266,15 +7361,6 @@
         "title": "Team GO Rocket Grunt",
         "type": "fire",
         "firstPokemon": [
-          {
-            "name": "Vulpix",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm37.icon.png",
-            "types": [
-              "fire"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
           {
             "name": "Litwick",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm607.icon.png",
@@ -7286,8 +7372,17 @@
             "canBeShiny": true
           },
           {
-            "name": "Fennekin",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm653.icon.png",
+            "name": "Ponyta",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm77.icon.png",
+            "types": [
+              "fire"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Torchic",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm255.icon.png",
             "types": [
               "fire"
             ],
@@ -7302,39 +7397,31 @@
             "types": [
               "fire"
             ],
-            "isEncounter": true,
-            "canBeShiny": true
+            "isEncounter": false,
+            "canBeShiny": false
           },
           {
-            "name": "Numel",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm322.icon.png",
+            "name": "Blaziken",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm257.icon.png",
             "types": [
               "fire",
-              "ground"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Braixen",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm654.icon.png",
-            "types": [
-              "fire"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          }
-        ],
-        "thirdPokemon": [
-          {
-            "name": "Magmortar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm467.icon.png",
-            "types": [
-              "fire"
+              "fighting"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
+          {
+            "name": "Camerupt",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm323.icon.png",
+            "types": [
+              "fire",
+              "ground"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          }
+        ],
+        "thirdPokemon": [
           {
             "name": "Darmanitan",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm555.fSTANDARD.icon.png",
@@ -7353,6 +7440,15 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Magmortar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm467.icon.png",
+            "types": [
+              "fire"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -7362,48 +7458,8 @@
         "type": "water",
         "firstPokemon": [
           {
-            "name": "Froakie",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm656.icon.png",
-            "types": [
-              "water"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Krabby",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm98.icon.png",
-            "types": [
-              "water"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Dewpider",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
-            "types": [
-              "water",
-              "bug"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          }
-        ],
-        "secondPokemon": [
-          {
-            "name": "Carvanha",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm318.icon.png",
-            "types": [
-              "water",
-              "dark"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Frogadier",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm657.icon.png",
+            "name": "Mudkip",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm258.icon.png",
             "types": [
               "water"
             ],
@@ -7419,25 +7475,66 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
+          },
+          {
+            "name": "Krabby",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm98.icon.png",
+            "types": [
+              "water"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
-        "thirdPokemon": [
+        "secondPokemon": [
           {
-            "name": "Greninja",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm658.icon.png",
+            "name": "Dewpider",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
+            "types": [
+              "water",
+              "bug"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Swampert",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm260.icon.png",
+            "types": [
+              "water",
+              "ground"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Sharpedo",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm319.icon.png",
             "types": [
               "water",
               "dark"
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
+          }
+        ],
+        "thirdPokemon": [
           {
             "name": "Walrein",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm365.icon.png",
             "types": [
               "ice",
               "water"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Greninja",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm658.icon.png",
+            "types": [
+              "water",
+              "dark"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -7462,6 +7559,15 @@
           {
             "name": "Magikarp",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm129.icon.png",
+            "types": [
+              "water"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Feebas",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm349.icon.png",
             "types": [
               "water"
             ],
@@ -7508,16 +7614,6 @@
         "type": "electric",
         "firstPokemon": [
           {
-            "name": "Helioptile",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm694.icon.png",
-            "types": [
-              "electric",
-              "normal"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
             "name": "Voltorb",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm100.icon.png",
             "types": [
@@ -7531,6 +7627,16 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm403.icon.png",
             "types": [
               "electric"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Helioptile",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm694.icon.png",
+            "types": [
+              "electric",
+              "normal"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7577,19 +7683,19 @@
             "canBeShiny": false
           },
           {
-            "name": "Galvantula",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm596.icon.png",
+            "name": "Ampharos",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm181.icon.png",
             "types": [
-              "bug",
               "electric"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Ampharos",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm181.icon.png",
+            "name": "Galvantula",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm596.icon.png",
             "types": [
+              "bug",
               "electric"
             ],
             "isEncounter": false,
@@ -7603,36 +7709,6 @@
         "type": "grass",
         "firstPokemon": [
           {
-            "name": "Chespin",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm650.icon.png",
-            "types": [
-              "grass"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Morelull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm755.icon.png",
-            "types": [
-              "grass",
-              "fairy"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Cacnea",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm331.icon.png",
-            "types": [
-              "grass"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          }
-        ],
-        "secondPokemon": [
-          {
             "name": "Phantump",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm708.icon.png",
             "types": [
@@ -7643,23 +7719,53 @@
             "canBeShiny": true
           },
           {
-            "name": "Lileep",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm345.icon.png",
+            "name": "Treecko",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm252.icon.png",
             "types": [
-              "rock",
               "grass"
             ],
             "isEncounter": true,
             "canBeShiny": true
           },
           {
-            "name": "Quilladin",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm651.icon.png",
+            "name": "Tangela",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm114.icon.png",
             "types": [
               "grass"
             ],
             "isEncounter": true,
             "canBeShiny": true
+          }
+        ],
+        "secondPokemon": [
+          {
+            "name": "Lileep",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm345.icon.png",
+            "types": [
+              "rock",
+              "grass"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Sceptile",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm254.icon.png",
+            "types": [
+              "grass"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Morelull",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm755.icon.png",
+            "types": [
+              "grass",
+              "fairy"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ],
         "thirdPokemon": [
@@ -7674,20 +7780,20 @@
             "canBeShiny": false
           },
           {
-            "name": "Cradily",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm346.icon.png",
+            "name": "Trevenant",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm709.icon.png",
             "types": [
-              "rock",
+              "ghost",
               "grass"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Trevenant",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm709.icon.png",
+            "name": "Cradily",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm346.icon.png",
             "types": [
-              "ghost",
+              "rock",
               "grass"
             ],
             "isEncounter": false,
@@ -7701,6 +7807,25 @@
         "type": "ice",
         "firstPokemon": [
           {
+            "name": "Seel",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm86.icon.png",
+            "types": [
+              "water"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Delibird",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm225.icon.png",
+            "types": [
+              "ice",
+              "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
             "name": "Spheal",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm363.icon.png",
             "types": [
@@ -7709,29 +7834,19 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
-          },
-          {
-            "name": "Swinub",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm220.icon.png",
-            "types": [
-              "ice",
-              "ground"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Sneasel",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm215.icon.png",
-            "types": [
-              "dark",
-              "ice"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
           }
         ],
         "secondPokemon": [
+          {
+            "name": "Sealeo",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm364.icon.png",
+            "types": [
+              "ice",
+              "water"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
           {
             "name": "Froslass",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm478.icon.png",
@@ -7751,28 +7866,9 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
-          {
-            "name": "Sealeo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm364.icon.png",
-            "types": [
-              "ice",
-              "water"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
           }
         ],
         "thirdPokemon": [
-          {
-            "name": "Glalie",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm362.icon.png",
-            "types": [
-              "ice"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Aurorus",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm699.icon.png",
@@ -7789,6 +7885,15 @@
             "types": [
               "ice",
               "ghost"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Glalie",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm362.icon.png",
+            "types": [
+              "ice"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -7810,8 +7915,8 @@
             "canBeShiny": true
           },
           {
-            "name": "Machop",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm66.icon.png",
+            "name": "Mankey",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm56.icon.png",
             "types": [
               "fighting"
             ],
@@ -7819,8 +7924,8 @@
             "canBeShiny": true
           },
           {
-            "name": "Mankey",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm56.icon.png",
+            "name": "Machop",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm66.icon.png",
             "types": [
               "fighting"
             ],
@@ -7859,20 +7964,20 @@
         ],
         "thirdPokemon": [
           {
-            "name": "Annihilape",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm979.icon.png",
+            "name": "Conkeldurr",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm534.icon.png",
             "types": [
-              "fighting",
-              "ghost"
+              "fighting"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Conkeldurr",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm534.icon.png",
+            "name": "Annihilape",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm979.icon.png",
             "types": [
-              "fighting"
+              "fighting",
+              "ghost"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -7927,10 +8032,11 @@
         ],
         "secondPokemon": [
           {
-            "name": "Nidorina",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm30.icon.png",
+            "name": "Galarian Weezing",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.fGALARIAN.icon.png",
             "types": [
-              "poison"
+              "poison",
+              "fairy"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7945,11 +8051,10 @@
             "canBeShiny": true
           },
           {
-            "name": "Galarian Weezing",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.fGALARIAN.icon.png",
+            "name": "Nidorina",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm30.icon.png",
             "types": [
-              "poison",
-              "fairy"
+              "poison"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -7957,10 +8062,9 @@
         ],
         "thirdPokemon": [
           {
-            "name": "Amoonguss",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm591.icon.png",
+            "name": "Weezing",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.icon.png",
             "types": [
-              "grass",
               "poison"
             ],
             "isEncounter": false,
@@ -7977,9 +8081,10 @@
             "canBeShiny": false
           },
           {
-            "name": "Weezing",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.icon.png",
+            "name": "Amoonguss",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm591.icon.png",
             "types": [
+              "grass",
               "poison"
             ],
             "isEncounter": false,
@@ -7993,19 +8098,11 @@
         "type": "ground",
         "firstPokemon": [
           {
-            "name": "Sandshrew",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm27.icon.png",
+            "name": "Rhyhorn",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm111.icon.png",
             "types": [
-              "ground"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Trapinch",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm328.icon.png",
-            "types": [
-              "ground"
+              "ground",
+              "rock"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -8019,9 +8116,28 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
+          },
+          {
+            "name": "Trapinch",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm328.icon.png",
+            "types": [
+              "ground"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "secondPokemon": [
+          {
+            "name": "Gligar",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm207.icon.png",
+            "types": [
+              "ground",
+              "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
           {
             "name": "Claydol",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm344.icon.png",
@@ -8041,16 +8157,6 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
-          },
-          {
-            "name": "Gligar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm207.icon.png",
-            "types": [
-              "ground",
-              "flying"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
@@ -8065,20 +8171,20 @@
             "canBeShiny": false
           },
           {
-            "name": "Flygon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm330.icon.png",
+            "name": "Hippowdon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm450.icon.png",
             "types": [
-              "ground",
-              "dragon"
+              "ground"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Hippowdon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm450.icon.png",
+            "name": "Flygon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm330.icon.png",
             "types": [
-              "ground"
+              "ground",
+              "dragon"
             ],
             "isEncounter": false,
             "canBeShiny": false
@@ -8091,28 +8197,27 @@
         "type": "flying",
         "firstPokemon": [
           {
-            "name": "Swablu",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm333.icon.png",
-            "types": [
-              "normal",
-              "flying"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Pidgey",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm16.icon.png",
-            "types": [
-              "normal",
-              "flying"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
             "name": "Taillow",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm276.icon.png",
+            "types": [
+              "normal",
+              "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Rookidee",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png",
+            "types": [
+              "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Swablu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm333.icon.png",
             "types": [
               "normal",
               "flying"
@@ -8123,14 +8228,24 @@
         ],
         "secondPokemon": [
           {
+            "name": "Scyther",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
+            "types": [
+              "bug",
+              "flying"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
             "name": "Zubat",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm41.icon.png",
             "types": [
               "poison",
               "flying"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
           },
           {
             "name": "Gligar",
@@ -8139,18 +8254,8 @@
               "ground",
               "flying"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
-            "name": "Scyther",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
-            "types": [
-              "bug",
-              "flying"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
@@ -8165,20 +8270,20 @@
             "canBeShiny": false
           },
           {
-            "name": "Swanna",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm581.icon.png",
+            "name": "Toucannon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm733.icon.png",
             "types": [
-              "water",
+              "normal",
               "flying"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Toucannon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm733.icon.png",
+            "name": "Swanna",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm581.icon.png",
             "types": [
-              "normal",
+              "water",
               "flying"
             ],
             "isEncounter": false,
@@ -8191,6 +8296,15 @@
         "title": "Team GO Rocket Grunt",
         "type": "psychic",
         "firstPokemon": [
+          {
+            "name": "Wobbuffet",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm202.icon.png",
+            "types": [
+              "psychic"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
           {
             "name": "Ralts",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
@@ -8209,6 +8323,26 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
+          }
+        ],
+        "secondPokemon": [
+          {
+            "name": "Drowzee",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm96.icon.png",
+            "types": [
+              "psychic"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Duosion",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm578.icon.png",
+            "types": [
+              "psychic"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           },
           {
             "name": "Wobbuffet",
@@ -8220,45 +8354,7 @@
             "canBeShiny": true
           }
         ],
-        "secondPokemon": [
-          {
-            "name": "Duosion",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm578.icon.png",
-            "types": [
-              "psychic"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
-            "name": "Drowzee",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm96.icon.png",
-            "types": [
-              "psychic"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
-            "name": "Wobbuffet",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm202.icon.png",
-            "types": [
-              "psychic"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          }
-        ],
         "thirdPokemon": [
-          {
-            "name": "Reuniclus",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm579.icon.png",
-            "types": [
-              "psychic"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Gallade",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm475.icon.png",
@@ -8274,6 +8370,15 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm687.icon.png",
             "types": [
               "dark",
+              "psychic"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
+          {
+            "name": "Reuniclus",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm579.icon.png",
+            "types": [
               "psychic"
             ],
             "isEncounter": false,
@@ -8297,17 +8402,18 @@
             "canBeShiny": true
           },
           {
-            "name": "Shelmet",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm616.icon.png",
+            "name": "Weedle",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm13.icon.png",
             "types": [
-              "bug"
+              "bug",
+              "poison"
             ],
             "isEncounter": true,
             "canBeShiny": true
           },
           {
-            "name": "Karrablast",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm588.icon.png",
+            "name": "Grubbin",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm736.icon.png",
             "types": [
               "bug"
             ],
@@ -8326,16 +8432,6 @@
             "canBeShiny": true
           },
           {
-            "name": "Dewpider",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
-            "types": [
-              "water",
-              "bug"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
             "name": "Anorith",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm347.icon.png",
             "types": [
@@ -8344,19 +8440,19 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
+          },
+          {
+            "name": "Dewpider",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
+            "types": [
+              "water",
+              "bug"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
-          {
-            "name": "Vikavolt",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm738.icon.png",
-            "types": [
-              "bug",
-              "electric"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Scizor",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm212.icon.png",
@@ -8376,6 +8472,16 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Vikavolt",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm738.icon.png",
+            "types": [
+              "bug",
+              "electric"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -8385,18 +8491,18 @@
         "type": "rock",
         "firstPokemon": [
           {
-            "name": "Shuckle",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm213.icon.png",
+            "name": "Onix",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm95.icon.png",
             "types": [
-              "bug",
-              "rock"
+              "rock",
+              "ground"
             ],
             "isEncounter": true,
             "canBeShiny": true
           },
           {
-            "name": "Omanyte",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm138.icon.png",
+            "name": "Kabuto",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm140.icon.png",
             "types": [
               "rock",
               "water"
@@ -8416,24 +8522,24 @@
         ],
         "secondPokemon": [
           {
-            "name": "Graveler",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm75.icon.png",
-            "types": [
-              "rock",
-              "ground"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
             "name": "Shieldon",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm410.icon.png",
             "types": [
               "rock",
               "steel"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Graveler",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm75.icon.png",
+            "types": [
+              "rock",
+              "ground"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           },
           {
             "name": "Cranidos",
@@ -8441,21 +8547,11 @@
             "types": [
               "rock"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
-          {
-            "name": "Aurorus",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm699.icon.png",
-            "types": [
-              "rock",
-              "ice"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
           {
             "name": "Tyrantrum",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm697.icon.png",
@@ -8475,6 +8571,16 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Aurorus",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm699.icon.png",
+            "types": [
+              "rock",
+              "ice"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -8483,6 +8589,15 @@
         "title": "Team GO Rocket Grunt",
         "type": "ghost",
         "firstPokemon": [
+          {
+            "name": "Duskull",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm355.icon.png",
+            "types": [
+              "ghost"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
           {
             "name": "Gastly",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm92.icon.png",
@@ -8501,15 +8616,6 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
-          },
-          {
-            "name": "Duskull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm355.icon.png",
-            "types": [
-              "ghost"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
           }
         ],
         "secondPokemon": [
@@ -8519,8 +8625,8 @@
             "types": [
               "ghost"
             ],
-            "isEncounter": true,
-            "canBeShiny": true
+            "isEncounter": false,
+            "canBeShiny": false
           },
           {
             "name": "Sableye",
@@ -8529,20 +8635,9 @@
               "dark",
               "ghost"
             ],
-            "isEncounter": true,
-            "canBeShiny": true
+            "isEncounter": false,
+            "canBeShiny": false
           },
-          {
-            "name": "Cofagrigus",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm563.icon.png",
-            "types": [
-              "ghost"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          }
-        ],
-        "thirdPokemon": [
           {
             "name": "Cofagrigus",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm563.icon.png",
@@ -8551,7 +8646,9 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
+          }
+        ],
+        "thirdPokemon": [
           {
             "name": "Gengar",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm94.icon.png",
@@ -8571,6 +8668,15 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Cofagrigus",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm563.icon.png",
+            "types": [
+              "ghost"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -8580,18 +8686,10 @@
         "type": "dragon",
         "firstPokemon": [
           {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
+            "name": "Noibat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm714.icon.png",
             "types": [
-              "dragon"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
-            "name": "Bagon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
-            "types": [
+              "flying",
               "dragon"
             ],
             "isEncounter": true,
@@ -8602,6 +8700,15 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm633.icon.png",
             "types": [
               "dark",
+              "dragon"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Dratini",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
+            "types": [
               "dragon"
             ],
             "isEncounter": true,
@@ -8641,16 +8748,6 @@
         ],
         "thirdPokemon": [
           {
-            "name": "Salamence",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm373.icon.png",
-            "types": [
-              "dragon",
-              "flying"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
-          },
-          {
             "name": "Dragonite",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm149.icon.png",
             "types": [
@@ -8669,6 +8766,16 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
+          },
+          {
+            "name": "Salamence",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm373.icon.png",
+            "types": [
+              "dragon",
+              "flying"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
           }
         ]
       },
@@ -8678,11 +8785,11 @@
         "type": "dark",
         "firstPokemon": [
           {
-            "name": "Alolan Rattata",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm19.fALOLA.icon.png",
+            "name": "Carvanha",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm318.icon.png",
             "types": [
-              "dark",
-              "normal"
+              "water",
+              "dark"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -8697,11 +8804,11 @@
             "canBeShiny": true
           },
           {
-            "name": "Carvanha",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm318.icon.png",
+            "name": "Alolan Rattata",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm19.fALOLA.icon.png",
             "types": [
-              "water",
-              "dark"
+              "dark",
+              "normal"
             ],
             "isEncounter": true,
             "canBeShiny": true
@@ -8709,23 +8816,33 @@
         ],
         "secondPokemon": [
           {
-            "name": "Alolan Raticate",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm20.fALOLA.icon.png",
+            "name": "Sneasel",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm215.icon.png",
             "types": [
               "dark",
-              "normal"
+              "ice"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
           },
           {
-            "name": "Mightyena",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm262.icon.png",
+            "name": "Houndour",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm228.icon.png",
+            "types": [
+              "dark",
+              "fire"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Absol",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm359.icon.png",
             "types": [
               "dark"
             ],
-            "isEncounter": false,
-            "canBeShiny": false
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "thirdPokemon": [
@@ -8766,16 +8883,6 @@
             "canBeShiny": true
           },
           {
-            "name": "Beldum",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm374.icon.png",
-            "types": [
-              "steel",
-              "psychic"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
-          {
             "name": "Aron",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm304.icon.png",
             "types": [
@@ -8784,9 +8891,29 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
+          },
+          {
+            "name": "Beldum",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm374.icon.png",
+            "types": [
+              "steel",
+              "psychic"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
           }
         ],
         "secondPokemon": [
+          {
+            "name": "Lairon",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm305.icon.png",
+            "types": [
+              "steel",
+              "rock"
+            ],
+            "isEncounter": false,
+            "canBeShiny": false
+          },
           {
             "name": "Skarmory",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm227.icon.png",
@@ -8806,19 +8933,19 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
+          }
+        ],
+        "thirdPokemon": [
           {
-            "name": "Lairon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm305.icon.png",
+            "name": "Aggron",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm306.icon.png",
             "types": [
               "steel",
               "rock"
             ],
             "isEncounter": false,
             "canBeShiny": false
-          }
-        ],
-        "thirdPokemon": [
+          },
           {
             "name": "Alolan Sandslash",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm28.fALOLA.icon.png",
@@ -8838,16 +8965,6 @@
             ],
             "isEncounter": false,
             "canBeShiny": false
-          },
-          {
-            "name": "Aggron",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm306.icon.png",
-            "types": [
-              "steel",
-              "rock"
-            ],
-            "isEncounter": false,
-            "canBeShiny": false
           }
         ]
       },
@@ -8856,6 +8973,16 @@
         "title": "Team GO Rocket Grunt",
         "type": "fairy",
         "firstPokemon": [
+          {
+            "name": "Ralts",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
+            "types": [
+              "psychic",
+              "fairy"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
           {
             "name": "Snubbull",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm209.icon.png",
@@ -8873,29 +9000,9 @@
             ],
             "isEncounter": true,
             "canBeShiny": true
-          },
-          {
-            "name": "Ralts",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
-            "types": [
-              "psychic",
-              "fairy"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
           }
         ],
         "secondPokemon": [
-          {
-            "name": "Kirlia",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm281.icon.png",
-            "types": [
-              "psychic",
-              "fairy"
-            ],
-            "isEncounter": true,
-            "canBeShiny": true
-          },
           {
             "name": "Snubbull",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm209.icon.png",
@@ -8910,6 +9017,16 @@
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.fGALARIAN.icon.png",
             "types": [
               "poison",
+              "fairy"
+            ],
+            "isEncounter": true,
+            "canBeShiny": true
+          },
+          {
+            "name": "Kirlia",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm281.icon.png",
+            "types": [
+              "psychic",
               "fairy"
             ],
             "isEncounter": true,
@@ -8928,19 +9045,19 @@
             "canBeShiny": false
           },
           {
-            "name": "Granbull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm210.icon.png",
+            "name": "Galarian Weezing",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.fGALARIAN.icon.png",
             "types": [
+              "poison",
               "fairy"
             ],
             "isEncounter": false,
             "canBeShiny": false
           },
           {
-            "name": "Galarian Weezing",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm110.fGALARIAN.icon.png",
+            "name": "Granbull",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm210.icon.png",
             "types": [
-              "poison",
               "fairy"
             ],
             "isEncounter": false,

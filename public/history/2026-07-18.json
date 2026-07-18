@@ -1,762 +1,9 @@
 {
-  "date": "2026-07-12",
-  "generatedAt": "2026-07-12T10:03:37.494Z",
+  "date": "2026-07-18",
+  "generatedAt": "2026-07-18T09:45:45.646Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "pokemon-go-10th-anniversary-celebration-twitch-drops",
-        "name": "Twitch Drops for Pokémon GO 10th Anniversary Celebration",
-        "eventType": "twitch-drops",
-        "heading": "Twitch Drops",
-        "link": "https://leekduck.com/events/pokemon-go-10th-anniversary-celebration-twitch-drops/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-09-pokemon-go-10th-anniversary-celebration-twitch-drops/rewards.jpg",
-        "start": "2026-07-09T07:00:00.000Z",
-        "end": "2026-07-12T06:58:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemon-go-fest-2026-global",
-        "name": "Pokémon GO Fest 2026: Global",
-        "eventType": "pokemon-go-fest",
-        "heading": "Pokémon GO Fest",
-        "link": "https://leekduck.com/events/pokemon-go-fest-2026-global/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-11-pokemon-go-fest-2026-global/pokemon-go-fest-2026-global.jpg?v2",
-        "start": "2026-07-11T10:00:00.000",
-        "end": "2026-07-12T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Pikachu wearing a Team Instinct hat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pikachu wearing a Team Mystic hat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pikachu wearing a Team Valor hat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Bulbasaur",
-                "canBeShiny": true
-              },
-              {
-                "name": "Charmander",
-                "canBeShiny": true
-              },
-              {
-                "name": "Squirtle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tropius",
-                "canBeShiny": true
-              },
-              {
-                "name": "Bouffalant",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch 8 different species of Pokémon",
-                "rewards": [
-                  {
-                    "name": "Pikachu Visor Bulbasaur",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Pikachu Visor Charmander",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Pikachu Visor Squirtle",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 8 different species of Pokémon",
-                "rewards": [
-                  {
-                    "name": "Pikachu wearing a Team Instinct hat",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Pikachu wearing a Team Mystic hat",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Pikachu wearing a Team Valor hat",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 10 Pokémon",
-                "rewards": [
-                  {
-                    "name": "×10",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×500",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×3",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Hatch an Egg",
-                "rewards": [
-                  {
-                    "name": "×1000",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Spin 5 PokéStops or Gyms",
-                "rewards": [
-                  {
-                    "name": "×10",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×500",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×3",
-                    "canBeShiny": false
-                  }
-                ]
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Mewtwo X",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Mewtwo Y",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pikachu wearing a Team Instinct hat",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Pikachu wearing a Team Mystic hat",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Pikachu wearing a Team Valor hat",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Mega Ampharos",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Blaziken",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Abomasnow",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Articuno",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zapdos",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Moltres",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Raikou",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Entei",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Suicune",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Lugia",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Ho-Oh",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Alakazam",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Gengar",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Swampert",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Uxie",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mesprit",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Azelf",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Dialga",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Palkia",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Giratina (Altered)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Giratina (Origin)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Xerneas",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Yveltal",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Solgaleo",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Lunala",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Mega Pidgeot",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Aerodactyl",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Salamence",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kyogre",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Groudon",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Rayquaza",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Reshiram",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zekrom",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kyurem",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Metagross",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Garchomp",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Audino",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Regirock",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Regice",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Registeel",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Origin Forme Dialga",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Origin Forme Palkia",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Heatran",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Regigigas",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tornadus (Incarnate)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tornadus (Therian)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Thundurus (Incarnate)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Thundurus (Therian)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Landorus (Incarnate)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Landorus (Therian)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Regieleki",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Regidrago",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Enamorus (Incarnate)",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Enamorus (Therian Forme)",
-                "image": "",
-                "canBeShiny": false
-              },
-              {
-                "name": "Mega Beedrill",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Pinsir",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Sceptile",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Deoxys (Normal)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Deoxys (Attack)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Deoxys (Defense)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Deoxys (Speed)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Genesect",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Genesect (Douse)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Genesect (Shock)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Genesect (Burn)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Genesect (Chill)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tapu Koko",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tapu Lele",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tapu Bulu",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tapu Fini",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Nihilego",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Buzzwole",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pheromosa",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Xurkitree",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Celesteela",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kartana",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Guzzlord",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Necrozma",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Stakataka",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Blacephalon",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Tyranitar",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Gardevoir",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Lucario",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Latias",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Latios",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Cresselia",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Darkrai",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Cobalion",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Terrakion",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Virizion",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zacian (Hero of Many Battles)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zamazenta (Hero of Many Battles)",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-07-13",
-        "name": "Dynamax Deino during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-07-13/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-07-13T06:00:00.000",
-        "end": "2026-07-13T21:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition",
-        "name": "Ultra League and Fantasy Cup: Ultra League Edition | Forever Forward",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition/",
-        "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-ultra-league-machamp-swampert.jpg",
-        "start": "2026-07-07T20:00:00.000Z",
-        "end": "2026-07-14T20:00:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "mega-lucario-in-mega-raids-july-13-2026",
-        "name": "Mega Lucario in Mega Raids - July 13",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/mega-lucario-in-mega-raids-july-13-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-07-13T06:00:00.000",
-        "end": "2026-07-14T22:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Lucario",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Lucario",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_448_00_shiny.png"
-              },
-              {
-                "name": "Mega Lucario",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "raidhour20260715",
-        "name": "Kyogre Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20260715/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-07-15T18:00:00.000",
-        "end": "2026-07-15T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemonspotlighthour2026-07-16",
-        "name": "Zubat Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-07-16/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-07-16T18:00:00.000",
-        "end": "2026-07-16T19:00:00.000",
-        "extraData": {
-          "spotlight": {
-            "name": "Zubat",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_041_00.png",
-            "bonus": "2× Catch XP",
-            "list": [
-              {
-                "name": "Zubat",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_041_00.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Zubat",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
       {
         "eventID": "raichu-super-mega-raid-day-2026",
         "name": "Raichu Super Mega Raid Day",
@@ -803,7 +50,63 @@
             "hasFieldResearchTasks": false,
             "spawns": [
               {
-                "name": "Pikachu wearing a Tricks & Treats costume",
+                "name": "Witch Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Halloween Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Trick or Treat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Summer Style Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Malachite Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Aquamarine Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with red accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with blue accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with yellow accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Holiday Attire Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Santa Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Polka Dot Party Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pyrite Crown Pikachu",
                 "canBeShiny": true
               },
               {
@@ -811,25 +114,142 @@
                 "canBeShiny": true
               },
               {
-                "name": "Summer Style Pikachu",
+                "name": "Winter Beanie Pikachu",
                 "canBeShiny": true
+              },
+              {
+                "name": "Flying Pikachu with Multicolored Balloons",
+                "canBeShiny": true
+              },
+              {
+                "name": "Quartz Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with red accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with blue accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with yellow accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flying 5th Anniversary Balloons Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Moon Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sun Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flower Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Flower Crown Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Party Top Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cherry Blossom Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cake Hat Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with red accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with blue accents",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dapper Pikachu with yellow accents",
+                "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 10 Pikachu",
+                "rewards": [
+                  {
+                    "name": "Leaf's Hat Pikachu",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Lyra's Hat Pikachu",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "May's Bow Pikachu",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Red's Hat Pikachu",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Catch 15 Pikachu",
+                "rewards": [
+                  {
+                    "name": "Meloetta Hat Pikachu",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Win 3 raids",
+                "rewards": [
+                  {
+                    "name": "Pikachu wearing a varsity jacket",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "World Championships 2022 Pikachu",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "WCS Shirt Pikachu",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "World Championships 2024 Pikachu",
+                    "canBeShiny": true
+                  }
+                ]
               }
             ]
           },
           "raidbattles": {
             "bosses": [
               {
-                "name": "Dapper Pikachu with red accents",
+                "name": "Formal Pikachu with red accents",
                 "image": "",
                 "canBeShiny": true
               },
               {
-                "name": "Dapper Pikachu with yellow accents",
+                "name": "Formal Pikachu with yellow accents",
                 "image": "",
                 "canBeShiny": true
               },
               {
-                "name": "Dapper Pikachu with blue accents",
+                "name": "Formal Pikachu with blue accents",
                 "image": "",
                 "canBeShiny": true
               },
@@ -961,7 +381,7 @@
         "eventType": "raid-battles",
         "heading": "Raid Battles",
         "link": "https://leekduck.com/events/kyogre-in-5-star-raid-battles-july-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/kyogre.jpg",
         "start": "2026-07-15T06:00:00.000",
         "end": "2026-07-21T22:00:00.000",
         "extraData": {
@@ -1073,6 +493,332 @@
         }
       },
       {
+        "eventID": "pokemon-go-fest-2026-global-sunday-raid-makeup",
+        "name": "GO Fest 2026 Sunday Raid Makeup",
+        "eventType": "pokemon-go-fest",
+        "heading": "Pokémon GO Fest",
+        "link": "https://leekduck.com/events/pokemon-go-fest-2026-global-sunday-raid-makeup/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-26-pokemon-go-fest-2026-global-sunday-raid-makeup/pokemon-go-fest-2026-global-sunday-raid-makeup.jpg",
+        "start": "2026-07-26T10:00:00.000",
+        "end": "2026-07-26T19:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Mewtwo Y",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu wearing a Team Instinct hat",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu wearing a Team Mystic hat",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu wearing a Team Valor hat",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Metagross",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Garchomp",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Audino",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Regirock",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Regice",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Registeel",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Origin Forme Dialga",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Origin Forme Palkia",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Heatran",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Regigigas",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tornadus (Incarnate)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tornadus (Therian)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Thundurus (Incarnate)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Thundurus (Therian)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Landorus (Incarnate)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Landorus (Therian)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Regieleki",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Regidrago",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Enamorus (Incarnate)",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Enamorus (Therian Forme)",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Mega Beedrill",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Pinsir",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Sceptile",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Deoxys (Attack)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Deoxys (Defense)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Deoxys (Normal)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Deoxys (Speed)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Genesect",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Genesect (Burn)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Genesect (Chill)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Genesect (Douse)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Genesect (Shock)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tapu Koko",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tapu Lele",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tapu Bulu",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tapu Fini",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Nihilego",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pheromosa",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Xurkitree",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Celesteela",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Kartana",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Guzzlord",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Necrozma",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Stakataka",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Blacephalon",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Tyranitar",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Gardevoir",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Lucario",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Latias",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Latios",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cresselia",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Darkrai",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cobalion",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Terrakion",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Virizion",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Zacian (Hero of Many Battles)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Zamazenta (Hero of Many Battles)",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
         "eventID": "ozone-ascent-2026",
         "name": "Ozone Ascent",
         "eventType": "event",
@@ -1085,6 +831,174 @@
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "ultra-unlock-10th-anniversary-edition",
+        "name": "Ultra Unlock: 10th Anniversary Edition",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/ultra-unlock-10th-anniversary-edition/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-07-21-ultra-unlock-10th-anniversary-edition/ultra-unlock-10th-anniversary-edition.jpg",
+        "start": "2026-07-21T10:00:00.000",
+        "end": "2026-07-27T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": true,
+            "hasFieldResearchTasks": true,
+            "spawns": [
+              {
+                "name": "Bulbasaur",
+                "canBeShiny": true
+              },
+              {
+                "name": "Charmander",
+                "canBeShiny": true
+              },
+              {
+                "name": "Squirtle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chikorita",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cyndaquil",
+                "canBeShiny": true
+              },
+              {
+                "name": "Totodile",
+                "canBeShiny": true
+              },
+              {
+                "name": "Treecko",
+                "canBeShiny": true
+              },
+              {
+                "name": "Torchic",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mudkip",
+                "canBeShiny": true
+              },
+              {
+                "name": "Turtwig",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chimchar",
+                "canBeShiny": true
+              },
+              {
+                "name": "Piplup",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snivy",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tepig",
+                "canBeShiny": true
+              },
+              {
+                "name": "Oshawott",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Rowlet",
+                "canBeShiny": true
+              },
+              {
+                "name": "Litten",
+                "canBeShiny": true
+              },
+              {
+                "name": "Popplio",
+                "canBeShiny": true
+              },
+              {
+                "name": "Grookey",
+                "canBeShiny": false
+              },
+              {
+                "name": "Scorbunny",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sobble",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sprigatito",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fuecoco",
+                "canBeShiny": true
+              },
+              {
+                "name": "Quaxly",
+                "canBeShiny": true
+              },
+              {
+                "name": "Beldum",
+                "canBeShiny": true
+              },
+              {
+                "name": "Gible",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dreepy",
+                "canBeShiny": false
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Party Hat Grimer",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Party Hat Raticate",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Party Hat Nidorino",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Party Hat Gengar",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Party Hat Wobbuffet",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
@@ -1238,6 +1152,32 @@
         }
       },
       {
+        "eventID": "gigantamax-rillaboom-max-battle-day-2026",
+        "name": "Gigantamax Rillaboom Max Battle Day",
+        "eventType": "max-battles",
+        "heading": "Max Battles",
+        "link": "https://leekduck.com/events/gigantamax-rillaboom-max-battle-day-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-01-gigantamax-rillaboom-max-battle-day-2026/gigantamax-rillaboom-max-battle-day.jpg",
+        "start": "2026-08-01T14:00:00.000",
+        "end": "2026-08-01T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Gigantamax Rillaboom",
+                "image": "",
+                "canBeShiny": false
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
         "eventID": "choose-your-path-fairy-trail-2026",
         "name": "Choose Your Path: Fairy Trail",
         "eventType": "choose-your-path",
@@ -1383,18 +1323,137 @@
         }
       },
       {
-        "eventID": "hatch-day-august-2026",
-        "name": "Hatch Day",
+        "eventID": "fire-and-ice-hatch-day-2026",
+        "name": "Fire and Ice Hatch Day",
         "eventType": "event",
         "heading": "Event",
-        "link": "https://leekduck.com/events/hatch-day-august-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "link": "https://leekduck.com/events/fire-and-ice-hatch-day-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026.jpg",
         "start": "2026-08-08T11:00:00.000",
         "end": "2026-08-08T17:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "summer-marathon-2026",
+        "name": "Summer Marathon: Arctic Embers",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/summer-marathon-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-summer-marathon-2026/summer-marathon-2026.jpg",
+        "start": "2026-08-04T10:00:00.000",
+        "end": "2026-08-10T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Vulpix",
+                "canBeShiny": true
+              },
+              {
+                "name": "Alolan Vulpix",
+                "canBeShiny": true
+              },
+              {
+                "name": "Growlithe",
+                "canBeShiny": true
+              },
+              {
+                "name": "Swinub",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snorunt",
+                "canBeShiny": true
+              },
+              {
+                "name": "Ponyta",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snover",
+                "canBeShiny": true
+              },
+              {
+                "name": "Slugma",
+                "canBeShiny": true
+              },
+              {
+                "name": "Vanillite",
+                "canBeShiny": true
+              }
+            ],
+            "eventEggs": [
+              {
+                "name": "Sneasel",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Darumaka",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Galarian Darumaka",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sizzlipede",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snom",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Ponyta",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Slugma",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Snover",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "???",
+                "rewards": [
+                  {
+                    "name": "Vanillite",
+                    "canBeShiny": true
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -1740,34 +1799,114 @@
         }
       },
       {
-        "eventID": "raid-day-august-2026",
-        "name": "Raid Day",
+        "eventID": "starmie-super-mega-raid-day-2026",
+        "name": "Starmie Super Mega Raid Day",
         "eventType": "raid-day",
         "heading": "Raid Day",
-        "link": "https://leekduck.com/events/raid-day-august-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
-        "start": "2026-08-22T14:00:00.000",
+        "link": "https://leekduck.com/events/starmie-super-mega-raid-day-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-day-2026.jpg",
+        "start": "2026-08-22T11:00:00.000",
         "end": "2026-08-22T17:00:00.000",
         "extraData": {
           "generic": {
             "hasSpawns": false,
             "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Starmie",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
       {
         "eventID": "water-festival-2026",
-        "name": "Water Festival",
+        "name": "Ultra Unlock: Water Festival",
         "eventType": "event",
         "heading": "Event",
         "link": "https://leekduck.com/events/water-festival-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2",
         "start": "2026-08-18T10:00:00.000",
         "end": "2026-08-24T20:00:00.000",
         "extraData": {
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": true,
+            "spawns": [
+              {
+                "name": "Psyduck",
+                "canBeShiny": true
+              },
+              {
+                "name": "Goldeen",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mareanie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wimpod",
+                "canBeShiny": true
+              },
+              {
+                "name": "Feebas",
+                "canBeShiny": true
+              },
+              {
+                "name": "Clamperl",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wiglett",
+                "canBeShiny": true
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Psyduck (Swim Ring)",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tatsugiri (Curly)",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Tatsugiri (Droopy)",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Tatsugiri (Stretchy)",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Scarf Lapras",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hisuian Samurott",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dondozo",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
@@ -2055,10 +2194,266 @@
     ],
     "raids": [
       {
-        "name": "Mega Mewtwo Y",
-        "tier": "Super Mega Raids",
+        "name": "Formal Pikachu with red accents",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_RED.icon.png"
+      },
+      {
+        "name": "Formal Pikachu with yellow accents",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_YELLOW.icon.png"
+      },
+      {
+        "name": "Formal Pikachu with blue accents",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2025_MONOCLE_BLUE.icon.png"
+      },
+      {
+        "name": "Pikachu wearing a Safari Hat",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.cSAFARI_2020_NOEVOLVE.icon.png"
+      },
+      {
+        "name": "Pikachu wearing a varsity jacket",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2025.icon.png"
+      },
+      {
+        "name": "Amethyst Crown Pikachu",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fSUMMER_2023_E.icon.png"
+      },
+      {
+        "name": "World Championships 2022 Pikachu",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2022.icon.png"
+      },
+      {
+        "name": "World Championships 2023 Pikachu",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2023.icon.png"
+      },
+      {
+        "name": "World Championships 2024 Pikachu",
+        "tier": "1-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 493,
+            "max": 536
+          },
+          "boosted": {
+            "min": 616,
+            "max": 670
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fWCS_2024.icon.png"
+      },
+      {
+        "name": "Alolan Raichu",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "electric",
+            "image": "https://leekduck.com/assets/img/types/electric.png"
+          },
           {
             "name": "psychic",
             "image": "https://leekduck.com/assets/img/types/psychic.png"
@@ -2066,25 +2461,65 @@
         ],
         "combatPower": {
           "normal": {
-            "min": 2294,
-            "max": 2387
+            "min": 1238,
+            "max": 1306
           },
           "boosted": {
-            "min": 2868,
-            "max": 2984
+            "min": 1548,
+            "max": 1633
           }
         },
         "boostedWeather": [
+          {
+            "name": "rainy",
+            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+          },
           {
             "name": "windy",
             "image": "https://leekduck.com/assets/img/weather/windy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm150.fMEGA_Y.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm26.fALOLA.icon.png"
       },
       {
-        "name": "Mega Metagross",
-        "tier": "Mega Raids",
+        "name": "Hisuian Typhlosion",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "fire",
+            "image": "https://leekduck.com/assets/img/types/fire.png"
+          },
+          {
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1632,
+            "max": 1710
+          },
+          "boosted": {
+            "min": 2041,
+            "max": 2138
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          },
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm157.fHISUIAN.icon.png"
+      },
+      {
+        "name": "Duraludon",
+        "tier": "3-Star Raids",
         "canBeShiny": true,
         "types": [
           {
@@ -2092,18 +2527,18 @@
             "image": "https://leekduck.com/assets/img/types/steel.png"
           },
           {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
+            "name": "dragon",
+            "image": "https://leekduck.com/assets/img/types/dragon.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 2078,
-            "max": 2166
+            "min": 1674,
+            "max": 1753
           },
           "boosted": {
-            "min": 2598,
-            "max": 2708
+            "min": 2092,
+            "max": 2191
           }
         },
         "boostedWeather": [
@@ -2116,134 +2551,26 @@
             "image": "https://leekduck.com/assets/img/weather/windy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm376.fMEGA.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm884.icon.png"
       },
       {
-        "name": "Mega Garchomp",
-        "tier": "Mega Raids",
+        "name": "Kyogre",
+        "tier": "5-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          },
-          {
-            "name": "ground",
-            "image": "https://leekduck.com/assets/img/types/ground.png"
+            "name": "water",
+            "image": "https://leekduck.com/assets/img/types/water.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 2174,
-            "max": 2264
+            "min": 2260,
+            "max": 2351
           },
           "boosted": {
-            "min": 2718,
-            "max": 2830
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          },
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm445.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Audino",
-        "tier": "Mega Raids",
-        "canBeShiny": false,
-        "types": [
-          {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 901,
-            "max": 961
-          },
-          "boosted": {
-            "min": 1127,
-            "max": 1201
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm531.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Beedrill",
-        "tier": "Mega Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "poison",
-            "image": "https://leekduck.com/assets/img/types/poison.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 994,
-            "max": 1054
-          },
-          "boosted": {
-            "min": 1242,
-            "max": 1318
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Pinsir",
-        "tier": "Mega Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1613,
-            "max": 1690
-          },
-          "boosted": {
-            "min": 2016,
-            "max": 2113
+            "min": 2825,
+            "max": 2939
           }
         },
         "boostedWeather": [
@@ -2252,7 +2579,7 @@
             "image": "https://leekduck.com/assets/img/weather/rainy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm127.fMEGA.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm382.icon.png"
       },
       {
         "name": "Mega Sceptile",
@@ -2285,1810 +2612,6 @@
           }
         ],
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm254.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Tyranitar",
-        "tier": "Mega Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          },
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2103,
-            "max": 2191
-          },
-          "boosted": {
-            "min": 2629,
-            "max": 2739
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          },
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm248.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Gardevoir",
-        "tier": "Mega Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1688,
-            "max": 1767
-          },
-          "boosted": {
-            "min": 2110,
-            "max": 2209
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm282.fMEGA.icon.png"
-      },
-      {
-        "name": "Mega Lucario",
-        "tier": "Mega Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1469,
-            "max": 1544
-          },
-          "boosted": {
-            "min": 1837,
-            "max": 1930
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm448.fMEGA.icon.png"
-      },
-      {
-        "name": "Regirock",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1703,
-            "max": 1784
-          },
-          "boosted": {
-            "min": 2129,
-            "max": 2230
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm377.icon.png"
-      },
-      {
-        "name": "Regice",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1703,
-            "max": 1784
-          },
-          "boosted": {
-            "min": 2129,
-            "max": 2230
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm378.icon.png"
-      },
-      {
-        "name": "Registeel",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1326,
-            "max": 1398
-          },
-          "boosted": {
-            "min": 1658,
-            "max": 1748
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm379.icon.png"
-      },
-      {
-        "name": "Dialga (Origin)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          },
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2246,
-            "max": 2337
-          },
-          "boosted": {
-            "min": 2807,
-            "max": 2921
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm483.fORIGIN.icon.png"
-      },
-      {
-        "name": "Palkia (Origin)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "water",
-            "image": "https://leekduck.com/assets/img/types/water.png"
-          },
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2274,
-            "max": 2367
-          },
-          "boosted": {
-            "min": 2843,
-            "max": 2958
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm484.fORIGIN.icon.png"
-      },
-      {
-        "name": "Heatran",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fire",
-            "image": "https://leekduck.com/assets/img/types/fire.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2058,
-            "max": 2145
-          },
-          "boosted": {
-            "min": 2573,
-            "max": 2681
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm485.icon.png"
-      },
-      {
-        "name": "Regigigas",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2389,
-            "max": 2483
-          },
-          "boosted": {
-            "min": 2987,
-            "max": 3104
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm486.icon.png"
-      },
-      {
-        "name": "Tornadus (Incarnate)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1828,
-            "max": 1911
-          },
-          "boosted": {
-            "min": 2285,
-            "max": 2389
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm641.fINCARNATE.icon.png"
-      },
-      {
-        "name": "Tornadus (Therian)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1756,
-            "max": 1837
-          },
-          "boosted": {
-            "min": 2196,
-            "max": 2296
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm641.fTHERIAN.icon.png"
-      },
-      {
-        "name": "Thundurus (Incarnate)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1828,
-            "max": 1911
-          },
-          "boosted": {
-            "min": 2285,
-            "max": 2389
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm642.fINCARNATE.icon.png"
-      },
-      {
-        "name": "Thundurus (Therian)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2002,
-            "max": 2091
-          },
-          "boosted": {
-            "min": 2503,
-            "max": 2614
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm642.fTHERIAN.icon.png"
-      },
-      {
-        "name": "Landorus (Incarnate)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ground",
-            "image": "https://leekduck.com/assets/img/types/ground.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1965,
-            "max": 2050
-          },
-          "boosted": {
-            "min": 2456,
-            "max": 2563
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm645.fINCARNATE.icon.png"
-      },
-      {
-        "name": "Landorus (Therian)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ground",
-            "image": "https://leekduck.com/assets/img/types/ground.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2151,
-            "max": 2241
-          },
-          "boosted": {
-            "min": 2688,
-            "max": 2801
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm645.fTHERIAN.icon.png"
-      },
-      {
-        "name": "Regieleki",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1524,
-            "max": 1602
-          },
-          "boosted": {
-            "min": 1905,
-            "max": 2002
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm894.icon.png"
-      },
-      {
-        "name": "Regidrago",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1614,
-            "max": 1699
-          },
-          "boosted": {
-            "min": 2017,
-            "max": 2124
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm895.icon.png"
-      },
-      {
-        "name": "Enamorus (Incarnate)",
-        "tier": "5-Star Raids",
-        "canBeShiny": false,
-        "types": [
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1872,
-            "max": 1957
-          },
-          "boosted": {
-            "min": 2340,
-            "max": 2447
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm905.fINCARNATE.icon.png"
-      },
-      {
-        "name": "Enamorus (Therian)",
-        "tier": "5-Star Raids",
-        "canBeShiny": false,
-        "types": [
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1853,
-            "max": 1935
-          },
-          "boosted": {
-            "min": 2316,
-            "max": 2420
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm905.fTHERIAN.icon.png"
-      },
-      {
-        "name": "Deoxys (Normal)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1717,
-            "max": 1806
-          },
-          "boosted": {
-            "min": 2146,
-            "max": 2257
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.icon.png"
-      },
-      {
-        "name": "Deoxys (Attack)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1372,
-            "max": 1474
-          },
-          "boosted": {
-            "min": 1716,
-            "max": 1842
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fATTACK.icon.png"
-      },
-      {
-        "name": "Deoxys (Defense)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1228,
-            "max": 1299
-          },
-          "boosted": {
-            "min": 1535,
-            "max": 1624
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fDEFENSE.icon.png"
-      },
-      {
-        "name": "Deoxys (Speed)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1568,
-            "max": 1645
-          },
-          "boosted": {
-            "min": 1960,
-            "max": 2056
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm386.fSPEED.icon.png"
-      },
-      {
-        "name": "Genesect",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1833,
-            "max": 1916
-          },
-          "boosted": {
-            "min": 2292,
-            "max": 2395
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm649.fNORMAL.icon.png"
-      },
-      {
-        "name": "Genesect (Douse)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1833,
-            "max": 1916
-          },
-          "boosted": {
-            "min": 2292,
-            "max": 2395
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm649.fDOUSE.icon.png"
-      },
-      {
-        "name": "Genesect (Shock)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1833,
-            "max": 1916
-          },
-          "boosted": {
-            "min": 2292,
-            "max": 2395
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm649.fSHOCK.icon.png"
-      },
-      {
-        "name": "Genesect (Burn)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1833,
-            "max": 1916
-          },
-          "boosted": {
-            "min": 2292,
-            "max": 2395
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm649.fBURN.icon.png"
-      },
-      {
-        "name": "Genesect (Chill)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1833,
-            "max": 1916
-          },
-          "boosted": {
-            "min": 2292,
-            "max": 2395
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm649.fCHILL.icon.png"
-      },
-      {
-        "name": "Tapu Koko",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1730,
-            "max": 1810
-          },
-          "boosted": {
-            "min": 2162,
-            "max": 2263
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm785.icon.png"
-      },
-      {
-        "name": "Tapu Lele",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1912,
-            "max": 1996
-          },
-          "boosted": {
-            "min": 2390,
-            "max": 2496
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm786.icon.png"
-      },
-      {
-        "name": "Tapu Bulu",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "grass",
-            "image": "https://leekduck.com/assets/img/types/grass.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1870,
-            "max": 1953
-          },
-          "boosted": {
-            "min": 2338,
-            "max": 2442
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm787.icon.png"
-      },
-      {
-        "name": "Tapu Fini",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "water",
-            "image": "https://leekduck.com/assets/img/types/water.png"
-          },
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1556,
-            "max": 1632
-          },
-          "boosted": {
-            "min": 1946,
-            "max": 2041
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm788.icon.png"
-      },
-      {
-        "name": "Nihilego",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          },
-          {
-            "name": "poison",
-            "image": "https://leekduck.com/assets/img/types/poison.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2167,
-            "max": 2256
-          },
-          "boosted": {
-            "min": 2709,
-            "max": 2821
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm793.icon.png"
-      },
-      {
-        "name": "Buzzwole",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1894,
-            "max": 1977
-          },
-          "boosted": {
-            "min": 2368,
-            "max": 2472
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png"
-      },
-      {
-        "name": "Pheromosa",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1538,
-            "max": 1624
-          },
-          "boosted": {
-            "min": 1922,
-            "max": 2030
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png"
-      },
-      {
-        "name": "Xurkitree",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2155,
-            "max": 2249
-          },
-          "boosted": {
-            "min": 2695,
-            "max": 2812
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png"
-      },
-      {
-        "name": "Celesteela",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          },
-          {
-            "name": "flying",
-            "image": "https://leekduck.com/assets/img/types/flying.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1694,
-            "max": 1772
-          },
-          "boosted": {
-            "min": 2117,
-            "max": 2216
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm797.icon.png"
-      },
-      {
-        "name": "Kartana",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "grass",
-            "image": "https://leekduck.com/assets/img/types/grass.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2010,
-            "max": 2101
-          },
-          "boosted": {
-            "min": 2512,
-            "max": 2626
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm798.icon.png"
-      },
-      {
-        "name": "Guzzlord",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          },
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1565,
-            "max": 1650
-          },
-          "boosted": {
-            "min": 1956,
-            "max": 2062
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          },
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm799.icon.png"
-      },
-      {
-        "name": "Necrozma",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2018,
-            "max": 2104
-          },
-          "boosted": {
-            "min": 2522,
-            "max": 2630
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm800.icon.png"
-      },
-      {
-        "name": "Stakataka",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1799,
-            "max": 1882
-          },
-          "boosted": {
-            "min": 2249,
-            "max": 2353
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm805.icon.png"
-      },
-      {
-        "name": "Blacephalon",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fire",
-            "image": "https://leekduck.com/assets/img/types/fire.png"
-          },
-          {
-            "name": "ghost",
-            "image": "https://leekduck.com/assets/img/types/ghost.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1797,
-            "max": 1884
-          },
-          "boosted": {
-            "min": 2246,
-            "max": 2355
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm806.icon.png"
-      },
-      {
-        "name": "Latias",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          },
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1921,
-            "max": 2006
-          },
-          "boosted": {
-            "min": 2402,
-            "max": 2507
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm380.icon.png"
-      },
-      {
-        "name": "Latios",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          },
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2090,
-            "max": 2178
-          },
-          "boosted": {
-            "min": 2613,
-            "max": 2723
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm381.icon.png"
-      },
-      {
-        "name": "Cresselia",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "psychic",
-            "image": "https://leekduck.com/assets/img/types/psychic.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1555,
-            "max": 1633
-          },
-          "boosted": {
-            "min": 1944,
-            "max": 2041
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm488.icon.png"
-      },
-      {
-        "name": "Darkrai",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2048,
-            "max": 2136
-          },
-          "boosted": {
-            "min": 2560,
-            "max": 2671
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm491.icon.png"
-      },
-      {
-        "name": "Cobalion",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1649,
-            "max": 1727
-          },
-          "boosted": {
-            "min": 2061,
-            "max": 2159
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm638.icon.png"
-      },
-      {
-        "name": "Terrakion",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "rock",
-            "image": "https://leekduck.com/assets/img/types/rock.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2026,
-            "max": 2113
-          },
-          "boosted": {
-            "min": 2533,
-            "max": 2641
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm639.icon.png"
-      },
-      {
-        "name": "Virizion",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "grass",
-            "image": "https://leekduck.com/assets/img/types/grass.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1649,
-            "max": 1727
-          },
-          "boosted": {
-            "min": 2061,
-            "max": 2159
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm640.icon.png"
-      },
-      {
-        "name": "Zacian (Hero)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2100,
-            "max": 2188
-          },
-          "boosted": {
-            "min": 2625,
-            "max": 2735
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fHERO.icon.png"
-      },
-      {
-        "name": "Zamazenta (Hero)",
-        "tier": "5-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 2100,
-            "max": 2188
-          },
-          "boosted": {
-            "min": 2625,
-            "max": 2735
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.icon.png"
-      },
-      {
-        "name": "Pikachu wearing a Team Instinct hat",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 493,
-            "max": 536
-          },
-          "boosted": {
-            "min": 616,
-            "max": 670
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_YELLOW.icon.png"
-      },
-      {
-        "name": "Pikachu wearing a Team Mystic hat",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 493,
-            "max": 536
-          },
-          "boosted": {
-            "min": 616,
-            "max": 670
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_BLUE.icon.png"
-      },
-      {
-        "name": "Pikachu wearing a Team Valor hat",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 493,
-            "max": 536
-          },
-          "boosted": {
-            "min": 616,
-            "max": 670
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm25.fGOFEST_2026_CAP_RED.icon.png"
       },
       {
         "name": "Shadow Phanpy",
@@ -4349,38 +2872,11 @@
     ],
     "research": [
       {
-        "text": "<span>Catch 8 different species of Pokémon</span>",
+        "text": "<span>Catch 10 Pikachu</span>",
         "rewards": [
           {
-            "name": "Bulbasaur wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm1.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 442,
-              "max": 477
-            }
-          },
-          {
-            "name": "Charmander wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 387,
-              "max": 420
-            }
-          },
-          {
-            "name": "Squirtle wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm7.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 372,
-              "max": 405
-            }
-          },
-          {
-            "name": "Pikachu wearing a Team Instinct hat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2026_CAP_YELLOW.icon.png",
+            "name": "Pikachu wearing Leaf's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_A_02.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 369,
@@ -4388,8 +2884,8 @@
             }
           },
           {
-            "name": "Pikachu wearing a Team Mystic hat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2026_CAP_BLUE.icon.png",
+            "name": "Pikachu wearing Lyra's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_B_02.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 369,
@@ -4397,8 +2893,134 @@
             }
           },
           {
-            "name": "Pikachu wearing a Team Valor hat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2026_CAP_RED.icon.png",
+            "name": "Pikachu wearing May's Bandana",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cGOTOUR_2023_BANDANA_NOEVOLVE.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Red's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_A.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Akari's Kerchief",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2024_B_02.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Brendan's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cGOTOUR_2023_HAT.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Dawn's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2024_A_02.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Ethan's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_B.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Lucas's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2024_A.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing May's Bandana",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cGOTOUR_2023_BANDANA_NOEVOLVE.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Rei's Cap",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2024_B.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Calem's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_C.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Hilbert's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2025_A.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Hilda's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2025_A_02.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Nate's Visor",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2025_B.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Rosa's Visor",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2025_B_02.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Pikachu wearing Serena's Hat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOTOUR_2026_C_02.icon.png",
             "canBeShiny": true,
             "combatPower": {
               "min": 369,
@@ -4408,1153 +3030,146 @@
         ]
       },
       {
-        "text": "<span>Catch 6 Electric-type Pokémon</span>",
+        "text": "<span>Catch 15 Pikachu</span>",
         "rewards": [
           {
-            "name": "Tynamo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm602.icon.png",
+            "name": "Meloetta Hat Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cGOFEST_2021_NOEVOLVE.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 317,
-              "max": 347
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Stunfisk",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.icon.png",
+            "name": "Gracidea Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.cGOFEST_2022_NOEVOLVE.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 876,
-              "max": 926
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Dedenne",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm702.icon.png",
+            "name": "Shaymin Scarf Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fGOFEST_2022.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 743,
-              "max": 789
+              "min": 369,
+              "max": 402
             }
           }
         ]
       },
       {
-        "text": "<span>Power up Electric-type Pokémon 3 times</span>",
+        "text": "<span>Win 3 raids</span>",
         "rewards": [
           {
-            "name": "Tynamo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm602.icon.png",
+            "name": "Pikachu wearing a varsity jacket",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2025.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 317,
-              "max": 347
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Stunfisk",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.icon.png",
+            "name": "World Championships 2022 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2022.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 876,
-              "max": 926
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Dedenne",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm702.icon.png",
+            "name": "World Championships 2023 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2023.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 743,
-              "max": 789
+              "min": 369,
+              "max": 402
             }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Ice-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Lapras",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm131.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1076,
-              "max": 1131
-            }
-          },
-          {
-            "name": "Amaura",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm698.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 545,
-              "max": 584
-            }
-          },
-          {
-            "name": "Bergmite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm712.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 484,
-              "max": 520
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Ice-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Lapras",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm131.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1076,
-              "max": 1131
-            }
-          },
-          {
-            "name": "Amaura",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm698.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 545,
-              "max": 584
-            }
-          },
-          {
-            "name": "Bergmite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm712.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 484,
-              "max": 520
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Fire-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Charmander wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 387,
-              "max": 420
-            }
-          },
-          {
-            "name": "Hisuian Growlithe",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 527,
-              "max": 566
-            }
-          },
-          {
-            "name": "Litleo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm667.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 571,
-              "max": 611
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Fire-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Charmander wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 387,
-              "max": 420
-            }
-          },
-          {
-            "name": "Hisuian Growlithe",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 527,
-              "max": 566
-            }
-          },
-          {
-            "name": "Litleo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm667.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 571,
-              "max": 611
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Ghost-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Duskull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm355.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 273,
-              "max": 302
-            }
-          },
-          {
-            "name": "Frillish",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 501,
-              "max": 539
-            }
-          },
-          {
-            "name": "Phantump",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm708.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 446,
-              "max": 481
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Ghost-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Duskull",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm355.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 273,
-              "max": 302
-            }
-          },
-          {
-            "name": "Frillish",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm592.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 501,
-              "max": 539
-            }
-          },
-          {
-            "name": "Phantump",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm708.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 446,
-              "max": 481
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Psychic-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Spoink",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm325.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 533,
-              "max": 571
-            }
-          },
-          {
-            "name": "Baltoy",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm343.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 307,
-              "max": 337
-            }
-          },
-          {
-            "name": "Bronzor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm436.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 229,
-              "max": 258
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Psychic-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Spoink",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm325.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 533,
-              "max": 571
-            }
-          },
-          {
-            "name": "Baltoy",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm343.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 307,
-              "max": 337
-            }
-          },
-          {
-            "name": "Bronzor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm436.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 229,
-              "max": 258
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Water-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Squirtle wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm7.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 372,
-              "max": 405
-            }
-          },
-          {
-            "name": "Horsea",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm116.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 418,
-              "max": 452
-            }
-          },
-          {
-            "name": "Goldeen",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm118.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 458,
-              "max": 493
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Water-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Squirtle wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm7.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 372,
-              "max": 405
-            }
-          },
-          {
-            "name": "Horsea",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm116.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 418,
-              "max": 452
-            }
-          },
-          {
-            "name": "Goldeen",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm118.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 458,
-              "max": 493
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Flying-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Scyther",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1104,
-              "max": 1160
-            }
-          },
-          {
-            "name": "Gligar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm207.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 750,
-              "max": 796
-            }
-          },
-          {
-            "name": "Noibat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm714.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 258,
-              "max": 285
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Flying-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Scyther",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1104,
-              "max": 1160
-            }
-          },
-          {
-            "name": "Gligar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm207.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 750,
-              "max": 796
-            }
-          },
-          {
-            "name": "Noibat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm714.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 258,
-              "max": 285
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Rock-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Onix",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm95.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 435,
-              "max": 472
-            }
-          },
-          {
-            "name": "Aerodactyl",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm142.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1136,
-              "max": 1193
-            }
-          },
-          {
-            "name": "Shieldon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm410.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 348,
-              "max": 381
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Rock-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Onix",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm95.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 435,
-              "max": 472
-            }
-          },
-          {
-            "name": "Aerodactyl",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm142.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1136,
-              "max": 1193
-            }
-          },
-          {
-            "name": "Shieldon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm410.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 348,
-              "max": 381
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Dragon-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 397,
-              "max": 430
-            }
-          },
-          {
-            "name": "Goomy",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm704.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 385,
-              "max": 418
-            }
-          },
-          {
-            "name": "Turtonator",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm776.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 902,
-              "max": 952
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Dragon-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 397,
-              "max": 430
-            }
-          },
-          {
-            "name": "Goomy",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm704.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 385,
-              "max": 418
-            }
-          },
-          {
-            "name": "Turtonator",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm776.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 902,
-              "max": 952
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Ground-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Paldean Wooper",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm194.fPALDEA.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 247,
-              "max": 275
-            }
-          },
-          {
-            "name": "Hippopotas",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm449.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 542,
-              "max": 582
-            }
-          },
-          {
-            "name": "Galarian Stunfisk",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.fGALARIAN.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 876,
-              "max": 926
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Ground-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Paldean Wooper",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm194.fPALDEA.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 247,
-              "max": 275
-            }
-          },
-          {
-            "name": "Hippopotas",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm449.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 542,
-              "max": 582
-            }
-          },
-          {
-            "name": "Galarian Stunfisk",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.fGALARIAN.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 876,
-              "max": 926
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Steel-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Alolan Sandshrew",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm27.fALOLA.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 516,
-              "max": 554
-            }
-          },
-          {
-            "name": "Mawile",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm303.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 658,
-              "max": 700
-            }
-          },
-          {
-            "name": "Klink",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm599.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 377,
-              "max": 409
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Steel-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Alolan Sandshrew",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm27.fALOLA.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 516,
-              "max": 554
-            }
-          },
-          {
-            "name": "Mawile",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm303.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 658,
-              "max": 700
-            }
-          },
-          {
-            "name": "Klink",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm599.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 377,
-              "max": 409
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Normal-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Dunsparce",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm206.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 679,
-              "max": 724
-            }
-          },
-          {
-            "name": "Zigzagoon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm263.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 193,
-              "max": 218
-            }
-          },
-          {
-            "name": "Oranguru",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm765.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 997,
-              "max": 1050
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Normal-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Dunsparce",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm206.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 679,
-              "max": 724
-            }
-          },
-          {
-            "name": "Zigzagoon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm263.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 193,
-              "max": 218
-            }
-          },
-          {
-            "name": "Oranguru",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm765.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 997,
-              "max": 1050
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Poison-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Weedle",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm13.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 172,
-              "max": 195
-            }
-          },
-          {
-            "name": "Skorupi",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm451.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 398,
-              "max": 432
-            }
-          },
-          {
-            "name": "Skrelp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 421,
-              "max": 455
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Poison-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Weedle",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm13.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 172,
-              "max": 195
-            }
-          },
-          {
-            "name": "Skorupi",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm451.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 398,
-              "max": 432
-            }
-          },
-          {
-            "name": "Skrelp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 421,
-              "max": 455
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Bug-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Pinsir",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm127.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1209,
-              "max": 1268
-            }
-          },
-          {
-            "name": "Pineco",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm204.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 440,
-              "max": 475
-            }
-          },
-          {
-            "name": "Dewpider",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 277,
-              "max": 306
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Bug-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Pinsir",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm127.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 1209,
-              "max": 1268
-            }
-          },
-          {
-            "name": "Pineco",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm204.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 440,
-              "max": 475
-            }
-          },
-          {
-            "name": "Dewpider",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm751.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 277,
-              "max": 306
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Grass-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Bulbasaur wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm1.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 442,
-              "max": 477
-            }
-          },
-          {
-            "name": "Treecko",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm252.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 417,
-              "max": 451
-            }
-          },
-          {
-            "name": "Lileep",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm345.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 515,
-              "max": 553
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Grass-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Bulbasaur wearing a Pikachu Visor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm1.cSPRING_2020_NOEVOLVE.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 442,
-              "max": 477
-            }
-          },
-          {
-            "name": "Treecko",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm252.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 417,
-              "max": 451
-            }
-          },
-          {
-            "name": "Lileep",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm345.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 515,
-              "max": 553
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Dark-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Larvitar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm246.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 411,
-              "max": 445
-            }
-          },
-          {
-            "name": "Vullaby",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm629.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 506,
-              "max": 545
-            }
-          },
-          {
-            "name": "Inkay",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm686.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 365,
-              "max": 397
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Dark-type Pokémon 3 times</span>",
-        "rewards": [
-          {
-            "name": "Larvitar",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm246.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 411,
-              "max": 445
-            }
           },
-          {
-            "name": "Vullaby",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm629.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 506,
-              "max": 545
-            }
-          },
-          {
-            "name": "Inkay",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm686.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 365,
-              "max": 397
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Fairy-type Pokémon</span>",
-        "rewards": [
           {
-            "name": "Jigglypuff",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm39.icon.png",
+            "name": "World Championships 2024 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2024.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 277,
-              "max": 310
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Marill",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm183.icon.png",
+            "name": "Pikachu wearing a varsity jacket",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2025.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 172,
-              "max": 197
+              "min": 369,
+              "max": 402
             }
           },
-          {
-            "name": "Ralts",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 206,
-              "max": 231
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Fairy-type Pokémon 3 times</span>",
-        "rewards": [
           {
-            "name": "Jigglypuff",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm39.icon.png",
+            "name": "World Championships 2022 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2022.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 277,
-              "max": 310
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Marill",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm183.icon.png",
+            "name": "World Championships 2023 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2023.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 172,
-              "max": 197
+              "min": 369,
+              "max": 402
             }
           },
-          {
-            "name": "Ralts",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 206,
-              "max": 231
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 6 Fighting-type Pokémon</span>",
-        "rewards": [
           {
-            "name": "Meditite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm307.icon.png",
+            "name": "World Championships 2024 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2024.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 269,
-              "max": 297
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Lucario",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm448.icon.png",
+            "name": "Pikachu wearing a varsity jacket",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2025.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 1102,
-              "max": 1158
+              "min": 369,
+              "max": 402
             }
           },
-          {
-            "name": "Pancham",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm674.icon.png",
-            "canBeShiny": true,
-            "combatPower": {
-              "min": 597,
-              "max": 638
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Fighting-type Pokémon 3 times</span>",
-        "rewards": [
           {
-            "name": "Meditite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm307.icon.png",
+            "name": "World Championships 2022 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2022.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 269,
-              "max": 297
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Lucario",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm448.icon.png",
+            "name": "World Championships 2023 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2023.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 1102,
-              "max": 1158
+              "min": 369,
+              "max": 402
             }
           },
           {
-            "name": "Pancham",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm674.icon.png",
+            "name": "World Championships 2024 Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fWCS_2024.icon.png",
             "canBeShiny": true,
             "combatPower": {
-              "min": 597,
-              "max": 638
+              "min": 369,
+              "max": 402
             }
           }
         ]

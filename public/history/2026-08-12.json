@@ -1,243 +1,9 @@
 {
-  "date": "2026-08-06",
-  "generatedAt": "2026-08-06T10:49:34.984Z",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T09:32:08.220Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "raidhour20260805",
-        "name": "Uxie, Mesprit, and Azelf Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20260805/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-08-05T18:00:00.000",
-        "end": "2026-08-05T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemonspotlighthour2026-08-06",
-        "name": "Delibird Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-08-06/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-08-06T18:00:00.000",
-        "end": "2026-08-06T19:00:00.000",
-        "extraData": {
-          "spotlight": {
-            "name": "Delibird",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png",
-            "bonus": "2× Catch Stardust",
-            "list": [
-              {
-                "name": "Delibird",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_225_00.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Delibird",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "fire-and-ice-hatch-day-2026",
-        "name": "Fire and Ice Hatch Day",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/fire-and-ice-hatch-day-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-08-fire-and-ice-hatch-day-2026/fire-and-ice-hatch-day-2026.jpg",
-        "start": "2026-08-08T11:00:00.000",
-        "end": "2026-08-08T17:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "summer-marathon-2026",
-        "name": "Summer Marathon: Arctic Embers",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/summer-marathon-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-04-summer-marathon-2026/summer-marathon-2026.jpg",
-        "start": "2026-08-04T10:00:00.000",
-        "end": "2026-08-10T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Vulpix",
-                "canBeShiny": true
-              },
-              {
-                "name": "Alolan Vulpix",
-                "canBeShiny": true
-              },
-              {
-                "name": "Growlithe",
-                "canBeShiny": true
-              },
-              {
-                "name": "Swinub",
-                "canBeShiny": true
-              },
-              {
-                "name": "Snorunt",
-                "canBeShiny": true
-              },
-              {
-                "name": "Litwick",
-                "canBeShiny": true
-              },
-              {
-                "name": "Cubchoo",
-                "canBeShiny": true
-              },
-              {
-                "name": "Litleo",
-                "canBeShiny": true
-              },
-              {
-                "name": "Ponyta",
-                "canBeShiny": true
-              },
-              {
-                "name": "Snover",
-                "canBeShiny": true
-              },
-              {
-                "name": "Slugma",
-                "canBeShiny": true
-              },
-              {
-                "name": "Vanillite",
-                "canBeShiny": true
-              }
-            ],
-            "eventEggs": [
-              {
-                "name": "Sneasel",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Darumaka",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Darumaka",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Larvesta",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Sizzlipede",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Snom",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Explore 2 km",
-                "rewards": [
-                  {
-                    "name": "Ponyta",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Slugma",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Snover",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Vanillite",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Spin 10 PokéStops or Gyms",
-                "rewards": [
-                  {
-                    "name": "Ponyta",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Slugma",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Snover",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Vanillite",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Spin a PokéStop you haven't visited before",
-                "rewards": [
-                  {
-                    "name": "×1",
-                    "canBeShiny": false
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-08-10",
-        "name": "Dynamax Beldum during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-08-10/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-08-10T06:00:00.000",
-        "end": "2026-08-10T21:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
       {
         "eventID": "gbl-forever-forward_ultra-league_weather-cup-great-league-edition",
         "name": "Ultra League and Weather Cup: Great League Edition | Forever Forward",
@@ -694,7 +460,48 @@
         "extraData": {
           "generic": {
             "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasFieldResearchTasks": false,
+            "eventResearch": [
+              {
+                "task": "Defeat a Team GO Rocket Grunt",
+                "rewards": [
+                  {
+                    "name": "Venonat",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Fomantis",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Make 5 Nice Throws",
+                "rewards": [
+                  {
+                    "name": "Venonat",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Fomantis",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Explore 1 km",
+                "rewards": [
+                  {
+                    "name": "Venonat",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Fomantis",
+                    "canBeShiny": true
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -1293,18 +1100,667 @@
         }
       },
       {
+        "eventID": "mega-ascension",
+        "name": "Mega Ascension",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/mega-ascension/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-08-31-mega-ascension/mega-ascension.jpg",
+        "start": "2026-08-31T10:00:00.000",
+        "end": "2026-09-04T23:59:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bellsprout",
+                "canBeShiny": true
+              },
+              {
+                "name": "Staryu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dratini",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skarmory",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Inkay",
+                "canBeShiny": true
+              },
+              {
+                "name": "Falinks",
+                "canBeShiny": true
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Victreebel",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Dragonite",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Malamar",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Falinks",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Skarmory",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Starmie",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Raichu X",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Raichu Y",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Latias",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Latios",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
         "eventID": "pokemon-go-fest-2026-mega-finale",
         "name": "Pokémon GO Fest 2026: Mega Finale",
         "eventType": "pokemon-go-fest",
         "heading": "Pokémon GO Fest",
         "link": "https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-mega-finale.jpg?v2",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-05-pokemon-go-fest-2026-mega-finale/pokemon-go-fest-2026-mega-finale.jpg",
         "start": "2026-09-05T10:00:00.000",
-        "end": "2026-09-06T19:00:00.000",
+        "end": "2026-09-06T18:00:00.000",
         "extraData": {
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Weedle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bellsprout",
+                "canBeShiny": true
+              },
+              {
+                "name": "Scyther",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pinsir",
+                "canBeShiny": true
+              },
+              {
+                "name": "Roselia",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snover",
+                "canBeShiny": true
+              },
+              {
+                "name": "Venipede",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skiddo",
+                "canBeShiny": true
+              },
+              {
+                "name": "Abra",
+                "canBeShiny": true
+              },
+              {
+                "name": "Slowpoke",
+                "canBeShiny": true
+              },
+              {
+                "name": "Staryu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Ralts",
+                "canBeShiny": true
+              },
+              {
+                "name": "Meditite",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Espurr",
+                "canBeShiny": true
+              },
+              {
+                "name": "Binacle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Clauncher",
+                "canBeShiny": true
+              },
+              {
+                "name": "Gastly",
+                "canBeShiny": true
+              },
+              {
+                "name": "Houndour",
+                "canBeShiny": true
+              },
+              {
+                "name": "Shuppet",
+                "canBeShiny": true
+              },
+              {
+                "name": "Zorua",
+                "canBeShiny": true
+              },
+              {
+                "name": "Litwick",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Inkay",
+                "canBeShiny": true
+              },
+              {
+                "name": "Phantump",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pumpkaboo (Medium)",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mareep",
+                "canBeShiny": true
+              },
+              {
+                "name": "Electrike",
+                "canBeShiny": true
+              },
+              {
+                "name": "Emolga",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tynamo",
+                "canBeShiny": true
+              },
+              {
+                "name": "Stunfisk",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Helioptile",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dedenne",
+                "canBeShiny": true
+              },
+              {
+                "name": "Onix",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skarmory",
+                "canBeShiny": true
+              },
+              {
+                "name": "Aron",
+                "canBeShiny": true
+              },
+              {
+                "name": "Snorunt",
+                "canBeShiny": true
+              },
+              {
+                "name": "Beldum",
+                "canBeShiny": true
+              },
+              {
+                "name": "Drilbur",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Amaura",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bergmite",
+                "canBeShiny": true
+              },
+              {
+                "name": "Machop",
+                "canBeShiny": true
+              },
+              {
+                "name": "Carvanha",
+                "canBeShiny": true
+              },
+              {
+                "name": "Numel",
+                "canBeShiny": true
+              },
+              {
+                "name": "Buneary",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sandile",
+                "canBeShiny": true
+              },
+              {
+                "name": "Scraggy",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pancham",
+                "canBeShiny": true
+              },
+              {
+                "name": "Falinks",
+                "canBeShiny": true
+              },
+              {
+                "name": "Magikarp",
+                "canBeShiny": true
+              },
+              {
+                "name": "Aerodactyl",
+                "canBeShiny": true
+              },
+              {
+                "name": "Dratini",
+                "canBeShiny": true
+              },
+              {
+                "name": "Swablu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bagon",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fletchling",
+                "canBeShiny": true
+              },
+              {
+                "name": "Tyrunt",
+                "canBeShiny": true
+              },
+              {
+                "name": "Noibat",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Clefairy",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sableye",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mawile",
+                "canBeShiny": true
+              },
+              {
+                "name": "Audino",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chespin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fennekin",
+                "canBeShiny": true
+              },
+              {
+                "name": "Froakie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Furfrou (Natural)",
+                "canBeShiny": true
+              },
+              {
+                "name": "Spritzee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Carbink",
+                "canBeShiny": true
+              }
+            ]
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Mega Mewtwo X",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Mewtwo Y",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Beedrill",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Victreebel",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Pinsir",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Abomasnow",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Alakazam",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Slowbro",
+                "image": "",
+                "canBeShiny": false
+              },
+              {
+                "name": "Mega Starmie",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Medicham",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Gengar",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Houndoom",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Banette",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Malamar",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Raichu X",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Ampharos",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Manectric",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Steelix",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Skarmory",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Aggron",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Glalie",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Sharpedo",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Camerupt",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Lopunny",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Falinks",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Gyarados",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Aerodactyl",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Dragonite",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Altaria",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Raichu Y",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Sableye",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Mawile",
+                "image": "",
+                "canBeShiny": true
+              },
+              {
+                "name": "Mega Audino",
+                "image": "",
+                "canBeShiny": true
+              }
+            ],
+            "shinies": []
           }
         }
       },
@@ -1689,6 +2145,64 @@
         }
       },
       {
+        "eventID": "september-communitydayclassic2026",
+        "name": "September Community Day Classic",
+        "eventType": "community-day",
+        "heading": "Community Day",
+        "link": "https://leekduck.com/events/september-communitydayclassic2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+        "start": "2026-09-12T14:00:00.000",
+        "end": "2026-09-12T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "super-mega-raid-day-september-2026",
+        "name": "Super Mega Raid Day",
+        "eventType": "raid-day",
+        "heading": "Raid Day",
+        "link": "https://leekduck.com/events/super-mega-raid-day-september-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-09-19T14:00:00.000",
+        "end": "2026-09-19T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Super Mega",
+                "image": "",
+                "canBeShiny": false
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
+        "eventID": "catch-mastery-september-2026",
+        "name": "Catch Mastery",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/catch-mastery-september-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-09-26T10:00:00.000",
+        "end": "2026-09-26T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "lego-pokemon-go-2026",
         "name": "LEGO Stores and Pokémon GO",
         "eventType": "event",
@@ -1708,6 +2222,138 @@
                 "name": "Pikachu",
                 "image": "",
                 "canBeShiny": true
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
+        "eventID": "max-battle-day-october-2026",
+        "name": "Max Battle Day",
+        "eventType": "max-battles",
+        "heading": "Max Battles",
+        "link": "https://leekduck.com/events/max-battle-day-october-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-10-03T14:00:00.000",
+        "end": "2026-10-03T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "october-communityday2026",
+        "name": "October Community Day",
+        "eventType": "community-day",
+        "heading": "Community Day",
+        "link": "https://leekduck.com/events/october-communityday2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+        "start": "2026-10-10T14:00:00.000",
+        "end": "2026-10-10T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "hatch-day-october-2026",
+        "name": "Hatch Day",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/hatch-day-october-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-10-17T11:00:00.000",
+        "end": "2026-10-17T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "max-battle-day-october-24-2026",
+        "name": "Max Battle Day",
+        "eventType": "max-battles",
+        "heading": "Max Battles",
+        "link": "https://leekduck.com/events/max-battle-day-october-24-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-10-24T14:00:00.000",
+        "end": "2026-10-24T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "super-mega-raid-day-october-2026",
+        "name": "Super Mega Raid Day",
+        "eventType": "raid-day",
+        "heading": "Raid Day",
+        "link": "https://leekduck.com/events/super-mega-raid-day-october-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-10-31T14:00:00.000",
+        "end": "2026-10-31T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Super Mega",
+                "image": "",
+                "canBeShiny": false
+              }
+            ],
+            "shinies": []
+          }
+        }
+      },
+      {
+        "eventID": "november-communityday2026",
+        "name": "November Community Day",
+        "eventType": "community-day",
+        "heading": "Community Day",
+        "link": "https://leekduck.com/events/november-communityday2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+        "start": "2026-11-21T14:00:00.000",
+        "end": "2026-11-21T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
+        "eventID": "super-mega-raid-day-november-2026",
+        "name": "Super Mega Raid Day",
+        "eventType": "raid-day",
+        "heading": "Raid Day",
+        "link": "https://leekduck.com/events/super-mega-raid-day-november-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/events-default-img.jpg",
+        "start": "2026-11-28T14:00:00.000",
+        "end": "2026-11-28T17:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          },
+          "raidbattles": {
+            "bosses": [
+              {
+                "name": "Super Mega",
+                "image": "",
+                "canBeShiny": false
               }
             ],
             "shinies": []
@@ -2322,6 +2968,75 @@
       }
     ],
     "research": [
+      {
+        "text": "<span>Defeat a Team GO Rocket Grunt</span>",
+        "rewards": [
+          {
+            "name": "Venonat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm48.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 396,
+              "max": 430
+            }
+          },
+          {
+            "name": "Fomantis",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm753.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 288,
+              "max": 317
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Make 5 Nice Throws</span>",
+        "rewards": [
+          {
+            "name": "Venonat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm48.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 396,
+              "max": 430
+            }
+          },
+          {
+            "name": "Fomantis",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm753.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 288,
+              "max": 317
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Explore 1 km</span>",
+        "rewards": [
+          {
+            "name": "Venonat",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm48.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 396,
+              "max": 430
+            }
+          },
+          {
+            "name": "Fomantis",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm753.icon.png",
+            "canBeShiny": true,
+            "combatPower": {
+              "min": 288,
+              "max": 317
+            }
+          }
+        ]
+      },
       {
         "text": "<span>Explore 2 km</span>",
         "rewards": [

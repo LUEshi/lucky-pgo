@@ -1,571 +1,9 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-10T12:56:26.749Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T13:31:48.585Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "pokemonspotlighthour2026-09-10",
-        "name": "Weedle, Kakuna, and Beedrill Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-10/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-09-10T18:00:00.000",
-        "end": "2026-09-10T19:00:00.000",
-        "extraData": {
-          "spotlight": {
-            "name": "Weedle",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png",
-            "bonus": "2× Transfer Candy",
-            "list": [
-              {
-                "name": "Weedle",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_013_00.png"
-              },
-              {
-                "name": "Kakuna",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_014_00.png"
-              },
-              {
-                "name": "Beedrill",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_015_00.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Weedle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kakuna",
-                "canBeShiny": true
-              },
-              {
-                "name": "Beedrill",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "september-communitydayclassic2026",
-        "name": "Gible Community Day Classic",
-        "eventType": "community-day",
-        "heading": "Community Day",
-        "link": "https://leekduck.com/events/september-communitydayclassic2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-12-september-communitydayclassic2026/gible-community-day-classic.jpg",
-        "start": "2026-09-12T14:00:00.000",
-        "end": "2026-09-12T17:00:00.000",
-        "extraData": {
-          "communityday": {
-            "spawns": [
-              {
-                "name": "Gible",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00.png"
-              }
-            ],
-            "bonuses": [
-              {
-                "text": "Increased Spawns",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
-              },
-              {
-                "text": "3x Catch XP",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/xp.png"
-              },
-              {
-                "text": "3-hour Incense*",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
-              },
-              {
-                "text": "1-hour Lures**",
-                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
-              }
-            ],
-            "bonusDisclaimers": [
-              "* The three-hour Incense bonus excludes Daily Adventure Incense.\n** Lure Modules will last for one hour and may attract the featured Pokémon. While most bonuses are only active during the three-hour event period, this bonus will be active from 2:00 p.m. to 9:00 p.m. local time."
-            ],
-            "shinies": [
-              {
-                "name": "Gible",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_443_00_shiny.png"
-              },
-              {
-                "name": "Gabite",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_444_00_shiny.png"
-              },
-              {
-                "name": "Garchomp",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_445_00_shiny.png"
-              }
-            ],
-            "specialresearch": [
-              {
-                "name": "Gible Community Day Classic (1/3)",
-                "step": 1,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Make 7 Nice Throws",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Make 5 Great Throws",
-                    "reward": {
-                      "text": "Lucky Egg ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
-                    }
-                  },
-                  {
-                    "text": "Make 5 Curveball Throws",
-                    "reward": {
-                      "text": "Incense ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  },
-                  {
-                    "text": "×50",
-                    "image": "https://cdn.leekduck.com/assets/img/candy/regular/443.png"
-                  },
-                  {
-                    "text": "×5",
-                    "image": "https://cdn.leekduck.com/assets/img/candy/xl/443.png"
-                  }
-                ]
-              },
-              {
-                "name": "Gible Community Day Classic (2/3)",
-                "step": 2,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokemon",
-                    "reward": {
-                      "text": "Gabite",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_444_00.png"
-                    }
-                  },
-                  {
-                    "text": "Use 3 Berries to help catch Pokemon",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Use 5 Berries to help catch Pokemon",
-                    "reward": {
-                      "text": "Charged TM ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
-                    }
-                  },
-                  {
-                    "text": "Use 7 Berries to help catch Pokemon",
-                    "reward": {
-                      "text": "Silver Pinap Berry ×3",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  },
-                  {
-                    "text": "×7500",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
-                  },
-                  {
-                    "text": "×3",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
-                  }
-                ]
-              },
-              {
-                "name": "Gible Community Day Classic (3/3)",
-                "step": 3,
-                "tasks": [
-                  {
-                    "text": "Catch 3 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 5 Pokemon",
-                    "reward": {
-                      "text": "Gible",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                    }
-                  },
-                  {
-                    "text": "Catch 10 Pokemon",
-                    "reward": {
-                      "text": "Garchomp",
-                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_445_00.png"
-                    }
-                  },
-                  {
-                    "text": "Spin 3 PokeStops or Gyms",
-                    "reward": {
-                      "text": "Ultra Ball ×20",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
-                    }
-                  },
-                  {
-                    "text": "Spin 5 PokeStops or Gyms",
-                    "reward": {
-                      "text": "Rocket Radar ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
-                    }
-                  },
-                  {
-                    "text": "Explore 1 km",
-                    "reward": {
-                      "text": "Premium Battle Pass ×1",
-                      "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
-                    }
-                  }
-                ],
-                "rewards": [
-                  {
-                    "text": "Gible",
-                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pokemon_icon_443_00.png"
-                  },
-                  {
-                    "text": "10000 XP",
-                    "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
-                  },
-                  {
-                    "text": "×1",
-                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
-                  }
-                ]
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": true,
-            "spawns": [
-              {
-                "name": "Gible",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch 3 Gible",
-                "rewards": [
-                  {
-                    "name": "Gible",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "×5",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×2",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×2",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×500",
-                    "canBeShiny": false
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "pokemonspotlighthour2026-09-13",
-        "name": "Houndour and Houndoom Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-13/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-09-13T18:00:00.000",
-        "end": "2026-09-13T19:00:00.000",
-        "extraData": {
-          "spotlight": {
-            "name": "Houndour",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png",
-            "bonus": "2× Transfer Candy",
-            "list": [
-              {
-                "name": "Houndour",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_228_00.png"
-              },
-              {
-                "name": "Houndoom",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_229_00.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Houndour",
-                "canBeShiny": true
-              },
-              {
-                "name": "Houndoom",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "mega-squads",
-        "name": "Mega Squads",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/mega-squads/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-09-08-mega-squads/mega-squads.jpg",
-        "start": "2026-09-08T10:00:00.000",
-        "end": "2026-09-14T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Weedle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Flamigo",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pidgey",
-                "canBeShiny": true
-              },
-              {
-                "name": "Emolga",
-                "canBeShiny": true
-              },
-              {
-                "name": "Fletchling",
-                "canBeShiny": true
-              },
-              {
-                "name": "Noibat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Rookidee",
-                "canBeShiny": true
-              },
-              {
-                "name": "Houndour",
-                "canBeShiny": true
-              },
-              {
-                "name": "Carvanha",
-                "canBeShiny": true
-              }
-            ],
-            "eventEggs": [
-              {
-                "name": "Emolga",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Fletchling",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Rookidee",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Flamigo",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Sandile",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Pancham",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              },
-              {
-                "name": "Maschiff",
-                "eggDistance": "5 km",
-                "canBeShiny": false
-              },
-              {
-                "name": "Flamigo",
-                "eggDistance": "5 km",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Catch 10 Bug‑ or Flying‑type Pokémon",
-                "rewards": [
-                  {
-                    "name": "Weedle",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Pidgey",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Fletchling",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 10 Flamigo",
-                "rewards": [
-                  {
-                    "name": "×1",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×10000",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Spin 3 PokéStops or Gyms",
-                "rewards": [
-                  {
-                    "name": "×10",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×5",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×500",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Hatch an Egg",
-                "rewards": [
-                  {
-                    "name": "Flamigo",
-                    "canBeShiny": true
-                  }
-                ]
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Mega Beedrill",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mega Houndoom",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-09-14",
-        "name": "Dynamax Rhyhorn during Max Monday",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-09-14/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-09-14T06:00:00.000",
-        "end": "2026-09-14T21:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
       {
         "eventID": "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1",
         "name": "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails",
@@ -573,8 +11,8 @@
         "heading": "GO Battle League",
         "link": "https://leekduck.com/events/gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1/",
         "image": "https://cdn.leekduck.com/assets/img/events/go-battle-league-season-28-twilight-trails.png",
-        "start": "2026-09-08T20:00:00.000Z",
-        "end": "2026-09-15T20:00:00.000Z",
+        "start": null,
+        "end": null,
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -589,8 +27,8 @@
         "heading": "Raid Battles",
         "link": "https://leekduck.com/events/mega-beedrill-in-mega-raids-september-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-09-08T06:00:00.000",
-        "end": "2026-09-15T22:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "raidbattles": {
             "bosses": [
@@ -624,8 +62,8 @@
         "heading": "Raid Battles",
         "link": "https://leekduck.com/events/zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
-        "start": "2026-09-09T06:00:00.000",
-        "end": "2026-09-15T22:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "raidbattles": {
             "bosses": [
@@ -655,8 +93,8 @@
         "heading": "Raid Battles",
         "link": "https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/mega-default.jpg",
-        "start": "2026-09-11T06:00:00.000",
-        "end": "2026-09-15T22:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "raidbattles": {
             "bosses": [
@@ -701,7 +139,7 @@
       },
       {
         "eventID": "pokemonspotlighthour2026-09-17",
-        "name": "Mystery Pokémon Spotlight Hour",
+        "name": "Charmander wearing Friede's goggles Spotlight Hour",
         "eventType": "pokemon-spotlight-hour",
         "heading": "Pokémon Spotlight Hour",
         "link": "https://leekduck.com/events/pokemonspotlighthour2026-09-17/",
@@ -709,9 +147,28 @@
         "start": "2026-09-17T18:00:00.000",
         "end": "2026-09-17T19:00:00.000",
         "extraData": {
+          "spotlight": {
+            "name": "Charmander wearing Friede's goggles",
+            "canBeShiny": true,
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png",
+            "bonus": "2× Catch Stardust",
+            "list": [
+              {
+                "name": "Charmander wearing Friede's goggles",
+                "canBeShiny": true,
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm4.fGOGGLES_2026.icon.png"
+              }
+            ]
+          },
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Charmander wearing Friede's goggles",
+                "canBeShiny": true
+              }
+            ]
           }
         }
       },
@@ -775,7 +232,7 @@
       },
       {
         "eventID": "pokemon-horizons-the-series-celebration-event-2026",
-        "name": "Pokémon Horizons: The Series Celebration Event",
+        "name": "Pokémon Horizons: The Series Celebration Event 2026",
         "eventType": "event",
         "heading": "Event",
         "link": "https://leekduck.com/events/pokemon-horizons-the-series-celebration-event-2026/",
@@ -792,7 +249,15 @@
                 "canBeShiny": true
               },
               {
-                "name": "Captain's Cap Pikachu",
+                "name": "Sprigatito",
+                "canBeShiny": true
+              },
+              {
+                "name": "Fuecoco",
+                "canBeShiny": true
+              },
+              {
+                "name": "Quaxly",
                 "canBeShiny": true
               },
               {
@@ -804,7 +269,19 @@
                 "canBeShiny": false
               },
               {
+                "name": "Captain's Cap Pikachu",
+                "canBeShiny": true
+              },
+              {
                 "name": "Chansey",
+                "canBeShiny": true
+              },
+              {
+                "name": "Charmander wearing Friede's goggles",
+                "canBeShiny": true
+              },
+              {
+                "name": "Rhyhorn",
                 "canBeShiny": true
               },
               {
@@ -816,8 +293,87 @@
                 "canBeShiny": true
               },
               {
+                "name": "Nacli",
+                "canBeShiny": false
+              },
+              {
+                "name": "Tinkatink",
+                "canBeShiny": true
+              },
+              {
+                "name": "Captain's Cap Pikachu",
+                "canBeShiny": true
+              },
+              {
                 "name": "Rockruff",
                 "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 10 Fire‑type Pokémon",
+                "rewards": [
+                  {
+                    "name": "Charmander wearing Friede's goggles",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Fidough",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Wattrel",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Make an Excellent Throw",
+                "rewards": [
+                  {
+                    "name": "Charmander wearing Friede's goggles",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Make 5 Great Throws",
+                "rewards": [
+                  {
+                    "name": "Sprigatito",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Fuecoco",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Quaxly",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Win a raid",
+                "rewards": [
+                  {
+                    "name": "Chansey",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Lapras",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Win 2 raids",
+                "rewards": [
+                  {
+                    "name": "Captain's Cap Pikachu",
+                    "canBeShiny": true
+                  }
+                ]
               }
             ]
           },
@@ -1026,6 +582,22 @@
         }
       },
       {
+        "eventID": "choose-your-path-twilight-trails-2026",
+        "name": "Choose Your Path: Twilight Trails",
+        "eventType": "choose-your-path",
+        "heading": "Choose Your Path",
+        "link": "https://leekduck.com/events/choose-your-path-twilight-trails-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/choose-your-path-twilight-trails-2026.jpg",
+        "start": "2026-09-23T10:00:00.000",
+        "end": "2026-09-28T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "max-mondays-2026-09-28",
         "name": "Dynamax Sobble during Max Monday",
         "eventType": "max-mondays",
@@ -1180,6 +752,68 @@
               }
             ],
             "shinies": []
+          }
+        }
+      },
+      {
+        "eventID": "patterns-of-the-wild-2026",
+        "name": "Patterns of the Wild",
+        "eventType": "event",
+        "heading": "Event",
+        "link": "https://leekduck.com/events/patterns-of-the-wild-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-02-patterns-of-the-wild-2026/patterns-of-the-wild-2026.jpg",
+        "start": "2026-10-02T10:00:00.000",
+        "end": "2026-10-02T20:00:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": true,
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Caterpie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Batik Shirt Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Oddish",
+                "canBeShiny": true
+              },
+              {
+                "name": "Gloom",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bellsprout",
+                "canBeShiny": true
+              },
+              {
+                "name": "Ledyba",
+                "canBeShiny": true
+              },
+              {
+                "name": "Ledian",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hoppip",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skiploom",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sunkern",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wurmple",
+                "canBeShiny": true
+              }
+            ]
           }
         }
       },
@@ -1427,17 +1061,294 @@
       },
       {
         "eventID": "october-communityday2026",
-        "name": "October Community Day",
+        "name": "Zorua Community Day",
         "eventType": "community-day",
         "heading": "Community Day",
         "link": "https://leekduck.com/events/october-communityday2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/cd-default.jpg",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-10-10-october-communityday2026/zorua-october-cd-2026.png",
         "start": "2026-10-10T14:00:00.000",
         "end": "2026-10-10T17:00:00.000",
         "extraData": {
+          "communityday": {
+            "spawns": [
+              {
+                "name": "Zorua",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.icon.png"
+              }
+            ],
+            "bonuses": [
+              {
+                "text": "Increased Spawns",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/wildgrass.png"
+              },
+              {
+                "text": "3x Catch XP",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/xp.png"
+              },
+              {
+                "text": "3-hour Incense",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/incense.png"
+              },
+              {
+                "text": "1-hour Lures*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/lure.png"
+              },
+              {
+                "text": "2x Catch Candy",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candy.png"
+              },
+              {
+                "text": "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/candyxl.png"
+              },
+              {
+                "text": "One additional Special Trade can be made for a maximum of two for the day*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/trade.png"
+              },
+              {
+                "text": "Trades made will require 50% less Stardust*",
+                "image": "https://cdn.leekduck.com/assets/img/events/bonuses/stardust2x.png"
+              }
+            ],
+            "bonusDisclaimers": [
+              "* While most bonuses are only active during the three hours of the event (2:00 p.m. to 5:00 p.m. local time), these bonuses will be active from 2:00 p.m. to 9:00 p.m. local time.",
+              "The three-hour Incense bonus excludes Daily Adventure Incense and the one-hour Lure bonus excludes Golden Lure Modules."
+            ],
+            "shinies": [
+              {
+                "name": "Zorua",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm570.s.icon.png"
+              },
+              {
+                "name": "Zoroark",
+                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm571.s.icon.png"
+              }
+            ],
+            "specialresearch": [
+              {
+                "name": "Zorua Community Day (1/3)",
+                "step": 1,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Make 7 Nice Throws",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Make 5 Great Throws",
+                    "reward": {
+                      "text": "Lucky Egg ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Lucky%20Egg.png"
+                    }
+                  },
+                  {
+                    "text": "Make 5 Curveball Throws",
+                    "reward": {
+                      "text": "Incense ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Incense.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  },
+                  {
+                    "text": "×50",
+                    "image": "https://cdn.leekduck.com/assets/img/candy/regular/570.png"
+                  },
+                  {
+                    "text": "×5",
+                    "image": "https://cdn.leekduck.com/assets/img/candy/xl/570.png"
+                  }
+                ]
+              },
+              {
+                "name": "Zorua Community Day (2/3)",
+                "step": 2,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokemon",
+                    "reward": {
+                      "text": "Zoroark",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm571.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Use 3 Berries to help catch Pokemon",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Use 5 Berries to help catch Pokemon",
+                    "reward": {
+                      "text": "Charged TM ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Charged%20TM.png"
+                    }
+                  },
+                  {
+                    "text": "Use 7 Berries to help catch Pokemon",
+                    "reward": {
+                      "text": "Silver Pinap Berry ×3",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Silver%20Pinap%20Berry.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  },
+                  {
+                    "text": "×7500",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Stardust.png"
+                  },
+                  {
+                    "text": "×3",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy.png"
+                  }
+                ]
+              },
+              {
+                "name": "Zorua Community Day (3/3)",
+                "step": 3,
+                "tasks": [
+                  {
+                    "text": "Catch 3 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 5 Pokemon",
+                    "reward": {
+                      "text": "Zorua",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Catch 10 Pokemon",
+                    "reward": {
+                      "text": "Zoroark",
+                      "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm571.icon.png"
+                    }
+                  },
+                  {
+                    "text": "Spin 3 PokeStops or Gyms",
+                    "reward": {
+                      "text": "Ultra Ball ×20",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Ultra%20Ball.png"
+                    }
+                  },
+                  {
+                    "text": "Spin 5 PokeStops or Gyms",
+                    "reward": {
+                      "text": "Rocket Radar ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Rocket%20Radar.png"
+                    }
+                  },
+                  {
+                    "text": "Explore 1 km",
+                    "reward": {
+                      "text": "Premium Battle Pass ×1",
+                      "image": "https://cdn.leekduck.com/assets/img/items/Premium%20Battle%20Pass.png"
+                    }
+                  }
+                ],
+                "rewards": [
+                  {
+                    "text": "Zorua",
+                    "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm570.icon.png"
+                  },
+                  {
+                    "text": "10000 XP",
+                    "image": "https://cdn.leekduck.com/assets/img/icons/xp.png"
+                  },
+                  {
+                    "text": "×1",
+                    "image": "https://cdn.leekduck.com/assets/img/items/Rare%20Candy%20XL.png"
+                  }
+                ]
+              }
+            ]
+          },
           "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
+            "hasSpawns": true,
+            "hasFieldResearchTasks": true,
+            "spawns": [
+              {
+                "name": "Zorua",
+                "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 3 Zorua",
+                "rewards": [
+                  {
+                    "name": "Zorua",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "×5",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×2",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×2",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×500",
+                    "canBeShiny": false
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -1943,7 +1854,7 @@
               {
                 "name": "Klefki",
                 "eggDistance": "unknown",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Drampa",
@@ -2359,7 +2270,7 @@
               {
                 "name": "Klefki",
                 "eggDistance": "unknown",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Drampa",
@@ -2747,7 +2658,7 @@
               {
                 "name": "Klefki",
                 "eggDistance": "unknown",
-                "canBeShiny": false
+                "canBeShiny": true
               },
               {
                 "name": "Drampa",
@@ -2887,7 +2798,17 @@
                 "canBeShiny": true
               },
               {
+                "name": "Mime Jr.",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
                 "name": "Munchlax",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Larvesta",
                 "eggDistance": "5 km",
                 "canBeShiny": true
               },
@@ -2897,9 +2818,29 @@
                 "canBeShiny": true
               },
               {
+                "name": "Snom",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Indeedee (Male)",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
+                "name": "Indeedee (Female)",
+                "eggDistance": "5 km",
+                "canBeShiny": true
+              },
+              {
                 "name": "Fidough",
                 "eggDistance": "5 km",
                 "canBeShiny": true
+              },
+              {
+                "name": "Maschiff",
+                "eggDistance": "5 km",
+                "canBeShiny": false
               },
               {
                 "name": "Tyrogue",
@@ -2999,241 +2940,13 @@
     ],
     "raids": [
       {
-        "name": "Alolan Rattata",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          },
-          {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 381,
-            "max": 419
-          },
-          "boosted": {
-            "min": 477,
-            "max": 524
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          },
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm19.fALOLA.icon.png"
-      },
-      {
-        "name": "Dunsparce",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "normal",
-            "image": "https://leekduck.com/assets/img/types/normal.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 906,
-            "max": 965
-          },
-          "boosted": {
-            "min": 1132,
-            "max": 1206
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "partly cloudy",
-            "image": "https://leekduck.com/assets/img/weather/partlycloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm206.icon.png"
-      },
-      {
-        "name": "Scraggy",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "dark",
-            "image": "https://leekduck.com/assets/img/types/dark.png"
-          },
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 732,
-            "max": 784
-          },
-          "boosted": {
-            "min": 915,
-            "max": 980
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "fog",
-            "image": "https://leekduck.com/assets/img/weather/foggy.png"
-          },
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm559.icon.png"
-      },
-      {
-        "name": "Fidough",
-        "tier": "1-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 519,
-            "max": 563
-          },
-          "boosted": {
-            "min": 648,
-            "max": 703
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm926.icon.png"
-      },
-      {
-        "name": "Alolan Dugtrio",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "ground",
-            "image": "https://leekduck.com/assets/img/types/ground.png"
-          },
-          {
-            "name": "steel",
-            "image": "https://leekduck.com/assets/img/types/steel.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1021,
-            "max": 1084
-          },
-          "boosted": {
-            "min": 1276,
-            "max": 1355
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "sunny",
-            "image": "https://leekduck.com/assets/img/weather/sunny.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm51.fALOLA.icon.png"
-      },
-      {
-        "name": "Lapras",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "water",
-            "image": "https://leekduck.com/assets/img/types/water.png"
-          },
-          {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1435,
-            "max": 1509
-          },
-          "boosted": {
-            "min": 1794,
-            "max": 1886
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm131.icon.png"
-      },
-      {
-        "name": "Falinks",
-        "tier": "3-Star Raids",
-        "canBeShiny": true,
-        "types": [
-          {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
-          }
-        ],
-        "combatPower": {
-          "normal": {
-            "min": 1278,
-            "max": 1347
-          },
-          "boosted": {
-            "min": 1598,
-            "max": 1683
-          }
-        },
-        "boostedWeather": [
-          {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
-          }
-        ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm870.icon.png"
-      },
-      {
-        "name": "Zacian (Hero)",
+        "name": "Zamazenta (Hero)",
         "tier": "5-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "fairy",
-            "image": "https://leekduck.com/assets/img/types/fairy.png"
+            "name": "fighting",
+            "image": "https://leekduck.com/assets/img/types/fighting.png"
           }
         ],
         "combatPower": {
@@ -3252,16 +2965,16 @@
             "image": "https://leekduck.com/assets/img/weather/cloudy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fHERO.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fHERO.icon.png"
       },
       {
-        "name": "Mega Beedrill",
+        "name": "Mega Venusaur",
         "tier": "Mega Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "bug",
-            "image": "https://leekduck.com/assets/img/types/bug.png"
+            "name": "grass",
+            "image": "https://leekduck.com/assets/img/types/grass.png"
           },
           {
             "name": "poison",
@@ -3270,25 +2983,25 @@
         ],
         "combatPower": {
           "normal": {
-            "min": 994,
-            "max": 1054
+            "min": 1480,
+            "max": 1554
           },
           "boosted": {
-            "min": 1242,
-            "max": 1318
+            "min": 1851,
+            "max": 1943
           }
         },
         "boostedWeather": [
           {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
           },
           {
             "name": "cloudy",
             "image": "https://leekduck.com/assets/img/weather/cloudy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm15.fMEGA.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm3.fMEGA.icon.png"
       },
       {
         "name": "Shadow Machop",
@@ -3553,97 +3266,197 @@
     ],
     "research": [
       {
-        "text": "<span>Catch 10 Bug- or Flying-type Pokémon</span>",
+        "text": "<span>Catch 10 Fire-type Pokémon</span>",
         "rewards": [
           {
-            "name": "Weedle",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm13.icon.png",
+            "name": "Charmander wearing Friede's goggles",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.fGOGGLES_2026.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 172,
-              "max": 195
+              "min": 387,
+              "max": 420
             }
           },
           {
-            "name": "Pidgey",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm16.icon.png",
+            "name": "Eevee",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm133.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 264,
-              "max": 291
+              "min": 424,
+              "max": 459
             }
           },
           {
-            "name": "Fletchling",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm661.icon.png",
+            "name": "Hatenna",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm856.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 313,
-              "max": 343
+              "min": 338,
+              "max": 369
+            }
+          },
+          {
+            "name": "Charmander wearing Friede's goggles",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.fGOGGLES_2026.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 387,
+              "max": 420
+            }
+          },
+          {
+            "name": "Fidough",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm926.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 389,
+              "max": 422
+            }
+          },
+          {
+            "name": "Wattrel",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm940.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 323,
+              "max": 354
             }
           }
         ]
       },
       {
-        "text": "<span>Hatch an Egg</span>",
+        "text": "<span>Make an Excellent Throw</span>",
         "rewards": [
           {
-            "name": "Flamigo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm973.icon.png",
+            "name": "Charmander wearing Friede's goggles",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.fGOGGLES_2026.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 1125,
-              "max": 1181
+              "min": 387,
+              "max": 420
+            }
+          },
+          {
+            "name": "Charmander wearing Friede's goggles",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.fGOGGLES_2026.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 387,
+              "max": 420
             }
           }
         ]
       },
       {
-        "text": "<span>???</span>",
+        "text": "<span>Make 5 Great Throws</span>",
         "rewards": [
           {
-            "name": "Houndour",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm228.icon.png",
+            "name": "Rhyhorn",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm111.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 491,
-              "max": 529
+              "min": 664,
+              "max": 707
             }
           },
           {
-            "name": "Carvanha",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm318.icon.png",
+            "name": "Nacli",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm932.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 398,
-              "max": 437
+              "min": 381,
+              "max": 414
             }
           },
           {
-            "name": "Nickit",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm827.icon.png",
+            "name": "Sprigatito",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm906.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 278,
-              "max": 306
+              "min": 401,
+              "max": 435
             }
           },
           {
-            "name": "Maschiff",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm942.icon.png",
+            "name": "Fuecoco",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm909.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 560,
-              "max": 600
+              "min": 447,
+              "max": 483
             }
           },
           {
-            "name": "Flamigo",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm973.icon.png",
+            "name": "Quaxly",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm912.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 1125,
-              "max": 1181
+              "min": 425,
+              "max": 460
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Win a raid</span>",
+        "rewards": [
+          {
+            "name": "Rockruff",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm744.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 374,
+              "max": 407
+            }
+          },
+          {
+            "name": "Tinkatink",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm957.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 337,
+              "max": 368
+            }
+          },
+          {
+            "name": "Chansey",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm113.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 490,
+              "max": 537
+            }
+          },
+          {
+            "name": "Lapras",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm131.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 1076,
+              "max": 1131
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Win 2 raids</span>",
+        "rewards": [
+          {
+            "name": "Captain's Cap Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fHORIZONS.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 369,
+              "max": 402
+            }
+          },
+          {
+            "name": "Captain's Cap Pikachu",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm25.fHORIZONS.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 369,
+              "max": 402
             }
           }
         ]
@@ -6014,32 +5827,18 @@
         "rarity": 5
       },
       {
-        "name": "Munchlax",
+        "name": "Snom",
         "eggType": "5 km",
         "isAdventureSync": false,
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm446.icon.png",
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm872.icon.png",
         "canBeShiny": true,
         "combatPower": {
-          "min": 1081,
-          "max": 1081
+          "min": 302,
+          "max": 302
         },
         "isRegional": false,
         "isGiftExchange": false,
-        "rarity": 0
-      },
-      {
-        "name": "Sizzlipede",
-        "eggType": "5 km",
-        "isAdventureSync": false,
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm850.icon.png",
-        "canBeShiny": true,
-        "combatPower": {
-          "min": 599,
-          "max": 599
-        },
-        "isRegional": false,
-        "isGiftExchange": false,
-        "rarity": 0
+        "rarity": 1
       },
       {
         "name": "Fidough",
@@ -6053,7 +5852,105 @@
         },
         "isRegional": false,
         "isGiftExchange": false,
-        "rarity": 0
+        "rarity": 1
+      },
+      {
+        "name": "Munchlax",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm446.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 1081,
+          "max": 1081
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Sizzlipede",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm850.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 599,
+          "max": 599
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Maschiff",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm942.icon.png",
+        "canBeShiny": false,
+        "combatPower": {
+          "min": 799,
+          "max": 799
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Mime Jr",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm439.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 626,
+          "max": 626
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 1
+      },
+      {
+        "name": "Indeedee (Male)",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm876.fMALE.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 1396,
+          "max": 1396
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 2
+      },
+      {
+        "name": "Indeedee (Female)",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm876.fFEMALE.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 1370,
+          "max": 1370
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 2
+      },
+      {
+        "name": "Larvesta",
+        "eggType": "5 km",
+        "isAdventureSync": false,
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm636.icon.png",
+        "canBeShiny": true,
+        "combatPower": {
+          "min": 855,
+          "max": 855
+        },
+        "isRegional": false,
+        "isGiftExchange": false,
+        "rarity": 5
       },
       {
         "name": "Chingling",

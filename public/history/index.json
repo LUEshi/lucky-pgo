@@ -1,7 +1,11 @@
 {
-  "generatedAt": "2026-11-08T15:14:31.459Z",
+  "generatedAt": "2026-11-09T18:50:21.288Z",
   "keepDays": 7,
   "snapshots": [
+    {
+      "date": "2026-11-09",
+      "path": "history/2026-11-09.json"
+    },
     {
       "date": "2026-11-08",
       "path": "history/2026-11-08.json"
@@ -21,10 +25,6 @@
     {
       "date": "2026-11-04",
       "path": "history/2026-11-04.json"
-    },
-    {
-      "date": "2026-11-03",
-      "path": "history/2026-11-03.json"
     }
   ]
 }

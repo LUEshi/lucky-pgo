@@ -1,717 +1,9 @@
 {
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T15:06:39.727Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T16:59:09.166Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "into-the-wild-2026",
-        "name": "Into the Wild 2026",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/into-the-wild-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-09-into-the-wild-2026/into-the-wild-2026.jpg",
-        "start": "2026-11-09T10:00:00.000",
-        "end": "2026-11-13T20:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": true,
-            "spawns": [
-              {
-                "name": "Galarian Meowth",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magnemite",
-                "canBeShiny": true
-              },
-              {
-                "name": "Horsea",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scyther",
-                "canBeShiny": true
-              },
-              {
-                "name": "Dratini",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mareep",
-                "canBeShiny": true
-              },
-              {
-                "name": "Mawile",
-                "canBeShiny": true
-              },
-              {
-                "name": "Aron",
-                "canBeShiny": true
-              },
-              {
-                "name": "Bagon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Skrelp",
-                "canBeShiny": true
-              },
-              {
-                "name": "Noibat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Togedemaru",
-                "canBeShiny": true
-              }
-            ],
-            "eventResearch": [
-              {
-                "task": "Power up Steel‑type Pokémon 5 times",
-                "rewards": [
-                  {
-                    "name": "Aron",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Magnemite",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Togedemaru",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Galarian Meowth",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Power up Dragon‑type Pokémon 5 times",
-                "rewards": [
-                  {
-                    "name": "Bagon",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Skrelp",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Dratini",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Horsea",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Win a raid",
-                "rewards": [
-                  {
-                    "name": "Dratini",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "×2",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "Scyther",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch 10 Pokémon",
-                "rewards": [
-                  {
-                    "name": "Horsea",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Aron",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Skrelp",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Magnemite",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Win a Max Battle",
-                "rewards": [
-                  {
-                    "name": "Bagon",
-                    "canBeShiny": true
-                  },
-                  {
-                    "name": "Mawile",
-                    "canBeShiny": true
-                  }
-                ]
-              },
-              {
-                "task": "Catch a Dynamax Machop",
-                "rewards": [
-                  {
-                    "name": "×25",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×5000",
-                    "canBeShiny": false
-                  }
-                ]
-              },
-              {
-                "task": "Catch a Dynamax Ralts",
-                "rewards": [
-                  {
-                    "name": "×25",
-                    "canBeShiny": false
-                  },
-                  {
-                    "name": "×5000",
-                    "canBeShiny": false
-                  }
-                ]
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Druddigon",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Orthworm",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zacian (Crowned Sword)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zamazenta (Crowned Shield)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zacian (Crowned Sword)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zamazenta (Crowned Shield)",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
-      {
-        "eventID": "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026",
-        "name": "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles",
-        "eventType": "raid-battles",
-        "heading": "Raid Battles",
-        "link": "https://leekduck.com/events/zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/zacian-and-zamazenta-2.jpg",
-        "start": "2026-11-09T10:00:00.000",
-        "end": "2026-11-13T20:00:00.000",
-        "extraData": {
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Zacian (Crowned Sword)",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.icon.png",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zamazenta (Crowned Shield)",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.icon.png",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": [
-              {
-                "name": "Zacian (Crowned Sword)",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm888.fCROWNED_SWORD.s.icon.png"
-              },
-              {
-                "name": "Zamazenta (Crowned Shield)",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm889.fCROWNED_SHIELD.s.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "pokemon-go-wild-area-2026-global",
-        "name": "Pokémon GO Wild Area 2026: Global",
-        "eventType": "wild-area",
-        "heading": "Wild Area",
-        "link": "https://leekduck.com/events/pokemon-go-wild-area-2026-global/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-14-pokemon-go-wild-area-2026-global/key-art.jpg",
-        "start": "2026-11-14T10:00:00.000",
-        "end": "2026-11-15T18:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Alolan Sandshrew",
-                "canBeShiny": true
-              },
-              {
-                "name": "Alolan Diglett",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magnemite",
-                "canBeShiny": true
-              },
-              {
-                "name": "Shellder",
-                "canBeShiny": true
-              },
-              {
-                "name": "Onix",
-                "canBeShiny": true
-              },
-              {
-                "name": "Porygon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Shuckle",
-                "canBeShiny": true
-              },
-              {
-                "name": "Skarmory",
-                "canBeShiny": true
-              },
-              {
-                "name": "Nosepass",
-                "canBeShiny": true
-              },
-              {
-                "name": "Aron",
-                "canBeShiny": true
-              },
-              {
-                "name": "Beldum",
-                "canBeShiny": true
-              },
-              {
-                "name": "Piplup",
-                "canBeShiny": true
-              },
-              {
-                "name": "Shieldon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Bronzor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Lucario",
-                "canBeShiny": true
-              },
-              {
-                "name": "Drilbur",
-                "canBeShiny": true
-              },
-              {
-                "name": "Ferroseed",
-                "canBeShiny": true
-              },
-              {
-                "name": "Klink",
-                "canBeShiny": true
-              },
-              {
-                "name": "Galarian Stunfisk",
-                "canBeShiny": false
-              },
-              {
-                "name": "Durant",
-                "canBeShiny": true
-              },
-              {
-                "name": "Rookidee",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tinkatink",
-                "canBeShiny": true
-              },
-              {
-                "name": "Charmander",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magikarp",
-                "canBeShiny": true
-              },
-              {
-                "name": "Dratini",
-                "canBeShiny": true
-              },
-              {
-                "name": "Gligar",
-                "canBeShiny": true
-              },
-              {
-                "name": "Trapinch",
-                "canBeShiny": true
-              },
-              {
-                "name": "Swablu",
-                "canBeShiny": true
-              },
-              {
-                "name": "Barboach",
-                "canBeShiny": true
-              },
-              {
-                "name": "Bagon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Gible",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tynamo",
-                "canBeShiny": true
-              },
-              {
-                "name": "Axew",
-                "canBeShiny": true
-              },
-              {
-                "name": "Heatmor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Deino",
-                "canBeShiny": true
-              },
-              {
-                "name": "Skrelp",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tyrunt",
-                "canBeShiny": true
-              },
-              {
-                "name": "Amaura",
-                "canBeShiny": true
-              },
-              {
-                "name": "Goomy",
-                "canBeShiny": true
-              },
-              {
-                "name": "Noibat",
-                "canBeShiny": true
-              },
-              {
-                "name": "Turtonator",
-                "canBeShiny": true
-              },
-              {
-                "name": "Jangmo-o",
-                "canBeShiny": true
-              },
-              {
-                "name": "Sizzlipede",
-                "canBeShiny": true
-              },
-              {
-                "name": "Frigibax",
-                "canBeShiny": true
-              },
-              {
-                "name": "Alolan Exeggutor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scizor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Flygon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Walrein",
-                "canBeShiny": true
-              },
-              {
-                "name": "Metagross",
-                "canBeShiny": true
-              },
-              {
-                "name": "Empoleon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magnezone",
-                "canBeShiny": true
-              },
-              {
-                "name": "Conkeldurr",
-                "canBeShiny": true
-              },
-              {
-                "name": "Haxorus",
-                "canBeShiny": true
-              },
-              {
-                "name": "Azumarill",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kingdra",
-                "canBeShiny": true
-              },
-              {
-                "name": "Aggron",
-                "canBeShiny": true
-              },
-              {
-                "name": "Ferrothorn",
-                "canBeShiny": true
-              },
-              {
-                "name": "Hydreigon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Goodra",
-                "canBeShiny": true
-              },
-              {
-                "name": "Noivern",
-                "canBeShiny": true
-              },
-              {
-                "name": "Tinkaton",
-                "canBeShiny": true
-              },
-              {
-                "name": "Clodsire",
-                "canBeShiny": true
-              },
-              {
-                "name": "Alolan Exeggutor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Azumarill",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scizor",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kingdra",
-                "canBeShiny": true
-              },
-              {
-                "name": "Aggron",
-                "canBeShiny": true
-              },
-              {
-                "name": "Flygon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Empoleon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Magnezone",
-                "canBeShiny": true
-              },
-              {
-                "name": "Conkeldurr",
-                "canBeShiny": true
-              },
-              {
-                "name": "Hydreigon",
-                "canBeShiny": true
-              },
-              {
-                "name": "Unown W",
-                "canBeShiny": true
-              },
-              {
-                "name": "Unown I",
-                "canBeShiny": true
-              },
-              {
-                "name": "Unown L",
-                "canBeShiny": true
-              },
-              {
-                "name": "Unown D",
-                "canBeShiny": true
-              },
-              {
-                "name": "Latias",
-                "canBeShiny": true
-              },
-              {
-                "name": "Latios",
-                "canBeShiny": true
-              }
-            ],
-            "eventEggs": [
-              {
-                "name": "Honedge",
-                "eggDistance": "unknown",
-                "canBeShiny": true
-              },
-              {
-                "name": "Klefki",
-                "eggDistance": "unknown",
-                "canBeShiny": true
-              },
-              {
-                "name": "Drampa",
-                "eggDistance": "unknown",
-                "canBeShiny": true
-              },
-              {
-                "name": "Duraludon",
-                "eggDistance": "unknown",
-                "canBeShiny": true
-              }
-            ]
-          },
-          "raidbattles": {
-            "bosses": [
-              {
-                "name": "Modern Jacket Machamp",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Zekrom",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kyurem (White)",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Reshiram",
-                "image": "",
-                "canBeShiny": true
-              },
-              {
-                "name": "Kyurem (Black)",
-                "image": "",
-                "canBeShiny": true
-              }
-            ],
-            "shinies": []
-          }
-        }
-      },
-      {
-        "eventID": "go-wild-area-gigantamax-machamp-power-up-timed-research",
-        "name": "GO Wild Area: Gigantamax Machamp Power Up! Timed Research",
-        "eventType": "timed-research",
-        "heading": "Timed Research",
-        "link": "https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-timed-research/",
-        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-machamp-max-battles.jpg",
-        "start": "2026-11-06T10:00:00.000",
-        "end": "2026-11-15T23:59:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "max-mondays-2026-11-16",
-        "name": "Max Monday: Pokémon to be announced",
-        "eventType": "max-mondays",
-        "heading": "Max Mondays",
-        "link": "https://leekduck.com/events/max-mondays-2026-11-16/",
-        "image": "https://cdn.leekduck.com/assets/img/events/max-battles-kanto.jpg",
-        "start": "2026-11-16T06:00:00.000",
-        "end": "2026-11-16T21:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup",
-        "name": "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails",
-        "eventType": "go-battle-league",
-        "heading": "GO Battle League",
-        "link": "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup/",
-        "image": "https://cdn.leekduck.com/assets/img/events/gobattle-greatleague-key.jpg",
-        "start": "2026-11-10T21:00:00.000Z",
-        "end": "2026-11-17T21:00:00.000Z",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
-      {
-        "eventID": "raidhour20261118",
-        "name": "Cresselia and Darkrai Raid Hour",
-        "eventType": "raid-hour",
-        "heading": "Raid Hour",
-        "link": "https://leekduck.com/events/raidhour20261118/",
-        "image": "https://cdn.leekduck.com/assets/img/events/raidhour.jpg",
-        "start": "2026-11-18T18:00:00.000",
-        "end": "2026-11-18T19:00:00.000",
-        "extraData": {
-          "generic": {
-            "hasSpawns": false,
-            "hasFieldResearchTasks": false
-          }
-        }
-      },
       {
         "eventID": "pokemonspotlighthour2026-11-19",
         "name": "Grookey, Scorbunny, and Sobble Spotlight Hour",
@@ -719,8 +11,8 @@
         "heading": "Pokémon Spotlight Hour",
         "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-19/",
         "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": "2026-11-19T18:00:00.000",
-        "end": "2026-11-19T19:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "spotlight": {
             "name": "Grookey",
@@ -772,8 +64,8 @@
         "heading": "Event",
         "link": "https://leekduck.com/events/minior-showers-leonids-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
-        "start": "2026-11-14T17:00:00.000",
-        "end": "2026-11-19T23:59:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "generic": {
             "hasSpawns": true,
@@ -1102,6 +394,22 @@
         }
       },
       {
+        "eventID": "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops",
+        "name": "Twitch Drops for 2027 Pokémon Latin America International Championships",
+        "eventType": "twitch-drops",
+        "heading": "Twitch Drops",
+        "link": "https://leekduck.com/events/pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-20-pokemon-latin-america-international-championships-2027-timed-research-twitch-drops/2027-laic-go-drops.jpg",
+        "start": "2026-11-20T12:00:00.000Z",
+        "end": "2026-11-22T23:00:00.000Z",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "dynamax-trails-2026",
         "name": "Dynamax Trails",
         "eventType": "event",
@@ -1113,7 +421,349 @@
         "extraData": {
           "generic": {
             "hasSpawns": true,
-            "hasFieldResearchTasks": false
+            "hasFieldResearchTasks": false,
+            "spawns": [
+              {
+                "name": "Bulbasaur",
+                "canBeShiny": true
+              },
+              {
+                "name": "Charmander",
+                "canBeShiny": true
+              },
+              {
+                "name": "Squirtle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Caterpie",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pikachu",
+                "canBeShiny": true
+              },
+              {
+                "name": "Growlithe",
+                "canBeShiny": true
+              },
+              {
+                "name": "Abra",
+                "canBeShiny": true
+              },
+              {
+                "name": "Machop",
+                "canBeShiny": true
+              },
+              {
+                "name": "Gastly",
+                "canBeShiny": true
+              },
+              {
+                "name": "Krabby",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hitmonlee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hitmonchan",
+                "canBeShiny": true
+              },
+              {
+                "name": "Rhyhorn",
+                "canBeShiny": true
+              },
+              {
+                "name": "Chansey",
+                "canBeShiny": true
+              },
+              {
+                "name": "Electabuzz",
+                "canBeShiny": true
+              },
+              {
+                "name": "Magmar",
+                "canBeShiny": true
+              },
+              {
+                "name": "Magikarp",
+                "canBeShiny": true
+              },
+              {
+                "name": "Eevee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Omanyte",
+                "canBeShiny": true
+              },
+              {
+                "name": "Kabuto",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hoothoot",
+                "canBeShiny": true
+              },
+              {
+                "name": "Shuckle",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sneasel",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hitmontop",
+                "canBeShiny": true
+              },
+              {
+                "name": "Ralts",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sableye",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wailmer",
+                "canBeShiny": true
+              },
+              {
+                "name": "Trapinch",
+                "canBeShiny": true
+              },
+              {
+                "name": "Feebas",
+                "canBeShiny": true
+              },
+              {
+                "name": "Spheal",
+                "canBeShiny": true
+              },
+              {
+                "name": "Beldum",
+                "canBeShiny": true
+              },
+              {
+                "name": "Combee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Pidove",
+                "canBeShiny": true
+              },
+              {
+                "name": "Roggenrola",
+                "canBeShiny": true
+              },
+              {
+                "name": "Woobat",
+                "canBeShiny": true
+              },
+              {
+                "name": "Drilbur",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cottonee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Darumaka",
+                "canBeShiny": true
+              },
+              {
+                "name": "Trubbish",
+                "canBeShiny": true
+              },
+              {
+                "name": "Cryogonal",
+                "canBeShiny": true
+              },
+              {
+                "name": "Deino",
+                "canBeShiny": true
+              },
+              {
+                "name": "Inkay",
+                "canBeShiny": true
+              },
+              {
+                "name": "Bounsweet",
+                "canBeShiny": true
+              },
+              {
+                "name": "Passimian",
+                "canBeShiny": true
+              },
+              {
+                "name": "Drampa",
+                "canBeShiny": true
+              },
+              {
+                "name": "Grookey",
+                "canBeShiny": true
+              },
+              {
+                "name": "Scorbunny",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sobble",
+                "canBeShiny": true
+              },
+              {
+                "name": "Skwovet",
+                "canBeShiny": true
+              },
+              {
+                "name": "Rookidee",
+                "canBeShiny": true
+              },
+              {
+                "name": "Wooloo",
+                "canBeShiny": true
+              },
+              {
+                "name": "Toxtricity (Amped Form)",
+                "canBeShiny": true
+              },
+              {
+                "name": "Toxtricity (Low Key Form)",
+                "canBeShiny": true
+              },
+              {
+                "name": "Sizzlipede",
+                "canBeShiny": true
+              },
+              {
+                "name": "Hatenna",
+                "canBeShiny": true
+              },
+              {
+                "name": "Falinks",
+                "canBeShiny": true
+              },
+              {
+                "name": "Duraludon",
+                "canBeShiny": true
+              }
+            ],
+            "eventResearch": [
+              {
+                "task": "Catch 8 Pokémon",
+                "rewards": [
+                  {
+                    "name": "Bulbasaur",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Charmander",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Squirtle",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Grookey",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Scorbunny",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Sobble",
+                    "canBeShiny": true
+                  }
+                ]
+              },
+              {
+                "task": "Power up Pokémon 8 times",
+                "rewards": [
+                  {
+                    "name": "Magikarp",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Feebas",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "×3",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Explore 1 km",
+                "rewards": [
+                  {
+                    "name": "Eevee",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "×2000",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Win a Max Battle",
+                "rewards": [
+                  {
+                    "name": "Drampa",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "Duraludon",
+                    "canBeShiny": true
+                  },
+                  {
+                    "name": "×10",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×2000",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Unlock a Max Move",
+                "rewards": [
+                  {
+                    "name": "×25",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×5000",
+                    "canBeShiny": false
+                  }
+                ]
+              },
+              {
+                "task": "Make an Excellent Throw",
+                "rewards": [
+                  {
+                    "name": "×25",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×1",
+                    "canBeShiny": false
+                  },
+                  {
+                    "name": "×1",
+                    "canBeShiny": false
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -1147,12 +797,12 @@
             "bosses": [
               {
                 "name": "Cresselia",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_488_00.png",
+                "image": "",
                 "canBeShiny": true
               },
               {
                 "name": "Darkrai",
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_491_00.png",
+                "image": "",
                 "canBeShiny": true
               }
             ],
@@ -1787,6 +1437,22 @@
         }
       },
       {
+        "eventID": "duolingo-timed-research-2026",
+        "name": "Pokémon GO and Duolingo Timed Research",
+        "eventType": "timed-research",
+        "heading": "Timed Research",
+        "link": "https://leekduck.com/events/duolingo-timed-research-2026/",
+        "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-17-duolingo-timed-research-2026/duolingo-timed-research-2026.jpg",
+        "start": "2026-11-17T10:00:00.000",
+        "end": "2026-12-31T23:59:00.000",
+        "extraData": {
+          "generic": {
+            "hasSpawns": false,
+            "hasFieldResearchTasks": false
+          }
+        }
+      },
+      {
         "eventID": "january-communitydayclassic2027",
         "name": "January Community Day Classic",
         "eventType": "community-day",
@@ -2054,176 +1720,316 @@
     ],
     "raids": [
       {
-        "name": "Modern Jacket Machamp",
-        "tier": "3-Star Raids",
+        "name": "Alolan Meowth",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "fighting",
-            "image": "https://leekduck.com/assets/img/types/fighting.png"
+            "name": "dark",
+            "image": "https://leekduck.com/assets/img/types/dark.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1667,
-            "max": 1746
+            "min": 416,
+            "max": 455
           },
           "boosted": {
-            "min": 2084,
-            "max": 2183
+            "min": 520,
+            "max": 569
           }
         },
         "boostedWeather": [
           {
-            "name": "cloudy",
-            "image": "https://leekduck.com/assets/img/weather/cloudy.png"
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm68.fWILDAREA_2026_01.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm52.fALOLA.icon.png"
       },
       {
-        "name": "Zekrom",
-        "tier": "5-Star Raids",
+        "name": "Misdreavus",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
-          },
-          {
-            "name": "electric",
-            "image": "https://leekduck.com/assets/img/types/electric.png"
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 2217,
-            "max": 2307
+            "min": 1039,
+            "max": 1100
           },
           "boosted": {
-            "min": 2771,
-            "max": 2884
+            "min": 1298,
+            "max": 1376
           }
         },
         "boostedWeather": [
           {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
-          },
-          {
-            "name": "rainy",
-            "image": "https://leekduck.com/assets/img/weather/rainy.png"
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm644.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm200.icon.png"
       },
       {
-        "name": "Kyurem (White)",
-        "tier": "5-Star Raids",
+        "name": "Galarian Yamask",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
           },
           {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1957,
-            "max": 2042
+            "min": 516,
+            "max": 561
           },
           "boosted": {
-            "min": 2446,
-            "max": 2553
+            "min": 646,
+            "max": 701
           }
         },
         "boostedWeather": [
           {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
           },
           {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fWHITE.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm562.fGALARIAN.icon.png"
       },
       {
-        "name": "Reshiram",
-        "tier": "5-Star Raids",
+        "name": "Sandygast",
+        "tier": "1-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
           },
           {
-            "name": "fire",
-            "image": "https://leekduck.com/assets/img/types/fire.png"
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 2217,
-            "max": 2307
+            "min": 655,
+            "max": 705
           },
           "boosted": {
-            "min": 2771,
-            "max": 2884
+            "min": 819,
+            "max": 881
           }
         },
         "boostedWeather": [
           {
-            "name": "windy",
-            "image": "https://leekduck.com/assets/img/weather/windy.png"
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
           },
           {
             "name": "sunny",
             "image": "https://leekduck.com/assets/img/weather/sunny.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm643.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm769.icon.png"
       },
       {
-        "name": "Kyurem (Black)",
-        "tier": "5-Star Raids",
+        "name": "Alolan Marowak",
+        "tier": "3-Star Raids",
         "canBeShiny": true,
         "types": [
           {
-            "name": "dragon",
-            "image": "https://leekduck.com/assets/img/types/dragon.png"
+            "name": "fire",
+            "image": "https://leekduck.com/assets/img/types/fire.png"
           },
           {
-            "name": "ice",
-            "image": "https://leekduck.com/assets/img/types/ice.png"
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
           }
         ],
         "combatPower": {
           "normal": {
-            "min": 1957,
-            "max": 2042
+            "min": 988,
+            "max": 1048
           },
           "boosted": {
-            "min": 2446,
-            "max": 2553
+            "min": 1235,
+            "max": 1311
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          },
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm105.fALOLA.icon.png"
+      },
+      {
+        "name": "Liepard",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "dark",
+            "image": "https://leekduck.com/assets/img/types/dark.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 993,
+            "max": 1055
+          },
+          "boosted": {
+            "min": 1241,
+            "max": 1318
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm510.icon.png"
+      },
+      {
+        "name": "Golurk",
+        "tier": "3-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "ground",
+            "image": "https://leekduck.com/assets/img/types/ground.png"
+          },
+          {
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1554,
+            "max": 1630
+          },
+          "boosted": {
+            "min": 1943,
+            "max": 2038
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "sunny",
+            "image": "https://leekduck.com/assets/img/weather/sunny.png"
+          },
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm623.icon.png"
+      },
+      {
+        "name": "Cresselia",
+        "tier": "5-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "psychic",
+            "image": "https://leekduck.com/assets/img/types/psychic.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1555,
+            "max": 1633
+          },
+          "boosted": {
+            "min": 1944,
+            "max": 2041
           }
         },
         "boostedWeather": [
           {
             "name": "windy",
             "image": "https://leekduck.com/assets/img/weather/windy.png"
-          },
-          {
-            "name": "snow",
-            "image": "https://leekduck.com/assets/img/weather/snowy.png"
           }
         ],
-        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm646.fBLACK.icon.png"
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm488.icon.png"
+      },
+      {
+        "name": "Darkrai",
+        "tier": "5-Star Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "dark",
+            "image": "https://leekduck.com/assets/img/types/dark.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 2048,
+            "max": 2136
+          },
+          "boosted": {
+            "min": 2560,
+            "max": 2671
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm491.icon.png"
+      },
+      {
+        "name": "Mega Banette",
+        "tier": "Mega Raids",
+        "canBeShiny": true,
+        "types": [
+          {
+            "name": "ghost",
+            "image": "https://leekduck.com/assets/img/types/ghost.png"
+          }
+        ],
+        "combatPower": {
+          "normal": {
+            "min": 1244,
+            "max": 1313
+          },
+          "boosted": {
+            "min": 1555,
+            "max": 1642
+          }
+        },
+        "boostedWeather": [
+          {
+            "name": "fog",
+            "image": "https://leekduck.com/assets/img/weather/foggy.png"
+          }
+        ],
+        "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm354.fMEGA.icon.png"
       },
       {
         "name": "Shadow Larvitar",
@@ -2468,331 +2274,17 @@
     ],
     "research": [
       {
-        "text": "<span>Catch 2 mighty Pokémon</span>",
+        "text": "<span>Catch 8 Pokémon</span>",
         "rewards": [
           {
-            "name": "Mighty Scizor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm212.icon.png",
+            "name": "Bulbasaur",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm1.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 1227,
-              "max": 1286
+              "min": 442,
+              "max": 477
             }
           },
-          {
-            "name": "Mighty Aggron",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm306.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1227,
-              "max": 1285
-            }
-          },
-          {
-            "name": "Mighty Magnezone",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm462.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1313,
-              "max": 1373
-            }
-          },
-          {
-            "name": "Mighty Ferrothorn",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm598.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 943,
-              "max": 995
-            }
-          },
-          {
-            "name": "Mighty Alolan Exeggutor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm103.fALOLA.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1233,
-              "max": 1292
-            }
-          },
-          {
-            "name": "Mighty Kingdra",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm230.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1077,
-              "max": 1132
-            }
-          },
-          {
-            "name": "Mighty Haxorus",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm612.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1475,
-              "max": 1540
-            }
-          },
-          {
-            "name": "Mighty Noivern",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm715.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1129,
-              "max": 1184
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 10 Steel-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Magnemite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm81.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 544,
-              "max": 583
-            }
-          },
-          {
-            "name": "Piplup",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm393.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 426,
-              "max": 460
-            }
-          },
-          {
-            "name": "Shieldon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm410.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 348,
-              "max": 381
-            }
-          },
-          {
-            "name": "Ferroseed",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm597.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 370,
-              "max": 403
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 4 different species of Steel-type Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Lucario",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm448.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1102,
-              "max": 1158
-            }
-          },
-          {
-            "name": "Duraludon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm884.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1255,
-              "max": 1314
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Use a Steel-type Charged Attack in a battle</span>",
-        "rewards": [
-          {
-            "name": "Onix",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm95.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 435,
-              "max": 472
-            }
-          },
-          {
-            "name": "Skarmory",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm227.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 854,
-              "max": 903
-            }
-          },
-          {
-            "name": "Bronzor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm436.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 229,
-              "max": 258
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Win 2 Max Battles</span>",
-        "rewards": [
-          {
-            "name": "Mighty Metagross",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm376.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1559,
-              "max": 1625
-            }
-          },
-          {
-            "name": "Mighty Tinkaton",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm959.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 914,
-              "max": 964
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Hatch an Egg</span>",
-        "rewards": [
-          {
-            "name": "Beldum",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm374.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 385,
-              "max": 418
-            }
-          },
-          {
-            "name": "Bronzor",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm436.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 229,
-              "max": 258
-            }
-          },
-          {
-            "name": "Drilbur",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm529.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 549,
-              "max": 589
-            }
-          },
-          {
-            "name": "Axew",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm610.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 547,
-              "max": 586
-            }
-          },
-          {
-            "name": "Tyrunt",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm696.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 658,
-              "max": 700
-            }
-          },
-          {
-            "name": "Noibat",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm714.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 258,
-              "max": 285
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Steel-type Pokémon 5 times</span>",
-        "rewards": [
-          {
-            "name": "Alolan Sandshrew",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm27.fALOLA.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 516,
-              "max": 554
-            }
-          },
-          {
-            "name": "Alolan Diglett",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm50.fALOLA.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 264,
-              "max": 292
-            }
-          },
-          {
-            "name": "Galarian Stunfisk",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.fGALARIAN.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 876,
-              "max": 926
-            }
-          },
-          {
-            "name": "Galarian Meowth",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm52.fGALARIAN.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 409,
-              "max": 443
-            }
-          },
-          {
-            "name": "Magnemite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm81.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 544,
-              "max": 583
-            }
-          },
-          {
-            "name": "Aron",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm304.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 522,
-              "max": 560
-            }
-          },
-          {
-            "name": "Togedemaru",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm777.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 876,
-              "max": 926
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 10 Dragon-type Pokémon</span>",
-        "rewards": [
           {
             "name": "Charmander",
             "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.icon.png",
@@ -2803,44 +2295,90 @@
             }
           },
           {
-            "name": "Trapinch",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm328.icon.png",
+            "name": "Squirtle",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm7.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 507,
-              "max": 546
+              "min": 372,
+              "max": 405
             }
           },
           {
-            "name": "Swablu",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm333.icon.png",
+            "name": "Grookey",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm810.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 322,
-              "max": 353
+              "min": 430,
+              "max": 465
             }
           },
           {
-            "name": "Skrelp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png",
+            "name": "Scorbunny",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm813.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 421,
-              "max": 455
+              "min": 434,
+              "max": 470
+            }
+          },
+          {
+            "name": "Sobble",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm816.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 434,
+              "max": 470
             }
           }
         ]
       },
       {
-        "text": "<span>Catch 4 different species of Dragon-type Pokémon</span>",
+        "text": "<span>Power up Pokémon 8 times</span>",
         "rewards": [
           {
-            "name": "Turtonator",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm776.icon.png",
+            "name": "Magikarp",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm129.icon.png",
             "canBeShiny": false,
             "combatPower": {
-              "min": 902,
-              "max": 952
+              "min": 99,
+              "max": 117
+            }
+          },
+          {
+            "name": "Feebas",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm349.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 99,
+              "max": 117
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Explore 1 km</span>",
+        "rewards": [
+          {
+            "name": "Eevee",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm133.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 424,
+              "max": 459
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Win a Max Battle</span>",
+        "rewards": [
+          {
+            "name": "Drampa",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm780.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 1191,
+              "max": 1249
             }
           },
           {
@@ -2850,216 +2388,6 @@
             "combatPower": {
               "min": 1255,
               "max": 1314
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Use a Dragon-type Charged Attack in a battle</span>",
-        "rewards": [
-          {
-            "name": "Goomy",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm704.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 385,
-              "max": 418
-            }
-          },
-          {
-            "name": "Jangmo-o",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 382,
-              "max": 415
-            }
-          },
-          {
-            "name": "Frigibax",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm996.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 496,
-              "max": 534
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Win 2 raids</span>",
-        "rewards": [
-          {
-            "name": "Mighty Flygon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm330.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1085,
-              "max": 1140
-            }
-          },
-          {
-            "name": "Mighty Goodra",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm706.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1439,
-              "max": 1502
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Power up Dragon-type Pokémon 5 times</span>",
-        "rewards": [
-          {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 397,
-              "max": 430
-            }
-          },
-          {
-            "name": "Gible",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm443.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 441,
-              "max": 477
-            }
-          },
-          {
-            "name": "Deino",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm633.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 420,
-              "max": 455
-            }
-          },
-          {
-            "name": "Horsea",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm116.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 418,
-              "max": 452
-            }
-          },
-          {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 397,
-              "max": 430
-            }
-          },
-          {
-            "name": "Bagon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 459,
-              "max": 495
-            }
-          },
-          {
-            "name": "Skrelp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 421,
-              "max": 455
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Win a raid</span>",
-        "rewards": [
-          {
-            "name": "Scyther",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 1104,
-              "max": 1160
-            }
-          },
-          {
-            "name": "Dratini",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 397,
-              "max": 430
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Catch 10 Pokémon</span>",
-        "rewards": [
-          {
-            "name": "Magnemite",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm81.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 544,
-              "max": 583
-            }
-          },
-          {
-            "name": "Horsea",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm116.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 418,
-              "max": 452
-            }
-          },
-          {
-            "name": "Aron",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm304.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 522,
-              "max": 560
-            }
-          },
-          {
-            "name": "Skrelp",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 421,
-              "max": 455
-            }
-          }
-        ]
-      },
-      {
-        "text": "<span>Win a Max Battle</span>",
-        "rewards": [
-          {
-            "name": "Mawile",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm303.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 658,
-              "max": 700
-            }
-          },
-          {
-            "name": "Bagon",
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png",
-            "canBeShiny": false,
-            "combatPower": {
-              "min": 459,
-              "max": 495
             }
           }
         ]
@@ -5280,7 +4608,7 @@
         "eggType": "1 km",
         "isAdventureSync": false,
         "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm816.icon.png",
-        "canBeShiny": false,
+        "canBeShiny": true,
         "combatPower": {
           "min": 627,
           "max": 627

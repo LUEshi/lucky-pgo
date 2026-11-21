@@ -17,8 +17,10 @@ import {
 } from "./utils/luckyShare";
 import { usePartnerDex } from "./hooks/usePartnerDex";
 import { isLegendaryDex, isMythicalDex } from "./utils/legendaryDex";
+import { KeepersView } from "./components/KeepersView";
+import { useKeeperReport } from "./hooks/useKeeperReport";
 
-type Tab = "priority" | "raids" | "events" | "pokedex";
+type Tab = "priority" | "raids" | "events" | "pokedex" | "keepers";
 
 const TAB_QUERY_KEY = "tab";
 const POKEDEX_SEARCH_QUERY_KEY = "search";
@@ -29,7 +31,7 @@ const PARTNER_CONFIRM_DIFF_THRESHOLD = 0.05;
 const OWN_IMPORT_CONFIRM_DIFF_THRESHOLD = 0.2;
 
 function isTab(value: string | null): value is Tab {
-  return value === "priority" || value === "raids" || value === "events" || value === "pokedex";
+  return value === "priority" || value === "raids" || value === "events" || value === "pokedex" || value === "keepers";
 }
 
 function isPokedexFilter(value: string | null): value is PokedexFilter {
@@ -112,6 +114,7 @@ function App() {
   } = usePartnerDex();
   const { data, loading, error } = useScrapedDuck();
   const [tab, setTab] = useState<Tab>(getInitialTab);
+  const keeperReport = useKeeperReport(tab === "keepers");
   const [pokedexSearch, setPokedexSearch] = useState<string>(
     getInitialPokedexSearch,
   );
@@ -256,6 +259,7 @@ function App() {
     { key: "raids", label: "Raids" },
     { key: "events", label: "Events" },
     { key: "pokedex", label: "Pokedex" },
+    { key: "keepers", label: "Keep or Trash" },
   ];
 
   function getPendingPayloadPreview(): PendingDexPayload | null {
@@ -592,6 +596,14 @@ function App() {
                     filter={pokedexFilter}
                     onSearchChange={setPokedexSearchAndSyncUrl}
                     onFilterChange={setPokedexFilterAndSyncUrl}
+                  />
+                )}
+                {tab === "keepers" && (
+                  <KeepersView
+                    report={keeperReport.report}
+                    loading={keeperReport.loading}
+                    error={keeperReport.error}
+                    luckyList={luckyList.pokemon}
                   />
                 )}
               </>

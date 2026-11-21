@@ -127,3 +127,43 @@ export interface PrioritySource {
   availability?: string;
   link?: string;
 }
+
+// Keep-or-trash report produced weekly by scripts/evaluate-keepers.mjs
+export type KeeperVerdict = "KEEP" | "KEEP_ONE" | "TRASH";
+
+export interface KeeperReason {
+  kind: "pvp" | "pve";
+  league?: string;
+  type?: string;
+  tier?: string;
+  rank: number;
+  via: string;
+  mega?: boolean;
+  moveset: string[];
+  specialMoves: string[];
+  ivs: string;
+}
+
+export interface KeeperPokemon {
+  name: string;
+  speciesId: string;
+  dex: number;
+  shadow: boolean;
+  verdict: KeeperVerdict;
+  reasons: KeeperReason[];
+  best: {
+    pvp: { league: string; rank: number } | null;
+    pve: { type: string; tier: string; rank: number } | null;
+  };
+  obtainedFrom: string[];
+}
+
+export interface KeeperReport {
+  generatedAt: string;
+  weekOf: string;
+  rules: { version: number; pvpTopRank: number; pveKeepTiers: string[]; lookaheadDays: number };
+  data: { snapshotDate: string; pvpokeFetchedAt: string; goHubBuiltAt: string | null; sources: string[] };
+  changes: { since: string; newKeeps: string[]; droppedKeeps: string[] } | null;
+  pokemon: KeeperPokemon[];
+  unmatched: string[];
+}

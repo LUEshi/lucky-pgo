@@ -75,11 +75,6 @@ function getNeededLuckyForEvent(event: ScrapedDuckEvent, luckyList?: Pokemon[]):
   return dedupeNames(needed);
 }
 
-function getShinyFeaturedForEvent(event: ScrapedDuckEvent): string[] {
-  const shinies = event.extraData?.raidbattles?.shinies?.map((s) => s.name) ?? [];
-  return dedupeNames(shinies);
-}
-
 export function EventsFeed({ events, luckyList }: EventsFeedProps) {
   const now = new Date();
   const { active, upcoming } = partitionEventsByTime(events, now);
@@ -100,7 +95,6 @@ export function EventsFeed({ events, luckyList }: EventsFeedProps) {
 
   function EventCard({ event }: { event: ScrapedDuckEvent }) {
     const neededLucky = getNeededLuckyForEvent(event, luckyList);
-    const shinyFeatured = getShinyFeaturedForEvent(event);
 
     return (
       <a
@@ -130,11 +124,6 @@ export function EventsFeed({ events, luckyList }: EventsFeedProps) {
             {neededLucky.length > 0 && (
               <div className="text-xs text-red-700 mt-1 line-clamp-2">
                 Need lucky (featured): {neededLucky.join(", ")}
-              </div>
-            )}
-            {shinyFeatured.length > 0 && (
-              <div className="text-xs text-purple-700 mt-1 line-clamp-2">
-                Shiny available: {shinyFeatured.join(", ")}
               </div>
             )}
           </div>

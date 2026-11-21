@@ -1,12 +1,18 @@
-name: Weekly Keep-or-Junk Report
+name: Weekly Keep-or-Trash Report
 
 on:
   schedule:
-    - cron: "30 8 * * 1" # Mondays, after the daily snapshot
+    # Mondays 20:00 UTC — after the daily ScrapedDuck snapshot has landed.
+    - cron: "0 20 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
+
+concurrency:
+  group: keeper-report
+  cancel-in-progress: false
 
 jobs:
   report:
@@ -20,20 +26,37 @@ jobs:
 
       - run: npm ci
 
-      - name: Refresh snapshot so the spawn list is current
-        run: node scripts/update-scrapedduck-history.mjs
+      - name: Unit tests for the rules engine
+        run: node --test tests/keeperEval.test.mjs
 
-      - name: Evaluate wild Pokemon
-        run: node scripts/evaluate-keepers.mjs --upcoming --refresh
+      - name: Evaluate everything obtainable this week
+        run: node scripts/evaluate-keepers.mjs --refresh > /dev/null
 
       - name: Commit report
         run: |
-          if [[ -z "$(git status --porcelain reports public/history)" ]]; then
-            echo "Nothing to commit."
+          if [[ -z "$(git status --porcelain public/reports)" ]]; then
+            echo "Report unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports public/history
-          git commit -m "chore(reports): weekly keep-or-junk report"
+          git add public/reports
+          git commit -m "chore(reports): weekly keep-or-trash report"
+          # The daily snapshot job may have pushed meanwhile.
+          git pull --rebase origin main
           git push
+
+      - name: Open this week's issue and close last week's
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create keeper-report --color 0E8A16 --description "Weekly keep-or-trash report" --force
+          for n in $(gh issue list --label keeper-report --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Superseded by this week's report."
+          done
+          week=$(jq -r .weekOf public/reports/keepers-latest.json)
+          app="https://lueshi.github.io/lucky-pgo/?tab=keepers"
+          { echo "Open in the app: $app"; echo; cat public/reports/keepers-latest.md; } > body.md
+          # GitHub issue bodies are limited to 65,536 characters.
+          head -c 60000 body.md > body-trimmed.md
+          gh issue create --title "Keep or Trash — week of $week" --label keeper-report --body-file body-trimmed.md

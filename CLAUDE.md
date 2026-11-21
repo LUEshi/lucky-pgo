@@ -56,6 +56,18 @@ Share link encoding/decoding lives in `luckyShare.ts`. Trade rules (special trad
 
 Daily ScrapedDuck data snapshots are stored in `public/history/` by the `snapshot-history.yml` GitHub Actions workflow (7-day rolling window). Used for future diff features.
 
+### Keep or Trash (weekly keeper report)
+
+Deterministic rules engine deciding which Pokemon to keep vs transfer. Use it instead of guessing:
+`npm run keepers -- --names "Passimian,Shadow Ralts"` for ad-hoc checks, `npm run keepers:check` for known answers.
+
+- **Rules** live in `scripts/lib/keeper-rules.mjs` (bump `RULES_VERSION` on change): KEEP if the Pokemon or anything it evolves into is top 100 in any PvPoke league (Great/Ultra/Master), or SS/S/A tier in any Pokemon GO Hub per-type attacker list (eDPS). Mega-only reasons → `KEEP_ONE`. Otherwise `TRASH`.
+- **Shadow and regular forms are judged separately.** Team Rocket and shadow raids yield shadows; Mega raids yield the regular form.
+- **Sources** (`scripts/lib/weekly-sources.mjs`): everything obtainable in the next 7 days from the latest snapshot — raids, eggs, field/event research, Rocket, wild/event spawns, Spotlight, Community Day, Max Battles.
+- **Known answers** in `scripts/keeper-known-answers.json` pin user-confirmed verdicts; when the user decides something is strong/weak, add it there and adjust the rules until it passes.
+- **Weekly job** `.github/workflows/keeper-report.yml` (Mondays) writes `public/reports/keepers-latest.{json,md}` and opens a `keeper-report` issue. The app's "Keep or Trash" tab reads the JSON from the repo's raw GitHub URL.
+- **Shininess is not a metric.** Never score, filter, or recommend on shiny availability.
+
 ### Credits
 
 This project uses data from [LeekDuck.com](https://leekduck.com/) via [ScrapedDuck](https://github.com/bigfoott/ScrapedDuck). Per their terms: no paywalls, no ads, and always credit LeekDuck.com.

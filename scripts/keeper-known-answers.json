@@ -1,0 +1,12 @@
+[
+  { "name": "Passimian", "expect": "TRASH", "why": "Not top 100 in any league, not a top attacker" },
+  { "name": "Bidoof", "expect": "TRASH", "why": "Bibarel is far outside the top 100" },
+  { "name": "Kricketot", "expect": "TRASH", "why": "Kricketune is not viable anywhere" },
+  { "name": "Beldum", "expect": "KEEP", "why": "Metagross: Master League staple and top Steel attacker" },
+  { "name": "Gible", "expect": "KEEP", "why": "Garchomp: Master League and top Dragon/Ground attacker" },
+  { "name": "Rhyhorn", "expect": "KEEP", "why": "Rhyperior: top Rock attacker" },
+  { "name": "Azurill", "expect": "KEEP", "why": "Azumarill: Great League staple" },
+  { "name": "Alolan Vulpix", "expect": "KEEP", "why": "Alolan Ninetales: Great/Ultra League" },
+  { "name": "Magikarp", "expect": "KEEP", "why": "Gyarados: Ultra/Master League and Mega water attacker" },
+  { "name": "Ralts", "shadow": true, "expect": "KEEP", "why": "Shadow Gardevoir: top Fairy attacker" }
+]

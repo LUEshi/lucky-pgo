@@ -1,223 +1,216 @@
-// Pure logic for the keep-or-junk evaluator. No network / filesystem access here.
+// Deterministic keep-or-trash engine. Pure functions: no network or filesystem access.
+// Rules live in keeper-rules.mjs; data comes from PvPoke (PvP) and Pokemon GO Hub (PvE).
+import { LEAGUES, RULES, IV_GUIDANCE } from "./keeper-rules.mjs";
+import { createResolver, evolutionLine } from "./species-resolver.mjs";
 
-export const LEAGUES = [
-  { key: "great", label: "Great", cap: 1500 },
-  { key: "ultra", label: "Ultra", cap: 2500 },
-  { key: "master", label: "Master", cap: 10000 },
-];
-
-export const DEFAULT_THRESHOLDS = {
-  // PvP: rank among non-shadow, non-mega species in PvPoke's overall rankings
-  pvpKeep: { great: 150, ultra: 150, master: 100 },
-  pvpMaybe: { great: 300, ultra: 300, master: 200 },
-  // PvE proxies (base-stat based, see computePveProxies)
-  attackerOverallTop: 60,
-  attackerTypeTop: 3,
-  defenderTop: 40,
-};
-
-export function normalizeKey(name) {
-  return String(name)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]/g, "");
-}
-
-const REGIONS = ["alolan", "galarian", "hisuian", "paldean"];
-
-/** "Alolan Vulpix" / "Vulpix (Alolan)" -> "vulpixalolan"; "Passimian" -> "passimian". */
-export function speciesKey(name) {
-  let n = String(name).trim();
-  const paren = n.match(/^(.*?)\s*\(([^)]*)\)\s*$/);
-  let region = "";
-  if (paren) {
-    n = paren[1];
-    region = normalizeKey(paren[2]);
-  }
-  const words = n.split(/\s+/);
-  if (words.length > 1 && REGIONS.includes(normalizeKey(words[0]))) {
-    region = normalizeKey(words[0]);
-    n = words.slice(1).join(" ");
-  }
-  return normalizeKey(n) + region;
-}
-
-const isVariant = (s) => /_shadow$|_mega|_primal|_gmax|_dynamax/.test(s.speciesId);
-
-/** Keep only plain, released species (no shadow / mega duplicates). */
-export function baseSpecies(gamemaster) {
-  return gamemaster.filter((p) => p.released !== false && !isVariant(p) && p.baseStats);
-}
-
-export function buildSpeciesIndex(gamemaster) {
-  const index = new Map();
-  for (const p of baseSpecies(gamemaster)) {
-    const key = speciesKey(p.speciesName);
-    if (!index.has(key)) index.set(key, p);
-  }
-  return index;
-}
-
-/** speciesId -> rank (1-based) among non-variant species for each league. */
+/** league key -> Map(speciesId -> { rank, score, moveset }) using PvPoke's own rank order. */
 export function buildPvpRanks(rankingsByLeague) {
   const out = {};
   for (const { key } of LEAGUES) {
     const ranks = new Map();
-    let n = 0;
-    for (const entry of rankingsByLeague[key] ?? []) {
-      if (isVariant(entry)) continue;
-      n += 1;
-      ranks.set(entry.speciesId, { rank: n, score: entry.score });
-    }
-    out[key] = { ranks, total: n };
+    (rankingsByLeague[key] ?? []).forEach((entry, i) => {
+      if (!ranks.has(entry.speciesId)) ranks.set(entry.speciesId, { rank: i + 1, score: entry.score, moveset: entry.moveset ?? [] });
+    });
+    out[key] = ranks;
   }
   return out;
 }
 
-/** The species plus everything it can evolve into (walks PvPoke's explicit evolution links). */
-export function familyMembers(species, gamemaster) {
-  const byId = new Map(baseSpecies(gamemaster).map((p) => [p.speciesId, p]));
-  const seen = new Map([[species.speciesId, species]]);
-  const queue = [species];
-  while (queue.length) {
-    const cur = queue.shift();
-    for (const id of cur.family?.evolutions ?? []) {
-      const next = byId.get(id);
-      if (next && !seen.has(id)) {
-        seen.set(id, next);
-        queue.push(next);
-      }
-    }
-  }
-  return [...seen.values()];
-}
-
-const fullyEvolved = (p) => !(p.family?.evolutions?.length > 0);
-
-/** Base-stat proxies for PvE attackers and gym defenders. */
-export function computePveProxies(gamemaster) {
-  const finals = baseSpecies(gamemaster).filter(fullyEvolved);
-  const byAtk = [...finals].sort((a, b) => b.baseStats.atk - a.baseStats.atk);
-  const attackerOverall = new Map(byAtk.map((p, i) => [p.speciesId, i + 1]));
-
-  const attackerType = new Map();
-  const perType = new Map();
-  for (const p of byAtk) {
-    for (const t of p.types ?? []) {
-      if (!t || t === "none") continue;
-      const arr = perType.get(t) ?? [];
-      arr.push(p.speciesId);
-      perType.set(t, arr);
-    }
-  }
-  for (const [type, ids] of perType) {
-    ids.forEach((id, i) => {
-      const prev = attackerType.get(id);
-      if (!prev || i + 1 < prev.rank) attackerType.set(id, { type, rank: i + 1 });
-    });
-  }
-
-  const bulk = (p) => p.baseStats.def * p.baseStats.hp;
-  const byBulk = [...finals].sort((a, b) => bulk(b) - bulk(a));
-  const defenderRank = new Map(byBulk.map((p, i) => [p.speciesId, i + 1]));
-  return { attackerOverall, attackerType, defenderRank, total: finals.length };
-}
-
-/**
- * Evaluate one species (and its evolution line). Returns a verdict plus reasons.
- * verdict: KEEP | MAYBE | JUNK
- */
-export function evaluateSpecies(species, ctx) {
-  const { gamemaster, pvp, pve, thresholds = DEFAULT_THRESHOLDS } = ctx;
-  const line = familyMembers(species, gamemaster);
-  const keepReasons = [];
-  const maybeReasons = [];
-  const detail = {};
-
-  for (const { key, label } of LEAGUES) {
-    let best = null;
-    for (const m of line) {
-      const r = pvp[key].ranks.get(m.speciesId);
-      if (r && (!best || r.rank < best.rank)) best = { ...r, via: m.speciesName };
-    }
-    detail[key] = best;
-    if (!best) continue;
-    const text = `${label} League #${best.rank}${best.via !== species.speciesName ? ` (as ${best.via})` : ""}`;
-    if (best.rank <= thresholds.pvpKeep[key]) keepReasons.push(text);
-    else if (best.rank <= thresholds.pvpMaybe[key]) maybeReasons.push(text);
-  }
-
-  let bestAtk = null;
-  let bestType = null;
-  let bestDef = null;
-  for (const m of line) {
-    const a = pve.attackerOverall.get(m.speciesId);
-    if (a && (!bestAtk || a < bestAtk.rank)) bestAtk = { rank: a, via: m.speciesName };
-    const t = pve.attackerType.get(m.speciesId);
-    if (t && (!bestType || t.rank < bestType.rank)) bestType = { ...t, via: m.speciesName };
-    const d = pve.defenderRank.get(m.speciesId);
-    if (d && (!bestDef || d < bestDef.rank)) bestDef = { rank: d, via: m.speciesName };
-  }
-  detail.attacker = bestAtk;
-  detail.attackerType = bestType;
-  detail.defender = bestDef;
-
-  if (bestAtk && bestAtk.rank <= thresholds.attackerOverallTop) {
-    keepReasons.push(`Top-${thresholds.attackerOverallTop} base attack (#${bestAtk.rank}, ${bestAtk.via})`);
-  } else if (bestType && bestType.rank <= thresholds.attackerTypeTop) {
-    keepReasons.push(`Top-${thresholds.attackerTypeTop} ${bestType.type} attacker by base attack (#${bestType.rank}, ${bestType.via})`);
-  }
-  if (bestDef && bestDef.rank <= thresholds.defenderTop) {
-    keepReasons.push(`Top-${thresholds.defenderTop} gym defender by bulk (#${bestDef.rank}, ${bestDef.via})`);
-  }
-
-  const verdict = keepReasons.length ? "KEEP" : maybeReasons.length ? "MAYBE" : "JUNK";
-  return { name: species.speciesName, speciesId: species.speciesId, verdict, keepReasons, maybeReasons, detail };
-}
-
-/** Collect wild-spawn names from a history snapshot's events. */
-export function wildNamesFromSnapshot(snapshot, { now = new Date(), includeUpcoming = false } = {}) {
-  const names = new Map(); // name -> Set(event names)
-  const add = (name, event) => {
-    if (!name) return;
-    if (!names.has(name)) names.set(name, new Set());
-    names.get(name).add(event);
-  };
-  for (const ev of snapshot?.data?.events ?? []) {
-    const start = ev.start ? new Date(ev.start) : null;
-    const end = ev.end ? new Date(ev.end) : null;
-    const active = (!start || start <= now) && (!end || end >= now);
-    const upcoming = start && start > now;
-    if (!active && !(includeUpcoming && upcoming)) continue;
-    const generic = ev.extraData?.generic;
-    for (const s of generic?.spawns ?? []) add(s.name, ev.name);
-    for (const s of ev.extraData?.spotlight?.list ?? []) add(s.name, ev.name);
-  }
-  return names;
-}
-
-export function renderReport(results, { date, source }) {
-  const order = { KEEP: 0, MAYBE: 1, JUNK: 2 };
-  const sorted = [...results].sort((a, b) => order[a.verdict] - order[b.verdict] || a.name.localeCompare(b.name));
-  const lines = [`# Keep or junk — ${date}`, "", `Source: ${source}`, ""];
-  for (const v of ["KEEP", "MAYBE", "JUNK"]) {
-    const group = sorted.filter((r) => r.verdict === v);
-    lines.push(`## ${v} (${group.length})`, "");
-    if (!group.length) {
-      lines.push("_none_", "");
+/** speciesId -> [{ ...goHubEntry, shadow, mega }] */
+export function buildPveIndex(goHubEntries, resolver) {
+  const index = new Map();
+  const unmatched = new Set();
+  for (const e of goHubEntries) {
+    const r = resolver.resolve(e.name);
+    if (!r) {
+      unmatched.add(e.name);
       continue;
     }
-    for (const r of group) {
-      const why = v === "KEEP" ? r.keepReasons : v === "MAYBE" ? r.maybeReasons : [];
-      const events = r.events?.length ? ` — _${r.events.join(", ")}_` : "";
-      lines.push(`- **${r.name}**${why.length ? `: ${why.join("; ")}` : ""}${events}`);
+    const list = index.get(r.species.speciesId) ?? [];
+    list.push({ ...e, shadow: r.shadow, mega: r.mega });
+    index.set(r.species.speciesId, list);
+  }
+  return { index, unmatched: [...unmatched] };
+}
+
+const TIER_ORDER = ["SS", "S", "A", "B", "C", "D"];
+const tierRank = (t) => {
+  const i = TIER_ORDER.indexOf(t);
+  return i < 0 ? 99 : i;
+};
+const titleMove = (id) => id.toLowerCase().split("_").map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
+
+export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, rules = RULES }) {
+  const resolver = createResolver(gamemaster);
+  const pvp = buildPvpRanks(rankingsByLeague);
+  const pve = buildPveIndex(goHubEntries, resolver);
+  const gmById = new Map(gamemaster.map((p) => [p.speciesId, p]));
+
+  function evaluate(species, shadow) {
+    const line = evolutionLine(species, resolver.byId);
+    const reasons = [];
+    const best = { pvp: null, pve: null };
+
+    for (const league of LEAGUES) {
+      let top = null;
+      for (const m of line) {
+        const id = shadow ? `${m.speciesId}_shadow` : m.speciesId;
+        const r = pvp[league.key].get(id);
+        if (r && (!top || r.rank < top.rank)) top = { ...r, via: m, id };
+      }
+      if (!top) continue;
+      if (!best.pvp || top.rank < best.pvp.rank) best.pvp = { league: league.label, rank: top.rank };
+      if (top.rank <= rules.pvpTopRank) {
+        const gm = gmById.get(top.via.speciesId) ?? {};
+        const special = new Set([...(gm.eliteMoves ?? []), ...(gm.legacyMoves ?? [])]);
+        reasons.push({
+          kind: "pvp",
+          league: league.label,
+          rank: top.rank,
+          via: top.via.speciesName,
+          moveset: top.moveset.map(titleMove),
+          specialMoves: top.moveset.filter((m) => special.has(m)).map(titleMove),
+          ivs: IV_GUIDANCE[league.key],
+        });
+      }
     }
-    lines.push("");
+
+    const byType = new Map();
+    for (const m of line) {
+      for (const e of pve.index.get(m.speciesId) ?? []) {
+        if (e.shadow !== shadow) continue;
+        if (e.mega && (!rules.countMegas || shadow)) continue;
+        if (!best.pve || tierRank(e.tier) < tierRank(best.pve.tier) || (e.tier === best.pve.tier && e.rank < best.pve.rank)) {
+          best.pve = { type: e.type, tier: e.tier, rank: e.rank };
+        }
+        if (!rules.pveKeepTiers.includes(e.tier)) continue;
+        const prev = byType.get(e.type);
+        if (!prev || e.rank < prev.rank) byType.set(e.type, { ...e, via: m.speciesName });
+      }
+    }
+    for (const e of [...byType.values()].sort((a, b) => tierRank(a.tier) - tierRank(b.tier) || a.rank - b.rank)) {
+      reasons.push({
+        kind: "pve",
+        type: e.type,
+        tier: e.tier,
+        rank: e.rank,
+        via: e.name,
+        viaSpecies: e.via,
+        mega: e.mega,
+        moveset: [e.fast, e.charged],
+        specialMoves: e.legacy,
+        ivs: IV_GUIDANCE.pve,
+      });
+    }
+
+    return {
+      name: species.speciesName,
+      speciesId: species.speciesId,
+      dex: species.dex,
+      shadow,
+      // KEEP_ONE: the only reason is a Mega/Primal, and one Pokemon covers the Mega Evolution.
+      verdict: !reasons.length ? "TRASH" : reasons.every((r) => r.kind === "pve" && r.mega) ? "KEEP_ONE" : "KEEP",
+      reasons,
+      best,
+    };
+  }
+
+  /** Resolve a raw name and evaluate it. Returns null if the name is unknown. */
+  function evaluateName(rawName, { shadow } = {}) {
+    const r = resolver.resolve(rawName);
+    if (!r) return null;
+    return evaluate(r.species, shadow ?? r.shadow);
+  }
+
+  return { evaluate, evaluateName, resolver, unmatchedGoHub: pve.unmatched };
+}
+
+/** Group raw weekly finds by species+form and evaluate each once. */
+export function evaluateWeekly(found, evaluator) {
+  const groups = new Map();
+  const unmatched = new Set();
+  for (const f of found) {
+    const r = evaluator.resolver.resolve(f.name);
+    if (!r) {
+      unmatched.add(f.name);
+      continue;
+    }
+    const shadow = f.shadow || r.shadow;
+    const key = `${r.species.speciesId}|${shadow}`;
+    const g = groups.get(key) ?? { species: r.species, shadow, sources: new Set() };
+    g.sources.add(f.source);
+    groups.set(key, g);
+  }
+  const order = { KEEP: 0, KEEP_ONE: 1, TRASH: 2 };
+  const pokemon = [...groups.values()]
+    .map((g) => ({ ...evaluator.evaluate(g.species, g.shadow), obtainedFrom: [...g.sources].sort() }))
+    .sort((a, b) => order[a.verdict] - order[b.verdict] || a.dex - b.dex || Number(a.shadow) - Number(b.shadow));
+  return { pokemon, unmatched: [...unmatched].sort() };
+}
+
+/** Compare against hand-curated expectations so rule changes can't silently flip known cases. */
+export function checkKnownAnswers(knownAnswers, evaluator) {
+  const mismatches = [];
+  for (const k of knownAnswers) {
+    const res = evaluator.evaluateName(k.name, { shadow: !!k.shadow });
+    const got = res?.verdict ?? "UNKNOWN";
+    if (got !== k.expect) mismatches.push({ ...k, got, reasons: res?.reasons ?? [] });
+  }
+  return mismatches;
+}
+
+export function describeReason(r) {
+  const special = r.specialMoves?.length ? ` — needs ${r.specialMoves.join(" + ")} (Elite TM/legacy)` : "";
+  if (r.kind === "pvp") return `${r.league} #${r.rank}${r.via ? ` as ${r.via}` : ""}${special}`;
+  const cap = r.type[0].toUpperCase() + r.type.slice(1);
+  return `${cap} attacker, ${r.tier} tier #${r.rank} as ${r.via}${r.mega ? " (Mega)" : ""}${special}`;
+}
+
+export function describeBest(best) {
+  const parts = [];
+  parts.push(best.pvp ? `best PvP: ${best.pvp.league} #${best.pvp.rank}` : "no PvP ranking");
+  parts.push(best.pve ? `best PvE: ${best.pve.type} ${best.pve.tier} tier #${best.pve.rank}` : "not a top-50 attacker of any type");
+  return parts.join("; ");
+}
+
+export function renderMarkdown(report) {
+  const label = (p) => `${p.shadow ? "Shadow " : ""}${p.name}`;
+  const keep = report.pokemon.filter((p) => p.verdict === "KEEP");
+  const keepOne = report.pokemon.filter((p) => p.verdict === "KEEP_ONE");
+  const trash = report.pokemon.filter((p) => p.verdict === "TRASH");
+  const lines = [
+    `# Keep or Trash — week of ${report.weekOf}`,
+    "",
+    `Rules v${report.rules.version}: keep if top ${report.rules.pvpTopRank} in any PvPoke league, or ${report.rules.pveKeepTiers.join("/")} tier in any Pokemon GO Hub attacker type list. Otherwise trash.`,
+    `Data: snapshot ${report.data.snapshotDate}, PvPoke rankings fetched ${report.data.pvpokeFetchedAt.slice(0, 10)}, GO Hub built ${report.data.goHubBuiltAt?.slice(0, 10) ?? "unknown"}.`,
+    "",
+  ];
+  if (report.changes) {
+    const { newKeeps, droppedKeeps } = report.changes;
+    if (newKeeps.length || droppedKeeps.length) {
+      lines.push("## Changes since last week", "");
+      for (const n of newKeeps) lines.push(`- 🆕 keep: ${n}`);
+      for (const n of droppedKeeps) lines.push(`- no longer a keep / not available: ${n}`);
+      lines.push("");
+    }
+  }
+  lines.push(`## KEEP (${keep.length})`, "");
+  for (const p of keep) {
+    lines.push(`- **${label(p)}** — ${p.reasons.map(describeReason).join("; ")}`);
+    lines.push(`  - Get it from: ${p.obtainedFrom.join(", ")}`);
+  }
+  lines.push("", `## KEEP ONE — for Mega Evolution only (${keepOne.length})`, "", "Keep your single best one (high Attack IV); trash the rest.", "");
+  for (const p of keepOne) lines.push(`- **${label(p)}** — ${p.reasons.map(describeReason).join("; ")}`);
+  lines.push("", `## TRASH (${trash.length})`, "");
+  for (const p of trash) lines.push(`- ${label(p)} — ${describeBest(p.best)}`);
+  if (report.unmatched.length) lines.push("", `## Couldn't identify (${report.unmatched.length})`, "", ...report.unmatched.map((n) => `- ${n}`));
+  if (report.knownAnswerMismatches.length) {
+    lines.push("", "## ⚠️ Known-answer mismatches", "", "These disagree with `scripts/keeper-known-answers.json` — review the rules or the expectation.", "");
+    for (const m of report.knownAnswerMismatches) lines.push(`- ${m.shadow ? "Shadow " : ""}${m.name}: expected ${m.expect}, got ${m.got}${m.why ? ` (${m.why})` : ""}`);
   }
   lines.push(
-    "> KEEP/MAYBE for PvP still depends on IVs: Great/Ultra want low Attack and high Defense/HP, Master wants 15/15/15.",
-    "> PvE attacker and gym-defender checks are base-stat proxies, not move-aware simulations.",
+    "",
+    "> Verdicts are per species. Your individual Pokemon still need the right IVs: Great/Ultra want low Attack and high Defense/HP, Master and raids want high Attack (ideally 15/15/15).",
     "",
   );
   return lines.join("\n");

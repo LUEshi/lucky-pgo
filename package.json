@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "tsc -p tsconfig.tests.json && node --test \"dist-tests/tests/**/*.test.js\" && node --test \"tests/**/*.test.mjs\"",
-    "test:scraper": "node --test \"tests/**/*.test.mjs\""
+    "test:scraper": "node --test \"tests/**/*.test.mjs\"",
+    "keepers": "node scripts/evaluate-keepers.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

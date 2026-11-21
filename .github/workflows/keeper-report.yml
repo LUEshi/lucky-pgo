@@ -1,0 +1,39 @@
+name: Weekly Keep-or-Junk Report
+
+on:
+  schedule:
+    - cron: "30 8 * * 1" # Mondays, after the daily snapshot
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Refresh snapshot so the spawn list is current
+        run: node scripts/update-scrapedduck-history.mjs
+
+      - name: Evaluate wild Pokemon
+        run: node scripts/evaluate-keepers.mjs --upcoming --refresh
+
+      - name: Commit report
+        run: |
+          if [[ -z "$(git status --porcelain reports public/history)" ]]; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports public/history
+          git commit -m "chore(reports): weekly keep-or-junk report"
+          git push

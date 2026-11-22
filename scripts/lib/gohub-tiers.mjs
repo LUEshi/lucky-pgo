@@ -3,9 +3,12 @@
 import { JSDOM } from "jsdom";
 
 export const GOHUB_URL = (type) => `https://db.pokemongohub.net/pokemon-list/best-per-type/${type}`;
+// Max Battle attackers (Dynamax / Gigantamax), ranked by Max Attack damage, tiers SS..F.
+export const GOHUB_DMAX_URL = (type) => `https://db.pokemongohub.net/pokemon-list/best-dynamax-per-type/${type}`;
 
 /**
- * Returns { builtAt, entries: [{ type, tier, rank, name, fast, charged, legacy, edps, pctOfBest }] }.
+ * Works for both the raid page (Charged Attack / eDPS / % of best) and the Dynamax page (Max Attack / DMG).
+ * Returns { builtAt, entries: [{ type, tier, rank, name, fast, charged, legacy, edps, pctOfBest, dmg }] }.
  * The Tier column spans rows, so rows without a tier cell inherit the previous tier.
  */
 export function parseGoHubTypePage(html, type) {
@@ -15,8 +18,10 @@ export function parseGoHubTypePage(html, type) {
 
   const header = [...table.querySelectorAll("tr")[0].children].map((c) => c.textContent.replace(/^Sort:\s*/, "").trim());
   const col = (label) => header.findIndex((h) => h.toLowerCase().startsWith(label));
-  const idx = { tier: col("tier"), rank: col("#"), name: col("pok"), fast: col("fast"), charged: col("charged"), edps: col("edps"), pct: col("% of best") };
-  if (Object.values(idx).some((i) => i < 0)) throw new Error(`GO Hub ${type}: unexpected columns ${header.join(", ")}`);
+  const charged = col("charged") >= 0 ? col("charged") : col("max attack");
+  const idx = { tier: col("tier"), rank: col("#"), name: col("pok"), fast: col("fast"), charged, edps: col("edps"), pct: col("% of best"), dmg: col("dmg") };
+  const required = [idx.tier, idx.rank, idx.name, idx.fast, idx.charged];
+  if (required.some((i) => i < 0)) throw new Error(`GO Hub ${type}: unexpected columns ${header.join(", ")}`);
 
   const entries = [];
   let tier = null;
@@ -36,8 +41,9 @@ export function parseGoHubTypePage(html, type) {
       charged: charged.replace(/\+$/, ""),
       // GO Hub marks Elite TM / legacy / Community Day moves with "+"
       legacy: [fast, charged].filter((m) => m.endsWith("+")).map((m) => m.replace(/\+$/, "")),
-      edps: Number.parseFloat(cells[idx.edps]),
-      pctOfBest: cells[idx.pct],
+      edps: idx.edps >= 0 ? Number.parseFloat(cells[idx.edps]) : null,
+      pctOfBest: idx.pct >= 0 ? cells[idx.pct] : null,
+      dmg: idx.dmg >= 0 ? Number.parseFloat(cells[idx.dmg]) : null,
     });
   }
   if (!entries.length) throw new Error(`GO Hub ${type}: table had no rows`);

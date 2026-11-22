@@ -38,8 +38,9 @@ export function parseName(raw) {
     mega = true;
     name = name.trim().replace(/^(mega|primal)\s+/i, "").replace(/\s+[XY]$/, "");
   }
-  name = name.replace(/^(gigantamax|dynamax)\s+/i, "");
-  return { name: name.replace(/\s+/g, " ").trim(), shadow, mega };
+  const gmax = /^gigantamax\s/i.test(name.trim());
+  name = name.trim().replace(/^(gigantamax|dynamax|eternamax)\s+/i, "");
+  return { name: name.replace(/\s+/g, " ").trim(), shadow, mega, gmax };
 }
 
 /** Looks like a real name (LeekDuck research rewards include items like "×500"). */

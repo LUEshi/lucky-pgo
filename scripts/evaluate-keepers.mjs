@@ -9,7 +9,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { LEAGUES, RULES, RULES_VERSION, TYPES } from "./lib/keeper-rules.mjs";
-import { GOHUB_URL, parseGoHubTypePage } from "./lib/gohub-tiers.mjs";
+import { GOHUB_DMAX_URL, GOHUB_URL, parseGoHubTypePage } from "./lib/gohub-tiers.mjs";
 import { collectWeeklyPokemon, LOOKAHEAD_DAYS } from "./lib/weekly-sources.mjs";
 import {
   checkKnownAnswers,
@@ -82,7 +82,13 @@ async function loadData(refresh) {
     goHubBuiltAt = builtAt ?? goHubBuiltAt;
     if (!page.fromCache) await sleep(1000); // be polite to GO Hub
   }
-  return { gamemaster: gm.body, rankingsByLeague, goHubEntries, pvpokeFetchedAt, goHubBuiltAt };
+  const dmaxEntries = [];
+  for (const type of TYPES) {
+    const page = await cached(GOHUB_DMAX_URL(type), `gohub-dmax-${type}.html`, { refresh, as: "text" });
+    dmaxEntries.push(...parseGoHubTypePage(page.body, type).entries);
+    if (!page.fromCache) await sleep(1000);
+  }
+  return { gamemaster: gm.body, rankingsByLeague, goHubEntries, dmaxEntries, pvpokeFetchedAt, goHubBuiltAt };
 }
 
 async function latestSnapshot() {

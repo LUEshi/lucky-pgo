@@ -27,23 +27,24 @@ export function buildPveIndex(goHubEntries, resolver) {
       continue;
     }
     const list = index.get(r.species.speciesId) ?? [];
-    list.push({ ...e, shadow: r.shadow, mega: r.mega });
+    list.push({ ...e, shadow: r.shadow, mega: r.mega, gmax: r.gmax });
     index.set(r.species.speciesId, list);
   }
   return { index, unmatched: [...unmatched] };
 }
 
-const TIER_ORDER = ["SS", "S", "A", "B", "C", "D"];
+const TIER_ORDER = ["SS", "S", "A", "B", "C", "D", "E", "F"];
 const tierRank = (t) => {
   const i = TIER_ORDER.indexOf(t);
   return i < 0 ? 99 : i;
 };
 const titleMove = (id) => id.toLowerCase().split("_").map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
 
-export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, rules = RULES }) {
+export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, dmaxEntries = [], rules = RULES }) {
   const resolver = createResolver(gamemaster);
   const pvp = buildPvpRanks(rankingsByLeague);
   const pve = buildPveIndex(goHubEntries, resolver);
+  const dmax = buildPveIndex(dmaxEntries, resolver);
   const gmById = new Map(gamemaster.map((p) => [p.speciesId, p]));
 
   function evaluate(species, shadow) {
@@ -103,6 +104,26 @@ export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, ru
       });
     }
 
+    // Informational tier lists for the whole evolution line, best entry per type (not used for the verdict).
+    const bestPerType = (index, accept) => {
+      const out = new Map();
+      for (const m of line) {
+        for (const e of index.get(m.speciesId) ?? []) {
+          if (!accept(e)) continue;
+          const prev = out.get(e.type);
+          if (!prev || tierRank(e.tier) < tierRank(prev.tier) || (e.tier === prev.tier && e.rank < prev.rank)) out.set(e.type, e);
+        }
+      }
+      return [...out.values()]
+        .sort((a, b) => tierRank(a.tier) - tierRank(b.tier) || a.rank - b.rank)
+        .map((e) => ({ type: e.type, tier: e.tier, rank: e.rank, via: e.name, ...(e.mega ? { mega: true } : {}), ...(e.gmax ? { gmax: true } : {}) }));
+    };
+    const tiers = {
+      raid: bestPerType(pve.index, (e) => e.shadow === shadow && !(e.mega && (!rules.countMegas || shadow))),
+      // Shadow Pokemon can't Dynamax.
+      max: shadow ? [] : bestPerType(dmax.index, (e) => !e.shadow),
+    };
+
     return {
       name: species.speciesName,
       speciesId: species.speciesId,
@@ -112,6 +133,7 @@ export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, ru
       verdict: !reasons.length ? "TRASH" : reasons.every((r) => r.kind === "pve" && r.mega) ? "KEEP_ONE" : "KEEP",
       reasons,
       best,
+      tiers,
     };
   }
 
@@ -122,7 +144,7 @@ export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, ru
     return evaluate(r.species, shadow ?? r.shadow);
   }
 
-  return { evaluate, evaluateName, resolver, unmatchedGoHub: pve.unmatched };
+  return { evaluate, evaluateName, resolver, unmatchedGoHub: [...pve.unmatched, ...dmax.unmatched] };
 }
 
 /** Group raw weekly finds by species+form and evaluate each once. */
@@ -186,6 +208,14 @@ export function describeBest(best) {
 
 const stripSourcePrefix = (src) => src.replace(/^[^:]+:\s*/, "");
 
+const capType = (t) => t[0].toUpperCase() + t.slice(1);
+/** "Fire S #2 (Mega Charizard Y), Flying A #13 (…)" — best entry per type, strongest first. */
+export function describeTiers(list, max = 3) {
+  if (!list?.length) return "not ranked";
+  const shown = list.slice(0, max).map((t) => `${capType(t.type)} ${t.tier} #${t.rank} (${t.via}${t.gmax ? ", Gigantamax only" : ""})`);
+  return shown.join(", ") + (list.length > max ? ` +${list.length - max} more` : "");
+}
+
 export function renderMarkdown(report) {
   const label = (p) => `${p.shadow ? "Shadow " : ""}${p.name}`;
   const lines = [
@@ -227,6 +257,18 @@ export function renderMarkdown(report) {
       firstSection.set(key, sec.label);
       return text;
     };
+    if (sec.key === "dynamax") {
+      // Max Battles: show every Pokemon's raid-attacker and Max-attacker tiers for its best evolution.
+      lines.push("Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker.", "");
+      const groups = [["Keep", keep], ["Keep one (Mega only)", keepOne], ["Trash", trash]];
+      for (const [title, list] of groups) {
+        if (!list.length) continue;
+        lines.push(`**${title}**`, "");
+        for (const p of list) lines.push(`- **${label(p)}** — Raid: ${describeTiers(p.tiers?.raid)} · Max: ${describeTiers(p.tiers?.max)}`);
+        lines.push("");
+      }
+      continue;
+    }
     if (keep.length) {
       lines.push("**Keep**", "");
       for (const p of keep) lines.push(`- **${label(p)}** — ${detail(p, p.reasons.map(describeReason).join("; "))} _(${where(p)})_`);

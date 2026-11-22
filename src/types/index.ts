@@ -144,6 +144,15 @@ export interface KeeperReason {
   ivs: string;
 }
 
+export interface KeeperTier {
+  type: string;
+  tier: string;
+  rank: number;
+  via: string;
+  mega?: boolean;
+  gmax?: boolean;
+}
+
 export interface KeeperPokemon {
   name: string;
   speciesId: string;
@@ -156,6 +165,8 @@ export interface KeeperPokemon {
     pve: { type: string; tier: string; rank: number } | null;
   };
   obtainedFrom: string[];
+  /** Best entry per attacking type for the evolution line: raid attacker (eDPS) and Max Battle attacker. */
+  tiers?: { raid: KeeperTier[]; max: KeeperTier[] };
   /** Report section key (wild, dynamax, raids, eggs, research, rocket) -> where exactly. */
   sections?: Record<string, string[]>;
 }

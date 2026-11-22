@@ -1,11 +1,11 @@
 # Keep or Trash — week of 2026-11-22
 
 Rules v4: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
-Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026-11-12.
+Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-21, GO Hub built 2026-11-12.
 
-**In this report:** Wild 61 · Dynamax (Max Battles) 58 · Raids 31 · Eggs 75 · Research 167 · Team Rocket 90
+**In this report:** Wild 62 · Dynamax (Max Battles) 58 · Raids 31 · Eggs 75 · Research 168 · Team Rocket 90
 
-## Wild — 22 keep · 7 keep one · 32 trash
+## Wild — 23 keep · 7 keep one · 32 trash
 
 **Keep**
 
@@ -23,6 +23,7 @@ Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026
 - **Beldum** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Dynamax Trails)_
 - **Roggenrola** — Normal attacker, S tier #18 as Gigalith; Rock attacker, A tier #13 as Gigalith _(Dynamax Trails)_
 - **Drilbur** — Ground attacker, A tier #15 as Excadrill _(Dynamax Trails)_
+- **Pawniard** — Ultra League #98 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Master League #52 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Dark attacker, A tier #20 as Kingambit _(Pawniard Community Day)_
 - **Deino** — Great League #70 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Master League #95 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Dark attacker, A tier #12 as Hydreigon _(Dynamax Trails)_
 - **Inkay** — Great League #38 as Malamar; Ultra League #60 as Malamar _(Dynamax Trails)_
 - **Bounsweet** — Grass attacker, A tier #29 as Tsareena _(Dynamax Trails)_
@@ -46,41 +47,74 @@ Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026
 
 ## Dynamax (Max Battles) — 22 keep · 6 keep one · 30 trash
 
+Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker.
+
 **Keep**
 
-- **Charmander** — see Wild _(Dynamax Trails)_
-- **Squirtle** — see Wild _(Dynamax Trails)_
-- **Rhyhorn** — see Wild _(Dynamax Trails)_
-- **Electabuzz** — see Wild _(Dynamax Trails)_
-- **Magikarp** — see Wild _(Dynamax Trails)_
-- **Eevee** — see Wild _(Dynamax Trails)_
-- **Sneasel** — see Wild _(Dynamax Trails)_
-- **Sableye** — see Wild _(Dynamax Trails)_
-- **Feebas** — see Wild _(Dynamax Trails)_
-- **Spheal** — see Wild _(Dynamax Trails)_
-- **Beldum** — see Wild _(Dynamax Trails)_
-- **Roggenrola** — see Wild _(Dynamax Trails)_
-- **Drilbur** — see Wild _(Dynamax Trails)_
-- **Deino** — see Wild _(Dynamax Trails)_
-- **Inkay** — see Wild _(Dynamax Trails)_
-- **Bounsweet** — see Wild _(Dynamax Trails)_
-- **Grookey** — see Wild _(Dynamax Trails)_
-- **Scorbunny** — see Wild _(Dynamax Trails)_
-- **Sobble** — see Wild _(Dynamax Trails)_
-- **Rookidee** — see Wild _(Dynamax Trails)_
-- **Hatenna** — see Wild _(Dynamax Trails)_
-- **Eternatus** — Master League #17 as Eternatus — needs Dynamax Cannon (Elite TM/legacy); Dragon attacker, SS tier #2 as Eternatus; Poison attacker, SS tier #3 as Eternatus _(Dynamax Trails)_
+- **Charmander** — Raid: Fire S #2 (Mega Charizard Y), Flying A #13 (Mega Charizard Y), Dragon B #42 (Mega Charizard X) · Max: Fire S #2 (Gigantamax Charizard, Gigantamax only), Flying S #3 (Dynamax Charizard), Normal C #21 (Dynamax Charmeleon) +1 more
+- **Squirtle** — Raid: Water S #6 (Mega Blastoise), Rock B #26 (Mega Blastoise), Ice B #41 (Mega Blastoise) · Max: Water C #7 (Gigantamax Blastoise, Gigantamax only), Rock C #7 (Dynamax Blastoise), Dark D #14 (Dynamax Blastoise) +1 more
+- **Rhyhorn** — Raid: Rock S #9 (Rhyperior), Ground A #19 (Rhyperior), Normal B #44 (Rhyperior) · Max: Rock SS #1 (Dynamax Rhyperior), Ground SS #2 (Dynamax Rhyperior), Fighting C #12 (Dynamax Rhydon)
+- **Electabuzz** — Raid: Electric A #22 (Electivire) · Max: Electric S #3 (Dynamax Electivire), Fighting B #9 (Dynamax Electivire)
+- **Magikarp** — Raid: Water A #7 (Mega Gyarados), Dark A #15 (Mega Gyarados), Dragon B #36 (Mega Gyarados) · Max: Water B #6 (Dynamax Gyarados), Dark B #6 (Dynamax Gyarados), Dragon D #12 (Dynamax Gyarados)
+- **Eevee** — Raid: Ice A #22 (Glaceon), Fairy B #26 (Sylveon), Electric B #41 (Jolteon) +2 more · Max: Psychic SS #4 (Dynamax Espeon), Ice S #2 (Dynamax Glaceon), Fairy S #3 (Dynamax Sylveon) +6 more
+- **Sneasel** — Raid: Ice A #24 (Weavile), Dark B #33 (Weavile) · Max: Ice SS #1 (Dynamax Weavile), Dark S #4 (Dynamax Weavile)
+- **Sableye** — Raid: not ranked · Max: Ghost D #6 (Dynamax Sableye), Dark D #13 (Dynamax Sableye)
+- **Feebas** — Raid: not ranked · Max: Water D #11 (Dynamax Milotic), Dragon E #16 (Dynamax Milotic), Normal F #45 (Dynamax Feebas)
+- **Spheal** — Raid: not ranked · Max: Ice C #7 (Dynamax Walrein), Water D #13 (Dynamax Walrein), Fighting F #24 (Dynamax Spheal)
+- **Beldum** — Raid: Steel S #4 (Mega Metagross), Bug A #11 (Mega Metagross), Psychic B #10 (Mega Metagross) +2 more · Max: Psychic SS #5 (Dynamax Metagross), Bug S #3 (Dynamax Metagross), Steel B #4 (Dynamax Metagross) +2 more
+- **Roggenrola** — Raid: Normal S #18 (Gigalith), Rock A #13 (Gigalith) · Max: Rock S #2 (Dynamax Gigalith), Normal A #7 (Dynamax Gigalith), Ground B #6 (Dynamax Gigalith)
+- **Drilbur** — Raid: Ground A #15 (Excadrill), Steel B #24 (Excadrill) · Max: Ground SS #1 (Dynamax Excadrill), Steel B #5 (Dynamax Excadrill), Normal C #22 (Dynamax Drilbur)
+- **Deino** — Raid: Dark A #12 (Hydreigon), Dragon C #48 (Hydreigon) · Max: Dark S #2 (Dynamax Hydreigon), Dragon B #6 (Dynamax Hydreigon), Normal D #36 (Dynamax Deino)
+- **Inkay** — Raid: Psychic B #15 (Mega Malamar) · Max: Flying B #7 (Dynamax Malamar), Psychic B #16 (Dynamax Malamar), Normal E #37 (Dynamax Inkay)
+- **Bounsweet** — Raid: Grass A #29 (Tsareena) · Max: Grass B #4 (Dynamax Tsareena), Fairy B #6 (Dynamax Tsareena)
+- **Grookey** — Raid: Grass S #12 (Rillaboom) · Max: Grass SS #1 (Gigantamax Rillaboom, Gigantamax only), Normal A #4 (Dynamax Rillaboom)
+- **Scorbunny** — Raid: Normal A #41 (Cinderace), Fire B #30 (Cinderace) · Max: Fire SS #1 (Gigantamax Cinderace, Gigantamax only), Normal A #6 (Dynamax Cinderace)
+- **Sobble** — Raid: Water A #16 (Inteleon), Normal A #29 (Inteleon) · Max: Water SS #1 (Gigantamax Inteleon, Gigantamax only), Normal S #3 (Dynamax Inteleon)
+- **Rookidee** — Raid: not ranked · Max: Flying A #4 (Dynamax Corviknight), Steel E #12 (Dynamax Corviknight), Ground E #15 (Dynamax Corviknight)
+- **Hatenna** — Raid: Fairy A #20 (Hatterene) · Max: Fairy SS #2 (Dynamax Hatterene), Psychic S #7 (Dynamax Hatterene)
+- **Eternatus** — Raid: Dragon SS #2 (Eternatus), Poison SS #3 (Eternatus) · Max: Dragon SS #1 (Eternatus)
 
-**Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
+**Keep one (Mega only)**
 
-- **Bulbasaur** — see Wild _(Dynamax Trails)_
-- **Pikachu** — see Wild _(Dynamax Trails)_
-- **Abra** — see Wild _(Dynamax Trails)_
-- **Gastly** — see Wild _(Dynamax Trails)_
-- **Ralts** — see Wild _(Dynamax Trails)_
-- **Falinks** — see Wild _(Dynamax Trails)_
+- **Bulbasaur** — Raid: Grass S #3 (Mega Venusaur), Poison A #22 (Mega Venusaur) · Max: Grass S #2 (Gigantamax Venusaur, Gigantamax only), Normal D #33 (Dynamax Bulbasaur)
+- **Pikachu** — Raid: Electric SS #1 (Mega Raichu Y), Fairy A #19 (Mega Raichu Y), Normal A #34 (Mega Raichu Y) +2 more · Max: not ranked
+- **Abra** — Raid: Fairy S #6 (Mega Alakazam), Psychic A #4 (Mega Alakazam), Ghost A #11 (Mega Alakazam) +1 more · Max: Psychic SS #1 (Dynamax Alakazam), Fighting A #7 (Dynamax Alakazam), Electric D #12 (Dynamax Abra)
+- **Gastly** — Raid: Poison SS #2 (Mega Gengar), Ghost S #4 (Mega Gengar), Dark S #5 (Mega Gengar) +1 more · Max: Ghost SS #1 (Gigantamax Gengar, Gigantamax only), Dark A #5 (Dynamax Gengar)
+- **Ralts** — Raid: Fairy SS #1 (Mega Gardevoir), Ice S #6 (Mega Gardevoir), Psychic A #5 (Mega Gardevoir) +4 more · Max: Fairy SS #1 (Dynamax Gardevoir), Psychic S #6 (Dynamax Gallade), Fighting A #4 (Dynamax Gallade) +2 more
+- **Falinks** — Raid: Fighting A #5 (Mega Falinks) · Max: Fighting B #11 (Dynamax Falinks)
 
-**Trash:** Caterpie, Growlithe, Machop, Krabby, Hitmonlee, Hitmonchan, Chansey, Magmar, Omanyte, Kabuto, Hoothoot, Shuckle, Hitmontop, Wailmer, Trapinch, Combee, Pidove, Woobat, Cottonee, Darumaka, Trubbish, Cryogonal, Espurr, Passimian, Drampa, Skwovet, Wooloo, Toxtricity, Sizzlipede, Duraludon
+**Trash**
+
+- **Caterpie** — Raid: not ranked · Max: Bug SS #2 (Gigantamax Butterfree, Gigantamax only), Psychic D #23 (Dynamax Butterfree), Normal F #43 (Dynamax Caterpie)
+- **Growlithe** — Raid: not ranked · Max: Dark B #8 (Dynamax Arcanine), Electric C #11 (Dynamax Arcanine), Fire D #9 (Dynamax Arcanine)
+- **Machop** — Raid: Fighting C #36 (Machamp) · Max: Fighting SS #1 (Gigantamax Machamp, Gigantamax only), Steel D #10 (Dynamax Machamp)
+- **Krabby** — Raid: Water B #22 (Kingler) · Max: Water S #2 (Gigantamax Kingler, Gigantamax only), Ground A #5 (Dynamax Kingler), Steel D #8 (Dynamax Kingler)
+- **Hitmonlee** — Raid: not ranked · Max: Fighting A #6 (Dynamax Hitmonlee)
+- **Hitmonchan** — Raid: not ranked · Max: Fighting B #10 (Dynamax Hitmonchan), Steel E #13 (Dynamax Hitmonchan)
+- **Chansey** — Raid: not ranked · Max: Normal C #20 (Dynamax Blissey), Psychic E #28 (Dynamax Blissey)
+- **Magmar** — Raid: not ranked · Max: not ranked
+- **Omanyte** — Raid: Rock B #44 (Omastar) · Max: Rock A #3 (Dynamax Omastar), Ground C #8 (Dynamax Omastar), Water C #9 (Dynamax Omastar)
+- **Kabuto** — Raid: not ranked · Max: Bug A #4 (Dynamax Kabutops), Ground B #7 (Dynamax Kabutops), Water C #8 (Dynamax Kabutops) +2 more
+- **Hoothoot** — Raid: not ranked · Max: Flying B #6 (Dynamax Noctowl), Psychic E #25 (Dynamax Noctowl), Dark F #20 (Dynamax Hoothoot)
+- **Shuckle** — Raid: not ranked · Max: Rock F #10 (Dynamax Shuckle), Bug F #12 (Dynamax Shuckle)
+- **Hitmontop** — Raid: not ranked · Max: Fighting C #15 (Dynamax Hitmontop)
+- **Wailmer** — Raid: not ranked · Max: Rock C #6 (Dynamax Wailord), Water D #16 (Dynamax Wailord), Psychic D #21 (Dynamax Wailord)
+- **Trapinch** — Raid: Ground B #49 (Flygon) · Max: Ground A #4 (Dynamax Flygon), Bug D #7 (Dynamax Trapinch), Dragon D #10 (Dynamax Flygon)
+- **Combee** — Raid: not ranked · Max: not ranked
+- **Pidove** — Raid: Flying C #44 (Unfezant) · Max: Flying S #2 (Dynamax Unfezant), Steel D #11 (Dynamax Unfezant), Normal D #32 (Dynamax Pidove)
+- **Woobat** — Raid: not ranked · Max: Flying A #5 (Dynamax Swoobat), Psychic C #17 (Dynamax Swoobat)
+- **Cottonee** — Raid: not ranked · Max: not ranked
+- **Darumaka** — Raid: Fire B #35 (Standard Mode Darmanitan) · Max: Normal S #2 (Dynamax Darmanitan), Fire A #3 (Dynamax Darmanitan)
+- **Trubbish** — Raid: not ranked · Max: Poison S #1 (Gigantamax Garbodor, Gigantamax only), Normal B #14 (Dynamax Garbodor), Bug C #6 (Dynamax Garbodor)
+- **Cryogonal** — Raid: Ice B #45 (Cryogonal) · Max: Ice B #5 (Dynamax Cryogonal)
+- **Espurr** — Raid: not ranked · Max: not ranked
+- **Passimian** — Raid: not ranked · Max: Normal A #8 (Dynamax Passimian), Fighting A #8 (Dynamax Passimian)
+- **Drampa** — Raid: not ranked · Max: Psychic B #15 (Dynamax Drampa), Dragon C #8 (Dynamax Drampa)
+- **Skwovet** — Raid: not ranked · Max: Normal B #11 (Dynamax Greedent), Dark D #15 (Dynamax Greedent), Grass E #10 (Dynamax Greedent) +1 more
+- **Wooloo** — Raid: not ranked · Max: Normal B #12 (Dynamax Dubwool), Fighting E #21 (Dynamax Dubwool)
+- **Toxtricity** — Raid: Electric B #45 (Toxtricity (Low Key Form)) · Max: Electric SS #1 (Gigantamax Toxtricity, Gigantamax only), Poison A #2 (Dynamax Toxtricity (Amped Form))
+- **Sizzlipede** — Raid: Bug B #23 (Centiskorch) · Max: Bug SS #1 (Dynamax Centiskorch), Fire D #11 (Dynamax Centiskorch)
+- **Duraludon** — Raid: Steel C #39 (Duraludon) · Max: Dragon S #2 (Gigantamax Duraludon, Gigantamax only), Steel C #7 (Dynamax Duraludon)
 
 ## Raids — 14 keep · 5 keep one · 12 trash
 
@@ -162,7 +196,7 @@ Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026
 
 **Trash:** Diglett (Alolan), Meowth (Galarian), Growlithe (Hisuian), Geodude (Alolan), Slowpoke (Galarian), Chikorita, Cyndaquil, Sneasel (Hisuian), Tyrogue, Magby, Zigzagoon (Galarian), Turtwig, Chimchar, Chingling, Mime (Jr), Happiny, Snivy, Tepig, Basculin, Sandile, Druddigon, Pancham, Salandit, Drampa, Toxel, Sizzlipede, Impidimp, Snom, Indeedee (Male), Indeedee (Female), Fidough, Charcadet, Maschiff, Shroodle
 
-## Research — 52 keep · 17 keep one · 98 trash
+## Research — 53 keep · 17 keep one · 98 trash
 
 **Keep**
 
@@ -203,6 +237,7 @@ Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026
 - **Yamask** — Ultra League #82 as Cofagrigus _(Field Research)_
 - **Stunfisk (Galarian)** — see Eggs _(Field Research)_
 - **Stunfisk** — Great League #22 as Stunfisk _(Field Research)_
+- **Pawniard** — see Wild _(Pawniard Community Day)_
 - **Bunnelby** — Great League #72 as Diggersby _(Field Research)_
 - **Diggersby** — Great League #72 as Diggersby _(Field Research)_
 - **Fletchinder** — Great League #84 as Talonflame — needs Incinerate (Elite TM/legacy); Ultra League #34 as Talonflame — needs Incinerate (Elite TM/legacy) _(Field Research)_

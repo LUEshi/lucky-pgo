@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:29:45.945Z",
+  "generatedAt": "2026-11-22T00:37:44.019Z",
   "weekOf": "2026-11-22",
   "rules": {
     "version": 4,
@@ -22,7 +22,7 @@
   },
   "data": {
     "snapshotDate": "2026-11-22",
-    "pvpokeFetchedAt": "2026-11-22T00:29:15.689Z",
+    "pvpokeFetchedAt": "2026-11-21T19:52:26.663Z",
     "goHubBuiltAt": "2026-11-12T16:42:00.850Z",
     "sources": [
       "PvPoke (pvpoke.com)",
@@ -65,6 +65,23 @@
           "tier": "S",
           "rank": 9
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "S",
+            "rank": 9,
+            "via": "Shadow Venusaur"
+          },
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 28,
+            "via": "Shadow Venusaur"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Male Grunt"
@@ -140,6 +157,58 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "S",
+            "rank": 2,
+            "via": "Mega Charizard Y",
+            "mega": true
+          },
+          {
+            "type": "flying",
+            "tier": "A",
+            "rank": 13,
+            "via": "Mega Charizard Y",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 42,
+            "via": "Mega Charizard X",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "fire",
+            "tier": "S",
+            "rank": 2,
+            "via": "Gigantamax Charizard",
+            "gmax": true
+          },
+          {
+            "type": "flying",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Charizard"
+          },
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 21,
+            "via": "Dynamax Charmeleon"
+          },
+          {
+            "type": "dragon",
+            "tier": "D",
+            "rank": 13,
+            "via": "Dynamax Charizard"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Event research: Dynamax Trails",
@@ -196,6 +265,23 @@
           "tier": "A",
           "rank": 14
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 14,
+            "via": "Shadow Charizard"
+          },
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 34,
+            "via": "Shadow Charizard"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Male Grunt"
@@ -270,6 +356,58 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "S",
+            "rank": 6,
+            "via": "Mega Blastoise",
+            "mega": true
+          },
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 26,
+            "via": "Mega Blastoise",
+            "mega": true
+          },
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 41,
+            "via": "Mega Blastoise",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 7,
+            "via": "Gigantamax Blastoise",
+            "gmax": true
+          },
+          {
+            "type": "rock",
+            "tier": "C",
+            "rank": 7,
+            "via": "Dynamax Blastoise"
+          },
+          {
+            "type": "dark",
+            "tier": "D",
+            "rank": 14,
+            "via": "Dynamax Blastoise"
+          },
+          {
+            "type": "normal",
+            "tier": "E",
+            "rank": 40,
+            "via": "Dynamax Squirtle"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Event research: Dynamax Trails",
@@ -326,6 +464,17 @@
           "tier": "B",
           "rank": 32
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 32,
+            "via": "Shadow Blastoise"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Male Grunt"
@@ -414,6 +563,46 @@
           "tier": "SS",
           "rank": 2
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 8,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 29,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 50,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 47,
+            "via": "Mega Clefable",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -507,6 +696,46 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 8,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 29,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 50,
+            "via": "Mega Clefable",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 47,
+            "via": "Mega Clefable",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: Clefable Super Mega Raid Day (starts 2026-11-28)"
       ],
@@ -562,6 +791,10 @@
           "rank": 14
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -621,6 +854,23 @@
           "rank": 33
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 33,
+            "via": "Shadow Alolan Ninetales"
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 38,
+            "via": "Shadow Alolan Ninetales"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fairy-type Female Grunt"
       ],
@@ -663,6 +913,17 @@
           "tier": "A",
           "rank": 21
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 21,
+            "via": "Shadow Crobat"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt",
@@ -708,6 +969,23 @@
           "tier": "A",
           "rank": 12
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 12,
+            "via": "Shadow Vileplume"
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 50,
+            "via": "Shadow Vileplume"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Poison-type Female Grunt"
@@ -782,6 +1060,23 @@
           "rank": 29
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 29,
+            "via": "Shadow Annihilape"
+          },
+          {
+            "type": "ghost",
+            "tier": "C",
+            "rank": 42,
+            "via": "Shadow Annihilape"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fighting-type Female Grunt"
       ],
@@ -824,6 +1119,23 @@
           "tier": "B",
           "rank": 39
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 39,
+            "via": "Shadow Politoed"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 50,
+            "via": "Shadow Poliwrath"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: 3-Star Raids"
@@ -883,6 +1195,23 @@
           "rank": 15
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 15,
+            "via": "Shadow Victreebel"
+          },
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 31,
+            "via": "Shadow Victreebel"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Decoy Female Grunt"
       ],
@@ -923,6 +1252,17 @@
           "tier": "C",
           "rank": 46
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "C",
+            "rank": 46,
+            "via": "Shadow Tentacruel"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Water-type Female Grunt"
@@ -982,6 +1322,23 @@
           "rank": 21
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 21,
+            "via": "Shadow Alolan Golem"
+          },
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 21,
+            "via": "Shadow Alolan Golem"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
       ],
@@ -1025,6 +1382,23 @@
           "rank": 23
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 23,
+            "via": "Shadow Golem"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 22,
+            "via": "Shadow Golem"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Rock-type Male Grunt"
       ],
@@ -1067,6 +1441,23 @@
           "tier": "S",
           "rank": 16
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "S",
+            "rank": 16,
+            "via": "Shadow Magnezone"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 15,
+            "via": "Shadow Magnezone"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
@@ -1139,6 +1530,23 @@
           "rank": 16
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 16,
+            "via": "Shadow Alolan Muk"
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 17,
+            "via": "Shadow Alolan Muk"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Arlo"
       ],
@@ -1189,6 +1597,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Rock-type Male Grunt"
       ],
@@ -1232,6 +1644,23 @@
           "rank": 11
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 11,
+            "via": "Shadow Kingler"
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 41,
+            "via": "Shadow Kingler"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Water-type Female Grunt"
       ],
@@ -1268,6 +1697,10 @@
           "rank": 79
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Cliff"
@@ -1341,6 +1774,48 @@
           "tier": "S",
           "rank": 9
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "S",
+            "rank": 9,
+            "via": "Rhyperior"
+          },
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 19,
+            "via": "Rhyperior"
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 44,
+            "via": "Rhyperior"
+          }
+        ],
+        "max": [
+          {
+            "type": "rock",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Rhyperior"
+          },
+          {
+            "type": "ground",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Dynamax Rhyperior"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 12,
+            "via": "Dynamax Rhydon"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -1434,6 +1909,41 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Shadow Rhyperior"
+          },
+          {
+            "type": "ground",
+            "tier": "S",
+            "rank": 8,
+            "via": "Shadow Rhyperior"
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 25,
+            "via": "Shadow Rhyperior"
+          },
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 25,
+            "via": "Shadow Rhyperior"
+          },
+          {
+            "type": "dragon",
+            "tier": "C",
+            "rank": 49,
+            "via": "Shadow Rhyperior"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ground-type Male Grunt"
       ],
@@ -1476,6 +1986,23 @@
           "tier": "S",
           "rank": 8
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "S",
+            "rank": 8,
+            "via": "Shadow Tangrowth"
+          },
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 43,
+            "via": "Shadow Tangrowth"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Grass-type Male Grunt"
@@ -1527,6 +2054,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -1566,6 +2097,10 @@
           "rank": 48
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -1610,6 +2145,29 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "S",
+            "rank": 6,
+            "via": "Shadow Scizor"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 30,
+            "via": "Shadow Scizor"
+          },
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 48,
+            "via": "Shadow Scyther"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt"
       ],
@@ -1652,6 +2210,30 @@
           "tier": "A",
           "rank": 22
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 22,
+            "via": "Electivire"
+          }
+        ],
+        "max": [
+          {
+            "type": "electric",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Electivire"
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 9,
+            "via": "Dynamax Electivire"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -1704,6 +2286,17 @@
           "rank": 13
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "S",
+            "rank": 13,
+            "via": "Shadow Electivire"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
       ],
@@ -1746,6 +2339,17 @@
           "tier": "A",
           "rank": 9
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 9,
+            "via": "Shadow Pinsir"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
@@ -1835,6 +2439,51 @@
           "rank": 7
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 7,
+            "via": "Mega Gyarados",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 15,
+            "via": "Mega Gyarados",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 36,
+            "via": "Mega Gyarados",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Gyarados"
+          },
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Gyarados"
+          },
+          {
+            "type": "dragon",
+            "tier": "D",
+            "rank": 12,
+            "via": "Dynamax Gyarados"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
@@ -1918,6 +2567,23 @@
           "rank": 14
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 14,
+            "via": "Shadow Gyarados"
+          },
+          {
+            "type": "dragon",
+            "tier": "C",
+            "rank": 46,
+            "via": "Shadow Gyarados"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Water-type Male Grunt"
       ],
@@ -1971,6 +2637,30 @@
           "rank": 21
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 3,
+            "via": "Gigantamax Lapras",
+            "gmax": true
+          },
+          {
+            "type": "water",
+            "tier": "D",
+            "rank": 18,
+            "via": "Dynamax Lapras"
+          },
+          {
+            "type": "psychic",
+            "tier": "D",
+            "rank": 24,
+            "via": "Dynamax Lapras"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -2029,6 +2719,23 @@
           "tier": "B",
           "rank": 43
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 43,
+            "via": "Shadow Lapras"
+          },
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 44,
+            "via": "Shadow Lapras"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Female Grunt"
@@ -2114,6 +2821,96 @@
           "rank": 22
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 22,
+            "via": "Glaceon"
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 26,
+            "via": "Sylveon"
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 41,
+            "via": "Jolteon"
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 48,
+            "via": "Leafeon"
+          },
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 39,
+            "via": "Espeon"
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Dynamax Espeon"
+          },
+          {
+            "type": "ice",
+            "tier": "S",
+            "rank": 2,
+            "via": "Dynamax Glaceon"
+          },
+          {
+            "type": "fairy",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Sylveon"
+          },
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Jolteon"
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 9,
+            "via": "Dynamax Leafeon"
+          },
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 5,
+            "via": "Dynamax Flareon"
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 5,
+            "via": "Dynamax Leafeon"
+          },
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 10,
+            "via": "Dynamax Vaporeon"
+          },
+          {
+            "type": "dark",
+            "tier": "D",
+            "rank": 16,
+            "via": "Dynamax Umbreon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
@@ -2167,6 +2964,29 @@
           "rank": 32
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 32,
+            "via": "Shadow Porygon-Z"
+          },
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 28,
+            "via": "Shadow Porygon-Z"
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 44,
+            "via": "Shadow Porygon-Z"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
       ],
@@ -2203,6 +3023,18 @@
           "rank": 13
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Snorlax",
+            "gmax": true
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -2270,6 +3102,17 @@
           "tier": "B",
           "rank": 43
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 43,
+            "via": "Shadow Snorlax"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Female Grunt"
@@ -2357,6 +3200,46 @@
           "rank": 3
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dragon",
+            "tier": "SS",
+            "rank": 3,
+            "via": "Mega Dragonite",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 14,
+            "via": "Mega Dragonite",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 21,
+            "via": "Mega Dragonite",
+            "mega": true
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 49,
+            "via": "Mega Dragonite",
+            "mega": true
+          },
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 43,
+            "via": "Mega Dragonite",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km",
         "Event egg 10 km: Twilight Trails",
@@ -2420,6 +3303,17 @@
           "tier": "B",
           "rank": 27
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 27,
+            "via": "Feraligatr"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -2494,6 +3388,17 @@
           "rank": 17
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 17,
+            "via": "Togekiss"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 2 km"
       ],
@@ -2567,6 +3472,17 @@
           "rank": 17
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 17,
+            "via": "Togekiss"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -2603,6 +3519,10 @@
           "rank": 29
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -2643,6 +3563,17 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "dark",
+            "tier": "D",
+            "rank": 16,
+            "via": "Dynamax Umbreon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -2679,6 +3610,10 @@
           "rank": 20
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -2723,6 +3658,17 @@
           "rank": 13
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 13,
+            "via": "Shadow Granbull"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fairy-type Female Grunt"
       ],
@@ -2765,6 +3711,36 @@
           "tier": "A",
           "rank": 24
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 24,
+            "via": "Weavile"
+          },
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 33,
+            "via": "Weavile"
+          }
+        ],
+        "max": [
+          {
+            "type": "ice",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Weavile"
+          },
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 4,
+            "via": "Dynamax Weavile"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -2832,6 +3808,23 @@
           "rank": 12
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 12,
+            "via": "Shadow Weavile"
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 16,
+            "via": "Shadow Weavile"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
       ],
@@ -2889,6 +3882,23 @@
           "tier": "A",
           "rank": 33
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 33,
+            "via": "Ursaluna"
+          },
+          {
+            "type": "fairy",
+            "tier": "C",
+            "rank": 42,
+            "via": "Ursaluna"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -2976,6 +3986,47 @@
           "rank": 15
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 15,
+            "via": "Shadow Ursaluna"
+          },
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 22,
+            "via": "Shadow Ursaluna"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 32,
+            "via": "Shadow Ursaluna"
+          },
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 37,
+            "via": "Shadow Ursaluna"
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 40,
+            "via": "Shadow Ursaluna"
+          },
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 47,
+            "via": "Shadow Ursaluna"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
       ],
@@ -3034,6 +4085,23 @@
           "rank": 33
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 33,
+            "via": "Ursaluna"
+          },
+          {
+            "type": "fairy",
+            "tier": "C",
+            "rank": 42,
+            "via": "Ursaluna"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -3076,6 +4144,23 @@
           "tier": "A",
           "rank": 13
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 13,
+            "via": "Mamoswine"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 25,
+            "via": "Mamoswine"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -3161,6 +4246,23 @@
           "rank": 5
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "S",
+            "rank": 5,
+            "via": "Shadow Mamoswine"
+          },
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 13,
+            "via": "Shadow Mamoswine"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 3-Star Raids"
       ],
@@ -3197,6 +4299,10 @@
           "rank": 9
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -3243,6 +4349,17 @@
           "rank": 19
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 19,
+            "via": "Shadow Houndoom"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
       ],
@@ -3285,6 +4402,30 @@
           "tier": "A",
           "rank": 22
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 22,
+            "via": "Electivire"
+          }
+        ],
+        "max": [
+          {
+            "type": "electric",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Electivire"
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 9,
+            "via": "Dynamax Electivire"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 2 km",
@@ -3359,6 +4500,39 @@
           "rank": 3
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "SS",
+            "rank": 3,
+            "via": "Mega Tyranitar",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 2,
+            "via": "Mega Tyranitar",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 23,
+            "via": "Mega Tyranitar",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 40,
+            "via": "Mega Tyranitar",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -3430,6 +4604,35 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 6,
+            "via": "Shadow Tyranitar"
+          },
+          {
+            "type": "rock",
+            "tier": "S",
+            "rank": 8,
+            "via": "Shadow Tyranitar"
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 37,
+            "via": "Shadow Tyranitar"
+          },
+          {
+            "type": "dragon",
+            "tier": "C",
+            "rank": 45,
+            "via": "Shadow Tyranitar"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids"
       ],
@@ -3487,6 +4690,23 @@
           "tier": "A",
           "rank": 9
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 9,
+            "via": "Shadow Blaziken"
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 13,
+            "via": "Shadow Blaziken"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Fire-type Female Grunt"
@@ -3591,6 +4811,32 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Swampert",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "S",
+            "rank": 10,
+            "via": "Mega Swampert",
+            "mega": true
+          },
+          {
+            "type": "poison",
+            "tier": "C",
+            "rank": 45,
+            "via": "Mega Swampert",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -3664,6 +4910,23 @@
           "rank": 8
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 8,
+            "via": "Shadow Swampert"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 23,
+            "via": "Shadow Swampert"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids",
         "Team Rocket: Water-type Female Grunt"
@@ -3726,6 +4989,41 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "S",
+            "rank": 4,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 23,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 14,
+            "via": "Shadow Gallade"
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 28,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "ghost",
+            "tier": "C",
+            "rank": 46,
+            "via": "Shadow Gardevoir"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fairy-type Female Grunt",
         "Team Rocket: Psychic-type Male Grunt"
@@ -3786,6 +5084,41 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "S",
+            "rank": 4,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 23,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 14,
+            "via": "Shadow Gallade"
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 28,
+            "via": "Shadow Gardevoir"
+          },
+          {
+            "type": "ghost",
+            "tier": "C",
+            "rank": 46,
+            "via": "Shadow Gardevoir"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fairy-type Female Grunt"
       ],
@@ -3822,6 +5155,10 @@
           "rank": 29
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 2 km",
@@ -3861,6 +5198,23 @@
           "rank": 40
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "ghost",
+            "tier": "D",
+            "rank": 6,
+            "via": "Dynamax Sableye"
+          },
+          {
+            "type": "dark",
+            "tier": "D",
+            "rank": 13,
+            "via": "Dynamax Sableye"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -3919,6 +5273,23 @@
           "rank": 15
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 15,
+            "via": "Shadow Aggron"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 31,
+            "via": "Shadow Aggron"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Steel-type Male Grunt"
       ],
@@ -3955,6 +5326,10 @@
           "rank": 85
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -3999,6 +5374,23 @@
           "rank": 21
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 21,
+            "via": "Shadow Flygon"
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 48,
+            "via": "Shadow Flygon"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ground-type Male Grunt"
       ],
@@ -4041,6 +5433,23 @@
           "tier": "A",
           "rank": 21
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 21,
+            "via": "Shadow Flygon"
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 48,
+            "via": "Shadow Flygon"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Ground-type Male Grunt"
@@ -4085,6 +5494,18 @@
           "rank": 27
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Altaria",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -4123,6 +5544,10 @@
           "rank": 7
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt"
@@ -4174,6 +5599,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -4210,6 +5639,29 @@
           "rank": 79
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "water",
+            "tier": "D",
+            "rank": 11,
+            "via": "Dynamax Milotic"
+          },
+          {
+            "type": "dragon",
+            "tier": "E",
+            "rank": 16,
+            "via": "Dynamax Milotic"
+          },
+          {
+            "type": "normal",
+            "tier": "F",
+            "rank": 45,
+            "via": "Dynamax Feebas"
+          }
+        ]
       },
       "obtainedFrom": [
         "Event research: Dynamax Trails",
@@ -4262,6 +5714,17 @@
           "rank": 29
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 29,
+            "via": "Shadow Milotic"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Water-type Male Grunt"
       ],
@@ -4311,6 +5774,10 @@
           "rank": 22
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -4362,6 +5829,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ghost-type Male Grunt"
       ],
@@ -4412,6 +5883,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -4455,6 +5930,23 @@
           "rank": 13
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 13,
+            "via": "Shadow Absol"
+          },
+          {
+            "type": "bug",
+            "tier": "B",
+            "rank": 40,
+            "via": "Shadow Absol"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
       ],
@@ -4494,6 +5986,29 @@
           "rank": 43
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "ice",
+            "tier": "C",
+            "rank": 7,
+            "via": "Dynamax Walrein"
+          },
+          {
+            "type": "water",
+            "tier": "D",
+            "rank": 13,
+            "via": "Dynamax Walrein"
+          },
+          {
+            "type": "fighting",
+            "tier": "F",
+            "rank": 24,
+            "via": "Dynamax Spheal"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -4543,6 +6058,17 @@
           "rank": 31
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 31,
+            "via": "Shadow Walrein"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ice-type Female Grunt"
       ],
@@ -4582,6 +6108,23 @@
           "rank": 43
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "ice",
+            "tier": "C",
+            "rank": 7,
+            "via": "Dynamax Walrein"
+          },
+          {
+            "type": "water",
+            "tier": "D",
+            "rank": 13,
+            "via": "Dynamax Walrein"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -4656,6 +6199,77 @@
           "tier": "S",
           "rank": 4
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 11,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 10,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 5,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "bug",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "normal",
+            "tier": "E",
+            "rank": 39,
+            "via": "Dynamax Beldum"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -4739,6 +6353,41 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "S",
+            "rank": 6,
+            "via": "Shadow Metagross"
+          },
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 13,
+            "via": "Shadow Metagross"
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 13,
+            "via": "Shadow Metagross"
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 29,
+            "via": "Shadow Metagross"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 44,
+            "via": "Shadow Metagross"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Steel-type Male Grunt"
       ],
@@ -4812,6 +6461,71 @@
           "tier": "S",
           "rank": 4
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 11,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 10,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 5,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "bug",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -4887,6 +6601,71 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 11,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 10,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Metagross",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 5,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "bug",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Metagross"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Raid: Mega Metagross in Mega Raids (starts 2026-11-25)"
       ],
@@ -4936,6 +6715,10 @@
           "rank": 37
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
@@ -4994,6 +6777,23 @@
           "tier": "B",
           "rank": 36
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 36,
+            "via": "Empoleon"
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 48,
+            "via": "Empoleon"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -5068,6 +6868,23 @@
           "rank": 19
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 19,
+            "via": "Shadow Empoleon"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 25,
+            "via": "Shadow Empoleon"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 3-Star Raids"
       ],
@@ -5126,6 +6943,23 @@
           "rank": 16
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 16,
+            "via": "Shadow Staraptor"
+          },
+          {
+            "type": "flying",
+            "tier": "A",
+            "rank": 12,
+            "via": "Shadow Staraptor"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
       ],
@@ -5168,6 +7002,23 @@
           "tier": "A",
           "rank": 19
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 19,
+            "via": "Shadow Luxray"
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 45,
+            "via": "Shadow Luxray"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
@@ -5227,6 +7078,23 @@
           "rank": 9
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 9,
+            "via": "Roserade"
+          },
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 17,
+            "via": "Roserade"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails"
@@ -5271,6 +7139,17 @@
           "tier": "S",
           "rank": 6
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "S",
+            "rank": 6,
+            "via": "Shadow Rampardos"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: 1-Star Raids",
@@ -5349,6 +7228,25 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Garchomp",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Mega Garchomp",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km",
         "Field Research"
@@ -5426,6 +7324,25 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Garchomp",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Mega Garchomp",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -5462,6 +7379,18 @@
           "rank": 13
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Snorlax",
+            "gmax": true
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -5519,6 +7448,17 @@
           "rank": 35
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 35,
+            "via": "Hippowdon"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -5557,6 +7497,10 @@
           "rank": 33
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: 5-Star Raids",
@@ -5618,6 +7562,29 @@
           "rank": 9
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 9,
+            "via": "Darkrai"
+          },
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 13,
+            "via": "Darkrai"
+          },
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 32,
+            "via": "Darkrai"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 5-Star Raids",
         "Raid: Cresselia and Darkrai in 5-star Raid Battles"
@@ -5662,6 +7629,17 @@
           "tier": "B",
           "rank": 26
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 26,
+            "via": "Samurott"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km",
@@ -5725,6 +7703,42 @@
           "rank": 18
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 18,
+            "via": "Gigalith"
+          },
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 13,
+            "via": "Gigalith"
+          }
+        ],
+        "max": [
+          {
+            "type": "rock",
+            "tier": "S",
+            "rank": 2,
+            "via": "Dynamax Gigalith"
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 7,
+            "via": "Dynamax Gigalith"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Gigalith"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research",
         "Max Battle: Dynamax Trails",
@@ -5775,6 +7789,42 @@
           "tier": "A",
           "rank": 15
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 15,
+            "via": "Excadrill"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 24,
+            "via": "Excadrill"
+          }
+        ],
+        "max": [
+          {
+            "type": "ground",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Excadrill"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 5,
+            "via": "Dynamax Excadrill"
+          },
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 22,
+            "via": "Dynamax Drilbur"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -5838,6 +7888,23 @@
           "rank": 10
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 10,
+            "via": "Shadow Conkeldurr"
+          },
+          {
+            "type": "poison",
+            "tier": "C",
+            "rank": 48,
+            "via": "Shadow Conkeldurr"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fighting-type Female Grunt"
       ],
@@ -5896,6 +7963,23 @@
           "rank": 15
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 15,
+            "via": "Galarian Standard Mode Darmanitan"
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 38,
+            "via": "Galarian Standard Mode Darmanitan"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 7 km"
       ],
@@ -5933,6 +8017,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids"
       ],
@@ -5969,6 +8057,10 @@
           "rank": 82
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -6028,6 +8120,23 @@
           "rank": 8
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 8,
+            "via": "Shadow Chandelure"
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 9,
+            "via": "Shadow Chandelure"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fire-type Female Grunt"
       ],
@@ -6071,6 +8180,35 @@
           "rank": 9
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dragon",
+            "tier": "A",
+            "rank": 9,
+            "via": "Shadow Haxorus"
+          },
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 42,
+            "via": "Shadow Haxorus"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 46,
+            "via": "Shadow Haxorus"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 45,
+            "via": "Shadow Haxorus"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dragon-type Female Grunt"
       ],
@@ -6107,6 +8245,10 @@
           "rank": 89
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -6151,12 +8293,116 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
       "sections": {
         "research": [
           "Field Research"
+        ]
+      }
+    },
+    {
+      "name": "Pawniard",
+      "speciesId": "pawniard",
+      "dex": 624,
+      "shadow": false,
+      "verdict": "KEEP",
+      "reasons": [
+        {
+          "kind": "pvp",
+          "league": "Ultra League",
+          "rank": 98,
+          "via": "Kingambit",
+          "moveset": [
+            "Low Kick",
+            "Kowtow Cleave",
+            "Iron Head"
+          ],
+          "specialMoves": [
+            "Kowtow Cleave"
+          ],
+          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
+        },
+        {
+          "kind": "pvp",
+          "league": "Master League",
+          "rank": 52,
+          "via": "Kingambit",
+          "moveset": [
+            "Low Kick",
+            "Kowtow Cleave",
+            "Iron Head"
+          ],
+          "specialMoves": [
+            "Kowtow Cleave"
+          ],
+          "ivs": "15/15/15 or close to it"
+        },
+        {
+          "kind": "pve",
+          "type": "dark",
+          "tier": "A",
+          "rank": 20,
+          "via": "Kingambit",
+          "viaSpecies": "Kingambit",
+          "mega": false,
+          "moveset": [
+            "Snarl",
+            "Foul Play"
+          ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "best": {
+        "pvp": {
+          "league": "Master League",
+          "rank": 52
+        },
+        "pve": {
+          "type": "dark",
+          "tier": "A",
+          "rank": 20
+        }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 20,
+            "via": "Kingambit"
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 32,
+            "via": "Kingambit"
+          },
+          {
+            "type": "bug",
+            "tier": "B",
+            "rank": 35,
+            "via": "Kingambit"
+          }
+        ],
+        "max": []
+      },
+      "obtainedFrom": [
+        "Community Day: Pawniard Community Day",
+        "Event research: Pawniard Community Day"
+      ],
+      "sections": {
+        "wild": [
+          "Community Day: Pawniard Community Day"
+        ],
+        "research": [
+          "Event research: Pawniard Community Day"
         ]
       }
     },
@@ -6187,6 +8433,10 @@
           "rank": 53
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 12 km"
@@ -6260,6 +8510,42 @@
           "tier": "A",
           "rank": 12
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 12,
+            "via": "Hydreigon"
+          },
+          {
+            "type": "dragon",
+            "tier": "C",
+            "rank": 48,
+            "via": "Hydreigon"
+          }
+        ],
+        "max": [
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 2,
+            "via": "Dynamax Hydreigon"
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Hydreigon"
+          },
+          {
+            "type": "normal",
+            "tier": "D",
+            "rank": 36,
+            "via": "Dynamax Deino"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -6353,6 +8639,29 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 4,
+            "via": "Shadow Hydreigon"
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 33,
+            "via": "Shadow Hydreigon"
+          },
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 41,
+            "via": "Shadow Hydreigon"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dragon-type Female Grunt"
       ],
@@ -6395,6 +8704,23 @@
           "tier": "A",
           "rank": 7
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 7,
+            "via": "Volcarona"
+          },
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 28,
+            "via": "Volcarona"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 10 km",
@@ -6475,6 +8801,29 @@
           "rank": 4
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Shadow Zekrom"
+          },
+          {
+            "type": "dragon",
+            "tier": "A",
+            "rank": 17,
+            "via": "Shadow Zekrom"
+          },
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 49,
+            "via": "Shadow Zekrom"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Giovanni"
       ],
@@ -6512,6 +8861,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -6548,6 +8901,10 @@
           "rank": 72
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -6603,6 +8960,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -6652,6 +9013,10 @@
           "rank": 76
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 10 km",
@@ -6709,6 +9074,37 @@
           "rank": 15
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 15,
+            "via": "Mega Malamar",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "B",
+            "rank": 7,
+            "via": "Dynamax Malamar"
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 16,
+            "via": "Dynamax Malamar"
+          },
+          {
+            "type": "normal",
+            "tier": "E",
+            "rank": 37,
+            "via": "Dynamax Inkay"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research",
         "Max Battle: Dynamax Trails",
@@ -6760,6 +9156,17 @@
           "rank": 23
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 23,
+            "via": "Decidueye"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Field Research"
@@ -6806,6 +9213,23 @@
           "tier": "A",
           "rank": 24
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 24,
+            "via": "Incineroar"
+          },
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 44,
+            "via": "Incineroar"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km",
@@ -6884,6 +9308,23 @@
           "rank": 18
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 18,
+            "via": "Primarina"
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 25,
+            "via": "Primarina"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Field Research"
@@ -6931,6 +9372,17 @@
           "rank": 20
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "flying",
+            "tier": "B",
+            "rank": 20,
+            "via": "Toucannon"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -6968,6 +9420,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -7004,6 +9460,10 @@
           "rank": 41
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
@@ -7047,6 +9507,30 @@
           "tier": "A",
           "rank": 29
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 29,
+            "via": "Tsareena"
+          }
+        ],
+        "max": [
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 4,
+            "via": "Dynamax Tsareena"
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Tsareena"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -7105,6 +9589,23 @@
           "tier": "B",
           "rank": 26
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "B",
+            "rank": 26,
+            "via": "Golisopod"
+          },
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 34,
+            "via": "Golisopod"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -7190,6 +9691,29 @@
           "rank": 10
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 10,
+            "via": "Shadow Golisopod"
+          },
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 15,
+            "via": "Shadow Golisopod"
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 47,
+            "via": "Shadow Golisopod"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
       ],
@@ -7272,6 +9796,31 @@
           "rank": 12
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "S",
+            "rank": 12,
+            "via": "Rillaboom"
+          }
+        ],
+        "max": [
+          {
+            "type": "grass",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Rillaboom",
+            "gmax": true
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 4,
+            "via": "Dynamax Rillaboom"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Event research: Dynamax Trails",
@@ -7330,6 +9879,37 @@
           "tier": "A",
           "rank": 41
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 41,
+            "via": "Cinderace"
+          },
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 30,
+            "via": "Cinderace"
+          }
+        ],
+        "max": [
+          {
+            "type": "fire",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Cinderace",
+            "gmax": true
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 6,
+            "via": "Dynamax Cinderace"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 1 km",
@@ -7405,6 +9985,37 @@
           "rank": 16
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 16,
+            "via": "Inteleon"
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 29,
+            "via": "Inteleon"
+          }
+        ],
+        "max": [
+          {
+            "type": "water",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Inteleon",
+            "gmax": true
+          },
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 3,
+            "via": "Dynamax Inteleon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Event research: Dynamax Trails",
@@ -7477,6 +10088,29 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "A",
+            "rank": 4,
+            "via": "Dynamax Corviknight"
+          },
+          {
+            "type": "steel",
+            "tier": "E",
+            "rank": 12,
+            "via": "Dynamax Corviknight"
+          },
+          {
+            "type": "ground",
+            "tier": "E",
+            "rank": 15,
+            "via": "Dynamax Corviknight"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -7536,6 +10170,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt"
       ],
@@ -7574,6 +10212,10 @@
           "rank": 18
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -7617,6 +10259,30 @@
           "tier": "A",
           "rank": 20
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 20,
+            "via": "Hatterene"
+          }
+        ],
+        "max": [
+          {
+            "type": "fairy",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Dynamax Hatterene"
+          },
+          {
+            "type": "psychic",
+            "tier": "S",
+            "rank": 7,
+            "via": "Dynamax Hatterene"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -7695,6 +10361,30 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dragon",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Eternatus"
+          },
+          {
+            "type": "poison",
+            "tier": "SS",
+            "rank": 3,
+            "via": "Eternatus"
+          }
+        ],
+        "max": [
+          {
+            "type": "dragon",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Eternatus"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails"
       ],
@@ -7738,6 +10428,17 @@
           "rank": 19
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 19,
+            "via": "Meowscarada"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -7778,6 +10479,23 @@
           "tier": "B",
           "rank": 40
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 40,
+            "via": "Skeledirge"
+          },
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 48,
+            "via": "Skeledirge"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -7822,6 +10540,17 @@
           "rank": 17
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "A",
+            "rank": 17,
+            "via": "Quaquaval"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -7859,6 +10588,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -7895,6 +10628,10 @@
           "rank": 57
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 2 km"
@@ -7969,6 +10706,23 @@
           "rank": 12
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "A",
+            "rank": 12,
+            "via": "Tinkaton"
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 37,
+            "via": "Tinkaton"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km"
       ],
@@ -8011,6 +10765,17 @@
           "tier": "A",
           "rank": 11
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 11,
+            "via": "Revavroom"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 12 km"
@@ -8085,6 +10850,23 @@
           "rank": 10
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "S",
+            "rank": 10,
+            "via": "Baxcalibur"
+          },
+          {
+            "type": "dragon",
+            "tier": "A",
+            "rank": 13,
+            "via": "Baxcalibur"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km"
       ],
@@ -8142,6 +10924,39 @@
           "tier": "S",
           "rank": 3
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "S",
+            "rank": 3,
+            "via": "Mega Venusaur",
+            "mega": true
+          },
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 22,
+            "via": "Mega Venusaur",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "grass",
+            "tier": "S",
+            "rank": 2,
+            "via": "Gigantamax Venusaur",
+            "gmax": true
+          },
+          {
+            "type": "normal",
+            "tier": "D",
+            "rank": 33,
+            "via": "Dynamax Bulbasaur"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 1 km",
@@ -8216,6 +11031,25 @@
           "tier": "SS",
           "rank": 1
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Beedrill",
+            "mega": true
+          },
+          {
+            "type": "poison",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Mega Beedrill",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: Twilight Wishes (starts 2026-11-24)"
@@ -8293,6 +11127,46 @@
           "tier": "SS",
           "rank": 1
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 19,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 34,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 35,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 50,
+            "via": "Mega Raichu Y",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -8375,6 +11249,58 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "S",
+            "rank": 6,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "A",
+            "rank": 4,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 11,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 21,
+            "via": "Mega Alakazam",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Alakazam"
+          },
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 7,
+            "via": "Dynamax Alakazam"
+          },
+          {
+            "type": "electric",
+            "tier": "D",
+            "rank": 12,
+            "via": "Dynamax Abra"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -8452,6 +11378,52 @@
           "rank": 6
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "S",
+            "rank": 6,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "A",
+            "rank": 4,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 11,
+            "via": "Mega Alakazam",
+            "mega": true
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 21,
+            "via": "Mega Alakazam",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Alakazam"
+          },
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 7,
+            "via": "Dynamax Alakazam"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -8524,6 +11496,53 @@
           "tier": "SS",
           "rank": 2
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 5,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 24,
+            "via": "Mega Gengar",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "ghost",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Gengar",
+            "gmax": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Gengar"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -8606,6 +11625,53 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 5,
+            "via": "Mega Gengar",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 24,
+            "via": "Mega Gengar",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "ghost",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Gengar",
+            "gmax": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Gengar"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -8668,6 +11734,39 @@
           "rank": 3
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "SS",
+            "rank": 3,
+            "via": "Mega Starmie",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 7,
+            "via": "Mega Starmie",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 29,
+            "via": "Mega Starmie",
+            "mega": true
+          },
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 36,
+            "via": "Mega Starmie",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Wild: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -8710,6 +11809,31 @@
           "tier": "S",
           "rank": 4
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Scizor",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 22,
+            "via": "Mega Scizor",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 49,
+            "via": "Kleavor"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -8783,6 +11907,46 @@
           "tier": "S",
           "rank": 4
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "S",
+            "rank": 4,
+            "via": "Mega Aerodactyl",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 22,
+            "via": "Mega Aerodactyl",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 21,
+            "via": "Mega Aerodactyl",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 27,
+            "via": "Mega Aerodactyl",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 38,
+            "via": "Mega Aerodactyl",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -8861,6 +12025,46 @@
           "rank": 1
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "fairy",
+            "tier": "A",
+            "rank": 19,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 34,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 35,
+            "via": "Mega Raichu Y",
+            "mega": true
+          },
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 50,
+            "via": "Mega Raichu Y",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 2 km"
       ],
@@ -8920,6 +12124,25 @@
           "tier": "SS",
           "rank": 1
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Houndoom",
+            "mega": true
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 27,
+            "via": "Mega Houndoom",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -8981,6 +12204,25 @@
           "rank": 1
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dark",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Houndoom",
+            "mega": true
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 27,
+            "via": "Mega Houndoom",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -9039,6 +12281,39 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Sceptile",
+            "mega": true
+          },
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 8,
+            "via": "Mega Sceptile",
+            "mega": true
+          },
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 26,
+            "via": "Mega Sceptile",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 40,
+            "via": "Mega Sceptile",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -9096,6 +12371,32 @@
           "tier": "S",
           "rank": 3
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "S",
+            "rank": 3,
+            "via": "Mega Blaziken",
+            "mega": true
+          },
+          {
+            "type": "fire",
+            "tier": "S",
+            "rank": 3,
+            "via": "Mega Blaziken",
+            "mega": true
+          },
+          {
+            "type": "flying",
+            "tier": "B",
+            "rank": 24,
+            "via": "Mega Blaziken",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -9215,6 +12516,91 @@
           "rank": 1
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Gardevoir",
+            "mega": true
+          },
+          {
+            "type": "ice",
+            "tier": "S",
+            "rank": 6,
+            "via": "Mega Gardevoir",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "A",
+            "rank": 5,
+            "via": "Mega Gardevoir",
+            "mega": true
+          },
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 7,
+            "via": "Mega Gallade",
+            "mega": true
+          },
+          {
+            "type": "grass",
+            "tier": "A",
+            "rank": 16,
+            "via": "Mega Gallade",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 18,
+            "via": "Mega Gardevoir",
+            "mega": true
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 48,
+            "via": "Mega Gardevoir",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "fairy",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Gardevoir"
+          },
+          {
+            "type": "psychic",
+            "tier": "S",
+            "rank": 6,
+            "via": "Dynamax Gallade"
+          },
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 4,
+            "via": "Dynamax Gallade"
+          },
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 9,
+            "via": "Dynamax Gardevoir"
+          },
+          {
+            "type": "grass",
+            "tier": "C",
+            "rank": 7,
+            "via": "Dynamax Gardevoir"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research",
         "Max Battle: Dynamax Trails",
@@ -9265,6 +12651,25 @@
           "tier": "A",
           "rank": 24
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 24,
+            "via": "Mega Aggron",
+            "mega": true
+          },
+          {
+            "type": "steel",
+            "tier": "B",
+            "rank": 17,
+            "via": "Mega Aggron",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -9328,6 +12733,25 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Manectric",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 22,
+            "via": "Mega Manectric",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -9390,6 +12814,25 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Manectric",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 22,
+            "via": "Mega Manectric",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -9433,6 +12876,25 @@
           "rank": 7
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 7,
+            "via": "Mega Banette",
+            "mega": true
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 24,
+            "via": "Mega Banette",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -9475,6 +12937,25 @@
           "tier": "A",
           "rank": 7
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "A",
+            "rank": 7,
+            "via": "Mega Banette",
+            "mega": true
+          },
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 24,
+            "via": "Mega Banette",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: Mega Banette in Mega Raids",
@@ -9520,6 +13001,18 @@
           "tier": "A",
           "rank": 14
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "A",
+            "rank": 14,
+            "via": "Mega Glalie",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -9609,6 +13102,46 @@
           "rank": 8
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dragon",
+            "tier": "S",
+            "rank": 8,
+            "via": "Mega Salamence",
+            "mega": true
+          },
+          {
+            "type": "flying",
+            "tier": "A",
+            "rank": 7,
+            "via": "Mega Salamence",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "A",
+            "rank": 10,
+            "via": "Mega Salamence",
+            "mega": true
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 20,
+            "via": "Mega Salamence",
+            "mega": true
+          },
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 33,
+            "via": "Mega Salamence",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km",
         "Event egg 10 km: Twilight Trails",
@@ -9677,6 +13210,32 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Staraptor",
+            "mega": true
+          },
+          {
+            "type": "flying",
+            "tier": "S",
+            "rank": 2,
+            "via": "Mega Staraptor",
+            "mega": true
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 29,
+            "via": "Mega Staraptor",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -9720,6 +13279,39 @@
           "rank": 20
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 20,
+            "via": "Mega Lopunny",
+            "mega": true
+          },
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 26,
+            "via": "Mega Lopunny",
+            "mega": true
+          },
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 26,
+            "via": "Mega Lopunny",
+            "mega": true
+          },
+          {
+            "type": "ghost",
+            "tier": "C",
+            "rank": 47,
+            "via": "Mega Lopunny",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -9762,6 +13354,25 @@
           "tier": "S",
           "rank": 11
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "S",
+            "rank": 11,
+            "via": "Mega Abomasnow",
+            "mega": true
+          },
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 49,
+            "via": "Mega Abomasnow",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -9825,6 +13436,25 @@
           "rank": 1
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Chandelure",
+            "mega": true
+          },
+          {
+            "type": "fire",
+            "tier": "S",
+            "rank": 5,
+            "via": "Mega Chandelure",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -9869,6 +13499,25 @@
           "tier": "SS",
           "rank": 1
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Chesnaught",
+            "mega": true
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 42,
+            "via": "Mega Chesnaught",
+            "mega": true
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -9947,6 +13596,32 @@
           "rank": 1
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Mega Delphox",
+            "mega": true
+          },
+          {
+            "type": "normal",
+            "tier": "SS",
+            "rank": 3,
+            "via": "Mega Delphox",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "A",
+            "rank": 9,
+            "via": "Mega Delphox",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -10007,6 +13682,25 @@
           "rank": 2
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Mega Greninja",
+            "mega": true
+          },
+          {
+            "type": "dark",
+            "tier": "S",
+            "rank": 8,
+            "via": "Mega Greninja",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -10052,6 +13746,25 @@
           "rank": 5
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 5,
+            "via": "Mega Falinks",
+            "mega": true
+          }
+        ],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 11,
+            "via": "Dynamax Falinks"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -10078,6 +13791,30 @@
           "rank": 1141
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "bug",
+            "tier": "SS",
+            "rank": 2,
+            "via": "Gigantamax Butterfree",
+            "gmax": true
+          },
+          {
+            "type": "psychic",
+            "tier": "D",
+            "rank": 23,
+            "via": "Dynamax Butterfree"
+          },
+          {
+            "type": "normal",
+            "tier": "F",
+            "rank": 43,
+            "via": "Dynamax Caterpie"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -10110,6 +13847,17 @@
           "rank": 42
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 42,
+            "via": "Shadow Beedrill"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
       ],
@@ -10132,6 +13880,10 @@
           "rank": 638
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
@@ -10156,6 +13908,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10178,6 +13934,10 @@
           "rank": 127
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -10202,6 +13962,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10224,6 +13988,10 @@
           "rank": 145
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Steel-type Male Grunt"
@@ -10252,6 +14020,23 @@
           "rank": 33
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 33,
+            "via": "Shadow Nidoqueen"
+          },
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 40,
+            "via": "Shadow Nidoqueen"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Poison-type Female Grunt"
       ],
@@ -10279,6 +14064,23 @@
           "rank": 23
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 23,
+            "via": "Shadow Nidoking"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 45,
+            "via": "Shadow Nidoking"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Poison-type Female Grunt"
       ],
@@ -10301,6 +14103,10 @@
           "rank": 101
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -10325,6 +14131,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
       ],
@@ -10347,6 +14157,10 @@
           "rank": 1009
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -10375,6 +14189,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10398,6 +14216,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids"
       ],
@@ -10420,6 +14242,10 @@
           "rank": 256
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -10446,6 +14272,18 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 24,
+            "via": "Gigantamax Meowth",
+            "gmax": true
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10468,6 +14306,10 @@
           "rank": 481
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -10496,6 +14338,17 @@
           "rank": 49
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 49,
+            "via": "Hisuian Arcanine"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 7 km",
         "Field Research"
@@ -10522,6 +14375,29 @@
           "rank": 337
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 8,
+            "via": "Dynamax Arcanine"
+          },
+          {
+            "type": "electric",
+            "tier": "C",
+            "rank": 11,
+            "via": "Dynamax Arcanine"
+          },
+          {
+            "type": "fire",
+            "tier": "D",
+            "rank": 9,
+            "via": "Dynamax Arcanine"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -10554,6 +14430,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10576,6 +14456,10 @@
           "rank": 134
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -10603,6 +14487,31 @@
           "tier": "C",
           "rank": 36
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 36,
+            "via": "Machamp"
+          }
+        ],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Machamp",
+            "gmax": true
+          },
+          {
+            "type": "steel",
+            "tier": "D",
+            "rank": 10,
+            "via": "Dynamax Machamp"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -10635,6 +14544,31 @@
           "rank": 36
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 36,
+            "via": "Machamp"
+          }
+        ],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Machamp",
+            "gmax": true
+          },
+          {
+            "type": "steel",
+            "tier": "D",
+            "rank": 10,
+            "via": "Dynamax Machamp"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10661,6 +14595,23 @@
           "tier": "B",
           "rank": 35
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 35,
+            "via": "Alolan Golem"
+          },
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 45,
+            "via": "Alolan Golem"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -10693,6 +14644,17 @@
           "rank": 40
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 40,
+            "via": "Galarian Rapidash"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10716,6 +14678,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10738,6 +14704,10 @@
           "rank": 131
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Fire-type Female Grunt"
@@ -10765,6 +14735,17 @@
           "tier": "B",
           "rank": 34
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 34,
+            "via": "Galarian Slowbro"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -10799,6 +14780,25 @@
           "rank": 31
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 31,
+            "via": "Mega Slowbro",
+            "mega": true
+          },
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 44,
+            "via": "Mega Slowbro",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10821,6 +14821,10 @@
           "rank": 132
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -10845,6 +14849,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ice-type Female Grunt"
       ],
@@ -10867,6 +14875,10 @@
           "rank": 294
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Psychic-type Male Grunt"
@@ -10895,6 +14907,37 @@
           "rank": 22
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 22,
+            "via": "Kingler"
+          }
+        ],
+        "max": [
+          {
+            "type": "water",
+            "tier": "S",
+            "rank": 2,
+            "via": "Gigantamax Kingler",
+            "gmax": true
+          },
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Kingler"
+          },
+          {
+            "type": "steel",
+            "tier": "D",
+            "rank": 8,
+            "via": "Dynamax Kingler"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -10922,6 +14965,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
       ],
@@ -10945,6 +14992,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -10967,6 +15018,10 @@
           "rank": 200
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -10995,6 +15050,17 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 6,
+            "via": "Dynamax Hitmonlee"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -11022,6 +15088,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fighting-type Female Grunt"
       ],
@@ -11044,6 +15114,23 @@
           "rank": 638
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 10,
+            "via": "Dynamax Hitmonchan"
+          },
+          {
+            "type": "steel",
+            "tier": "E",
+            "rank": 13,
+            "via": "Dynamax Hitmonchan"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -11072,6 +15159,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fighting-type Female Grunt"
       ],
@@ -11094,6 +15185,10 @@
           "rank": 489
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -11122,6 +15217,17 @@
           "rank": 36
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 36,
+            "via": "Galarian Shadow Weezing"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fairy-type Female Grunt",
         "Team Rocket: Poison-type Female Grunt"
@@ -11146,6 +15252,23 @@
           "rank": 403
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 20,
+            "via": "Dynamax Blissey"
+          },
+          {
+            "type": "psychic",
+            "tier": "E",
+            "rank": 28,
+            "via": "Dynamax Blissey"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -11173,6 +15296,10 @@
           "rank": 278
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -11205,6 +15332,17 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 10,
+            "via": "Dynamax Vaporeon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11232,6 +15370,24 @@
           "rank": 41
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 41,
+            "via": "Jolteon"
+          }
+        ],
+        "max": [
+          {
+            "type": "electric",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Jolteon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11254,6 +15410,17 @@
           "rank": 294
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 5,
+            "via": "Dynamax Flareon"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -11281,6 +15448,36 @@
           "tier": "B",
           "rank": 44
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 44,
+            "via": "Omastar"
+          }
+        ],
+        "max": [
+          {
+            "type": "rock",
+            "tier": "A",
+            "rank": 3,
+            "via": "Dynamax Omastar"
+          },
+          {
+            "type": "ground",
+            "tier": "C",
+            "rank": 8,
+            "via": "Dynamax Omastar"
+          },
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 9,
+            "via": "Dynamax Omastar"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -11313,6 +15510,41 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "bug",
+            "tier": "A",
+            "rank": 4,
+            "via": "Dynamax Kabutops"
+          },
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 7,
+            "via": "Dynamax Kabutops"
+          },
+          {
+            "type": "water",
+            "tier": "C",
+            "rank": 8,
+            "via": "Dynamax Kabutops"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 13,
+            "via": "Dynamax Kabutops"
+          },
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 25,
+            "via": "Dynamax Kabuto"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research",
         "Max Battle: Dynamax Trails",
@@ -11344,6 +15576,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Rock-type Male Grunt"
       ],
@@ -11366,6 +15602,10 @@
           "rank": 229
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -11394,6 +15634,17 @@
           "rank": 47
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 47,
+            "via": "Typhlosion"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -11416,6 +15667,29 @@
           "rank": 251
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Noctowl"
+          },
+          {
+            "type": "psychic",
+            "tier": "E",
+            "rank": 25,
+            "via": "Dynamax Noctowl"
+          },
+          {
+            "type": "dark",
+            "tier": "F",
+            "rank": 20,
+            "via": "Dynamax Hoothoot"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -11444,6 +15718,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
       ],
@@ -11466,6 +15744,23 @@
           "rank": 251
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "B",
+            "rank": 6,
+            "via": "Dynamax Noctowl"
+          },
+          {
+            "type": "psychic",
+            "tier": "E",
+            "rank": 25,
+            "via": "Dynamax Noctowl"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research"
@@ -11490,6 +15785,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11512,6 +15811,10 @@
           "rank": 818
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -11540,6 +15843,24 @@
           "rank": 39
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 39,
+            "via": "Espeon"
+          }
+        ],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "SS",
+            "rank": 4,
+            "via": "Dynamax Espeon"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -11567,6 +15888,17 @@
           "rank": 42
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 42,
+            "via": "Honchkrow"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11590,6 +15922,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids"
       ],
@@ -11612,6 +15948,10 @@
           "rank": 404
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Psychic-type Male Grunt"
@@ -11640,6 +15980,17 @@
           "rank": 37
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 37,
+            "via": "Shadow Gliscor"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt",
         "Team Rocket: Ground-type Male Grunt"
@@ -11665,6 +16016,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Poison-type Female Grunt"
       ],
@@ -11684,6 +16039,23 @@
       "best": {
         "pvp": null,
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "rock",
+            "tier": "F",
+            "rank": 10,
+            "via": "Dynamax Shuckle"
+          },
+          {
+            "type": "bug",
+            "tier": "F",
+            "rank": 12,
+            "via": "Dynamax Shuckle"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -11712,6 +16084,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 7 km",
         "Event egg 7 km: Twilight Trails"
@@ -11737,6 +16113,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11760,6 +16140,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11779,6 +16163,10 @@
       "best": {
         "pvp": null,
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Ice-type Female Grunt"
@@ -11802,6 +16190,23 @@
           "rank": 358
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 6,
+            "via": "Dynamax Hitmonlee"
+          },
+          {
+            "type": "steel",
+            "tier": "E",
+            "rank": 13,
+            "via": "Dynamax Hitmonchan"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -11827,6 +16232,17 @@
           "rank": 446
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 15,
+            "via": "Dynamax Hitmontop"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -11855,6 +16271,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Fighting-type Female Grunt"
       ],
@@ -11877,6 +16297,10 @@
           "rank": 278
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 2 km",
@@ -11903,6 +16327,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -11926,6 +16354,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
       ],
@@ -11948,6 +16380,10 @@
           "rank": 364
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km",
@@ -11978,6 +16414,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12000,6 +16440,10 @@
           "rank": 120
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -12024,6 +16468,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12046,6 +16494,10 @@
           "rank": 556
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -12070,6 +16522,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Flying-type Female Grunt"
       ],
@@ -12092,6 +16548,10 @@
           "rank": 118
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -12120,6 +16580,23 @@
           "rank": 33
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 33,
+            "via": "Breloom"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 49,
+            "via": "Breloom"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12143,6 +16620,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12165,6 +16646,10 @@
           "rank": 599
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
@@ -12193,6 +16678,17 @@
           "rank": 39
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 39,
+            "via": "Hariyama"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12219,6 +16715,23 @@
           "tier": "B",
           "rank": 20
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fighting",
+            "tier": "B",
+            "rank": 20,
+            "via": "Shadow Hariyama"
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 50,
+            "via": "Shadow Hariyama"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: 1-Star Raids",
@@ -12251,6 +16764,18 @@
           "rank": 44
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "C",
+            "rank": 44,
+            "via": "Mega Mawile",
+            "mega": true
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12274,6 +16799,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Dark-type Female Grunt"
       ],
@@ -12296,6 +16825,29 @@
           "rank": 260
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "rock",
+            "tier": "C",
+            "rank": 6,
+            "via": "Dynamax Wailord"
+          },
+          {
+            "type": "water",
+            "tier": "D",
+            "rank": 16,
+            "via": "Dynamax Wailord"
+          },
+          {
+            "type": "psychic",
+            "tier": "D",
+            "rank": 21,
+            "via": "Dynamax Wailord"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -12328,6 +16880,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12354,6 +16910,36 @@
           "tier": "B",
           "rank": 49
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 49,
+            "via": "Flygon"
+          }
+        ],
+        "max": [
+          {
+            "type": "ground",
+            "tier": "A",
+            "rank": 4,
+            "via": "Dynamax Flygon"
+          },
+          {
+            "type": "bug",
+            "tier": "D",
+            "rank": 7,
+            "via": "Dynamax Trapinch"
+          },
+          {
+            "type": "dragon",
+            "tier": "D",
+            "rank": 10,
+            "via": "Dynamax Flygon"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -12386,6 +16972,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12408,6 +16998,10 @@
           "rank": 363
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Ground-type Male Grunt"
@@ -12432,6 +17026,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12455,6 +17053,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Bug-type Male Grunt"
       ],
@@ -12477,6 +17079,10 @@
           "rank": 579
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -12502,6 +17108,17 @@
           "rank": 14
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 14,
+            "via": "Deoxys (Normal Forme)"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
       ],
@@ -12521,6 +17138,10 @@
       "best": {
         "pvp": null,
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
@@ -12549,6 +17170,17 @@
           "rank": 34
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 34,
+            "via": "Deoxys (Speed Forme)"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
       ],
@@ -12575,6 +17207,17 @@
           "tier": "B",
           "rank": 36
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 36,
+            "via": "Torterra"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km"
@@ -12603,6 +17246,17 @@
           "rank": 46
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 46,
+            "via": "Infernape"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km"
       ],
@@ -12625,6 +17279,10 @@
           "rank": 602
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -12653,6 +17311,17 @@
           "rank": 30
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 30,
+            "via": "Luxray"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12676,6 +17345,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Rock-type Male Grunt"
       ],
@@ -12698,6 +17371,10 @@
           "rank": 345
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -12730,6 +17407,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12753,6 +17434,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12775,6 +17460,10 @@
           "rank": 402
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 5 km"
@@ -12803,6 +17492,17 @@
           "rank": 38
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 38,
+            "via": "Skuntank"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12825,6 +17525,10 @@
           "rank": 571
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -12850,6 +17554,23 @@
           "rank": 403
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "C",
+            "rank": 20,
+            "via": "Dynamax Blissey"
+          },
+          {
+            "type": "psychic",
+            "tier": "E",
+            "rank": 28,
+            "via": "Dynamax Blissey"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 5 km"
@@ -12878,6 +17599,17 @@
           "rank": 27
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 27,
+            "via": "Toxicroak"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12900,6 +17632,10 @@
           "rank": 332
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 1 km",
@@ -12932,6 +17668,17 @@
           "rank": 38
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 38,
+            "via": "Emboar"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 1 km",
         "Field Research"
@@ -12959,6 +17706,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -12982,6 +17733,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13004,6 +17759,10 @@
           "rank": 1036
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -13036,6 +17795,36 @@
           "rank": 44
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "flying",
+            "tier": "C",
+            "rank": 44,
+            "via": "Unfezant"
+          }
+        ],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "S",
+            "rank": 2,
+            "via": "Dynamax Unfezant"
+          },
+          {
+            "type": "steel",
+            "tier": "D",
+            "rank": 11,
+            "via": "Dynamax Unfezant"
+          },
+          {
+            "type": "normal",
+            "tier": "D",
+            "rank": 32,
+            "via": "Dynamax Pidove"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -13062,6 +17851,23 @@
           "rank": 548
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "flying",
+            "tier": "A",
+            "rank": 5,
+            "via": "Dynamax Swoobat"
+          },
+          {
+            "type": "psychic",
+            "tier": "C",
+            "rank": 17,
+            "via": "Dynamax Swoobat"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -13090,6 +17896,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13117,6 +17927,23 @@
           "rank": 25
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 25,
+            "via": "Scolipede"
+          },
+          {
+            "type": "bug",
+            "tier": "C",
+            "rank": 50,
+            "via": "Scolipede"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13139,6 +17966,10 @@
           "rank": 346
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -13171,6 +18002,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13193,6 +18028,10 @@
           "rank": 743
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 7 km"
@@ -13221,6 +18060,17 @@
           "rank": 31
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 31,
+            "via": "Krookodile"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 12 km"
       ],
@@ -13247,6 +18097,30 @@
           "tier": "B",
           "rank": 35
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fire",
+            "tier": "B",
+            "rank": 35,
+            "via": "Standard Mode Darmanitan"
+          }
+        ],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "S",
+            "rank": 2,
+            "via": "Dynamax Darmanitan"
+          },
+          {
+            "type": "fire",
+            "tier": "A",
+            "rank": 3,
+            "via": "Dynamax Darmanitan"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -13279,6 +18153,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ghost-type Male Grunt"
       ],
@@ -13301,6 +18179,10 @@
           "rank": 404
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13329,6 +18211,17 @@
           "rank": 50
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "rock",
+            "tier": "B",
+            "rank": 50,
+            "via": "Archeops"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13351,6 +18244,30 @@
           "rank": 645
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "poison",
+            "tier": "S",
+            "rank": 1,
+            "via": "Gigantamax Garbodor",
+            "gmax": true
+          },
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 14,
+            "via": "Dynamax Garbodor"
+          },
+          {
+            "type": "bug",
+            "tier": "C",
+            "rank": 6,
+            "via": "Dynamax Garbodor"
+          }
+        ]
       },
       "obtainedFrom": [
         "Field Research",
@@ -13383,6 +18300,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Psychic-type Male Grunt"
       ],
@@ -13405,6 +18326,10 @@
           "rank": 314
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13433,6 +18358,17 @@
           "rank": 30
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 30,
+            "via": "Vanilluxe"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13455,6 +18391,10 @@
           "rank": 174
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13479,6 +18419,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13502,6 +18446,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13524,6 +18472,10 @@
           "rank": 774
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research",
@@ -13556,6 +18508,17 @@
           "rank": 25
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "dragon",
+            "tier": "B",
+            "rank": 25,
+            "via": "Haxorus"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13582,6 +18545,23 @@
           "tier": "B",
           "rank": 47
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 47,
+            "via": "Beartic"
+          },
+          {
+            "type": "fairy",
+            "tier": "C",
+            "rank": 49,
+            "via": "Beartic"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13610,6 +18590,24 @@
           "rank": 45
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 45,
+            "via": "Cryogonal"
+          }
+        ],
+        "max": [
+          {
+            "type": "ice",
+            "tier": "B",
+            "rank": 5,
+            "via": "Dynamax Cryogonal"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
@@ -13636,6 +18634,10 @@
           "rank": 369
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 10 km",
@@ -13666,6 +18668,17 @@
           "rank": 28
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 28,
+            "via": "Golurk"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13693,6 +18706,17 @@
           "rank": 28
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 28,
+            "via": "Golurk"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 3-Star Raids"
       ],
@@ -13715,6 +18739,10 @@
           "rank": 265
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Raid: 5-Star Raids",
@@ -13740,6 +18768,10 @@
           "rank": 308
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13768,6 +18800,17 @@
           "rank": 45
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 45,
+            "via": "Gogoat"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13790,6 +18833,10 @@
           "rank": 186
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 12 km"
@@ -13814,6 +18861,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Sierra"
       ],
@@ -13837,6 +18888,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Max Battle: Dynamax Espurr during Max Monday (starts 2026-11-23)"
       ],
@@ -13859,6 +18914,10 @@
           "rank": 315
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13887,6 +18946,17 @@
           "rank": 35
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "water",
+            "tier": "B",
+            "rank": 35,
+            "via": "Clawitzer"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -13914,6 +18984,17 @@
           "rank": 42
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 42,
+            "via": "Shadow Heliolisk"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Electric-type Female Grunt"
       ],
@@ -13936,6 +19017,10 @@
           "rank": 264
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -13964,6 +19049,23 @@
           "rank": 36
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "B",
+            "rank": 36,
+            "via": "Shadow Trevenant"
+          },
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 50,
+            "via": "Shadow Trevenant"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Grass-type Male Grunt"
       ],
@@ -13987,6 +19089,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Spotlight Hour: Noibat Spotlight Hour (starts 2026-11-26)"
       ],
@@ -14009,6 +19115,10 @@
           "rank": 363
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Team Rocket: Dragon-type Female Grunt"
@@ -14037,6 +19147,17 @@
           "rank": 50
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "C",
+            "rank": 50,
+            "via": "Ribombee"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14060,6 +19181,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Wild: Twilight Wishes (starts 2026-11-24)"
       ],
@@ -14082,6 +19207,10 @@
           "rank": 128
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -14110,6 +19239,17 @@
           "rank": 43
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "grass",
+            "tier": "B",
+            "rank": 43,
+            "via": "Shadow Lurantis"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Grass-type Male Grunt"
       ],
@@ -14137,6 +19277,17 @@
           "rank": 39
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 39,
+            "via": "Salazzle"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 12 km"
       ],
@@ -14159,6 +19310,10 @@
           "rank": 219
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -14187,6 +19342,23 @@
           "rank": 50
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 50,
+            "via": "Shadow Bewear"
+          },
+          {
+            "type": "fighting",
+            "tier": "C",
+            "rank": 32,
+            "via": "Shadow Bewear"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Normal-type Male Grunt"
       ],
@@ -14209,6 +19381,23 @@
           "rank": 213
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "A",
+            "rank": 8,
+            "via": "Dynamax Passimian"
+          },
+          {
+            "type": "fighting",
+            "tier": "A",
+            "rank": 8,
+            "via": "Dynamax Passimian"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -14237,6 +19426,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Raid: 1-Star Raids"
       ],
@@ -14264,6 +19457,17 @@
           "rank": 39
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ground",
+            "tier": "B",
+            "rank": 39,
+            "via": "Shadow Palossand"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Team Rocket: Ghost-type Male Grunt"
       ],
@@ -14286,6 +19490,23 @@
           "rank": 295
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "psychic",
+            "tier": "B",
+            "rank": 15,
+            "via": "Dynamax Drampa"
+          },
+          {
+            "type": "dragon",
+            "tier": "C",
+            "rank": 8,
+            "via": "Dynamax Drampa"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 10 km",
@@ -14326,6 +19547,35 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 11,
+            "via": "Dynamax Greedent"
+          },
+          {
+            "type": "dark",
+            "tier": "D",
+            "rank": 15,
+            "via": "Dynamax Greedent"
+          },
+          {
+            "type": "grass",
+            "tier": "E",
+            "rank": 10,
+            "via": "Dynamax Greedent"
+          },
+          {
+            "type": "ground",
+            "tier": "E",
+            "rank": 16,
+            "via": "Dynamax Greedent"
+          }
+        ]
+      },
       "obtainedFrom": [
         "Field Research",
         "Max Battle: Dynamax Trails",
@@ -14357,6 +19607,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14379,6 +19633,23 @@
           "rank": 156
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": [
+          {
+            "type": "normal",
+            "tier": "B",
+            "rank": 12,
+            "via": "Dynamax Dubwool"
+          },
+          {
+            "type": "fighting",
+            "tier": "E",
+            "rank": 21,
+            "via": "Dynamax Dubwool"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -14407,6 +19678,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14426,6 +19701,10 @@
       "best": {
         "pvp": null,
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 10 km"
@@ -14453,6 +19732,31 @@
           "tier": "B",
           "rank": 45
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "electric",
+            "tier": "B",
+            "rank": 45,
+            "via": "Toxtricity (Low Key Form)"
+          }
+        ],
+        "max": [
+          {
+            "type": "electric",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Toxtricity",
+            "gmax": true
+          },
+          {
+            "type": "poison",
+            "tier": "A",
+            "rank": 2,
+            "via": "Dynamax Toxtricity (Amped Form)"
+          }
+        ]
       },
       "obtainedFrom": [
         "Max Battle: Dynamax Trails",
@@ -14484,6 +19788,30 @@
           "tier": "B",
           "rank": 23
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "B",
+            "rank": 23,
+            "via": "Centiskorch"
+          }
+        ],
+        "max": [
+          {
+            "type": "bug",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Dynamax Centiskorch"
+          },
+          {
+            "type": "fire",
+            "tier": "D",
+            "rank": 11,
+            "via": "Dynamax Centiskorch"
+          }
+        ]
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -14522,6 +19850,31 @@
           "rank": 32
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "fairy",
+            "tier": "B",
+            "rank": 32,
+            "via": "Grimmsnarl"
+          },
+          {
+            "type": "dark",
+            "tier": "B",
+            "rank": 40,
+            "via": "Grimmsnarl"
+          }
+        ],
+        "max": [
+          {
+            "type": "dark",
+            "tier": "SS",
+            "rank": 1,
+            "via": "Gigantamax Grimmsnarl",
+            "gmax": true
+          }
+        ]
+      },
       "obtainedFrom": [
         "Egg: 10 km",
         "Event egg 10 km: Twilight Trails"
@@ -14551,6 +19904,17 @@
           "rank": 30
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "B",
+            "rank": 30,
+            "via": "Frosmoth"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails"
@@ -14576,6 +19940,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails"
@@ -14600,6 +19968,10 @@
           "rank": 744
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -14629,6 +20001,31 @@
           "tier": "C",
           "rank": 39
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 39,
+            "via": "Duraludon"
+          }
+        ],
+        "max": [
+          {
+            "type": "dragon",
+            "tier": "S",
+            "rank": 2,
+            "via": "Gigantamax Duraludon",
+            "gmax": true
+          },
+          {
+            "type": "steel",
+            "tier": "C",
+            "rank": 7,
+            "via": "Dynamax Duraludon"
+          }
+        ]
       },
       "obtainedFrom": [
         "Event research: Dynamax Trails",
@@ -14663,6 +20060,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14690,6 +20091,17 @@
           "rank": 42
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "bug",
+            "tier": "C",
+            "rank": 42,
+            "via": "Lokix"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14712,6 +20124,10 @@
           "rank": 407
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -14742,6 +20158,10 @@
         },
         "pve": null
       },
+      "tiers": {
+        "raid": [],
+        "max": []
+      },
       "obtainedFrom": [
         "Field Research"
       ],
@@ -14764,6 +20184,10 @@
           "rank": 282
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Field Research"
@@ -14792,6 +20216,17 @@
           "rank": 50
         }
       },
+      "tiers": {
+        "raid": [
+          {
+            "type": "ghost",
+            "tier": "C",
+            "rank": 50,
+            "via": "Ceruledge"
+          }
+        ],
+        "max": []
+      },
       "obtainedFrom": [
         "Egg: 10 km"
       ],
@@ -14814,6 +20249,10 @@
           "rank": 338
         },
         "pve": null
+      },
+      "tiers": {
+        "raid": [],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 5 km",
@@ -14843,6 +20282,17 @@
           "tier": "B",
           "rank": 37
         }
+      },
+      "tiers": {
+        "raid": [
+          {
+            "type": "poison",
+            "tier": "B",
+            "rank": 37,
+            "via": "Grafaiai"
+          }
+        ],
+        "max": []
       },
       "obtainedFrom": [
         "Egg: 12 km"

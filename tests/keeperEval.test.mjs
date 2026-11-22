@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { checkKnownAnswers, createEvaluator, evaluateWeekly, renderMarkdown } from "../scripts/lib/keeper-eval.mjs";
+import { checkKnownAnswers, createEvaluator, describeTiers, evaluateWeekly, renderMarkdown } from "../scripts/lib/keeper-eval.mjs";
 import { createResolver, parseName } from "../scripts/lib/species-resolver.mjs";
 import { parseGoHubTypePage } from "../scripts/lib/gohub-tiers.mjs";
 import { collectWeeklyPokemon } from "../scripts/lib/weekly-sources.mjs";
@@ -45,7 +45,12 @@ const goHubEntries = [
   { type: "flying", tier: "A", rank: 14, name: "Mega Pidgeot", fast: "Gust", charged: "Brave Bird", legacy: [] },
 ];
 
-const evaluator = createEvaluator({ gamemaster, rankingsByLeague, goHubEntries });
+const dmaxEntries = [
+  { type: "fairy", tier: "SS", rank: 1, name: "Dynamax Gardevoir", fast: "Charm", charged: "Max Starfall", legacy: [] },
+  { type: "flying", tier: "S", rank: 2, name: "Gigantamax Pidgeot", fast: "Gust", charged: "G-Max Test", legacy: [] },
+];
+
+const evaluator = createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, dmaxEntries });
 
 test("resolver matches forms written differently across sites", () => {
   const r = createResolver(gamemaster);
@@ -55,8 +60,9 @@ test("resolver matches forms written differently across sites", () => {
   assert.equal(r.resolve("Darmanitan").species.speciesId, "darmanitan_standard");
   assert.equal(r.resolve("Galarian Standard Mode Darmanitan").species.speciesId, "darmanitan_galarian_standard");
   assert.equal(r.resolve("×500"), null);
-  assert.deepEqual(parseName("Shadow Gardevoir"), { name: "Gardevoir", shadow: true, mega: false });
-  assert.deepEqual(parseName("Mega Charizard Y"), { name: "Charizard", shadow: false, mega: true });
+  assert.deepEqual(parseName("Shadow Gardevoir"), { name: "Gardevoir", shadow: true, mega: false, gmax: false });
+  assert.deepEqual(parseName("Mega Charizard Y"), { name: "Charizard", shadow: false, mega: true, gmax: false });
+  assert.deepEqual(parseName("Gigantamax Machamp"), { name: "Machamp", shadow: false, mega: false, gmax: true });
 });
 
 test("PvP: rank 100 is a keep, rank 101 is trash; evolutions and special moves count", () => {
@@ -171,4 +177,32 @@ test("markdown report renders every section", () => {
   assert.match(md, /\*\*Trash:\*\* Passimian/);
   assert.match(md, /## Raids — 0 keep · 1 keep one · 0 trash/);
   assert.match(md, /- \*\*Pidgey\*\* — see Wild/, "repeat appearances point back to the first section");
+});
+
+test("tiers: raid and Max attacker tiers for the evolution line; none for shadow Max", () => {
+  const ralts = evaluator.evaluateName("Ralts");
+  assert.deepEqual(ralts.tiers.raid.map((t) => `${t.type} ${t.tier}`), ["fairy B"]);
+  assert.deepEqual(ralts.tiers.max, [{ type: "fairy", tier: "SS", rank: 1, via: "Dynamax Gardevoir" }]);
+  assert.deepEqual(evaluator.evaluateName("Ralts", { shadow: true }).tiers.max, [], "shadows can't Dynamax");
+  const pidgey = evaluator.evaluateName("Pidgey");
+  assert.equal(describeTiers(pidgey.tiers.max), "Flying S #2 (Gigantamax Pidgeot, Gigantamax only)");
+  assert.equal(describeTiers([]), "not ranked");
+});
+
+test("Dynamax section lists raid and Max tiers on every line, trash included", () => {
+  const { pokemon, unmatched } = evaluateWeekly([
+    { category: "dynamax", name: "Ralts", source: "Max Battle: Trails", shadow: false },
+    { category: "dynamax", name: "Passimian", source: "Max Battle: Trails", shadow: false },
+  ], evaluator);
+  const md = renderMarkdown({
+    weekOf: "2026-11-22",
+    rules: { version: 5, pvpTopRank: 100, pveKeepTiers: ["SS", "S", "A"] },
+    data: { snapshotDate: "2026-11-22", pvpokeFetchedAt: "2026-11-22T00:00:00Z", goHubBuiltAt: null },
+    changes: null,
+    pokemon,
+    unmatched,
+    knownAnswerMismatches: [],
+  });
+  assert.match(md, /- \*\*Ralts\*\* — Raid: Fairy B #30 \(Gardevoir\) · Max: Fairy SS #1 \(Dynamax Gardevoir\)/);
+  assert.match(md, /- \*\*Passimian\*\* — Raid: not ranked · Max: not ranked/);
 });

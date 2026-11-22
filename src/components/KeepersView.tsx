@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import type { KeeperPokemon, KeeperReason, KeeperReport, KeeperVerdict, Pokemon } from "../types";
+import type { KeeperPokemon, KeeperReason, KeeperReport, KeeperTier, KeeperVerdict, Pokemon } from "../types";
 
 interface KeepersViewProps {
   report: KeeperReport | null;
@@ -47,6 +47,12 @@ function bestText(p: KeeperPokemon): string {
   return `${pvp} · ${pve}`;
 }
 
+function tierText(list: KeeperTier[] | undefined): string {
+  if (!list?.length) return "not ranked";
+  const shown = list.slice(0, 3).map((t) => `${capitalize(t.type)} ${t.tier} #${t.rank} (${t.via}${t.gmax ? ", Gigantamax only" : ""})`);
+  return shown.join(", ") + (list.length > 3 ? ` +${list.length - 3} more` : "");
+}
+
 function KeeperCard({ p, needsLucky, section }: { p: KeeperPokemon; needsLucky: boolean; section: string }) {
   const from = section !== ALL_SECTIONS && p.sections?.[section] ? p.sections[section] : p.obtainedFrom;
   const style = VERDICT_STYLE[p.verdict];
@@ -80,6 +86,17 @@ function KeeperCard({ p, needsLucky, section }: { p: KeeperPokemon; needsLucky: 
         </ul>
       ) : (
         <p className="mt-1 text-gray-600">{bestText(p)}</p>
+      )}
+
+      {section === "dynamax" && p.tiers && (
+        <div className="mt-1.5 text-xs text-gray-700 space-y-0.5">
+          <p>
+            <span className="font-semibold">Raid:</span> {tierText(p.tiers.raid)}
+          </p>
+          <p>
+            <span className="font-semibold">Max:</span> {tierText(p.tiers.max)}
+          </p>
+        </div>
       )}
 
       {ivs.length > 0 && <p className="mt-1 text-xs text-gray-600">IVs: {ivs.join(" · ")}</p>}

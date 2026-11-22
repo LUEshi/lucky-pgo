@@ -1,11 +1,11 @@
 # Keep or Trash — week of 2026-11-22
 
 Rules v4: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
-Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026-11-12.
+Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-22, GO Hub built 2026-11-12.
 
-**In this report:** Wild 62 · Dynamax (Max Battles) 1 · Raids 31 · Eggs 75 · Research 168 · Team Rocket 90
+**In this report:** Wild 61 · Dynamax (Max Battles) 58 · Raids 31 · Eggs 75 · Research 167 · Team Rocket 90
 
-## Wild — 23 keep · 7 keep one · 32 trash
+## Wild — 22 keep · 7 keep one · 32 trash
 
 **Keep**
 
@@ -23,7 +23,6 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
 - **Beldum** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Dynamax Trails)_
 - **Roggenrola** — Normal attacker, S tier #18 as Gigalith; Rock attacker, A tier #13 as Gigalith _(Dynamax Trails)_
 - **Drilbur** — Ground attacker, A tier #15 as Excadrill _(Dynamax Trails)_
-- **Pawniard** — Ultra League #98 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Master League #52 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Dark attacker, A tier #20 as Kingambit _(Pawniard Community Day)_
 - **Deino** — Great League #70 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Master League #95 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Dark attacker, A tier #12 as Hydreigon _(Dynamax Trails)_
 - **Inkay** — Great League #38 as Malamar; Ultra League #60 as Malamar _(Dynamax Trails)_
 - **Bounsweet** — Grass attacker, A tier #29 as Tsareena _(Dynamax Trails)_
@@ -45,9 +44,43 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
 
 **Trash:** Caterpie, Growlithe, Machop, Krabby, Hitmonlee, Hitmonchan, Chansey, Magmar, Omanyte, Kabuto, Hoothoot, Shuckle, Hitmontop, Wailmer, Trapinch, Combee, Pidove, Woobat, Cottonee, Darumaka, Trubbish, Elgyem, Cryogonal, Noibat, Rockruff, Passimian, Drampa, Skwovet, Wooloo, Toxtricity, Sizzlipede, Duraludon
 
-## Dynamax (Max Battles) — 0 keep · 0 keep one · 1 trash
+## Dynamax (Max Battles) — 22 keep · 6 keep one · 30 trash
 
-**Trash:** Espurr
+**Keep**
+
+- **Charmander** — see Wild _(Dynamax Trails)_
+- **Squirtle** — see Wild _(Dynamax Trails)_
+- **Rhyhorn** — see Wild _(Dynamax Trails)_
+- **Electabuzz** — see Wild _(Dynamax Trails)_
+- **Magikarp** — see Wild _(Dynamax Trails)_
+- **Eevee** — see Wild _(Dynamax Trails)_
+- **Sneasel** — see Wild _(Dynamax Trails)_
+- **Sableye** — see Wild _(Dynamax Trails)_
+- **Feebas** — see Wild _(Dynamax Trails)_
+- **Spheal** — see Wild _(Dynamax Trails)_
+- **Beldum** — see Wild _(Dynamax Trails)_
+- **Roggenrola** — see Wild _(Dynamax Trails)_
+- **Drilbur** — see Wild _(Dynamax Trails)_
+- **Deino** — see Wild _(Dynamax Trails)_
+- **Inkay** — see Wild _(Dynamax Trails)_
+- **Bounsweet** — see Wild _(Dynamax Trails)_
+- **Grookey** — see Wild _(Dynamax Trails)_
+- **Scorbunny** — see Wild _(Dynamax Trails)_
+- **Sobble** — see Wild _(Dynamax Trails)_
+- **Rookidee** — see Wild _(Dynamax Trails)_
+- **Hatenna** — see Wild _(Dynamax Trails)_
+- **Eternatus** — Master League #17 as Eternatus — needs Dynamax Cannon (Elite TM/legacy); Dragon attacker, SS tier #2 as Eternatus; Poison attacker, SS tier #3 as Eternatus _(Dynamax Trails)_
+
+**Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
+
+- **Bulbasaur** — see Wild _(Dynamax Trails)_
+- **Pikachu** — see Wild _(Dynamax Trails)_
+- **Abra** — see Wild _(Dynamax Trails)_
+- **Gastly** — see Wild _(Dynamax Trails)_
+- **Ralts** — see Wild _(Dynamax Trails)_
+- **Falinks** — see Wild _(Dynamax Trails)_
+
+**Trash:** Caterpie, Growlithe, Machop, Krabby, Hitmonlee, Hitmonchan, Chansey, Magmar, Omanyte, Kabuto, Hoothoot, Shuckle, Hitmontop, Wailmer, Trapinch, Combee, Pidove, Woobat, Cottonee, Darumaka, Trubbish, Cryogonal, Espurr, Passimian, Drampa, Skwovet, Wooloo, Toxtricity, Sizzlipede, Duraludon
 
 ## Raids — 14 keep · 5 keep one · 12 trash
 
@@ -129,7 +162,7 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
 
 **Trash:** Diglett (Alolan), Meowth (Galarian), Growlithe (Hisuian), Geodude (Alolan), Slowpoke (Galarian), Chikorita, Cyndaquil, Sneasel (Hisuian), Tyrogue, Magby, Zigzagoon (Galarian), Turtwig, Chimchar, Chingling, Mime (Jr), Happiny, Snivy, Tepig, Basculin, Sandile, Druddigon, Pancham, Salandit, Drampa, Toxel, Sizzlipede, Impidimp, Snom, Indeedee (Male), Indeedee (Female), Fidough, Charcadet, Maschiff, Shroodle
 
-## Research — 53 keep · 17 keep one · 98 trash
+## Research — 52 keep · 17 keep one · 98 trash
 
 **Keep**
 
@@ -170,7 +203,6 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
 - **Yamask** — Ultra League #82 as Cofagrigus _(Field Research)_
 - **Stunfisk (Galarian)** — see Eggs _(Field Research)_
 - **Stunfisk** — Great League #22 as Stunfisk _(Field Research)_
-- **Pawniard** — see Wild _(Pawniard Community Day)_
 - **Bunnelby** — Great League #72 as Diggersby _(Field Research)_
 - **Diggersby** — Great League #72 as Diggersby _(Field Research)_
 - **Fletchinder** — Great League #84 as Talonflame — needs Incinerate (Elite TM/legacy); Ultra League #34 as Talonflame — needs Incinerate (Elite TM/legacy) _(Field Research)_

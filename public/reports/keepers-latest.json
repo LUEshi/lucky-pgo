@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:27:37.409Z",
+  "generatedAt": "2026-11-22T00:29:45.945Z",
   "weekOf": "2026-11-22",
   "rules": {
     "version": 4,
@@ -21,8 +21,8 @@
     "lookaheadDays": 7
   },
   "data": {
-    "snapshotDate": "2026-11-21",
-    "pvpokeFetchedAt": "2026-11-21T19:52:26.663Z",
+    "snapshotDate": "2026-11-22",
+    "pvpokeFetchedAt": "2026-11-22T00:29:15.689Z",
     "goHubBuiltAt": "2026-11-12T16:42:00.850Z",
     "sources": [
       "PvPoke (pvpoke.com)",
@@ -144,11 +144,15 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -270,11 +274,15 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -1335,11 +1343,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -1643,11 +1655,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -1822,11 +1838,15 @@
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Event research: Dynamax Trails",
@@ -2097,11 +2117,15 @@
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Event research: Dynamax Trails",
@@ -2744,11 +2768,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -3837,12 +3865,16 @@
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails",
+        "Max Battle: Dynamax Trails",
         "Raid: Twilight Wishes (starts 2026-11-24)",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "raids": [
           "Raid: Twilight Wishes (starts 2026-11-24)"
@@ -4182,11 +4214,15 @@
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Event research: Dynamax Trails",
@@ -4460,11 +4496,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -4619,11 +4659,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -5683,11 +5727,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -5729,11 +5777,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -6109,83 +6161,6 @@
       }
     },
     {
-      "name": "Pawniard",
-      "speciesId": "pawniard",
-      "dex": 624,
-      "shadow": false,
-      "verdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Ultra League",
-          "rank": 98,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        },
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 52,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "dark",
-          "tier": "A",
-          "rank": 20,
-          "via": "Kingambit",
-          "viaSpecies": "Kingambit",
-          "mega": false,
-          "moveset": [
-            "Snarl",
-            "Foul Play"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 52
-        },
-        "pve": {
-          "type": "dark",
-          "tier": "A",
-          "rank": 20
-        }
-      },
-      "obtainedFrom": [
-        "Community Day: Pawniard Community Day",
-        "Event research: Pawniard Community Day"
-      ],
-      "sections": {
-        "wild": [
-          "Community Day: Pawniard Community Day"
-        ],
-        "research": [
-          "Event research: Pawniard Community Day"
-        ]
-      }
-    },
-    {
       "name": "Vullaby",
       "speciesId": "vullaby",
       "dex": 629,
@@ -6287,11 +6262,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -6732,11 +6711,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -7066,11 +7049,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -7289,6 +7276,7 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
         "Wild: Dynamax Trails"
       ],
@@ -7296,6 +7284,9 @@
         "wild": [
           "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -7344,6 +7335,7 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
         "Wild: Dynamax Trails"
       ],
@@ -7351,6 +7343,9 @@
         "wild": [
           "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -7414,6 +7409,7 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
         "Wild: Dynamax Trails"
       ],
@@ -7421,6 +7417,9 @@
         "wild": [
           "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -7479,11 +7478,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -7616,11 +7619,88 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
+        ]
+      }
+    },
+    {
+      "name": "Eternatus",
+      "speciesId": "eternatus",
+      "dex": 890,
+      "shadow": false,
+      "verdict": "KEEP",
+      "reasons": [
+        {
+          "kind": "pvp",
+          "league": "Master League",
+          "rank": 17,
+          "via": "Eternatus",
+          "moveset": [
+            "Dragon Tail",
+            "Dynamax Cannon",
+            "Flamethrower"
+          ],
+          "specialMoves": [
+            "Dynamax Cannon"
+          ],
+          "ivs": "15/15/15 or close to it"
+        },
+        {
+          "kind": "pve",
+          "type": "dragon",
+          "tier": "SS",
+          "rank": 2,
+          "via": "Eternatus",
+          "viaSpecies": "Eternatus",
+          "mega": false,
+          "moveset": [
+            "Dragon Tail",
+            "Dynamax Cannon"
+          ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "pve",
+          "type": "poison",
+          "tier": "SS",
+          "rank": 3,
+          "via": "Eternatus",
+          "viaSpecies": "Eternatus",
+          "mega": false,
+          "moveset": [
+            "Poison Jab",
+            "Sludge Bomb"
+          ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "best": {
+        "pvp": {
+          "league": "Master League",
+          "rank": 17
+        },
+        "pve": {
+          "type": "dragon",
+          "tier": "SS",
+          "rank": 2
+        }
+      },
+      "obtainedFrom": [
+        "Max Battle: Dynamax Trails"
+      ],
+      "sections": {
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -8067,11 +8147,15 @@
         "Egg: 1 km",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 1 km"
@@ -8211,12 +8295,16 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Raid: Twilight Wishes (starts 2026-11-24)",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "raids": [
           "Raid: Twilight Wishes (starts 2026-11-24)"
@@ -8288,11 +8376,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -8435,11 +8527,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -9121,11 +9217,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -9953,11 +10053,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -9976,11 +10080,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -10417,11 +10525,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -10493,11 +10605,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -10780,11 +10896,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -10876,11 +10996,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -10922,11 +11046,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -11020,11 +11148,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -11044,11 +11176,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -11148,11 +11284,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -11175,11 +11315,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -11274,11 +11418,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -11538,11 +11686,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -11677,11 +11829,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -12143,11 +12299,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -12197,11 +12357,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -12537,11 +12701,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -12869,11 +13037,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -12892,11 +13064,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -12966,11 +13142,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -13070,11 +13250,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -13170,11 +13354,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -13423,11 +13611,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -14019,11 +14211,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -14096,11 +14292,15 @@
         "Event egg 10 km: Twilight Trails",
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 10 km",
@@ -14128,11 +14328,15 @@
       },
       "obtainedFrom": [
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Field Research"
@@ -14177,11 +14381,15 @@
         "pve": null
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -14247,11 +14455,15 @@
         }
       },
       "obtainedFrom": [
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -14276,11 +14488,15 @@
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "eggs": [
           "Egg: 5 km",
@@ -14417,11 +14633,15 @@
       "obtainedFrom": [
         "Event research: Dynamax Trails",
         "Field Research",
+        "Max Battle: Dynamax Trails",
         "Wild: Dynamax Trails"
       ],
       "sections": {
         "wild": [
           "Wild: Dynamax Trails"
+        ],
+        "dynamax": [
+          "Max Battle: Dynamax Trails"
         ],
         "research": [
           "Event research: Dynamax Trails",

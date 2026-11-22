@@ -1,7 +1,7 @@
 // Business rules for "keep or trash". This is the one place to tune them.
 // Bump RULES_VERSION whenever a rule changes so reports say which rules produced them.
 
-export const RULES_VERSION = 4;
+export const RULES_VERSION = 5;
 
 export const RULES = {
   // PvP: keep if this Pokemon (or something it evolves into, in the same shadow/regular form)
@@ -16,6 +16,11 @@ export const RULES = {
 
   // Mega/Primal entries count for the regular (non-shadow) Pokemon that Mega Evolves.
   countMegas: true,
+
+  // Max Battles: a Pokemon caught in a Max Battle (can Dynamax) is also a keep if it, or what it
+  // evolves into, is in one of these Pokemon GO Hub Dynamax per-type tiers. Gigantamax-only entries
+  // don't count (a regular Max Battle catch can't Gigantamax). Applies to the Dynamax section only.
+  maxKeepTiers: ["SS", "S"],
 
   // Which ways of getting a Pokemon the weekly report covers, one report section each (see SECTIONS).
   sources: ["wild", "dynamax", "raids", "eggs", "research", "rocket"],

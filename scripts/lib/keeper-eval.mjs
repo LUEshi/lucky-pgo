@@ -124,14 +124,23 @@ export function createEvaluator({ gamemaster, rankingsByLeague, goHubEntries, dm
       max: shadow ? [] : bestPerType(dmax.index, (e) => !e.shadow),
     };
 
+    // KEEP_ONE: the only reason is a Mega/Primal, and one Pokemon covers the Mega Evolution.
+    const verdict = !reasons.length ? "TRASH" : reasons.every((r) => r.kind === "pve" && r.mega) ? "KEEP_ONE" : "KEEP";
+    // Only a Pokemon caught in a Max Battle can Dynamax, so Max tiers only decide the Dynamax-section verdict.
+    const maxReasons = tiers.max
+      .filter((t) => !t.gmax && (rules.maxKeepTiers ?? []).includes(t.tier))
+      .map((t) => ({ kind: "max", type: t.type, tier: t.tier, rank: t.rank, via: t.via, moveset: [], specialMoves: [], ivs: IV_GUIDANCE.pve }));
+    const dynamaxVerdict = verdict === "KEEP" || maxReasons.length ? "KEEP" : verdict;
+
     return {
       name: species.speciesName,
       speciesId: species.speciesId,
       dex: species.dex,
       shadow,
-      // KEEP_ONE: the only reason is a Mega/Primal, and one Pokemon covers the Mega Evolution.
-      verdict: !reasons.length ? "TRASH" : reasons.every((r) => r.kind === "pve" && r.mega) ? "KEEP_ONE" : "KEEP",
+      verdict,
+      dynamaxVerdict,
       reasons,
+      maxReasons,
       best,
       tiers,
     };
@@ -246,9 +255,10 @@ export function renderMarkdown(report) {
   for (const sec of SECTIONS) {
     const inSec = report.pokemon.filter((p) => p.sections?.[sec.key]);
     if (!inSec.length) continue;
-    const keep = inSec.filter((p) => p.verdict === "KEEP");
-    const keepOne = inSec.filter((p) => p.verdict === "KEEP_ONE");
-    const trash = inSec.filter((p) => p.verdict === "TRASH");
+    const v = (p) => (sec.key === "dynamax" ? p.dynamaxVerdict ?? p.verdict : p.verdict);
+    const keep = inSec.filter((p) => v(p) === "KEEP");
+    const keepOne = inSec.filter((p) => v(p) === "KEEP_ONE");
+    const trash = inSec.filter((p) => v(p) === "TRASH");
     lines.push(`## ${sec.label} — ${keep.length} keep · ${keepOne.length} keep one · ${trash.length} trash`, "");
     const where = (p) => p.sections[sec.key].map(stripSourcePrefix).join(", ");
     const detail = (p, text) => {
@@ -259,12 +269,18 @@ export function renderMarkdown(report) {
     };
     if (sec.key === "dynamax") {
       // Max Battles: show every Pokemon's raid-attacker and Max-attacker tiers for its best evolution.
-      lines.push("Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker.", "");
+      lines.push(
+        `Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker. Here a ${(report.rules.maxKeepTiers ?? ["SS", "S"]).join("/")} Max tier (not Gigantamax-only) also makes it a keep — ⚡ marks those.`,
+        "",
+      );
       const groups = [["Keep", keep], ["Keep one (Mega only)", keepOne], ["Trash", trash]];
       for (const [title, list] of groups) {
         if (!list.length) continue;
         lines.push(`**${title}**`, "");
-        for (const p of list) lines.push(`- **${label(p)}** — Raid: ${describeTiers(p.tiers?.raid)} · Max: ${describeTiers(p.tiers?.max)}`);
+        for (const p of list) {
+          const maxKeep = p.verdict !== "KEEP" && p.maxReasons?.length ? " ⚡" : "";
+          lines.push(`- **${label(p)}**${maxKeep} — Raid: ${describeTiers(p.tiers?.raid)} · Max: ${describeTiers(p.tiers?.max)}`);
+        }
         lines.push("");
       }
       continue;

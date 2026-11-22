@@ -203,6 +203,39 @@ test("Dynamax section lists raid and Max tiers on every line, trash included", (
     unmatched,
     knownAnswerMismatches: [],
   });
-  assert.match(md, /- \*\*Ralts\*\* — Raid: Fairy B #30 \(Gardevoir\) · Max: Fairy SS #1 \(Dynamax Gardevoir\)/);
+  assert.match(md, /- \*\*Ralts\*\* ⚡ — Raid: Fairy B #30 \(Gardevoir\) · Max: Fairy SS #1 \(Dynamax Gardevoir\)/);
   assert.match(md, /- \*\*Passimian\*\* — Raid: not ranked · Max: not ranked/);
+});
+
+test("Max rule: SS/S Max tier makes a Dynamax catch a keep; Gigantamax-only and shadows don't count", () => {
+  const ralts = evaluator.evaluateName("Ralts");
+  assert.equal(ralts.verdict, "TRASH", "wild/raid verdict ignores Max tiers");
+  assert.equal(ralts.dynamaxVerdict, "KEEP", "Dynamax Gardevoir is Fairy SS");
+  assert.equal(ralts.maxReasons[0].via, "Dynamax Gardevoir");
+
+  const pidgey = evaluator.evaluateName("Pidgey");
+  assert.equal(pidgey.verdict, "KEEP_ONE");
+  assert.equal(pidgey.dynamaxVerdict, "KEEP_ONE", "Gigantamax Pidgeot S tier needs a G-Max catch, so it doesn't count");
+
+  assert.equal(evaluator.evaluateName("Ralts", { shadow: true }).dynamaxVerdict, "KEEP", "shadow keeps its raid-based verdict");
+  assert.deepEqual(evaluator.evaluateName("Ralts", { shadow: true }).maxReasons, []);
+});
+
+test("Dynamax section groups by the Dynamax verdict and marks Max-only keeps", () => {
+  const { pokemon, unmatched } = evaluateWeekly([
+    { category: "dynamax", name: "Ralts", source: "Max Battle: Trails", shadow: false },
+    { category: "wild", name: "Ralts", source: "Wild: Trails", shadow: false },
+  ], evaluator);
+  const md = renderMarkdown({
+    weekOf: "2026-11-22",
+    rules: { version: 5, pvpTopRank: 100, pveKeepTiers: ["SS", "S", "A"], maxKeepTiers: ["SS", "S"] },
+    data: { snapshotDate: "2026-11-22", pvpokeFetchedAt: "2026-11-22T00:00:00Z", goHubBuiltAt: null },
+    changes: null,
+    pokemon,
+    unmatched,
+    knownAnswerMismatches: [],
+  });
+  assert.match(md, /## Wild — 0 keep · 0 keep one · 1 trash/);
+  assert.match(md, /## Dynamax \(Max Battles\) — 1 keep · 0 keep one · 0 trash/);
+  assert.match(md, /- \*\*Ralts\*\* ⚡ — Raid:/);
 });

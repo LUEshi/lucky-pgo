@@ -1,6 +1,6 @@
 # Keep or Trash — week of 2026-11-22
 
-Rules v4: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
+Rules v5: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
 Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-21, GO Hub built 2026-11-12.
 
 **In this report:** Wild 62 · Dynamax (Max Battles) 58 · Raids 31 · Eggs 75 · Research 168 · Team Rocket 90
@@ -45,9 +45,9 @@ Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
 
 **Trash:** Caterpie, Growlithe, Machop, Krabby, Hitmonlee, Hitmonchan, Chansey, Magmar, Omanyte, Kabuto, Hoothoot, Shuckle, Hitmontop, Wailmer, Trapinch, Combee, Pidove, Woobat, Cottonee, Darumaka, Trubbish, Elgyem, Cryogonal, Noibat, Rockruff, Passimian, Drampa, Skwovet, Wooloo, Toxtricity, Sizzlipede, Duraludon
 
-## Dynamax (Max Battles) — 22 keep · 6 keep one · 30 trash
+## Dynamax (Max Battles) — 27 keep · 4 keep one · 27 trash
 
-Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker.
+Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker. Here a SS/S Max tier (not Gigantamax-only) also makes it a keep — ⚡ marks those.
 
 **Keep**
 
@@ -73,14 +73,17 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Rookidee** — Raid: not ranked · Max: Flying A #4 (Dynamax Corviknight), Steel E #12 (Dynamax Corviknight), Ground E #15 (Dynamax Corviknight)
 - **Hatenna** — Raid: Fairy A #20 (Hatterene) · Max: Fairy SS #2 (Dynamax Hatterene), Psychic S #7 (Dynamax Hatterene)
 - **Eternatus** — Raid: Dragon SS #2 (Eternatus), Poison SS #3 (Eternatus) · Max: Dragon SS #1 (Eternatus)
+- **Abra** ⚡ — Raid: Fairy S #6 (Mega Alakazam), Psychic A #4 (Mega Alakazam), Ghost A #11 (Mega Alakazam) +1 more · Max: Psychic SS #1 (Dynamax Alakazam), Fighting A #7 (Dynamax Alakazam), Electric D #12 (Dynamax Abra)
+- **Ralts** ⚡ — Raid: Fairy SS #1 (Mega Gardevoir), Ice S #6 (Mega Gardevoir), Psychic A #5 (Mega Gardevoir) +4 more · Max: Fairy SS #1 (Dynamax Gardevoir), Psychic S #6 (Dynamax Gallade), Fighting A #4 (Dynamax Gallade) +2 more
+- **Pidove** ⚡ — Raid: Flying C #44 (Unfezant) · Max: Flying S #2 (Dynamax Unfezant), Steel D #11 (Dynamax Unfezant), Normal D #32 (Dynamax Pidove)
+- **Darumaka** ⚡ — Raid: Fire B #35 (Standard Mode Darmanitan) · Max: Normal S #2 (Dynamax Darmanitan), Fire A #3 (Dynamax Darmanitan)
+- **Sizzlipede** ⚡ — Raid: Bug B #23 (Centiskorch) · Max: Bug SS #1 (Dynamax Centiskorch), Fire D #11 (Dynamax Centiskorch)
 
 **Keep one (Mega only)**
 
 - **Bulbasaur** — Raid: Grass S #3 (Mega Venusaur), Poison A #22 (Mega Venusaur) · Max: Grass S #2 (Gigantamax Venusaur, Gigantamax only), Normal D #33 (Dynamax Bulbasaur)
 - **Pikachu** — Raid: Electric SS #1 (Mega Raichu Y), Fairy A #19 (Mega Raichu Y), Normal A #34 (Mega Raichu Y) +2 more · Max: not ranked
-- **Abra** — Raid: Fairy S #6 (Mega Alakazam), Psychic A #4 (Mega Alakazam), Ghost A #11 (Mega Alakazam) +1 more · Max: Psychic SS #1 (Dynamax Alakazam), Fighting A #7 (Dynamax Alakazam), Electric D #12 (Dynamax Abra)
 - **Gastly** — Raid: Poison SS #2 (Mega Gengar), Ghost S #4 (Mega Gengar), Dark S #5 (Mega Gengar) +1 more · Max: Ghost SS #1 (Gigantamax Gengar, Gigantamax only), Dark A #5 (Dynamax Gengar)
-- **Ralts** — Raid: Fairy SS #1 (Mega Gardevoir), Ice S #6 (Mega Gardevoir), Psychic A #5 (Mega Gardevoir) +4 more · Max: Fairy SS #1 (Dynamax Gardevoir), Psychic S #6 (Dynamax Gallade), Fighting A #4 (Dynamax Gallade) +2 more
 - **Falinks** — Raid: Fighting A #5 (Mega Falinks) · Max: Fighting B #11 (Dynamax Falinks)
 
 **Trash**
@@ -101,10 +104,8 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Wailmer** — Raid: not ranked · Max: Rock C #6 (Dynamax Wailord), Water D #16 (Dynamax Wailord), Psychic D #21 (Dynamax Wailord)
 - **Trapinch** — Raid: Ground B #49 (Flygon) · Max: Ground A #4 (Dynamax Flygon), Bug D #7 (Dynamax Trapinch), Dragon D #10 (Dynamax Flygon)
 - **Combee** — Raid: not ranked · Max: not ranked
-- **Pidove** — Raid: Flying C #44 (Unfezant) · Max: Flying S #2 (Dynamax Unfezant), Steel D #11 (Dynamax Unfezant), Normal D #32 (Dynamax Pidove)
 - **Woobat** — Raid: not ranked · Max: Flying A #5 (Dynamax Swoobat), Psychic C #17 (Dynamax Swoobat)
 - **Cottonee** — Raid: not ranked · Max: not ranked
-- **Darumaka** — Raid: Fire B #35 (Standard Mode Darmanitan) · Max: Normal S #2 (Dynamax Darmanitan), Fire A #3 (Dynamax Darmanitan)
 - **Trubbish** — Raid: not ranked · Max: Poison S #1 (Gigantamax Garbodor, Gigantamax only), Normal B #14 (Dynamax Garbodor), Bug C #6 (Dynamax Garbodor)
 - **Cryogonal** — Raid: Ice B #45 (Cryogonal) · Max: Ice B #5 (Dynamax Cryogonal)
 - **Espurr** — Raid: not ranked · Max: not ranked
@@ -113,7 +114,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Skwovet** — Raid: not ranked · Max: Normal B #11 (Dynamax Greedent), Dark D #15 (Dynamax Greedent), Grass E #10 (Dynamax Greedent) +1 more
 - **Wooloo** — Raid: not ranked · Max: Normal B #12 (Dynamax Dubwool), Fighting E #21 (Dynamax Dubwool)
 - **Toxtricity** — Raid: Electric B #45 (Toxtricity (Low Key Form)) · Max: Electric SS #1 (Gigantamax Toxtricity, Gigantamax only), Poison A #2 (Dynamax Toxtricity (Amped Form))
-- **Sizzlipede** — Raid: Bug B #23 (Centiskorch) · Max: Bug SS #1 (Dynamax Centiskorch), Fire D #11 (Dynamax Centiskorch)
 - **Duraludon** — Raid: Steel C #39 (Duraludon) · Max: Dragon S #2 (Gigantamax Duraludon, Gigantamax only), Steel C #7 (Dynamax Duraludon)
 
 ## Raids — 14 keep · 5 keep one · 12 trash

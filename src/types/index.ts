@@ -132,7 +132,7 @@ export interface PrioritySource {
 export type KeeperVerdict = "KEEP" | "KEEP_ONE" | "TRASH";
 
 export interface KeeperReason {
-  kind: "pvp" | "pve";
+  kind: "pvp" | "pve" | "max";
   league?: string;
   type?: string;
   tier?: string;
@@ -159,7 +159,10 @@ export interface KeeperPokemon {
   dex: number;
   shadow: boolean;
   verdict: KeeperVerdict;
+  /** Verdict for a Max Battle catch (can Dynamax): strong Max attacker tiers also count. */
+  dynamaxVerdict?: KeeperVerdict;
   reasons: KeeperReason[];
+  maxReasons?: KeeperReason[];
   best: {
     pvp: { league: string; rank: number } | null;
     pve: { type: string; tier: string; rank: number } | null;

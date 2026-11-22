@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-22T00:37:44.019Z",
+  "generatedAt": "2026-11-22T00:42:00.372Z",
   "weekOf": "2026-11-22",
   "rules": {
-    "version": 4,
+    "version": 5,
     "pvpTopRank": 100,
     "pveKeepTiers": [
       "SS",
@@ -10,6 +10,10 @@
       "A"
     ],
     "countMegas": true,
+    "maxKeepTiers": [
+      "SS",
+      "S"
+    ],
     "sources": [
       "wild",
       "dynamax",
@@ -38,6 +42,7 @@
       "dex": 1,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -55,6 +60,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -98,6 +104,7 @@
       "dex": 4,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -142,6 +149,18 @@
             "Air Slash",
             "Blast Burn"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "flying",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Charizard",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -238,6 +257,7 @@
       "dex": 4,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -255,6 +275,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -298,6 +319,7 @@
       "dex": 7,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -345,6 +367,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -437,6 +460,7 @@
       "dex": 7,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -454,6 +478,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -491,6 +516,7 @@
       "dex": 35,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -553,6 +579,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -623,6 +650,7 @@
       "dex": 36,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -685,6 +713,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -751,6 +780,7 @@
       "dex": 37,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -785,6 +815,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -811,6 +842,7 @@
       "dex": 37,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -843,6 +875,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -886,6 +919,7 @@
       "dex": 41,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -903,6 +937,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -942,6 +977,7 @@
       "dex": 43,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -959,6 +995,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1002,6 +1039,7 @@
       "dex": 56,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1049,6 +1087,7 @@
           "ivs": "15/15/15 or close to it"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -1092,6 +1131,7 @@
       "dex": 61,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1109,6 +1149,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1152,6 +1193,7 @@
       "dex": 69,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1184,6 +1226,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1227,6 +1270,7 @@
       "dex": 72,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1242,6 +1286,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1279,6 +1324,7 @@
       "dex": 74,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1311,6 +1357,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -1354,6 +1401,7 @@
       "dex": 75,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1371,6 +1419,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -1414,6 +1463,7 @@
       "dex": 81,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1431,6 +1481,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -1474,6 +1525,7 @@
       "dex": 88,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1519,6 +1571,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1562,6 +1615,7 @@
       "dex": 95,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1590,6 +1644,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1616,6 +1671,7 @@
       "dex": 98,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1633,6 +1689,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -1676,6 +1733,7 @@
       "dex": 104,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1691,6 +1749,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -1717,6 +1776,7 @@
       "dex": 111,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1760,6 +1820,28 @@
             "Mud-Slap",
             "Earthquake"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "rock",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Rhyperior",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "ground",
+          "tier": "SS",
+          "rank": 2,
+          "via": "Dynamax Rhyperior",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -1836,6 +1918,7 @@
       "dex": 111,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -1898,6 +1981,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -1959,6 +2043,7 @@
       "dex": 114,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -1976,6 +2061,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -2019,6 +2105,7 @@
       "dex": 117,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2047,6 +2134,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -2073,6 +2161,7 @@
       "dex": 119,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2091,6 +2180,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -2117,6 +2207,7 @@
       "dex": 123,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -2134,6 +2225,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -2183,6 +2275,7 @@
       "dex": 125,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -2196,6 +2289,18 @@
             "Thunder Shock",
             "Wild Charge"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "electric",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Electivire",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -2258,6 +2363,7 @@
       "dex": 125,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -2275,6 +2381,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -2312,6 +2419,7 @@
       "dex": 127,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -2329,6 +2437,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -2366,6 +2475,7 @@
       "dex": 129,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2428,6 +2538,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -2509,6 +2620,7 @@
       "dex": 129,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2556,6 +2668,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -2599,6 +2712,7 @@
       "dex": 131,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2631,6 +2745,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -2677,6 +2792,7 @@
       "dex": 131,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2709,6 +2825,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -2752,6 +2869,7 @@
       "dex": 133,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -2806,6 +2924,38 @@
             "Frost Breath",
             "Avalanche"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 4,
+          "via": "Dynamax Espeon",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "ice",
+          "tier": "S",
+          "rank": 2,
+          "via": "Dynamax Glaceon",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "fairy",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Sylveon",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -2936,6 +3086,7 @@
       "dex": 137,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -2953,6 +3104,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -3002,6 +3154,7 @@
       "dex": 143,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3017,6 +3170,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3051,6 +3205,7 @@
       "dex": 143,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3092,6 +3247,7 @@
           "ivs": "15/15/15 or close to it"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3129,6 +3285,7 @@
       "dex": 147,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3189,6 +3346,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -3261,6 +3419,7 @@
       "dex": 158,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3293,6 +3452,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3330,6 +3490,7 @@
       "dex": 175,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3377,6 +3538,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3414,6 +3576,7 @@
       "dex": 176,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3461,6 +3624,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3498,6 +3662,7 @@
       "dex": 183,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3513,6 +3678,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -3539,6 +3705,7 @@
       "dex": 197,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3556,6 +3723,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -3589,6 +3757,7 @@
       "dex": 206,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3604,6 +3773,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -3630,6 +3800,7 @@
       "dex": 209,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -3647,6 +3818,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -3684,6 +3856,7 @@
       "dex": 215,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -3697,6 +3870,28 @@
             "Ice Shard",
             "Triple Axel"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "ice",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Weavile",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "dark",
+          "tier": "S",
+          "rank": 4,
+          "via": "Dynamax Weavile",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -3765,6 +3960,7 @@
       "dex": 215,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -3797,6 +3993,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -3840,6 +4037,7 @@
       "dex": 216,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3872,6 +4070,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -3915,6 +4114,7 @@
       "dex": 216,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -3975,6 +4175,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -4042,6 +4243,7 @@
       "dex": 217,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4074,6 +4276,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -4117,6 +4320,7 @@
       "dex": 221,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -4134,6 +4338,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -4177,6 +4382,7 @@
       "dex": 221,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4235,6 +4441,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -4278,6 +4485,7 @@
       "dex": 222,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4293,6 +4501,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -4321,6 +4530,7 @@
       "dex": 228,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -4338,6 +4548,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -4375,6 +4586,7 @@
       "dex": 239,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -4388,6 +4600,18 @@
             "Thunder Shock",
             "Wild Charge"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "electric",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Electivire",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -4444,6 +4668,7 @@
       "dex": 246,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4489,6 +4714,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -4548,6 +4774,7 @@
       "dex": 246,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4593,6 +4820,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -4648,6 +4876,7 @@
       "dex": 255,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -4680,6 +4909,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -4723,6 +4953,7 @@
       "dex": 258,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4800,6 +5031,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -4852,6 +5084,7 @@
       "dex": 258,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -4899,6 +5132,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -4946,6 +5180,7 @@
       "dex": 280,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -4978,6 +5213,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -5041,6 +5277,7 @@
       "dex": 281,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -5073,6 +5310,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -5134,6 +5372,7 @@
       "dex": 298,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5149,6 +5388,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5177,6 +5417,7 @@
       "dex": 302,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5192,6 +5433,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5245,6 +5487,7 @@
       "dex": 304,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -5262,6 +5505,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -5305,6 +5549,7 @@
       "dex": 326,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5320,6 +5565,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5346,6 +5592,7 @@
       "dex": 328,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -5363,6 +5610,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5406,6 +5654,7 @@
       "dex": 329,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -5423,6 +5672,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5466,6 +5716,7 @@
       "dex": 333,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5483,6 +5734,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5521,6 +5773,7 @@
       "dex": 333,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5538,6 +5791,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5564,6 +5818,7 @@
       "dex": 345,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5592,6 +5847,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -5618,6 +5874,7 @@
       "dex": 349,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5633,6 +5890,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5688,6 +5946,7 @@
       "dex": 349,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5703,6 +5962,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5740,6 +6000,7 @@
       "dex": 355,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5768,6 +6029,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5794,6 +6056,7 @@
       "dex": 355,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5822,6 +6085,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5848,6 +6112,7 @@
       "dex": 356,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5876,6 +6141,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5902,6 +6168,7 @@
       "dex": 359,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -5919,6 +6186,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -5962,6 +6230,7 @@
       "dex": 363,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -5980,6 +6249,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6029,6 +6299,7 @@
       "dex": 363,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6047,6 +6318,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6084,6 +6356,7 @@
       "dex": 364,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6102,6 +6375,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6141,6 +6415,7 @@
       "dex": 374,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6185,6 +6460,28 @@
             "Fury Cutter",
             "Meteor Mash"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 5,
+          "via": "Dynamax Metagross",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "bug",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Metagross",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -6294,6 +6591,7 @@
       "dex": 374,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6342,6 +6640,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -6403,6 +6702,7 @@
       "dex": 375,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6447,6 +6747,28 @@
             "Fury Cutter",
             "Meteor Mash"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 5,
+          "via": "Dynamax Metagross",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "bug",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Metagross",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -6542,6 +6864,7 @@
       "dex": 376,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6586,6 +6909,28 @@
             "Fury Cutter",
             "Meteor Mash"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 5,
+          "via": "Dynamax Metagross",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "bug",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Metagross",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -6681,6 +7026,7 @@
       "dex": 386,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6709,6 +7055,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -6735,6 +7082,7 @@
       "dex": 393,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6767,6 +7115,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6810,6 +7159,7 @@
       "dex": 394,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -6857,6 +7207,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6900,6 +7251,7 @@
       "dex": 396,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -6932,6 +7284,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -6975,6 +7328,7 @@
       "dex": 403,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -6992,6 +7346,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7035,6 +7390,7 @@
       "dex": 406,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7067,6 +7423,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7112,6 +7469,7 @@
       "dex": 408,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7129,6 +7487,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7170,6 +7529,7 @@
       "dex": 443,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7217,6 +7577,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7266,6 +7627,7 @@
       "dex": 444,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7313,6 +7675,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7358,6 +7721,7 @@
       "dex": 446,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7373,6 +7737,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -7409,6 +7774,7 @@
       "dex": 449,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7437,6 +7803,7 @@
           "ivs": "15/15/15 or close to it"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -7474,6 +7841,7 @@
       "dex": 488,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7491,6 +7859,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -7519,6 +7888,7 @@
       "dex": 491,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7551,6 +7921,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7602,6 +7973,7 @@
       "dex": 501,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7619,6 +7991,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -7660,6 +8033,7 @@
       "dex": 524,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7688,6 +8062,18 @@
             "Lock-On",
             "Meteor Beam"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "rock",
+          "tier": "S",
+          "rank": 2,
+          "via": "Dynamax Gigalith",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -7762,6 +8148,7 @@
       "dex": 529,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7775,6 +8162,18 @@
             "Mud-Slap",
             "Scorching Sands"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "ground",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Excadrill",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -7845,6 +8244,7 @@
       "dex": 532,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -7877,6 +8277,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7920,6 +8321,7 @@
       "dex": 554,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -7952,6 +8354,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -7995,6 +8398,7 @@
       "dex": 562,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8010,6 +8414,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -8036,6 +8441,7 @@
       "dex": 562,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8051,6 +8457,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -8077,6 +8484,7 @@
       "dex": 607,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -8109,6 +8517,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -8152,6 +8561,7 @@
       "dex": 610,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -8169,6 +8579,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -8224,6 +8635,7 @@
       "dex": 618,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8239,6 +8651,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8271,6 +8684,7 @@
       "dex": 618,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8286,6 +8700,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8312,6 +8727,7 @@
       "dex": 624,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8359,6 +8775,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -8412,6 +8829,7 @@
       "dex": 629,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8427,6 +8845,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8453,6 +8872,7 @@
       "dex": 633,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8496,6 +8916,18 @@
             "Bite",
             "Brutal Swing"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "dark",
+          "tier": "S",
+          "rank": 2,
+          "via": "Dynamax Hydreigon",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -8566,6 +8998,7 @@
       "dex": 633,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8628,6 +9061,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8677,6 +9111,7 @@
       "dex": 636,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -8694,6 +9129,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -8743,6 +9179,7 @@
       "dex": 644,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8790,6 +9227,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -8839,6 +9277,7 @@
       "dex": 659,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8854,6 +9293,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8880,6 +9320,7 @@
       "dex": 660,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8895,6 +9336,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -8921,6 +9363,7 @@
       "dex": 662,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -8953,6 +9396,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -8979,6 +9423,7 @@
       "dex": 679,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9007,6 +9452,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -9035,6 +9481,7 @@
       "dex": 686,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9063,6 +9510,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -9128,6 +9576,7 @@
       "dex": 722,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -9145,6 +9594,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -9186,6 +9636,7 @@
       "dex": 725,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -9203,6 +9654,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -9250,6 +9702,7 @@
       "dex": 728,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9297,6 +9750,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -9344,6 +9798,7 @@
       "dex": 732,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9361,6 +9816,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -9398,6 +9854,7 @@
       "dex": 751,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9413,6 +9870,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -9439,6 +9897,7 @@
       "dex": 751,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9454,6 +9913,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -9480,6 +9940,7 @@
       "dex": 761,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -9497,6 +9958,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -9551,6 +10013,7 @@
       "dex": 767,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9579,6 +10042,7 @@
           "ivs": "15/15/15 or close to it"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -9622,6 +10086,7 @@
       "dex": 767,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9680,6 +10145,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -9729,6 +10195,7 @@
       "dex": 810,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -9785,6 +10252,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -9852,6 +10320,7 @@
       "dex": 813,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -9869,6 +10338,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -9942,6 +10412,7 @@
       "dex": 816,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -9970,6 +10441,18 @@
             "Pound",
             "Snipe Shot"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "normal",
+          "tier": "S",
+          "rank": 3,
+          "via": "Dynamax Inteleon",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -10047,6 +10530,7 @@
       "dex": 821,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10081,6 +10565,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10130,6 +10615,7 @@
       "dex": 821,
       "shadow": true,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10163,6 +10649,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10189,6 +10676,7 @@
       "dex": 827,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10206,6 +10694,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -10232,6 +10721,7 @@
       "dex": 856,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -10245,6 +10735,28 @@
             "Charm",
             "Dazzling Gleam"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "fairy",
+          "tier": "SS",
+          "rank": 2,
+          "via": "Dynamax Hatterene",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "S",
+          "rank": 7,
+          "via": "Dynamax Hatterene",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -10303,6 +10815,7 @@
       "dex": 890,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10346,6 +10859,18 @@
             "Poison Jab",
             "Sludge Bomb"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "dragon",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Eternatus",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -10400,6 +10925,7 @@
       "dex": 906,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -10417,6 +10943,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10454,6 +10981,7 @@
       "dex": 909,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10469,6 +10997,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10512,6 +11041,7 @@
       "dex": 912,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -10529,6 +11059,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -10566,6 +11097,7 @@
       "dex": 917,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10581,6 +11113,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -10607,6 +11140,7 @@
       "dex": 938,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10622,6 +11156,7 @@
           "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10648,6 +11183,7 @@
       "dex": 957,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10695,6 +11231,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10738,6 +11275,7 @@
       "dex": 965,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -10755,6 +11293,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -10792,6 +11331,7 @@
       "dex": 996,
       "shadow": false,
       "verdict": "KEEP",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pvp",
@@ -10839,6 +11379,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -10882,6 +11423,7 @@
       "dex": 1,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -10914,6 +11456,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -10987,6 +11530,7 @@
       "dex": 15,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11021,6 +11565,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -11066,6 +11611,7 @@
       "dex": 25,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11117,6 +11663,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -11191,6 +11738,7 @@
       "dex": 63,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -11234,6 +11782,18 @@
             "Psycho Cut",
             "Shadow Ball"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Alakazam",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -11320,6 +11880,7 @@
       "dex": 64,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -11363,6 +11924,18 @@
             "Psycho Cut",
             "Shadow Ball"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Alakazam",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -11439,6 +12012,7 @@
       "dex": 92,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11486,6 +12060,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -11567,6 +12142,7 @@
       "dex": 93,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11614,6 +12190,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -11687,6 +12264,7 @@
       "dex": 120,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11723,6 +12301,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -11782,6 +12361,7 @@
       "dex": 123,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11799,6 +12379,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -11850,6 +12431,7 @@
       "dex": 142,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -11897,6 +12479,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -11963,6 +12546,7 @@
       "dex": 172,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12014,6 +12598,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -12080,6 +12665,7 @@
       "dex": 228,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12114,6 +12700,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12159,6 +12746,7 @@
       "dex": 229,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12193,6 +12781,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12238,6 +12827,7 @@
       "dex": 252,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12270,6 +12860,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12329,6 +12920,7 @@
       "dex": 255,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12361,6 +12953,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12413,6 +13006,7 @@
       "dex": 280,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP",
       "reasons": [
         {
           "kind": "pve",
@@ -12501,6 +13095,28 @@
             "Charm",
             "Shadow Ball"
           ],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "fairy",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Gardevoir",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "S",
+          "rank": 6,
+          "via": "Dynamax Gallade",
+          "moveset": [],
           "specialMoves": [],
           "ivs": "high Attack IV; level it up as far as you can"
         }
@@ -12624,6 +13240,7 @@
       "dex": 304,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12641,6 +13258,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -12686,6 +13304,7 @@
       "dex": 309,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12722,6 +13341,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -12767,6 +13387,7 @@
       "dex": 310,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12803,6 +13424,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -12848,6 +13470,7 @@
       "dex": 353,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12865,6 +13488,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12910,6 +13534,7 @@
       "dex": 354,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12927,6 +13552,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -12974,6 +13600,7 @@
       "dex": 361,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -12991,6 +13618,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13029,6 +13657,7 @@
       "dex": 371,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13091,6 +13720,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13163,6 +13793,7 @@
       "dex": 397,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13199,6 +13830,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -13251,6 +13883,7 @@
       "dex": 427,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13268,6 +13901,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13327,6 +13961,7 @@
       "dex": 459,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13344,6 +13979,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -13389,6 +14025,7 @@
       "dex": 608,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13425,6 +14062,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -13470,6 +14108,7 @@
       "dex": 650,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13489,6 +14128,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -13534,6 +14174,7 @@
       "dex": 653,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13585,6 +14226,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -13637,6 +14279,7 @@
       "dex": 656,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13671,6 +14314,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13716,6 +14360,7 @@
       "dex": 870,
       "shadow": false,
       "verdict": "KEEP_ONE",
+      "dynamaxVerdict": "KEEP_ONE",
       "reasons": [
         {
           "kind": "pve",
@@ -13735,6 +14380,7 @@
           "ivs": "high Attack IV; level it up as far as you can"
         }
       ],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -13784,7 +14430,9 @@
       "dex": 10,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13835,7 +14483,9 @@
       "dex": 13,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13873,7 +14523,9 @@
       "dex": 19,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13900,7 +14552,9 @@
       "dex": 24,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -13927,7 +14581,9 @@
       "dex": 27,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -13954,7 +14610,9 @@
       "dex": 27,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -13981,7 +14639,9 @@
       "dex": 27,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14008,7 +14668,9 @@
       "dex": 30,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14052,7 +14714,9 @@
       "dex": 33,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14096,7 +14760,9 @@
       "dex": 39,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14123,7 +14789,9 @@
       "dex": 48,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14150,7 +14818,9 @@
       "dex": 50,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14181,7 +14851,9 @@
       "dex": 50,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14208,7 +14880,9 @@
       "dex": 52,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14235,7 +14909,9 @@
       "dex": 52,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14264,7 +14940,9 @@
       "dex": 52,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14299,7 +14977,9 @@
       "dex": 54,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14326,7 +15006,9 @@
       "dex": 58,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14368,7 +15050,9 @@
       "dex": 58,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14422,7 +15106,9 @@
       "dex": 60,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14449,7 +15135,9 @@
       "dex": 61,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14476,7 +15164,9 @@
       "dex": 66,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14532,7 +15222,9 @@
       "dex": 67,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14584,7 +15276,9 @@
       "dex": 74,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14632,7 +15326,9 @@
       "dex": 77,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14670,7 +15366,9 @@
       "dex": 77,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14697,7 +15395,9 @@
       "dex": 77,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14724,7 +15424,9 @@
       "dex": 79,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -14768,7 +15470,9 @@
       "dex": 79,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14814,7 +15518,9 @@
       "dex": 84,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14841,7 +15547,9 @@
       "dex": 86,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14868,7 +15576,9 @@
       "dex": 96,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14895,7 +15605,9 @@
       "dex": 98,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -14957,7 +15669,9 @@
       "dex": 100,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -14984,7 +15698,9 @@
       "dex": 103,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15011,7 +15727,9 @@
       "dex": 105,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15042,7 +15760,9 @@
       "dex": 106,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15080,7 +15800,9 @@
       "dex": 106,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15107,7 +15829,9 @@
       "dex": 107,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15151,7 +15875,9 @@
       "dex": 107,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15178,7 +15904,9 @@
       "dex": 110,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15205,7 +15933,9 @@
       "dex": 110,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15245,7 +15975,9 @@
       "dex": 113,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15289,7 +16021,9 @@
       "dex": 126,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15324,7 +16058,9 @@
       "dex": 134,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15358,7 +16094,9 @@
       "dex": 135,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15403,7 +16141,9 @@
       "dex": 136,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15437,7 +16177,9 @@
       "dex": 138,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15502,7 +16244,9 @@
       "dex": 140,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15568,7 +16312,9 @@
       "dex": 140,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15595,7 +16341,9 @@
       "dex": 152,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15622,7 +16370,9 @@
       "dex": 155,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15660,7 +16410,9 @@
       "dex": 163,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15710,7 +16462,9 @@
       "dex": 163,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15737,7 +16491,9 @@
       "dex": 164,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15777,7 +16533,9 @@
       "dex": 185,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15804,7 +16562,9 @@
       "dex": 191,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15831,7 +16591,20 @@
       "dex": 196,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "KEEP",
       "reasons": [],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "psychic",
+          "tier": "SS",
+          "rank": 4,
+          "via": "Dynamax Espeon",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -15876,7 +16649,9 @@
       "dex": 198,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15914,7 +16689,9 @@
       "dex": 200,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -15941,7 +16718,9 @@
       "dex": 202,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -15968,7 +16747,9 @@
       "dex": 207,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16008,7 +16789,9 @@
       "dex": 211,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16035,7 +16818,9 @@
       "dex": 213,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": null,
         "pve": null
@@ -16076,7 +16861,9 @@
       "dex": 215,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -16105,7 +16892,9 @@
       "dex": 219,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16132,7 +16921,9 @@
       "dex": 223,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16159,7 +16950,9 @@
       "dex": 225,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": null,
         "pve": null
@@ -16183,7 +16976,9 @@
       "dex": 236,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16225,7 +17020,9 @@
       "dex": 237,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16263,7 +17060,9 @@
       "dex": 237,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16290,7 +17089,9 @@
       "dex": 240,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -16319,7 +17120,9 @@
       "dex": 261,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16346,7 +17149,9 @@
       "dex": 261,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16373,7 +17178,9 @@
       "dex": 263,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -16406,7 +17213,9 @@
       "dex": 263,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16433,7 +17242,9 @@
       "dex": 271,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16460,7 +17271,9 @@
       "dex": 273,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16487,7 +17300,9 @@
       "dex": 274,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16514,7 +17329,9 @@
       "dex": 276,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16541,7 +17358,9 @@
       "dex": 278,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16568,7 +17387,9 @@
       "dex": 285,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16612,7 +17433,9 @@
       "dex": 290,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16639,7 +17462,9 @@
       "dex": 294,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16666,7 +17491,9 @@
       "dex": 296,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -16704,7 +17531,9 @@
       "dex": 296,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -16752,7 +17581,9 @@
       "dex": 303,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16791,7 +17622,9 @@
       "dex": 318,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16818,7 +17651,9 @@
       "dex": 320,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16872,7 +17707,9 @@
       "dex": 327,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16899,7 +17736,9 @@
       "dex": 328,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -16964,7 +17803,9 @@
       "dex": 343,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -16991,7 +17832,9 @@
       "dex": 344,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17018,7 +17861,9 @@
       "dex": 347,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17045,7 +17890,9 @@
       "dex": 347,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17072,7 +17919,9 @@
       "dex": 366,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17099,7 +17948,9 @@
       "dex": 386,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": null,
         "pve": {
@@ -17134,7 +17985,9 @@
       "dex": 386,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": null,
         "pve": null
@@ -17158,7 +18011,9 @@
       "dex": 386,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17196,7 +18051,9 @@
       "dex": 387,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17234,7 +18091,9 @@
       "dex": 390,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17272,7 +18131,9 @@
       "dex": 399,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17299,7 +18160,9 @@
       "dex": 404,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17337,7 +18200,9 @@
       "dex": 410,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17364,7 +18229,9 @@
       "dex": 415,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17399,7 +18266,9 @@
       "dex": 425,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17426,7 +18295,9 @@
       "dex": 431,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17453,7 +18324,9 @@
       "dex": 433,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17480,7 +18353,9 @@
       "dex": 434,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17518,7 +18393,9 @@
       "dex": 439,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17547,7 +18424,9 @@
       "dex": 440,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17587,7 +18466,9 @@
       "dex": 453,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17625,7 +18506,9 @@
       "dex": 495,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17656,7 +18539,9 @@
       "dex": 498,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -17698,7 +18583,9 @@
       "dex": 507,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17725,7 +18612,9 @@
       "dex": 509,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17752,7 +18641,9 @@
       "dex": 510,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17783,7 +18674,20 @@
       "dex": 519,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "KEEP",
       "reasons": [],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "flying",
+          "tier": "S",
+          "rank": 2,
+          "via": "Dynamax Unfezant",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17844,7 +18748,9 @@
       "dex": 527,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17888,7 +18794,9 @@
       "dex": 531,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17915,7 +18823,9 @@
       "dex": 544,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -17959,7 +18869,9 @@
       "dex": 546,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -17994,7 +18906,9 @@
       "dex": 548,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18021,7 +18935,9 @@
       "dex": 550,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18048,7 +18964,9 @@
       "dex": 551,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18086,7 +19004,20 @@
       "dex": 554,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "KEEP",
       "reasons": [],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "normal",
+          "tier": "S",
+          "rank": 2,
+          "via": "Dynamax Darmanitan",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18145,7 +19076,9 @@
       "dex": 562,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18172,7 +19105,9 @@
       "dex": 564,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18199,7 +19134,9 @@
       "dex": 566,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18237,7 +19174,9 @@
       "dex": 568,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18292,7 +19231,9 @@
       "dex": 578,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18319,7 +19260,9 @@
       "dex": 580,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -18346,7 +19289,9 @@
       "dex": 582,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18384,7 +19329,9 @@
       "dex": 587,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -18411,7 +19358,9 @@
       "dex": 597,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18438,7 +19387,9 @@
       "dex": 603,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -18465,7 +19416,9 @@
       "dex": 605,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18496,7 +19449,9 @@
       "dex": 610,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18534,7 +19489,9 @@
       "dex": 613,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18578,7 +19535,9 @@
       "dex": 615,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18627,7 +19586,9 @@
       "dex": 621,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18656,7 +19617,9 @@
       "dex": 622,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18694,7 +19657,9 @@
       "dex": 623,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18732,7 +19697,9 @@
       "dex": 641,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18761,7 +19728,9 @@
       "dex": 667,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18788,7 +19757,9 @@
       "dex": 672,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18826,7 +19797,9 @@
       "dex": 674,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18853,7 +19826,9 @@
       "dex": 674,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18880,7 +19855,9 @@
       "dex": 677,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18907,7 +19884,9 @@
       "dex": 688,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -18934,7 +19913,9 @@
       "dex": 692,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -18972,7 +19953,9 @@
       "dex": 694,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19010,7 +19993,9 @@
       "dex": 702,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19037,7 +20022,9 @@
       "dex": 708,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19081,7 +20068,9 @@
       "dex": 714,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19108,7 +20097,9 @@
       "dex": 714,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19135,7 +20126,9 @@
       "dex": 742,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19173,7 +20166,9 @@
       "dex": 744,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19200,7 +20195,9 @@
       "dex": 747,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19227,7 +20224,9 @@
       "dex": 753,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19265,7 +20264,9 @@
       "dex": 757,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19303,7 +20304,9 @@
       "dex": 759,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19330,7 +20333,9 @@
       "dex": 759,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19374,7 +20379,9 @@
       "dex": 766,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19418,7 +20425,9 @@
       "dex": 769,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19445,7 +20454,9 @@
       "dex": 769,
       "shadow": true,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19483,7 +20494,9 @@
       "dex": 780,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19539,7 +20552,9 @@
       "dex": 819,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19599,7 +20614,9 @@
       "dex": 824,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19626,7 +20643,9 @@
       "dex": 831,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19670,7 +20689,9 @@
       "dex": 846,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19697,7 +20718,9 @@
       "dex": 848,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": null,
         "pve": null
@@ -19721,7 +20744,9 @@
       "dex": 849,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19777,7 +20802,20 @@
       "dex": 850,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "KEEP",
       "reasons": [],
+      "maxReasons": [
+        {
+          "kind": "max",
+          "type": "bug",
+          "tier": "SS",
+          "rank": 1,
+          "via": "Dynamax Centiskorch",
+          "moveset": [],
+          "specialMoves": [],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -19838,7 +20876,9 @@
       "dex": 859,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Great League",
@@ -19892,7 +20932,9 @@
       "dex": 872,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19932,7 +20974,9 @@
       "dex": 876,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19961,7 +21005,9 @@
       "dex": 876,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -19990,7 +21036,9 @@
       "dex": 884,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -20052,7 +21100,9 @@
       "dex": 915,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -20079,7 +21129,9 @@
       "dex": 919,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -20117,7 +21169,9 @@
       "dex": 926,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -20150,7 +21204,9 @@
       "dex": 928,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -20177,7 +21233,9 @@
       "dex": 932,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",
@@ -20204,7 +21262,9 @@
       "dex": 935,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -20242,7 +21302,9 @@
       "dex": 942,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Master League",
@@ -20271,7 +21333,9 @@
       "dex": 944,
       "shadow": false,
       "verdict": "TRASH",
+      "dynamaxVerdict": "TRASH",
       "reasons": [],
+      "maxReasons": [],
       "best": {
         "pvp": {
           "league": "Ultra League",

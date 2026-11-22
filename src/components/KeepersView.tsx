@@ -36,6 +36,10 @@ const ALL_SECTIONS = "all";
 
 const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
+/** In the Dynamax section, Max Battle attacker tiers can also make a Pokemon a keep. */
+const verdictFor = (p: KeeperPokemon, section: string): KeeperVerdict =>
+  section === "dynamax" ? p.dynamaxVerdict ?? p.verdict : p.verdict;
+
 function reasonText(r: KeeperReason): string {
   const where = r.kind === "pvp" ? `${r.league} #${r.rank}` : `${capitalize(r.type ?? "")} attacker · ${r.tier} tier #${r.rank}`;
   return `${where} as ${r.via}${r.mega ? " (Mega)" : ""}`;
@@ -55,7 +59,9 @@ function tierText(list: KeeperTier[] | undefined): string {
 
 function KeeperCard({ p, needsLucky, section }: { p: KeeperPokemon; needsLucky: boolean; section: string }) {
   const from = section !== ALL_SECTIONS && p.sections?.[section] ? p.sections[section] : p.obtainedFrom;
-  const style = VERDICT_STYLE[p.verdict];
+  const verdict = verdictFor(p, section);
+  const style = VERDICT_STYLE[verdict];
+  const maxKeep = section === "dynamax" && p.verdict !== "KEEP" && verdict === "KEEP";
   const ivs = [...new Set(p.reasons.map((r) => r.ivs))];
   return (
     <div className={`border rounded-lg p-3 text-sm ${style.card}`}>
@@ -88,6 +94,12 @@ function KeeperCard({ p, needsLucky, section }: { p: KeeperPokemon; needsLucky: 
         <p className="mt-1 text-gray-600">{bestText(p)}</p>
       )}
 
+      {maxKeep && (
+        <p className="mt-1.5 text-xs font-medium text-green-800">
+          ⚡ Keep as a Max Battle attacker:{" "}
+          {(p.maxReasons ?? []).map((r) => `${capitalize(r.type ?? "")} ${r.tier} #${r.rank} (${r.via})`).join(", ")}
+        </p>
+      )}
       {section === "dynamax" && p.tiers && (
         <div className="mt-1.5 text-xs text-gray-700 space-y-0.5">
           <p>
@@ -132,18 +144,18 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
   const counts = useMemo(() => {
     const c: Record<VerdictFilter, number> = { KEEP: 0, KEEP_ONE: 0, TRASH: 0, ALL: 0 };
     for (const p of inSection) {
-      c[p.verdict] += 1;
+      c[verdictFor(p, section)] += 1;
       c.ALL += 1;
     }
     return c;
-  }, [inSection]);
+  }, [inSection, section]);
 
   const visible = useMemo(() => {
     const q = search.trim().toLowerCase();
     return inSection.filter(
-      (p) => (filter === "ALL" || p.verdict === filter) && (!q || `${p.shadow ? "shadow " : ""}${p.name}`.toLowerCase().includes(q)),
+      (p) => (filter === "ALL" || verdictFor(p, section) === filter) && (!q || `${p.shadow ? "shadow " : ""}${p.name}`.toLowerCase().includes(q)),
     );
-  }, [inSection, filter, search]);
+  }, [inSection, filter, search, section]);
 
   if (loading) return <p className="text-gray-500 text-sm">Loading this week's report…</p>;
   if (error) {
@@ -217,7 +229,7 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
 
       <div className="grid gap-2 sm:grid-cols-2">
         {visible.map((p) => (
-          <KeeperCard key={`${p.speciesId}-${p.shadow}`} p={p} section={section} needsLucky={p.verdict === "TRASH" && luckyByDex.get(p.dex) === false} />
+          <KeeperCard key={`${p.speciesId}-${p.shadow}`} p={p} section={section} needsLucky={verdictFor(p, section) === "TRASH" && luckyByDex.get(p.dex) === false} />
         ))}
       </div>
       {visible.length === 0 && <p className="text-gray-500 text-sm">Nothing matches.</p>}

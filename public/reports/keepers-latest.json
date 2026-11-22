@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T20:15:54.428Z",
-  "weekOf": "2026-11-21",
+  "generatedAt": "2026-11-22T00:20:56.151Z",
+  "weekOf": "2026-11-22",
   "rules": {
     "version": 2,
     "pvpTopRank": 100,
@@ -14,7 +14,7 @@
   },
   "data": {
     "snapshotDate": "2026-11-21",
-    "pvpokeFetchedAt": "2026-11-21T19:52:26.663Z",
+    "pvpokeFetchedAt": "2026-11-22T00:20:28.222Z",
     "goHubBuiltAt": "2026-11-12T16:42:00.850Z",
     "sources": [
       "PvPoke (pvpoke.com)",
@@ -22,7 +22,15 @@
       "LeekDuck via ScrapedDuck"
     ]
   },
-  "changes": null,
+  "changes": {
+    "since": "2026-11-21",
+    "newKeeps": [
+      "Clefable"
+    ],
+    "droppedKeeps": [
+      "Pawniard"
+    ]
+  },
   "pokemon": [
     {
       "name": "Bulbasaur",
@@ -363,6 +371,89 @@
       "obtainedFrom": [
         "Field Research",
         "Wild: Twilight Wishes (starts 2026-11-24)"
+      ]
+    },
+    {
+      "name": "Clefable",
+      "speciesId": "clefable",
+      "dex": 36,
+      "shadow": false,
+      "verdict": "KEEP",
+      "reasons": [
+        {
+          "kind": "pvp",
+          "league": "Great League",
+          "rank": 90,
+          "via": "Clefable",
+          "moveset": [
+            "Fairy Wind",
+            "Moonblast",
+            "Meteor Mash"
+          ],
+          "specialMoves": [],
+          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
+        },
+        {
+          "kind": "pvp",
+          "league": "Ultra League",
+          "rank": 36,
+          "via": "Clefable",
+          "moveset": [
+            "Fairy Wind",
+            "Meteor Mash",
+            "Draining Kiss"
+          ],
+          "specialMoves": [],
+          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
+        },
+        {
+          "kind": "pve",
+          "type": "fairy",
+          "tier": "SS",
+          "rank": 2,
+          "via": "Mega Clefable",
+          "viaSpecies": "Clefable",
+          "mega": true,
+          "moveset": [
+            "Fairy Wind",
+            "Moonblast"
+          ],
+          "specialMoves": [
+            "Moonblast"
+          ],
+          "ivs": "high Attack IV; level it up as far as you can"
+        },
+        {
+          "kind": "pve",
+          "type": "normal",
+          "tier": "SS",
+          "rank": 8,
+          "via": "Mega Clefable",
+          "viaSpecies": "Clefable",
+          "mega": true,
+          "moveset": [
+            "Pound",
+            "Moonblast"
+          ],
+          "specialMoves": [
+            "Moonblast"
+          ],
+          "ivs": "high Attack IV; level it up as far as you can"
+        }
+      ],
+      "best": {
+        "pvp": {
+          "league": "Ultra League",
+          "rank": 36
+        },
+        "pve": {
+          "type": "fairy",
+          "tier": "SS",
+          "rank": 2
+        }
+      },
+      "obtainedFrom": [
+        "Raid: Clefable Super Mega Raid Day (starts 2026-11-28)"
       ]
     },
     {
@@ -5388,76 +5479,6 @@
       },
       "obtainedFrom": [
         "Field Research"
-      ]
-    },
-    {
-      "name": "Pawniard",
-      "speciesId": "pawniard",
-      "dex": 624,
-      "shadow": false,
-      "verdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Ultra League",
-          "rank": 98,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        },
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 52,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "dark",
-          "tier": "A",
-          "rank": 20,
-          "via": "Kingambit",
-          "viaSpecies": "Kingambit",
-          "mega": false,
-          "moveset": [
-            "Snarl",
-            "Foul Play"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 52
-        },
-        "pve": {
-          "type": "dark",
-          "tier": "A",
-          "rank": 20
-        }
-      },
-      "obtainedFrom": [
-        "Community Day: Pawniard Community Day (starts 2026-11-21)",
-        "Event research: Pawniard Community Day (starts 2026-11-21)",
-        "Wild: Pawniard Community Day (starts 2026-11-21)"
       ]
     },
     {

@@ -1,7 +1,12 @@
-# Keep or Trash — week of 2026-11-21
+# Keep or Trash — week of 2026-11-22
 
 Rules v2: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
-Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026-11-12.
+Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-22, GO Hub built 2026-11-12.
+
+## Changes since last week
+
+- 🆕 keep: Clefable
+- no longer a keep / not available: Pawniard
 
 ## KEEP (144)
 
@@ -17,6 +22,8 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
   - Get it from: Team Rocket: Male Grunt
 - **Clefairy** — Great League #90 as Clefable; Ultra League #36 as Clefable; Fairy attacker, SS tier #2 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy); Normal attacker, SS tier #8 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy)
   - Get it from: Field Research, Wild: Twilight Wishes (starts 2026-11-24)
+- **Clefable** — Great League #90 as Clefable; Ultra League #36 as Clefable; Fairy attacker, SS tier #2 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy); Normal attacker, SS tier #8 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy)
+  - Get it from: Raid: Clefable Super Mega Raid Day (starts 2026-11-28)
 - **Vulpix** — Great League #14 as Ninetales — needs Ember + Energy Ball (Elite TM/legacy); Ultra League #38 as Ninetales — needs Ember + Energy Ball (Elite TM/legacy)
   - Get it from: Field Research
 - **Shadow Vulpix (Alolan)** — Great League #73 as Ninetales (Alolan) — needs Chilling Water (Elite TM/legacy); Ultra League #30 as Ninetales (Alolan) — needs Chilling Water (Elite TM/legacy)
@@ -223,8 +230,6 @@ Data: snapshot 2026-11-21, PvPoke rankings fetched 2026-11-21, GO Hub built 2026
   - Get it from: Egg: 7 km, Event egg 7 km: Twilight Trails, Field Research
 - **Stunfisk** — Great League #22 as Stunfisk
   - Get it from: Field Research
-- **Pawniard** — Ultra League #98 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Master League #52 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Dark attacker, A tier #20 as Kingambit
-  - Get it from: Community Day: Pawniard Community Day (starts 2026-11-21), Event research: Pawniard Community Day (starts 2026-11-21), Wild: Pawniard Community Day (starts 2026-11-21)
 - **Vullaby** — Great League #53 as Mandibuzz
   - Get it from: Egg: 12 km
 - **Deino** — Great League #70 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Master League #95 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Dark attacker, A tier #12 as Hydreigon

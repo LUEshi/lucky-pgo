@@ -145,7 +145,8 @@ function hasEnrichedData(event) {
   return (
     (g?.spawns?.length ?? 0) > 0 ||
     (g?.eventEggs?.length ?? 0) > 0 ||
-    (g?.eventResearch?.length ?? 0) > 0
+    (g?.eventResearch?.length ?? 0) > 0 ||
+    (g?.maxBattles?.length ?? 0) > 0
   );
 }
 
@@ -226,6 +227,9 @@ async function enrichEventsFromPages(events, raids) {
       if (pageData.eventResearch.length > 0) {
         newGeneric.eventResearch = pageData.eventResearch;
       }
+      if (pageData.maxBattles.length > 0) {
+        newGeneric.maxBattles = pageData.maxBattles;
+      }
 
       // Merge raid bosses — page-scraped bosses take priority, then existing,
       // then fallback to name inference for raid-type events
@@ -261,7 +265,8 @@ async function enrichEventsFromPages(events, raids) {
       const didEnrichGeneric =
         pageData.spawns.length > 0 ||
         pageData.eventEggs.length > 0 ||
-        pageData.eventResearch.length > 0;
+        pageData.eventResearch.length > 0 ||
+        pageData.maxBattles.length > 0;
       const didEnrichRaids =
         !hasBosses(event) && (newRaidbattles.bosses?.length ?? 0) > 0;
 

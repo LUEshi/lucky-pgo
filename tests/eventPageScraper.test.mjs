@@ -159,6 +159,20 @@ test("extracts raid bosses from raids section", () => {
   assert.equal(result.raidBosses[1].canBeShiny, false);
 });
 
+test("extracts Max Battle bosses and stops at the next section", () => {
+  const html = `
+    <h2 id="max-battles" class="event-section-header max-battles">Max Battles</h2>
+    <p>All Dynamax Pokémon that have previously appeared may appear.</p>
+    <ul class="pkmn-list-flex -dmax -cp">
+      <li class="pkmn-list-item"><div class="pkmn-list-img"></div><div class="pkmn-name">Beldum</div></li>
+      <li class="pkmn-list-item"><div class="pkmn-list-img"></div><div class="pkmn-name">Ralts</div></li>
+    </ul>
+    <h2 id="special-background" class="event-section-header">Special Background</h2>
+    <ul class="pkmn-list-flex"><li class="pkmn-list-item"><div class="pkmn-name">Eternatus</div></li></ul>`;
+  const result = scrapeEventPageHtml(html);
+  assert.deepEqual(result.maxBattles.map((p) => p.name), ["Beldum", "Ralts"]);
+});
+
 // ---------------------------------------------------------------------------
 // Edge cases
 // ---------------------------------------------------------------------------

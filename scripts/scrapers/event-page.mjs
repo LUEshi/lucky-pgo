@@ -93,6 +93,13 @@ function extractSpawns(document) {
   return spawns;
 }
 
+/** Max Battle (Dynamax/Gigantamax) bosses listed in the event's "Max Battles" section. */
+function extractMaxBattles(document) {
+  const header = document.querySelector("h2#max-battles");
+  if (!header) return [];
+  return collectListsBetweenSections(header).flatMap((list) => extractPokemonFromList(list));
+}
+
 function extractEventEggs(document) {
   const header = document.querySelector("h2#eggs");
   if (!header) return [];
@@ -156,7 +163,7 @@ function extractRaidBosses(document) {
  * Pure function — no network, deterministic, testable.
  *
  * @param {string} html — raw HTML of a LeekDuck event page
- * @returns {{ spawns, eventEggs, eventResearch, raidBosses }}
+ * @returns {{ spawns, eventEggs, eventResearch, raidBosses, maxBattles }}
  */
 export function scrapeEventPageHtml(html) {
   const dom = new JSDOM(html);
@@ -167,6 +174,7 @@ export function scrapeEventPageHtml(html) {
     eventEggs: extractEventEggs(document),
     eventResearch: extractEventResearch(document),
     raidBosses: extractRaidBosses(document),
+    maxBattles: extractMaxBattles(document),
   };
 }
 

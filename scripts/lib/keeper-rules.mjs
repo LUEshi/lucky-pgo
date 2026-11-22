@@ -1,7 +1,7 @@
 // Business rules for "keep or trash". This is the one place to tune them.
 // Bump RULES_VERSION whenever a rule changes so reports say which rules produced them.
 
-export const RULES_VERSION = 2;
+export const RULES_VERSION = 3;
 
 export const RULES = {
   // PvP: keep if this Pokemon (or something it evolves into, in the same shadow/regular form)
@@ -16,6 +16,11 @@ export const RULES = {
 
   // Mega/Primal entries count for the regular (non-shadow) Pokemon that Mega Evolves.
   countMegas: true,
+
+  // Which ways of getting a Pokemon the weekly report covers. "wild" = spawns LeekDuck lists on
+  // this week's event pages (event spawns, Community Day, Spotlight Hour). Others available:
+  // "raids", "eggs", "research", "rocket".
+  sources: ["wild"],
 };
 
 export const LEAGUES = [

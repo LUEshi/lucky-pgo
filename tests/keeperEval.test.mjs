@@ -94,7 +94,7 @@ test("GO Hub parser carries tiers across rows and flags legacy moves", () => {
   assert.equal(entries[0].charged, "Mystical Fire");
 });
 
-test("weekly sources cover raids, eggs, research, Rocket (as shadow) and events in the window", () => {
+test("weekly sources: wild only by default; raids, eggs, research, Rocket (as shadow) on request", () => {
   const now = new Date("2026-11-21T12:00:00");
   const snapshot = {
     data: {
@@ -110,7 +110,10 @@ test("weekly sources cover raids, eggs, research, Rocket (as shadow) and events 
       ],
     },
   };
-  const found = collectWeeklyPokemon(snapshot, { now });
+  const wildOnly = collectWeeklyPokemon(snapshot, { now }).map((f) => f.name).sort();
+  assert.deepEqual(wildOnly, ["Alolan Vulpix", "Pidgey"], "default rules only cover this week's wild spawns");
+
+  const found = collectWeeklyPokemon(snapshot, { now, sources: ["wild", "raids", "eggs", "research", "rocket"] });
   const names = found.map((f) => `${f.shadow ? "S:" : ""}${f.name}`).sort();
   assert.deepEqual(names, ["Alolan Vulpix", "Mega Pidgeot", "Passimian", "Pidgey", "S:Shadow Ralts", "S:Vulpix", "Vulpix"]);
 

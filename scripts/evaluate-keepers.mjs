@@ -158,9 +158,10 @@ async function main() {
       goHubBuiltAt: data.goHubBuiltAt,
       sources: ["PvPoke (pvpoke.com)", "Pokemon GO Hub (db.pokemongohub.net)", "LeekDuck via ScrapedDuck"],
     },
-    changes: previous && previous.weekOf !== today
+    // Comparing across a rules change would just list the rule change, so skip it then.
+    changes: previous && previous.weekOf !== today && previous.rules?.version === RULES_VERSION
       ? { since: previous.weekOf, newKeeps: [...nowKeeps].filter((n) => !prevKeeps.has(n)), droppedKeeps: [...prevKeeps].filter((n) => !nowKeeps.has(n)) }
-      : previous?.changes ?? null,
+      : previous?.rules?.version === RULES_VERSION ? previous?.changes ?? null : null,
     pokemon,
     unmatched,
     unmatchedGoHub: evaluator.unmatchedGoHub,

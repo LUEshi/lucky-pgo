@@ -63,7 +63,7 @@ Deterministic rules engine deciding which Pokemon to keep vs transfer. Use it in
 
 - **Rules** live in `scripts/lib/keeper-rules.mjs` (bump `RULES_VERSION` on change): KEEP if the Pokemon or anything it evolves into is top 100 in any PvPoke league (Great/Ultra/Master), or SS/S/A tier in any Pokemon GO Hub per-type attacker list (eDPS). Mega-only reasons → `KEEP_ONE`. Otherwise `TRASH`.
 - **Shadow and regular forms are judged separately.** Team Rocket and shadow raids yield shadows; Mega raids yield the regular form.
-- **Sources** (`scripts/lib/weekly-sources.mjs`): everything obtainable in the next 7 days from the latest snapshot — raids, eggs, field/event research, Rocket, wild/event spawns, Spotlight, Community Day, Max Battles.
+- **Sources** (`scripts/lib/weekly-sources.mjs`): wild spawns only by default (`RULES.sources`) — spawns LeekDuck lists on event pages active in the next 7 days (event spawns, Community Day, Spotlight Hour). LeekDuck has no standalone wild-spawn page and its season page lists no spawns. Raids, eggs, research and Rocket can be re-enabled via `RULES.sources`.
 - **Known answers** in `scripts/keeper-known-answers.json` pin user-confirmed verdicts; when the user decides something is strong/weak, add it there and adjust the rules until it passes.
 - **Weekly job** `.github/workflows/keeper-report.yml` (Mondays) writes `public/reports/keepers-latest.{json,md}` and opens a `keeper-report` issue. The app's "Keep or Trash" tab reads the JSON from the repo's raw GitHub URL.
 - **Shininess is not a metric.** Never score, filter, or recommend on shiny availability.

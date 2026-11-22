@@ -161,7 +161,7 @@ export interface KeeperPokemon {
 export interface KeeperReport {
   generatedAt: string;
   weekOf: string;
-  rules: { version: number; pvpTopRank: number; pveKeepTiers: string[]; lookaheadDays: number };
+  rules: { version: number; pvpTopRank: number; pveKeepTiers: string[]; lookaheadDays: number; sources?: string[] };
   data: { snapshotDate: string; pvpokeFetchedAt: string; goHubBuiltAt: string | null; sources: string[] };
   changes: { since: string; newKeeps: string[]; droppedKeeps: string[] } | null;
   pokemon: KeeperPokemon[];

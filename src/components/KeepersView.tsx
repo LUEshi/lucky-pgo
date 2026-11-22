@@ -116,8 +116,8 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
     <div className="space-y-3">
       <div className="text-xs text-gray-600 space-y-0.5">
         <p>
-          Week of <span className="font-medium text-gray-800">{report.weekOf}</span> · everything obtainable in the next{" "}
-          {report.rules.lookaheadDays} days (wild, raids, eggs, research, Team Rocket).
+          Week of <span className="font-medium text-gray-800">{report.weekOf}</span> ·{" "}
+          {(report.rules.sources ?? ["wild"]).join(", ")} Pokemon from LeekDuck's events in the next {report.rules.lookaheadDays} days.
         </p>
         <p>
           Keep = top {report.rules.pvpTopRank} in Great/Ultra/Master League (PvPoke) or {report.rules.pveKeepTiers.join("/")} tier

@@ -16,10 +16,10 @@ function inWindow(ev, now, lookaheadDays) {
 
 export function collectWeeklyPokemon(snapshot, { now = new Date(), lookaheadDays = LOOKAHEAD_DAYS, sources = RULES.sources } = {}) {
   const want = new Set(sources);
-  const found = []; // { name, shadow, source }
+  const found = []; // { category, name, shadow, source }
   const add = (category, name, source, shadow = false) => {
     if (!want.has(category) || !name || !isPokemonLike(name)) return;
-    found.push({ name: name.trim(), source, shadow: shadow || /\bshadow\b/i.test(name) });
+    found.push({ category, name: name.trim(), source, shadow: shadow || /\bshadow\b/i.test(name) });
   };
   const data = snapshot?.data ?? {};
 
@@ -44,8 +44,17 @@ export function collectWeeklyPokemon(snapshot, { now = new Date(), lookaheadDays
     for (const s of x.spotlight?.list ?? []) add("wild", s.name, label("Spotlight Hour"));
     for (const e of x.generic?.eventEggs ?? []) add("eggs", e.name, label(`Event egg ${e.eggDistance ?? ""}`.trim()));
     for (const t of x.generic?.eventResearch ?? []) for (const r of t.rewards ?? []) add("research", r.name, label("Event research"));
-    const bossKind = ev.eventType?.startsWith("max-") ? "Max Battle" : "Raid";
-    for (const b of x.raidbattles?.bosses ?? []) add("raids", b.name, label(bossKind), /shadow/i.test(ev.name ?? ""));
+    for (const p of x.generic?.maxBattles ?? []) add("dynamax", p.name, label("Max Battle"));
+    const isMax = ev.eventType?.startsWith("max-");
+    const bosses = (x.raidbattles?.bosses ?? []).map((b) => b.name);
+    // Max Battle/Max Monday events often have no page list; fall back to the boss in the name ("Dynamax Espurr during Max Monday").
+    if (isMax && !bosses.length && !(x.generic?.maxBattles?.length > 0)) {
+      const m = ev.name?.match(/\b(?:Dynamax|Gigantamax|Eternamax)\s+(.+?)(?:\s+(?:during|in|Max|Returns|Day)\b|$)/);
+      if (m) bosses.push(m[1]);
+    }
+    for (const b of bosses) {
+      add(isMax ? "dynamax" : "raids", b, label(isMax ? "Max Battle" : "Raid"), !isMax && /shadow/i.test(ev.name ?? ""));
+    }
   }
   return found;
 }

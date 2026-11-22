@@ -23,6 +23,17 @@ const FILTERS: { key: VerdictFilter; label: string }[] = [
   { key: "ALL", label: "All" },
 ];
 
+// Mirrors SECTIONS in scripts/lib/keeper-rules.mjs.
+const SECTIONS: { key: string; label: string }[] = [
+  { key: "wild", label: "Wild" },
+  { key: "dynamax", label: "Dynamax" },
+  { key: "raids", label: "Raids" },
+  { key: "eggs", label: "Eggs" },
+  { key: "research", label: "Research" },
+  { key: "rocket", label: "Team Rocket" },
+];
+const ALL_SECTIONS = "all";
+
 const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 function reasonText(r: KeeperReason): string {
@@ -36,7 +47,8 @@ function bestText(p: KeeperPokemon): string {
   return `${pvp} · ${pve}`;
 }
 
-function KeeperCard({ p, needsLucky }: { p: KeeperPokemon; needsLucky: boolean }) {
+function KeeperCard({ p, needsLucky, section }: { p: KeeperPokemon; needsLucky: boolean; section: string }) {
+  const from = section !== ALL_SECTIONS && p.sections?.[section] ? p.sections[section] : p.obtainedFrom;
   const style = VERDICT_STYLE[p.verdict];
   const ivs = [...new Set(p.reasons.map((r) => r.ivs))];
   return (
@@ -71,12 +83,13 @@ function KeeperCard({ p, needsLucky }: { p: KeeperPokemon; needsLucky: boolean }
       )}
 
       {ivs.length > 0 && <p className="mt-1 text-xs text-gray-600">IVs: {ivs.join(" · ")}</p>}
-      <p className="mt-1 text-xs text-gray-500">Get it from: {p.obtainedFrom.join(", ")}</p>
+      <p className="mt-1 text-xs text-gray-500">Get it from: {from.join(", ")}</p>
     </div>
   );
 }
 
 export function KeepersView({ report, loading, error, luckyList }: KeepersViewProps) {
+  const [section, setSection] = useState<string>("wild");
   const [filter, setFilter] = useState<VerdictFilter>("KEEP");
   const [search, setSearch] = useState("");
 
@@ -86,21 +99,34 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
     return map;
   }, [luckyList]);
 
+  const sectionCounts = useMemo(() => {
+    const c = new Map<string, number>();
+    for (const p of report?.pokemon ?? []) for (const k of Object.keys(p.sections ?? {})) c.set(k, (c.get(k) ?? 0) + 1);
+    return c;
+  }, [report]);
+
+  // Reports from before sections existed have none; show everything then.
+  const hasSections = sectionCounts.size > 0;
+  const inSection = useMemo(
+    () => (report?.pokemon ?? []).filter((p) => !hasSections || section === ALL_SECTIONS || p.sections?.[section]),
+    [report, section, hasSections],
+  );
+
   const counts = useMemo(() => {
     const c: Record<VerdictFilter, number> = { KEEP: 0, KEEP_ONE: 0, TRASH: 0, ALL: 0 };
-    for (const p of report?.pokemon ?? []) {
+    for (const p of inSection) {
       c[p.verdict] += 1;
       c.ALL += 1;
     }
     return c;
-  }, [report]);
+  }, [inSection]);
 
   const visible = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return (report?.pokemon ?? []).filter(
+    return inSection.filter(
       (p) => (filter === "ALL" || p.verdict === filter) && (!q || `${p.shadow ? "shadow " : ""}${p.name}`.toLowerCase().includes(q)),
     );
-  }, [report, filter, search]);
+  }, [inSection, filter, search]);
 
   if (loading) return <p className="text-gray-500 text-sm">Loading this week's report…</p>;
   if (error) {
@@ -117,7 +143,7 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
       <div className="text-xs text-gray-600 space-y-0.5">
         <p>
           Week of <span className="font-medium text-gray-800">{report.weekOf}</span> ·{" "}
-          {(report.rules.sources ?? ["wild"]).join(", ")} Pokemon from LeekDuck's events in the next {report.rules.lookaheadDays} days.
+          Pokemon you can get in the next {report.rules.lookaheadDays} days, by where you get them (LeekDuck via ScrapedDuck).
         </p>
         <p>
           Keep = top {report.rules.pvpTopRank} in Great/Ultra/Master League (PvPoke) or {report.rules.pveKeepTiers.join("/")} tier
@@ -130,6 +156,24 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
           <span className="font-semibold">Since {report.changes.since}:</span>{" "}
           {report.changes.newKeeps.length > 0 && <>new keeps: {report.changes.newKeeps.join(", ")}. </>}
           {report.changes.droppedKeeps.length > 0 && <>no longer keeps or not available: {report.changes.droppedKeeps.join(", ")}.</>}
+        </div>
+      )}
+
+      {hasSections && (
+        <div className="flex gap-1 overflow-x-auto border-b border-gray-200 pb-1.5">
+          {[{ key: ALL_SECTIONS, label: "All" }, ...SECTIONS]
+            .filter((s) => s.key === ALL_SECTIONS || sectionCounts.has(s.key))
+            .map((s) => (
+              <button
+                key={s.key}
+                onClick={() => setSection(s.key)}
+                className={`px-3 py-1.5 text-xs font-semibold rounded-md whitespace-nowrap transition-colors ${
+                  section === s.key ? "bg-yellow-400 text-gray-900" : "text-gray-600 hover:bg-gray-100"
+                }`}
+              >
+                {s.label} ({s.key === ALL_SECTIONS ? report.pokemon.length : sectionCounts.get(s.key)})
+              </button>
+            ))}
         </div>
       )}
 
@@ -156,7 +200,7 @@ export function KeepersView({ report, loading, error, luckyList }: KeepersViewPr
 
       <div className="grid gap-2 sm:grid-cols-2">
         {visible.map((p) => (
-          <KeeperCard key={`${p.speciesId}-${p.shadow}`} p={p} needsLucky={p.verdict === "TRASH" && luckyByDex.get(p.dex) === false} />
+          <KeeperCard key={`${p.speciesId}-${p.shadow}`} p={p} section={section} needsLucky={p.verdict === "TRASH" && luckyByDex.get(p.dex) === false} />
         ))}
       </div>
       {visible.length === 0 && <p className="text-gray-500 text-sm">Nothing matches.</p>}

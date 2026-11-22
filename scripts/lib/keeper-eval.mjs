@@ -1,6 +1,6 @@
 // Deterministic keep-or-trash engine. Pure functions: no network or filesystem access.
 // Rules live in keeper-rules.mjs; data comes from PvPoke (PvP) and Pokemon GO Hub (PvE).
-import { LEAGUES, RULES, IV_GUIDANCE } from "./keeper-rules.mjs";
+import { LEAGUES, RULES, IV_GUIDANCE, SECTIONS } from "./keeper-rules.mjs";
 import { createResolver, evolutionLine } from "./species-resolver.mjs";
 
 /** league key -> Map(speciesId -> { rank, score, moveset }) using PvPoke's own rank order. */
@@ -137,13 +137,24 @@ export function evaluateWeekly(found, evaluator) {
     }
     const shadow = f.shadow || r.shadow;
     const key = `${r.species.speciesId}|${shadow}`;
-    const g = groups.get(key) ?? { species: r.species, shadow, sources: new Set() };
+    const g = groups.get(key) ?? { species: r.species, shadow, sources: new Set(), sections: new Map() };
     g.sources.add(f.source);
+    const category = f.category ?? "wild";
+    if (!g.sections.has(category)) g.sections.set(category, new Set());
+    g.sections.get(category).add(f.source);
     groups.set(key, g);
   }
   const order = { KEEP: 0, KEEP_ONE: 1, TRASH: 2 };
+  const sectionOrder = SECTIONS.map((s) => s.key);
   const pokemon = [...groups.values()]
-    .map((g) => ({ ...evaluator.evaluate(g.species, g.shadow), obtainedFrom: [...g.sources].sort() }))
+    .map((g) => ({
+      ...evaluator.evaluate(g.species, g.shadow),
+      obtainedFrom: [...g.sources].sort(),
+      // section key -> where exactly ("Egg: 10 km", "Raid: 3-Star Raids"), in display order
+      sections: Object.fromEntries(
+        [...g.sections].sort(([a], [b]) => sectionOrder.indexOf(a) - sectionOrder.indexOf(b)).map(([k, v]) => [k, [...v].sort()]),
+      ),
+    }))
     .sort((a, b) => order[a.verdict] - order[b.verdict] || a.dex - b.dex || Number(a.shadow) - Number(b.shadow));
   return { pokemon, unmatched: [...unmatched].sort() };
 }
@@ -173,11 +184,10 @@ export function describeBest(best) {
   return parts.join("; ");
 }
 
+const stripSourcePrefix = (src) => src.replace(/^[^:]+:\s*/, "");
+
 export function renderMarkdown(report) {
   const label = (p) => `${p.shadow ? "Shadow " : ""}${p.name}`;
-  const keep = report.pokemon.filter((p) => p.verdict === "KEEP");
-  const keepOne = report.pokemon.filter((p) => p.verdict === "KEEP_ONE");
-  const trash = report.pokemon.filter((p) => p.verdict === "TRASH");
   const lines = [
     `# Keep or Trash — week of ${report.weekOf}`,
     "",
@@ -194,22 +204,57 @@ export function renderMarkdown(report) {
       lines.push("");
     }
   }
-  lines.push(`## KEEP (${keep.length})`, "");
-  for (const p of keep) {
-    lines.push(`- **${label(p)}** — ${p.reasons.map(describeReason).join("; ")}`);
-    lines.push(`  - Get it from: ${p.obtainedFrom.join(", ")}`);
+
+  // Full reasons the first time a Pokemon appears; later sections point back to it.
+  const firstSection = new Map();
+  const summary = SECTIONS.map((sec) => {
+    const n = report.pokemon.filter((p) => p.sections?.[sec.key]).length;
+    return n ? `${sec.label} ${n}` : null;
+  }).filter(Boolean);
+  lines.push(`**In this report:** ${summary.join(" · ")}`, "");
+
+  for (const sec of SECTIONS) {
+    const inSec = report.pokemon.filter((p) => p.sections?.[sec.key]);
+    if (!inSec.length) continue;
+    const keep = inSec.filter((p) => p.verdict === "KEEP");
+    const keepOne = inSec.filter((p) => p.verdict === "KEEP_ONE");
+    const trash = inSec.filter((p) => p.verdict === "TRASH");
+    lines.push(`## ${sec.label} — ${keep.length} keep · ${keepOne.length} keep one · ${trash.length} trash`, "");
+    const where = (p) => p.sections[sec.key].map(stripSourcePrefix).join(", ");
+    const detail = (p, text) => {
+      const key = `${p.speciesId}|${p.shadow}`;
+      if (firstSection.has(key)) return `see ${firstSection.get(key)}`;
+      firstSection.set(key, sec.label);
+      return text;
+    };
+    if (keep.length) {
+      lines.push("**Keep**", "");
+      for (const p of keep) lines.push(`- **${label(p)}** — ${detail(p, p.reasons.map(describeReason).join("; "))} _(${where(p)})_`);
+      lines.push("");
+    }
+    if (keepOne.length) {
+      lines.push("**Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest", "");
+      for (const p of keepOne) lines.push(`- **${label(p)}** — ${detail(p, p.reasons.map(describeReason).join("; "))} _(${where(p)})_`);
+      lines.push("");
+    }
+    if (trash.length) {
+      lines.push(`**Trash:** ${trash.map(label).join(", ")}`, "");
+    }
   }
-  lines.push("", `## KEEP ONE — for Mega Evolution only (${keepOne.length})`, "", "Keep your single best one (high Attack IV); trash the rest.", "");
-  for (const p of keepOne) lines.push(`- **${label(p)}** — ${p.reasons.map(describeReason).join("; ")}`);
-  lines.push("", `## TRASH (${trash.length})`, "");
-  for (const p of trash) lines.push(`- ${label(p)} — ${describeBest(p.best)}`);
-  if (report.unmatched.length) lines.push("", `## Couldn't identify (${report.unmatched.length})`, "", ...report.unmatched.map((n) => `- ${n}`));
+
+  const trashAll = report.pokemon.filter((p) => p.verdict === "TRASH");
+  if (trashAll.length) {
+    lines.push("<details><summary>Why each trash Pokemon is trash</summary>", "");
+    for (const p of trashAll) lines.push(`- ${label(p)} — ${describeBest(p.best)}`);
+    lines.push("", "</details>", "");
+  }
+  if (report.unmatched.length) lines.push(`## Couldn't identify (${report.unmatched.length})`, "", ...report.unmatched.map((n) => `- ${n}`), "");
   if (report.knownAnswerMismatches.length) {
-    lines.push("", "## ⚠️ Known-answer mismatches", "", "These disagree with `scripts/keeper-known-answers.json` — review the rules or the expectation.", "");
+    lines.push("## ⚠️ Known-answer mismatches", "", "These disagree with `scripts/keeper-known-answers.json` — review the rules or the expectation.", "");
     for (const m of report.knownAnswerMismatches) lines.push(`- ${m.shadow ? "Shadow " : ""}${m.name}: expected ${m.expect}, got ${m.got}${m.why ? ` (${m.why})` : ""}`);
+    lines.push("");
   }
   lines.push(
-    "",
     "> Verdicts are per species. Your individual Pokemon still need the right IVs: Great/Ultra want low Attack and high Defense/HP, Master and raids want high Attack (ideally 15/15/15).",
     "",
   );

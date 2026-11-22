@@ -94,7 +94,7 @@ test("GO Hub parser carries tiers across rows and flags legacy moves", () => {
   assert.equal(entries[0].charged, "Mystical Fire");
 });
 
-test("weekly sources: wild only by default; raids, eggs, research, Rocket (as shadow) on request", () => {
+test("weekly sources: every section by default, tagged by category; sources setting limits them", () => {
   const now = new Date("2026-11-21T12:00:00");
   const snapshot = {
     data: {
@@ -110,10 +110,10 @@ test("weekly sources: wild only by default; raids, eggs, research, Rocket (as sh
       ],
     },
   };
-  const wildOnly = collectWeeklyPokemon(snapshot, { now }).map((f) => f.name).sort();
-  assert.deepEqual(wildOnly, ["Alolan Vulpix", "Pidgey"], "default rules only cover this week's wild spawns");
+  const wildOnly = collectWeeklyPokemon(snapshot, { now, sources: ["wild"] }).map((f) => f.name).sort();
+  assert.deepEqual(wildOnly, ["Alolan Vulpix", "Pidgey"], "sources setting limits categories");
 
-  const found = collectWeeklyPokemon(snapshot, { now, sources: ["wild", "raids", "eggs", "research", "rocket"] });
+  const found = collectWeeklyPokemon(snapshot, { now });
   const names = found.map((f) => `${f.shadow ? "S:" : ""}${f.name}`).sort();
   assert.deepEqual(names, ["Alolan Vulpix", "Mega Pidgeot", "Passimian", "Pidgey", "S:Shadow Ralts", "S:Vulpix", "Vulpix"]);
 
@@ -126,6 +126,23 @@ test("weekly sources: wild only by default; raids, eggs, research, Rocket (as sh
   assert.deepEqual(pidgeot.obtainedFrom, ["Raid: Mega Raids"], "Mega Pidgeot raid gives a regular Pidgeot");
 });
 
+test("Dynamax section uses the page's Max Battles list, else the boss in the event name", () => {
+  const now = new Date("2026-11-21T12:00:00");
+  const ev = (name, eventType, extraData = {}) => ({ name, eventType, start: "2026-11-21T00:00:00", end: "2026-11-24T00:00:00", extraData });
+  const snapshot = {
+    data: {
+      events: [
+        ev("Dynamax Trails", "event", { generic: { maxBattles: [{ name: "Beldum" }, { name: "Ralts" }] } }),
+        ev("Dynamax Espurr during Max Monday", "max-mondays"),
+        ev("Max Battle Day", "max-battles"),
+      ],
+    },
+  };
+  const dyn = collectWeeklyPokemon(snapshot, { now, sources: ["dynamax"] });
+  assert.deepEqual(dyn.map((f) => f.name).sort(), ["Beldum", "Espurr", "Ralts"]);
+  assert.ok(dyn.every((f) => f.category === "dynamax" && f.source.startsWith("Max Battle: ")));
+});
+
 test("known answers report mismatches", () => {
   const mismatches = checkKnownAnswers(
     [{ name: "Passimian", expect: "TRASH" }, { name: "Ralts", shadow: true, expect: "TRASH" }],
@@ -136,7 +153,11 @@ test("known answers report mismatches", () => {
 });
 
 test("markdown report renders every section", () => {
-  const { pokemon, unmatched } = evaluateWeekly([{ name: "Pidgey", source: "Wild", shadow: false }, { name: "Passimian", source: "Wild", shadow: false }], evaluator);
+  const { pokemon, unmatched } = evaluateWeekly([
+    { category: "wild", name: "Pidgey", source: "Wild: Event", shadow: false },
+    { category: "wild", name: "Passimian", source: "Wild: Event", shadow: false },
+    { category: "raids", name: "Pidgey", source: "Raid: 1-Star Raids", shadow: false },
+  ], evaluator);
   const md = renderMarkdown({
     weekOf: "2026-11-21",
     rules: { version: 2, pvpTopRank: 100, pveKeepTiers: ["SS", "S", "A"] },
@@ -146,6 +167,8 @@ test("markdown report renders every section", () => {
     unmatched,
     knownAnswerMismatches: [],
   });
-  assert.match(md, /## KEEP ONE — for Mega Evolution only \(1\)/);
-  assert.match(md, /## TRASH \(1\)/);
+  assert.match(md, /## Wild — 0 keep · 1 keep one · 1 trash/);
+  assert.match(md, /\*\*Trash:\*\* Passimian/);
+  assert.match(md, /## Raids — 0 keep · 1 keep one · 0 trash/);
+  assert.match(md, /- \*\*Pidgey\*\* — see Wild/, "repeat appearances point back to the first section");
 });

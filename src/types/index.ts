@@ -156,6 +156,8 @@ export interface KeeperPokemon {
     pve: { type: string; tier: string; rank: number } | null;
   };
   obtainedFrom: string[];
+  /** Report section key (wild, dynamax, raids, eggs, research, rocket) -> where exactly. */
+  sections?: Record<string, string[]>;
 }
 
 export interface KeeperReport {

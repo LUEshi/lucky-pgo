@@ -1,7 +1,7 @@
 // Business rules for "keep or trash". This is the one place to tune them.
 // Bump RULES_VERSION whenever a rule changes so reports say which rules produced them.
 
-export const RULES_VERSION = 3;
+export const RULES_VERSION = 4;
 
 export const RULES = {
   // PvP: keep if this Pokemon (or something it evolves into, in the same shadow/regular form)
@@ -17,11 +17,20 @@ export const RULES = {
   // Mega/Primal entries count for the regular (non-shadow) Pokemon that Mega Evolves.
   countMegas: true,
 
-  // Which ways of getting a Pokemon the weekly report covers. "wild" = spawns LeekDuck lists on
-  // this week's event pages (event spawns, Community Day, Spotlight Hour). Others available:
-  // "raids", "eggs", "research", "rocket".
-  sources: ["wild"],
+  // Which ways of getting a Pokemon the weekly report covers, one report section each (see SECTIONS).
+  sources: ["wild", "dynamax", "raids", "eggs", "research", "rocket"],
 };
+
+// Report sections, in display order. "wild" = spawns LeekDuck lists on this week's event pages
+// (event spawns, Community Day, Spotlight Hour); "dynamax" = Max Battle bosses.
+export const SECTIONS = [
+  { key: "wild", label: "Wild" },
+  { key: "dynamax", label: "Dynamax (Max Battles)" },
+  { key: "raids", label: "Raids" },
+  { key: "eggs", label: "Eggs" },
+  { key: "research", label: "Research" },
+  { key: "rocket", label: "Team Rocket" },
+];
 
 export const LEAGUES = [
   { key: "great", label: "Great League", cap: 1500 },

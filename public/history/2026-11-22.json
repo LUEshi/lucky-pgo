@@ -1,84 +1,9 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T00:28:44.753Z",
+  "generatedAt": "2026-11-22T16:17:43.089Z",
   "source": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data",
   "data": {
     "events": [
-      {
-        "eventID": "pokemonspotlighthour2026-11-19",
-        "name": "Grookey, Scorbunny, and Sobble Spotlight Hour",
-        "eventType": "pokemon-spotlight-hour",
-        "heading": "Pokémon Spotlight Hour",
-        "link": "https://leekduck.com/events/pokemonspotlighthour2026-11-19/",
-        "image": "https://cdn.leekduck.com/assets/img/events/pokemonspotlighthour.jpg",
-        "start": null,
-        "end": null,
-        "extraData": {
-          "spotlight": {
-            "name": "Grookey",
-            "canBeShiny": true,
-            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png",
-            "bonus": "2× Catch Candy",
-            "list": [
-              {
-                "name": "Grookey",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm810.icon.png"
-              },
-              {
-                "name": "Scorbunny",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm813.icon.png"
-              },
-              {
-                "name": "Sobble",
-                "canBeShiny": true,
-                "image": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm816.icon.png"
-              }
-            ]
-          },
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Grookey",
-                "canBeShiny": true
-              },
-              {
-                "name": "Scorbunny",
-                "canBeShiny": true
-              },
-              {
-                "name": "Sobble",
-                "canBeShiny": true
-              }
-            ]
-          }
-        }
-      },
-      {
-        "eventID": "minior-showers-leonids-2026",
-        "name": "Minior Showers: Leonids 2026",
-        "eventType": "event",
-        "heading": "Event",
-        "link": "https://leekduck.com/events/minior-showers-leonids-2026/",
-        "image": "https://cdn.leekduck.com/assets/img/events/minior-showers-2026.jpg",
-        "start": null,
-        "end": null,
-        "extraData": {
-          "generic": {
-            "hasSpawns": true,
-            "hasFieldResearchTasks": false,
-            "spawns": [
-              {
-                "name": "Minior (Meteor Form)",
-                "canBeShiny": false
-              }
-            ]
-          }
-        }
-      },
       {
         "eventID": "eternamax-eternatus-max-battles-2026",
         "name": "Eternamax Eternatus Returns",
@@ -86,8 +11,8 @@
         "heading": "Max Battles",
         "link": "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg",
-        "start": "2026-11-21T11:00:00.000",
-        "end": "2026-11-21T14:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "generic": {
             "hasSpawns": false,
@@ -102,8 +27,8 @@
         "heading": "Community Day",
         "link": "https://leekduck.com/events/november-communityday2026/",
         "image": "https://cdn.leekduck.com/assets/img/events/article-images/2026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg",
-        "start": "2026-11-21T14:00:00.000",
-        "end": "2026-11-21T17:00:00.000",
+        "start": null,
+        "end": null,
         "extraData": {
           "communityday": {
             "spawns": [
@@ -2941,6 +2866,48 @@
             "combatPower": {
               "min": 1255,
               "max": 1314
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Catch 3 Pawniard</span>",
+        "rewards": [
+          {
+            "name": "Pawniard",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm624.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 574,
+              "max": 614
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Catch 5 Pokemon while in a Party</span>",
+        "rewards": [
+          {
+            "name": "Pawniard",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm624.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 574,
+              "max": 614
+            }
+          }
+        ]
+      },
+      {
+        "text": "<span>Catch 50 Pokemon</span>",
+        "rewards": [
+          {
+            "name": "Pawniard",
+            "image": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm624.icon.png",
+            "canBeShiny": false,
+            "combatPower": {
+              "min": 574,
+              "max": 614
             }
           }
         ]

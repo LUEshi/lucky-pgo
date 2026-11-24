@@ -1,120 +1,41 @@
-# Keep or Trash — week of 2026-11-22
+# Keep or Trash — week of 2026-11-24
 
 Rules v5: keep if top 100 in any PvPoke league, or SS/S/A tier in any Pokemon GO Hub attacker type list. Otherwise trash.
-Data: snapshot 2026-11-22, PvPoke rankings fetched 2026-11-21, GO Hub built 2026-11-12.
+Data: snapshot 2026-11-23, PvPoke rankings fetched 2026-11-24, GO Hub built 2026-11-12.
 
-**In this report:** Wild 62 · Dynamax (Max Battles) 58 · Raids 31 · Eggs 75 · Research 168 · Team Rocket 90
+## Changes since last week
 
-## Wild — 23 keep · 7 keep one · 32 trash
+- no longer a keep / not available: Rhyhorn
+- no longer a keep / not available: Spheal
+- no longer a keep / not available: Drilbur
+- no longer a keep / not available: Pawniard
+- no longer a keep / not available: Deino
+- no longer a keep / not available: Bounsweet
+- no longer a keep / not available: Rookidee
+- no longer a keep / not available: Hatenna
+- no longer a keep / not available: Eternatus
+
+**In this report:** Wild 5 · Dynamax (Max Battles) 1 · Raids 31 · Eggs 75 · Research 167 · Team Rocket 90
+
+## Wild — 1 keep · 1 keep one · 3 trash
 
 **Keep**
 
-- **Charmander** — Ultra League #96 as Charizard — needs Dragon Breath + Blast Burn (Elite TM/legacy); Fire attacker, S tier #2 as Mega Charizard Y (Mega); Flying attacker, A tier #13 as Mega Charizard Y (Mega) _(Dynamax Trails)_
-- **Squirtle** — Great League #55 as Blastoise — needs Hydro Cannon (Elite TM/legacy); Ultra League #35 as Blastoise — needs Hydro Cannon (Elite TM/legacy); Water attacker, S tier #6 as Mega Blastoise (Mega) _(Dynamax Trails)_
 - **Clefairy** — Great League #90 as Clefable; Ultra League #36 as Clefable; Fairy attacker, SS tier #2 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy); Normal attacker, SS tier #8 as Mega Clefable (Mega) — needs Moonblast (Elite TM/legacy) _(Twilight Wishes (starts 2026-11-24))_
-- **Rhyhorn** — Master League #59 as Rhyperior — needs Rock Wrecker (Elite TM/legacy); Rock attacker, S tier #9 as Rhyperior; Ground attacker, A tier #19 as Rhyperior _(Dynamax Trails)_
-- **Electabuzz** — Electric attacker, A tier #22 as Electivire _(Dynamax Trails)_
-- **Magikarp** — Ultra League #78 as Gyarados — needs Aqua Tail (Elite TM/legacy); Master League #56 as Gyarados — needs Aqua Tail (Elite TM/legacy); Water attacker, A tier #7 as Mega Gyarados (Mega); Dark attacker, A tier #15 as Mega Gyarados (Mega) _(Dynamax Trails)_
-- **Eevee** — Great League #25 as Umbreon — needs Last Resort (Elite TM/legacy); Ultra League #100 as Sylveon; Master League #76 as Sylveon; Ice attacker, A tier #22 as Glaceon _(Dynamax Trails)_
-- **Sneasel** — Ice attacker, A tier #24 as Weavile _(Dynamax Trails)_
-- **Sableye** — Great League #40 as Sableye _(Dynamax Trails)_
-- **Feebas** — Ultra League #79 as Milotic _(Dynamax Trails)_
-- **Spheal** — Ultra League #43 as Walrein — needs Powder Snow + Icicle Spear (Elite TM/legacy) _(Dynamax Trails)_
-- **Beldum** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Dynamax Trails)_
-- **Roggenrola** — Normal attacker, S tier #18 as Gigalith; Rock attacker, A tier #13 as Gigalith _(Dynamax Trails)_
-- **Drilbur** — Ground attacker, A tier #15 as Excadrill _(Dynamax Trails)_
-- **Pawniard** — Ultra League #98 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Master League #52 as Kingambit — needs Kowtow Cleave (Elite TM/legacy); Dark attacker, A tier #20 as Kingambit _(Pawniard Community Day)_
-- **Deino** — Great League #70 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Master League #95 as Hydreigon — needs Brutal Swing (Elite TM/legacy); Dark attacker, A tier #12 as Hydreigon _(Dynamax Trails)_
-- **Inkay** — Great League #38 as Malamar; Ultra League #60 as Malamar _(Dynamax Trails)_
-- **Bounsweet** — Grass attacker, A tier #29 as Tsareena _(Dynamax Trails)_
-- **Grookey** — Great League #28 as Rillaboom; Ultra League #26 as Rillaboom; Master League #40 as Rillaboom; Grass attacker, S tier #12 as Rillaboom _(Grookey, Scorbunny, and Sobble Spotlight Hour, Dynamax Trails)_
-- **Scorbunny** — Normal attacker, A tier #41 as Cinderace _(Grookey, Scorbunny, and Sobble Spotlight Hour, Dynamax Trails)_
-- **Sobble** — Water attacker, A tier #16 as Inteleon; Normal attacker, A tier #29 as Inteleon _(Grookey, Scorbunny, and Sobble Spotlight Hour, Dynamax Trails)_
-- **Rookidee** — Great League #8 as Corviknight — needs Air Cutter + Iron Head (Elite TM/legacy); Ultra League #2 as Corviknight — needs Air Cutter + Iron Head (Elite TM/legacy) _(Dynamax Trails)_
-- **Hatenna** — Fairy attacker, A tier #20 as Hatterene _(Dynamax Trails)_
 
 **Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
 
-- **Bulbasaur** — Grass attacker, S tier #3 as Mega Venusaur (Mega); Poison attacker, A tier #22 as Mega Venusaur (Mega) _(Dynamax Trails)_
-- **Pikachu** — Electric attacker, SS tier #1 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Fairy attacker, A tier #19 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Normal attacker, A tier #34 as Mega Raichu Y (Mega) _(Dynamax Trails)_
-- **Abra** — Fairy attacker, S tier #6 as Mega Alakazam (Mega); Psychic attacker, A tier #4 as Mega Alakazam (Mega); Ghost attacker, A tier #11 as Mega Alakazam (Mega) _(Dynamax Trails)_
-- **Gastly** — Poison attacker, SS tier #2 as Mega Gengar (Mega); Ghost attacker, S tier #4 as Mega Gengar (Mega); Dark attacker, S tier #5 as Mega Gengar (Mega) _(Dynamax Trails)_
 - **Staryu** — Water attacker, SS tier #3 as Mega Starmie (Mega) — needs Liquidation (Elite TM/legacy); Normal attacker, SS tier #7 as Mega Starmie (Mega) — needs Liquidation (Elite TM/legacy) _(Twilight Wishes (starts 2026-11-24))_
-- **Ralts** — Fairy attacker, SS tier #1 as Mega Gardevoir (Mega); Ice attacker, S tier #6 as Mega Gardevoir (Mega); Psychic attacker, A tier #5 as Mega Gardevoir (Mega); Fighting attacker, A tier #7 as Mega Gallade (Mega); Grass attacker, A tier #16 as Mega Gallade (Mega); Ghost attacker, A tier #18 as Mega Gardevoir (Mega) _(Dynamax Trails)_
-- **Falinks** — Fighting attacker, A tier #5 as Mega Falinks (Mega) — needs Brick Break (Elite TM/legacy) _(Dynamax Trails)_
 
-**Trash:** Caterpie, Growlithe, Machop, Krabby, Hitmonlee, Hitmonchan, Chansey, Magmar, Omanyte, Kabuto, Hoothoot, Shuckle, Hitmontop, Wailmer, Trapinch, Combee, Pidove, Woobat, Cottonee, Darumaka, Trubbish, Elgyem, Cryogonal, Noibat, Rockruff, Passimian, Drampa, Skwovet, Wooloo, Toxtricity, Sizzlipede, Duraludon
+**Trash:** Elgyem, Noibat, Rockruff
 
-## Dynamax (Max Battles) — 27 keep · 4 keep one · 27 trash
+## Dynamax (Max Battles) — 0 keep · 0 keep one · 1 trash
 
 Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = raid attacker (eDPS); Max = Max Battle attacker. Here a SS/S Max tier (not Gigantamax-only) also makes it a keep — ⚡ marks those.
 
-**Keep**
-
-- **Charmander** — Raid: Fire S #2 (Mega Charizard Y), Flying A #13 (Mega Charizard Y), Dragon B #42 (Mega Charizard X) · Max: Fire S #2 (Gigantamax Charizard, Gigantamax only), Flying S #3 (Dynamax Charizard), Normal C #21 (Dynamax Charmeleon) +1 more
-- **Squirtle** — Raid: Water S #6 (Mega Blastoise), Rock B #26 (Mega Blastoise), Ice B #41 (Mega Blastoise) · Max: Water C #7 (Gigantamax Blastoise, Gigantamax only), Rock C #7 (Dynamax Blastoise), Dark D #14 (Dynamax Blastoise) +1 more
-- **Rhyhorn** — Raid: Rock S #9 (Rhyperior), Ground A #19 (Rhyperior), Normal B #44 (Rhyperior) · Max: Rock SS #1 (Dynamax Rhyperior), Ground SS #2 (Dynamax Rhyperior), Fighting C #12 (Dynamax Rhydon)
-- **Electabuzz** — Raid: Electric A #22 (Electivire) · Max: Electric S #3 (Dynamax Electivire), Fighting B #9 (Dynamax Electivire)
-- **Magikarp** — Raid: Water A #7 (Mega Gyarados), Dark A #15 (Mega Gyarados), Dragon B #36 (Mega Gyarados) · Max: Water B #6 (Dynamax Gyarados), Dark B #6 (Dynamax Gyarados), Dragon D #12 (Dynamax Gyarados)
-- **Eevee** — Raid: Ice A #22 (Glaceon), Fairy B #26 (Sylveon), Electric B #41 (Jolteon) +2 more · Max: Psychic SS #4 (Dynamax Espeon), Ice S #2 (Dynamax Glaceon), Fairy S #3 (Dynamax Sylveon) +6 more
-- **Sneasel** — Raid: Ice A #24 (Weavile), Dark B #33 (Weavile) · Max: Ice SS #1 (Dynamax Weavile), Dark S #4 (Dynamax Weavile)
-- **Sableye** — Raid: not ranked · Max: Ghost D #6 (Dynamax Sableye), Dark D #13 (Dynamax Sableye)
-- **Feebas** — Raid: not ranked · Max: Water D #11 (Dynamax Milotic), Dragon E #16 (Dynamax Milotic), Normal F #45 (Dynamax Feebas)
-- **Spheal** — Raid: not ranked · Max: Ice C #7 (Dynamax Walrein), Water D #13 (Dynamax Walrein), Fighting F #24 (Dynamax Spheal)
-- **Beldum** — Raid: Steel S #4 (Mega Metagross), Bug A #11 (Mega Metagross), Psychic B #10 (Mega Metagross) +2 more · Max: Psychic SS #5 (Dynamax Metagross), Bug S #3 (Dynamax Metagross), Steel B #4 (Dynamax Metagross) +2 more
-- **Roggenrola** — Raid: Normal S #18 (Gigalith), Rock A #13 (Gigalith) · Max: Rock S #2 (Dynamax Gigalith), Normal A #7 (Dynamax Gigalith), Ground B #6 (Dynamax Gigalith)
-- **Drilbur** — Raid: Ground A #15 (Excadrill), Steel B #24 (Excadrill) · Max: Ground SS #1 (Dynamax Excadrill), Steel B #5 (Dynamax Excadrill), Normal C #22 (Dynamax Drilbur)
-- **Deino** — Raid: Dark A #12 (Hydreigon), Dragon C #48 (Hydreigon) · Max: Dark S #2 (Dynamax Hydreigon), Dragon B #6 (Dynamax Hydreigon), Normal D #36 (Dynamax Deino)
-- **Inkay** — Raid: Psychic B #15 (Mega Malamar) · Max: Flying B #7 (Dynamax Malamar), Psychic B #16 (Dynamax Malamar), Normal E #37 (Dynamax Inkay)
-- **Bounsweet** — Raid: Grass A #29 (Tsareena) · Max: Grass B #4 (Dynamax Tsareena), Fairy B #6 (Dynamax Tsareena)
-- **Grookey** — Raid: Grass S #12 (Rillaboom) · Max: Grass SS #1 (Gigantamax Rillaboom, Gigantamax only), Normal A #4 (Dynamax Rillaboom)
-- **Scorbunny** — Raid: Normal A #41 (Cinderace), Fire B #30 (Cinderace) · Max: Fire SS #1 (Gigantamax Cinderace, Gigantamax only), Normal A #6 (Dynamax Cinderace)
-- **Sobble** — Raid: Water A #16 (Inteleon), Normal A #29 (Inteleon) · Max: Water SS #1 (Gigantamax Inteleon, Gigantamax only), Normal S #3 (Dynamax Inteleon)
-- **Rookidee** — Raid: not ranked · Max: Flying A #4 (Dynamax Corviknight), Steel E #12 (Dynamax Corviknight), Ground E #15 (Dynamax Corviknight)
-- **Hatenna** — Raid: Fairy A #20 (Hatterene) · Max: Fairy SS #2 (Dynamax Hatterene), Psychic S #7 (Dynamax Hatterene)
-- **Eternatus** — Raid: Dragon SS #2 (Eternatus), Poison SS #3 (Eternatus) · Max: Dragon SS #1 (Eternatus)
-- **Abra** ⚡ — Raid: Fairy S #6 (Mega Alakazam), Psychic A #4 (Mega Alakazam), Ghost A #11 (Mega Alakazam) +1 more · Max: Psychic SS #1 (Dynamax Alakazam), Fighting A #7 (Dynamax Alakazam), Electric D #12 (Dynamax Abra)
-- **Ralts** ⚡ — Raid: Fairy SS #1 (Mega Gardevoir), Ice S #6 (Mega Gardevoir), Psychic A #5 (Mega Gardevoir) +4 more · Max: Fairy SS #1 (Dynamax Gardevoir), Psychic S #6 (Dynamax Gallade), Fighting A #4 (Dynamax Gallade) +2 more
-- **Pidove** ⚡ — Raid: Flying C #44 (Unfezant) · Max: Flying S #2 (Dynamax Unfezant), Steel D #11 (Dynamax Unfezant), Normal D #32 (Dynamax Pidove)
-- **Darumaka** ⚡ — Raid: Fire B #35 (Standard Mode Darmanitan) · Max: Normal S #2 (Dynamax Darmanitan), Fire A #3 (Dynamax Darmanitan)
-- **Sizzlipede** ⚡ — Raid: Bug B #23 (Centiskorch) · Max: Bug SS #1 (Dynamax Centiskorch), Fire D #11 (Dynamax Centiskorch)
-
-**Keep one (Mega only)**
-
-- **Bulbasaur** — Raid: Grass S #3 (Mega Venusaur), Poison A #22 (Mega Venusaur) · Max: Grass S #2 (Gigantamax Venusaur, Gigantamax only), Normal D #33 (Dynamax Bulbasaur)
-- **Pikachu** — Raid: Electric SS #1 (Mega Raichu Y), Fairy A #19 (Mega Raichu Y), Normal A #34 (Mega Raichu Y) +2 more · Max: not ranked
-- **Gastly** — Raid: Poison SS #2 (Mega Gengar), Ghost S #4 (Mega Gengar), Dark S #5 (Mega Gengar) +1 more · Max: Ghost SS #1 (Gigantamax Gengar, Gigantamax only), Dark A #5 (Dynamax Gengar)
-- **Falinks** — Raid: Fighting A #5 (Mega Falinks) · Max: Fighting B #11 (Dynamax Falinks)
-
 **Trash**
 
-- **Caterpie** — Raid: not ranked · Max: Bug SS #2 (Gigantamax Butterfree, Gigantamax only), Psychic D #23 (Dynamax Butterfree), Normal F #43 (Dynamax Caterpie)
-- **Growlithe** — Raid: not ranked · Max: Dark B #8 (Dynamax Arcanine), Electric C #11 (Dynamax Arcanine), Fire D #9 (Dynamax Arcanine)
-- **Machop** — Raid: Fighting C #36 (Machamp) · Max: Fighting SS #1 (Gigantamax Machamp, Gigantamax only), Steel D #10 (Dynamax Machamp)
-- **Krabby** — Raid: Water B #22 (Kingler) · Max: Water S #2 (Gigantamax Kingler, Gigantamax only), Ground A #5 (Dynamax Kingler), Steel D #8 (Dynamax Kingler)
-- **Hitmonlee** — Raid: not ranked · Max: Fighting A #6 (Dynamax Hitmonlee)
-- **Hitmonchan** — Raid: not ranked · Max: Fighting B #10 (Dynamax Hitmonchan), Steel E #13 (Dynamax Hitmonchan)
-- **Chansey** — Raid: not ranked · Max: Normal C #20 (Dynamax Blissey), Psychic E #28 (Dynamax Blissey)
-- **Magmar** — Raid: not ranked · Max: not ranked
-- **Omanyte** — Raid: Rock B #44 (Omastar) · Max: Rock A #3 (Dynamax Omastar), Ground C #8 (Dynamax Omastar), Water C #9 (Dynamax Omastar)
-- **Kabuto** — Raid: not ranked · Max: Bug A #4 (Dynamax Kabutops), Ground B #7 (Dynamax Kabutops), Water C #8 (Dynamax Kabutops) +2 more
-- **Hoothoot** — Raid: not ranked · Max: Flying B #6 (Dynamax Noctowl), Psychic E #25 (Dynamax Noctowl), Dark F #20 (Dynamax Hoothoot)
-- **Shuckle** — Raid: not ranked · Max: Rock F #10 (Dynamax Shuckle), Bug F #12 (Dynamax Shuckle)
-- **Hitmontop** — Raid: not ranked · Max: Fighting C #15 (Dynamax Hitmontop)
-- **Wailmer** — Raid: not ranked · Max: Rock C #6 (Dynamax Wailord), Water D #16 (Dynamax Wailord), Psychic D #21 (Dynamax Wailord)
-- **Trapinch** — Raid: Ground B #49 (Flygon) · Max: Ground A #4 (Dynamax Flygon), Bug D #7 (Dynamax Trapinch), Dragon D #10 (Dynamax Flygon)
-- **Combee** — Raid: not ranked · Max: not ranked
-- **Woobat** — Raid: not ranked · Max: Flying A #5 (Dynamax Swoobat), Psychic C #17 (Dynamax Swoobat)
-- **Cottonee** — Raid: not ranked · Max: not ranked
-- **Trubbish** — Raid: not ranked · Max: Poison S #1 (Gigantamax Garbodor, Gigantamax only), Normal B #14 (Dynamax Garbodor), Bug C #6 (Dynamax Garbodor)
 - **Cryogonal** — Raid: Ice B #45 (Cryogonal) · Max: Ice B #5 (Dynamax Cryogonal)
-- **Espurr** — Raid: not ranked · Max: not ranked
-- **Passimian** — Raid: not ranked · Max: Normal A #8 (Dynamax Passimian), Fighting A #8 (Dynamax Passimian)
-- **Drampa** — Raid: not ranked · Max: Psychic B #15 (Dynamax Drampa), Dragon C #8 (Dynamax Drampa)
-- **Skwovet** — Raid: not ranked · Max: Normal B #11 (Dynamax Greedent), Dark D #15 (Dynamax Greedent), Grass E #10 (Dynamax Greedent) +1 more
-- **Wooloo** — Raid: not ranked · Max: Normal B #12 (Dynamax Dubwool), Fighting E #21 (Dynamax Dubwool)
-- **Toxtricity** — Raid: Electric B #45 (Toxtricity (Low Key Form)) · Max: Electric SS #1 (Gigantamax Toxtricity, Gigantamax only), Poison A #2 (Dynamax Toxtricity (Amped Form))
-- **Duraludon** — Raid: Steel C #39 (Duraludon) · Max: Dragon S #2 (Gigantamax Duraludon, Gigantamax only), Steel C #7 (Dynamax Duraludon)
 
 ## Raids — 14 keep · 5 keep one · 12 trash
 
@@ -126,19 +47,19 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Shadow Piloswine** — Ultra League #89 as Piloswine; Master League #96 as Mamoswine; Ice attacker, S tier #5 as Shadow Mamoswine; Ground attacker, A tier #13 as Shadow Mamoswine _(3-Star Raids)_
 - **Shadow Larvitar** — Master League #63 as Tyranitar; Dark attacker, S tier #6 as Shadow Tyranitar; Rock attacker, S tier #8 as Shadow Tyranitar _(1-Star Raids)_
 - **Shadow Mudkip** — Great League #75 as Swampert — needs Hydro Cannon (Elite TM/legacy); Ultra League #93 as Swampert — needs Hydro Cannon (Elite TM/legacy); Water attacker, A tier #8 as Shadow Swampert _(1-Star Raids)_
-- **Sableye** — see Wild _(Twilight Wishes (starts 2026-11-24))_
+- **Sableye** — Great League #40 as Sableye _(Twilight Wishes (starts 2026-11-24))_
 - **Metagross** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Mega Metagross in Mega Raids (starts 2026-11-25))_
-- **Deoxys (Defense)** — Great League #37 as Deoxys (Defense); Ultra League #40 as Deoxys (Defense) _(Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25))_
+- **Deoxys (Defense)** — Great League #37 as Deoxys (Defense); Ultra League #40 as Deoxys (Defense) _(Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25), Twilight Wishes (starts 2026-11-24))_
 - **Shadow Prinplup** — Great League #34 as Empoleon — needs Hydro Cannon (Elite TM/legacy); Ultra League #11 as Empoleon — needs Hydro Cannon (Elite TM/legacy); Water attacker, A tier #19 as Shadow Empoleon _(3-Star Raids)_
 - **Shadow Cranidos** — Rock attacker, S tier #6 as Shadow Rampardos _(1-Star Raids)_
-- **Cresselia** — Ultra League #33 as Cresselia — needs Grass Knot (Elite TM/legacy) _(5-Star Raids, Cresselia and Darkrai in 5-star Raid Battles)_
-- **Darkrai** — Dark attacker, A tier #9 as Darkrai; Ghost attacker, A tier #13 as Darkrai _(5-Star Raids, Cresselia and Darkrai in 5-star Raid Battles)_
+- **Cresselia** — Ultra League #33 as Cresselia — needs Grass Knot (Elite TM/legacy) _(5-Star Raids, Cresselia and Darkrai in 5-star Raid Battles, Twilight Wishes (starts 2026-11-24))_
+- **Darkrai** — Dark attacker, A tier #9 as Darkrai; Ghost attacker, A tier #13 as Darkrai _(5-Star Raids, Cresselia and Darkrai in 5-star Raid Battles, Twilight Wishes (starts 2026-11-24))_
 - **Yamask (Galarian)** — Ultra League #41 as Runerigus _(1-Star Raids)_
 
 **Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
 
 - **Beedrill** — Bug attacker, SS tier #1 as Mega Beedrill (Mega) — needs Fell Stinger (Elite TM/legacy); Poison attacker, SS tier #4 as Mega Beedrill (Mega) _(Twilight Wishes (starts 2026-11-24))_
-- **Pikachu** — see Wild _(Twilight Wishes (starts 2026-11-24))_
+- **Pikachu** — Electric attacker, SS tier #1 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Fairy attacker, A tier #19 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Normal attacker, A tier #34 as Mega Raichu Y (Mega) _(Twilight Wishes (starts 2026-11-24))_
 - **Houndoom** — Dark attacker, SS tier #1 as Mega Houndoom (Mega) — needs Dark Pulse (Elite TM/legacy); Fire attacker, A tier #27 as Mega Houndoom (Mega) _(Twilight Wishes (starts 2026-11-24))_
 - **Manectric** — Electric attacker, SS tier #2 as Mega Manectric (Mega) — needs Discharge (Elite TM/legacy); Dark attacker, A tier #22 as Mega Manectric (Mega) — needs Discharge (Elite TM/legacy) _(Twilight Wishes (starts 2026-11-24))_
 - **Banette** — Ghost attacker, A tier #7 as Mega Banette (Mega) _(Mega Banette in Mega Raids, Mega Raids)_
@@ -149,8 +70,8 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 
 **Keep**
 
-- **Charmander** — see Wild _(1 km)_
-- **Squirtle** — see Wild _(1 km)_
+- **Charmander** — Ultra League #96 as Charizard — needs Dragon Breath + Blast Burn (Elite TM/legacy); Fire attacker, S tier #2 as Mega Charizard Y (Mega); Flying attacker, A tier #13 as Mega Charizard Y (Mega) _(1 km)_
+- **Squirtle** — Great League #55 as Blastoise — needs Hydro Cannon (Elite TM/legacy); Ultra League #35 as Blastoise — needs Hydro Cannon (Elite TM/legacy); Water attacker, S tier #6 as Mega Blastoise (Mega) _(1 km)_
 - **Dratini** — Great League #81 as Dragonair; Master League #74 as Dragonite; Dragon attacker, SS tier #3 as Mega Dragonite (Mega) — needs Outrage (Elite TM/legacy); Normal attacker, S tier #14 as Mega Dragonite (Mega) _(10 km, Twilight Trails)_
 - **Totodile** — Great League #45 as Feraligatr — needs Hydro Cannon (Elite TM/legacy); Ultra League #15 as Feraligatr — needs Hydro Cannon (Elite TM/legacy) _(1 km)_
 - **Togepi** — Ultra League #59 as Togekiss — needs Aura Sphere (Elite TM/legacy); Master League #65 as Togekiss — needs Aura Sphere (Elite TM/legacy); Fairy attacker, A tier #17 as Togekiss _(2 km)_
@@ -158,7 +79,7 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Elekid** — Electric attacker, A tier #22 as Electivire _(2 km, Twilight Trails)_
 - **Mudkip** — Great League #74 as Swampert — needs Hydro Cannon (Elite TM/legacy); Ultra League #61 as Swampert — needs Hydro Cannon (Elite TM/legacy); Master League #92 as Swampert — needs Hydro Cannon (Elite TM/legacy); Water attacker, S tier #4 as Mega Swampert (Mega); Ground attacker, S tier #10 as Mega Swampert (Mega) _(1 km)_
 - **Azurill** — Great League #29 as Azumarill _(2 km, Twilight Trails)_
-- **Sableye** — see Wild _(5 km, Twilight Trails)_
+- **Sableye** — see Raids _(5 km, Twilight Trails)_
 - **Piplup** — Great League #33 as Empoleon — needs Hydro Cannon (Elite TM/legacy); Ultra League #10 as Empoleon — needs Hydro Cannon (Elite TM/legacy) _(1 km)_
 - **Budew** — Poison attacker, A tier #9 as Roserade; Grass attacker, A tier #17 as Roserade _(5 km, Twilight Trails)_
 - **Gible** — Master League #36 as Garchomp — needs Earth Power (Elite TM/legacy); Ground attacker, SS tier #2 as Mega Garchomp (Mega); Dragon attacker, SS tier #4 as Mega Garchomp (Mega) _(10 km)_
@@ -172,9 +93,9 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Rowlet** — Grass attacker, A tier #23 as Decidueye _(1 km)_
 - **Litten** — Dark attacker, A tier #24 as Incineroar _(1 km)_
 - **Popplio** — Ultra League #55 as Primarina — needs Hydro Cannon (Elite TM/legacy); Master League #38 as Primarina — needs Hydro Cannon (Elite TM/legacy); Water attacker, A tier #18 as Primarina _(1 km)_
-- **Grookey** — see Wild _(1 km)_
-- **Scorbunny** — see Wild _(1 km)_
-- **Sobble** — see Wild _(1 km)_
+- **Grookey** — Great League #28 as Rillaboom; Ultra League #26 as Rillaboom; Master League #40 as Rillaboom; Grass attacker, S tier #12 as Rillaboom _(1 km)_
+- **Scorbunny** — Normal attacker, A tier #41 as Cinderace _(1 km)_
+- **Sobble** — Water attacker, A tier #16 as Inteleon; Normal attacker, A tier #29 as Inteleon _(1 km)_
 - **Sprigatito** — Grass attacker, A tier #19 as Meowscarada _(1 km)_
 - **Fuecoco** — Ultra League #20 as Skeledirge _(1 km)_
 - **Quaxly** — Water attacker, A tier #17 as Quaquaval _(1 km)_
@@ -185,7 +106,7 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 
 **Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
 
-- **Bulbasaur** — see Wild _(1 km)_
+- **Bulbasaur** — Grass attacker, S tier #3 as Mega Venusaur (Mega); Poison attacker, A tier #22 as Mega Venusaur (Mega) _(1 km)_
 - **Pichu** — Electric attacker, SS tier #1 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Fairy attacker, A tier #19 as Mega Raichu Y (Mega) — needs Zap Cannon (Elite TM/legacy); Normal attacker, A tier #34 as Mega Raichu Y (Mega) _(2 km)_
 - **Treecko** — Grass attacker, SS tier #2 as Mega Sceptile (Mega); Bug attacker, A tier #8 as Mega Sceptile (Mega) _(1 km)_
 - **Torchic** — Fighting attacker, S tier #3 as Mega Blaziken (Mega); Fire attacker, S tier #3 as Mega Blaziken (Mega) _(1 km)_
@@ -196,26 +117,26 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 
 **Trash:** Diglett (Alolan), Meowth (Galarian), Growlithe (Hisuian), Geodude (Alolan), Slowpoke (Galarian), Chikorita, Cyndaquil, Sneasel (Hisuian), Tyrogue, Magby, Zigzagoon (Galarian), Turtwig, Chimchar, Chingling, Mime (Jr), Happiny, Snivy, Tepig, Basculin, Sandile, Druddigon, Pancham, Salandit, Drampa, Toxel, Sizzlipede, Impidimp, Snom, Indeedee (Male), Indeedee (Female), Fidough, Charcadet, Maschiff, Shroodle
 
-## Research — 53 keep · 17 keep one · 98 trash
+## Research — 52 keep · 17 keep one · 98 trash
 
 **Keep**
 
-- **Charmander** — see Wild _(Dynamax Trails, Field Research)_
-- **Squirtle** — see Wild _(Dynamax Trails, Field Research)_
+- **Charmander** — see Eggs _(Field Research)_
+- **Squirtle** — see Eggs _(Field Research)_
 - **Clefairy** — see Wild _(Field Research)_
 - **Vulpix** — Great League #14 as Ninetales — needs Ember + Energy Ball (Elite TM/legacy); Ultra League #38 as Ninetales — needs Ember + Energy Ball (Elite TM/legacy) _(Field Research)_
 - **Seadra** — Great League #51 as Kingdra; Ultra League #62 as Kingdra _(Field Research)_
 - **Seaking** — Ultra League #48 as Seaking — needs Drill Run + Icy Wind (Elite TM/legacy) _(Field Research)_
-- **Electabuzz** — see Wild _(Field Research)_
-- **Magikarp** — see Wild _(Dynamax Trails, Field Research)_
+- **Electabuzz** — Electric attacker, A tier #22 as Electivire _(Field Research)_
+- **Magikarp** — Ultra League #78 as Gyarados — needs Aqua Tail (Elite TM/legacy); Master League #56 as Gyarados — needs Aqua Tail (Elite TM/legacy); Water attacker, A tier #7 as Mega Gyarados (Mega); Dark attacker, A tier #15 as Mega Gyarados (Mega) _(Field Research)_
 - **Lapras** — Great League #43 as Lapras — needs Ice Beam (Elite TM/legacy); Ultra League #21 as Lapras — needs Ice Beam (Elite TM/legacy) _(Field Research)_
-- **Eevee** — see Wild _(Dynamax Trails, Field Research)_
+- **Eevee** — Great League #25 as Umbreon — needs Last Resort (Elite TM/legacy); Ultra League #100 as Sylveon; Master League #76 as Sylveon; Ice attacker, A tier #22 as Glaceon _(Field Research)_
 - **Snorlax** — Ultra League #13 as Snorlax _(Field Research)_
 - **Dratini** — see Eggs _(Field Research)_
 - **Togetic** — Ultra League #59 as Togekiss — needs Aura Sphere (Elite TM/legacy); Master League #65 as Togekiss — needs Aura Sphere (Elite TM/legacy); Fairy attacker, A tier #17 as Togekiss _(Field Research)_
 - **Marill** — Great League #29 as Azumarill _(Field Research)_
 - **Dunsparce** — Great League #20 as Dunsparce _(Field Research)_
-- **Sneasel** — see Wild _(Field Research)_
+- **Sneasel** — Ice attacker, A tier #24 as Weavile _(Field Research)_
 - **Teddiursa** — Master League #13 as Ursaluna — needs High Horsepower (Elite TM/legacy); Normal attacker, A tier #33 as Ursaluna _(Field Research)_
 - **Ursaring** — Master League #13 as Ursaluna — needs High Horsepower (Elite TM/legacy); Normal attacker, A tier #33 as Ursaluna _(Field Research)_
 - **Piloswine** — Ice attacker, A tier #13 as Mamoswine _(Field Research)_
@@ -223,47 +144,46 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - **Grumpig** — Great League #85 as Grumpig _(Field Research)_
 - **Swablu** — Great League #2 as Altaria — needs Moonblast (Elite TM/legacy) _(Field Research)_
 - **Lileep** — Great League #62 as Cradily; Ultra League #81 as Cradily _(Field Research)_
-- **Feebas** — see Wild _(Dynamax Trails, Field Research)_
+- **Feebas** — Ultra League #79 as Milotic _(Field Research)_
 - **Duskull** — Great League #78 as Dusclops; Ultra League #22 as Dusknoir _(Field Research)_
 - **Dusclops** — Great League #78 as Dusclops; Ultra League #22 as Dusknoir _(Field Research)_
 - **Sealeo** — Ultra League #43 as Walrein — needs Powder Snow + Icicle Spear (Elite TM/legacy) _(Field Research)_
-- **Beldum** — see Wild _(Field Research)_
+- **Beldum** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Field Research)_
 - **Metang** — Master League #4 as Metagross — needs Shadow Claw + Meteor Mash (Elite TM/legacy); Steel attacker, S tier #4 as Mega Metagross (Mega); Bug attacker, A tier #11 as Mega Metagross (Mega) _(Field Research)_
 - **Gible** — see Eggs _(Field Research)_
 - **Gabite** — Master League #36 as Garchomp — needs Earth Power (Elite TM/legacy); Ground attacker, SS tier #2 as Mega Garchomp (Mega); Dragon attacker, SS tier #4 as Mega Garchomp (Mega) _(Field Research)_
 - **Hippopotas** — Great League #48 as Hippowdon; Master League #97 as Hippowdon _(Field Research)_
 - **Oshawott** — see Eggs _(Field Research)_
-- **Roggenrola** — see Wild _(Field Research)_
+- **Roggenrola** — Normal attacker, S tier #18 as Gigalith; Rock attacker, A tier #13 as Gigalith _(Field Research)_
 - **Yamask** — Ultra League #82 as Cofagrigus _(Field Research)_
 - **Stunfisk (Galarian)** — see Eggs _(Field Research)_
 - **Stunfisk** — Great League #22 as Stunfisk _(Field Research)_
-- **Pawniard** — see Wild _(Pawniard Community Day)_
 - **Bunnelby** — Great League #72 as Diggersby _(Field Research)_
 - **Diggersby** — Great League #72 as Diggersby _(Field Research)_
 - **Fletchinder** — Great League #84 as Talonflame — needs Incinerate (Elite TM/legacy); Ultra League #34 as Talonflame — needs Incinerate (Elite TM/legacy) _(Field Research)_
-- **Inkay** — see Wild _(Field Research)_
+- **Inkay** — Great League #38 as Malamar; Ultra League #60 as Malamar _(Field Research)_
 - **Rowlet** — see Eggs _(Field Research)_
 - **Litten** — see Eggs _(Field Research)_
 - **Popplio** — see Eggs _(Field Research)_
 - **Trumbeak** — Ultra League #42 as Toucannon — needs Beak Blast (Elite TM/legacy) _(Field Research)_
 - **Dewpider** — Great League #19 as Araquanid _(Field Research)_
 - **Wimpod** — Ultra League #70 as Golisopod; Master League #86 as Golisopod _(Field Research)_
-- **Grookey** — see Wild _(Dynamax Trails, Field Research)_
-- **Scorbunny** — see Wild _(Dynamax Trails, Field Research)_
-- **Sobble** — see Wild _(Dynamax Trails, Field Research)_
+- **Grookey** — see Eggs _(Field Research)_
+- **Scorbunny** — see Eggs _(Field Research)_
+- **Sobble** — see Eggs _(Field Research)_
 - **Nickit** — Great League #18 as Thievul — needs Icy Wind (Elite TM/legacy) _(Field Research)_
 - **Tarountula** — Great League #93 as Spidops _(Field Research)_
 
 **Keep one** — for Mega Evolution only: keep your single best (high Attack IV), trash the rest
 
-- **Bulbasaur** — see Wild _(Dynamax Trails, Field Research)_
+- **Bulbasaur** — see Eggs _(Field Research)_
 - **Kadabra** — Fairy attacker, S tier #6 as Mega Alakazam (Mega); Psychic attacker, A tier #4 as Mega Alakazam (Mega); Ghost attacker, A tier #11 as Mega Alakazam (Mega) _(Field Research)_
-- **Gastly** — see Wild _(Field Research)_
+- **Gastly** — Poison attacker, SS tier #2 as Mega Gengar (Mega); Ghost attacker, S tier #4 as Mega Gengar (Mega); Dark attacker, S tier #5 as Mega Gengar (Mega) _(Field Research)_
 - **Haunter** — Poison attacker, SS tier #2 as Mega Gengar (Mega); Ghost attacker, S tier #4 as Mega Gengar (Mega); Dark attacker, S tier #5 as Mega Gengar (Mega) _(Field Research)_
 - **Scyther** — Bug attacker, S tier #4 as Mega Scizor (Mega) _(Field Research)_
 - **Aerodactyl** — Rock attacker, S tier #4 as Mega Aerodactyl (Mega); Normal attacker, S tier #22 as Mega Aerodactyl (Mega); Dark attacker, A tier #21 as Mega Aerodactyl (Mega) _(Field Research)_
 - **Houndour** — Dark attacker, SS tier #1 as Mega Houndoom (Mega) — needs Dark Pulse (Elite TM/legacy); Fire attacker, A tier #27 as Mega Houndoom (Mega) _(Field Research)_
-- **Ralts** — see Wild _(Field Research)_
+- **Ralts** — Fairy attacker, SS tier #1 as Mega Gardevoir (Mega); Ice attacker, S tier #6 as Mega Gardevoir (Mega); Psychic attacker, A tier #5 as Mega Gardevoir (Mega); Fighting attacker, A tier #7 as Mega Gallade (Mega); Grass attacker, A tier #16 as Mega Gallade (Mega); Ghost attacker, A tier #18 as Mega Gardevoir (Mega) _(Field Research)_
 - **Aron** — Rock attacker, A tier #24 as Mega Aggron (Mega) _(Field Research)_
 - **Electrike** — Electric attacker, SS tier #2 as Mega Manectric (Mega) — needs Discharge (Elite TM/legacy); Dark attacker, A tier #22 as Mega Manectric (Mega) — needs Discharge (Elite TM/legacy) _(Field Research)_
 - **Shuppet** — Ghost attacker, A tier #7 as Mega Banette (Mega) _(Field Research)_
@@ -338,7 +258,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 
 <details><summary>Why each trash Pokemon is trash</summary>
 
-- Caterpie — best PvP: Great League #1141; not a top-50 attacker of any type
 - Shadow Weedle — best PvP: Great League #563; best PvE: poison B tier #42
 - Shadow Rattata (Alolan) — best PvP: Great League #638; not a top-50 attacker of any type
 - Arbok — best PvP: Great League #334; not a top-50 attacker of any type
@@ -359,7 +278,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Growlithe — best PvP: Master League #337; not a top-50 attacker of any type
 - Poliwag — best PvP: Ultra League #134; not a top-50 attacker of any type
 - Poliwhirl — best PvP: Ultra League #134; not a top-50 attacker of any type
-- Machop — best PvP: Master League #184; best PvE: fighting C tier #36
 - Machoke — best PvP: Master League #184; best PvE: fighting C tier #36
 - Geodude (Alolan) — best PvP: Master League #303; best PvE: electric B tier #35
 - Ponyta (Galarian) — best PvP: Ultra League #437; best PvE: fairy B tier #40
@@ -370,17 +288,13 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Doduo — best PvP: Ultra League #132; not a top-50 attacker of any type
 - Shadow Seel — best PvP: Great League #281; not a top-50 attacker of any type
 - Shadow Drowzee — best PvP: Great League #294; not a top-50 attacker of any type
-- Krabby — best PvP: Ultra League #693; best PvE: water B tier #22
 - Shadow Voltorb — best PvP: Great League #391; not a top-50 attacker of any type
 - Exeggutor (Alolan) — best PvP: Master League #328; not a top-50 attacker of any type
 - Marowak (Alolan) — best PvP: Great League #200; not a top-50 attacker of any type
-- Hitmonlee — best PvP: Ultra League #358; not a top-50 attacker of any type
 - Shadow Hitmonlee — best PvP: Ultra League #301; not a top-50 attacker of any type
-- Hitmonchan — best PvP: Ultra League #638; not a top-50 attacker of any type
 - Shadow Hitmonchan — best PvP: Ultra League #597; not a top-50 attacker of any type
 - Weezing — best PvP: Ultra League #489; not a top-50 attacker of any type
 - Shadow Weezing (Galarian) — best PvP: Ultra League #109; best PvE: fairy B tier #36
-- Chansey — best PvP: Master League #403; not a top-50 attacker of any type
 - Magmar — best PvP: Master League #278; not a top-50 attacker of any type
 - Vaporeon — best PvP: Master League #222; not a top-50 attacker of any type
 - Jolteon — best PvP: Master League #352; best PvE: electric B tier #41
@@ -390,7 +304,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Shadow Kabuto — best PvP: Ultra League #461; not a top-50 attacker of any type
 - Chikorita — best PvP: Ultra League #229; not a top-50 attacker of any type
 - Cyndaquil — best PvP: Ultra League #209; best PvE: fire B tier #47
-- Hoothoot — best PvP: Great League #251; not a top-50 attacker of any type
 - Shadow Hoothoot — best PvP: Great League #494; not a top-50 attacker of any type
 - Noctowl — best PvP: Great League #251; not a top-50 attacker of any type
 - Sudowoodo — best PvP: Ultra League #730; not a top-50 attacker of any type
@@ -401,13 +314,11 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Shadow Wobbuffet — best PvP: Great League #404; not a top-50 attacker of any type
 - Shadow Gligar — best PvP: Great League #120; best PvE: ground B tier #37
 - Shadow Qwilfish — best PvP: Great League #178; not a top-50 attacker of any type
-- Shuckle — no PvP ranking; not a top-50 attacker of any type
 - Sneasel (Hisuian) — best PvP: Master League #208; not a top-50 attacker of any type
 - Magcargo — best PvP: Great League #248; not a top-50 attacker of any type
 - Remoraid — best PvP: Ultra League #628; not a top-50 attacker of any type
 - Shadow Delibird — no PvP ranking; not a top-50 attacker of any type
 - Tyrogue — best PvP: Ultra League #358; not a top-50 attacker of any type
-- Hitmontop — best PvP: Ultra League #446; not a top-50 attacker of any type
 - Shadow Hitmontop — best PvP: Ultra League #508; not a top-50 attacker of any type
 - Magby — best PvP: Master League #278; not a top-50 attacker of any type
 - Poochyena — best PvP: Great League #304; not a top-50 attacker of any type
@@ -455,8 +366,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Herdier — best PvP: Ultra League #337; not a top-50 attacker of any type
 - Purrloin — best PvP: Great League #1036; not a top-50 attacker of any type
 - Liepard — best PvP: Great League #1036; not a top-50 attacker of any type
-- Pidove — best PvP: Ultra League #800; best PvE: flying C tier #44
-- Woobat — best PvP: Great League #548; not a top-50 attacker of any type
 - Audino — best PvP: Great League #348; not a top-50 attacker of any type
 - Whirlipede — best PvP: Ultra League #335; best PvE: poison B tier #25
 - Cottonee — best PvP: Great League #346; not a top-50 attacker of any type
@@ -486,7 +395,6 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Skiddo — best PvP: Master League #195; best PvE: grass B tier #45
 - Pancham — best PvP: Ultra League #186; not a top-50 attacker of any type
 - Shadow Pancham — best PvP: Ultra League #160; not a top-50 attacker of any type
-- Espurr — best PvP: Ultra League #709; not a top-50 attacker of any type
 - Binacle — best PvP: Master League #315; not a top-50 attacker of any type
 - Clauncher — best PvP: Ultra League #761; best PvE: water B tier #35
 - Shadow Helioptile — best PvP: Ultra League #702; best PvE: electric B tier #42
@@ -501,16 +409,13 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Salandit — best PvP: Great League #320; best PvE: poison B tier #39
 - Stufful — best PvP: Master League #219; not a top-50 attacker of any type
 - Shadow Stufful — best PvP: Master League #192; best PvE: normal B tier #50
-- Passimian — best PvP: Master League #213; not a top-50 attacker of any type
 - Sandygast — best PvP: Ultra League #219; not a top-50 attacker of any type
 - Shadow Sandygast — best PvP: Ultra League #368; best PvE: ground B tier #39
 - Drampa — best PvP: Master League #295; not a top-50 attacker of any type
 - Skwovet — best PvP: Ultra League #162; not a top-50 attacker of any type
 - Blipbug — best PvP: Ultra League #377; not a top-50 attacker of any type
-- Wooloo — best PvP: Great League #156; not a top-50 attacker of any type
 - Arrokuda — best PvP: Ultra League #459; not a top-50 attacker of any type
 - Toxel — no PvP ranking; not a top-50 attacker of any type
-- Toxtricity — best PvP: Ultra League #221; best PvE: electric B tier #45
 - Sizzlipede — best PvP: Master League #134; best PvE: bug B tier #23
 - Impidimp — best PvP: Great League #114; best PvE: fairy B tier #32
 - Snom — best PvP: Ultra League #749; best PvE: bug B tier #30
@@ -527,9 +432,5 @@ Tiers are for the best evolution, per attacking type (Pokemon GO Hub). Raid = ra
 - Shroodle — best PvP: Ultra League #196; best PvE: poison B tier #37
 
 </details>
-
-## Couldn't identify (1)
-
-- Minior (Meteor Form)
 
 > Verdicts are per species. Your individual Pokemon still need the right IVs: Great/Ultra want low Attack and high Defense/HP, Master and raids want high Attack (ideally 15/15/15).

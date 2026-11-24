@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T00:42:00.372Z",
-  "weekOf": "2026-11-22",
+  "generatedAt": "2026-11-24T04:40:52.344Z",
+  "weekOf": "2026-11-24",
   "rules": {
     "version": 5,
     "pvpTopRank": 100,
@@ -25,8 +25,8 @@
     "lookaheadDays": 7
   },
   "data": {
-    "snapshotDate": "2026-11-22",
-    "pvpokeFetchedAt": "2026-11-21T19:52:26.663Z",
+    "snapshotDate": "2026-11-23",
+    "pvpokeFetchedAt": "2026-11-24T04:40:00.298Z",
     "goHubBuiltAt": "2026-11-12T16:42:00.850Z",
     "sources": [
       "PvPoke (pvpoke.com)",
@@ -34,7 +34,21 @@
       "LeekDuck via ScrapedDuck"
     ]
   },
-  "changes": null,
+  "changes": {
+    "since": "2026-11-22",
+    "newKeeps": [],
+    "droppedKeeps": [
+      "Rhyhorn",
+      "Spheal",
+      "Drilbur",
+      "Pawniard",
+      "Deino",
+      "Bounsweet",
+      "Rookidee",
+      "Hatenna",
+      "Eternatus"
+    ]
+  },
   "pokemon": [
     {
       "name": "Bulbasaur",
@@ -230,23 +244,13 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -433,23 +437,13 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -1774,148 +1768,6 @@
       "name": "Rhyhorn",
       "speciesId": "rhyhorn",
       "dex": 111,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 59,
-          "via": "Rhyperior",
-          "moveset": [
-            "Mud Slap",
-            "Drill Run",
-            "Rock Wrecker"
-          ],
-          "specialMoves": [
-            "Rock Wrecker"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "rock",
-          "tier": "S",
-          "rank": 9,
-          "via": "Rhyperior",
-          "viaSpecies": "Rhyperior",
-          "mega": false,
-          "moveset": [
-            "Smack Down",
-            "Rock Wrecker"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "pve",
-          "type": "ground",
-          "tier": "A",
-          "rank": 19,
-          "via": "Rhyperior",
-          "viaSpecies": "Rhyperior",
-          "mega": false,
-          "moveset": [
-            "Mud-Slap",
-            "Earthquake"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "rock",
-          "tier": "SS",
-          "rank": 1,
-          "via": "Dynamax Rhyperior",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "max",
-          "type": "ground",
-          "tier": "SS",
-          "rank": 2,
-          "via": "Dynamax Rhyperior",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 59
-        },
-        "pve": {
-          "type": "rock",
-          "tier": "S",
-          "rank": 9
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "rock",
-            "tier": "S",
-            "rank": 9,
-            "via": "Rhyperior"
-          },
-          {
-            "type": "ground",
-            "tier": "A",
-            "rank": 19,
-            "via": "Rhyperior"
-          },
-          {
-            "type": "normal",
-            "tier": "B",
-            "rank": 44,
-            "via": "Rhyperior"
-          }
-        ],
-        "max": [
-          {
-            "type": "rock",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Dynamax Rhyperior"
-          },
-          {
-            "type": "ground",
-            "tier": "SS",
-            "rank": 2,
-            "via": "Dynamax Rhyperior"
-          },
-          {
-            "type": "fighting",
-            "tier": "C",
-            "rank": 12,
-            "via": "Dynamax Rhydon"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Rhyhorn",
-      "speciesId": "rhyhorn",
-      "dex": 111,
       "shadow": true,
       "verdict": "KEEP",
       "dynamaxVerdict": "KEEP",
@@ -2341,17 +2193,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -2596,20 +2440,10 @@
         ]
       },
       "obtainedFrom": [
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -3062,20 +2896,10 @@
         ]
       },
       "obtainedFrom": [
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -3938,17 +3762,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -5461,17 +5277,9 @@
       "obtainedFrom": [
         "Egg: 5 km",
         "Event egg 5 km: Twilight Trails",
-        "Max Battle: Dynamax Trails",
-        "Raid: Twilight Wishes (starts 2026-11-24)",
-        "Wild: Dynamax Trails"
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "raids": [
           "Raid: Twilight Wishes (starts 2026-11-24)"
         ],
@@ -5922,20 +5730,10 @@
         ]
       },
       "obtainedFrom": [
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -6228,75 +6026,6 @@
       "name": "Spheal",
       "speciesId": "spheal",
       "dex": 363,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Ultra League",
-          "rank": 43,
-          "via": "Walrein",
-          "moveset": [
-            "Powder Snow",
-            "Icicle Spear",
-            "Earthquake"
-          ],
-          "specialMoves": [
-            "Powder Snow",
-            "Icicle Spear"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        }
-      ],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 43
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "ice",
-            "tier": "C",
-            "rank": 7,
-            "via": "Dynamax Walrein"
-          },
-          {
-            "type": "water",
-            "tier": "D",
-            "rank": 13,
-            "via": "Dynamax Walrein"
-          },
-          {
-            "type": "fighting",
-            "tier": "F",
-            "rank": 24,
-            "via": "Dynamax Spheal"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Spheal",
-      "speciesId": "spheal",
-      "dex": 363,
       "shadow": true,
       "verdict": "KEEP",
       "dynamaxVerdict": "KEEP",
@@ -6569,17 +6298,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -7068,11 +6789,13 @@
         "max": []
       },
       "obtainedFrom": [
-        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
-          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -7873,12 +7596,14 @@
       },
       "obtainedFrom": [
         "Raid: 5-Star Raids",
-        "Raid: Cresselia and Darkrai in 5-star Raid Battles"
+        "Raid: Cresselia and Darkrai in 5-star Raid Battles",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
           "Raid: 5-Star Raids",
-          "Raid: Cresselia and Darkrai in 5-star Raid Battles"
+          "Raid: Cresselia and Darkrai in 5-star Raid Battles",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -7958,12 +7683,14 @@
       },
       "obtainedFrom": [
         "Raid: 5-Star Raids",
-        "Raid: Cresselia and Darkrai in 5-star Raid Battles"
+        "Raid: Cresselia and Darkrai in 5-star Raid Battles",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
           "Raid: 5-Star Raids",
-          "Raid: Cresselia and Darkrai in 5-star Raid Battles"
+          "Raid: Cresselia and Darkrai in 5-star Raid Battles",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -8126,115 +7853,11 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
-        ]
-      }
-    },
-    {
-      "name": "Drilbur",
-      "speciesId": "drilbur",
-      "dex": 529,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pve",
-          "type": "ground",
-          "tier": "A",
-          "rank": 15,
-          "via": "Excadrill",
-          "viaSpecies": "Excadrill",
-          "mega": false,
-          "moveset": [
-            "Mud-Slap",
-            "Scorching Sands"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "ground",
-          "tier": "SS",
-          "rank": 1,
-          "via": "Dynamax Excadrill",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 162
-        },
-        "pve": {
-          "type": "ground",
-          "tier": "A",
-          "rank": 15
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "ground",
-            "tier": "A",
-            "rank": 15,
-            "via": "Excadrill"
-          },
-          {
-            "type": "steel",
-            "tier": "B",
-            "rank": 24,
-            "via": "Excadrill"
-          }
-        ],
-        "max": [
-          {
-            "type": "ground",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Dynamax Excadrill"
-          },
-          {
-            "type": "steel",
-            "tier": "B",
-            "rank": 5,
-            "via": "Dynamax Excadrill"
-          },
-          {
-            "type": "normal",
-            "tier": "C",
-            "rank": 22,
-            "via": "Dynamax Drilbur"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -8722,108 +8345,6 @@
       }
     },
     {
-      "name": "Pawniard",
-      "speciesId": "pawniard",
-      "dex": 624,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Ultra League",
-          "rank": 98,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        },
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 52,
-          "via": "Kingambit",
-          "moveset": [
-            "Low Kick",
-            "Kowtow Cleave",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Kowtow Cleave"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "dark",
-          "tier": "A",
-          "rank": 20,
-          "via": "Kingambit",
-          "viaSpecies": "Kingambit",
-          "mega": false,
-          "moveset": [
-            "Snarl",
-            "Foul Play"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 52
-        },
-        "pve": {
-          "type": "dark",
-          "tier": "A",
-          "rank": 20
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "dark",
-            "tier": "A",
-            "rank": 20,
-            "via": "Kingambit"
-          },
-          {
-            "type": "steel",
-            "tier": "B",
-            "rank": 32,
-            "via": "Kingambit"
-          },
-          {
-            "type": "bug",
-            "tier": "B",
-            "rank": 35,
-            "via": "Kingambit"
-          }
-        ],
-        "max": []
-      },
-      "obtainedFrom": [
-        "Community Day: Pawniard Community Day",
-        "Event research: Pawniard Community Day"
-      ],
-      "sections": {
-        "wild": [
-          "Community Day: Pawniard Community Day"
-        ],
-        "research": [
-          "Event research: Pawniard Community Day"
-        ]
-      }
-    },
-    {
       "name": "Vullaby",
       "speciesId": "vullaby",
       "dex": 629,
@@ -8863,132 +8384,6 @@
       "sections": {
         "eggs": [
           "Egg: 12 km"
-        ]
-      }
-    },
-    {
-      "name": "Deino",
-      "speciesId": "deino",
-      "dex": 633,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Great League",
-          "rank": 70,
-          "via": "Hydreigon",
-          "moveset": [
-            "Dragon Breath",
-            "Brutal Swing",
-            "Fly"
-          ],
-          "specialMoves": [
-            "Brutal Swing"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        },
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 95,
-          "via": "Hydreigon",
-          "moveset": [
-            "Dragon Breath",
-            "Brutal Swing",
-            "Fly"
-          ],
-          "specialMoves": [
-            "Brutal Swing"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "dark",
-          "tier": "A",
-          "rank": 12,
-          "via": "Hydreigon",
-          "viaSpecies": "Hydreigon",
-          "mega": false,
-          "moveset": [
-            "Bite",
-            "Brutal Swing"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "dark",
-          "tier": "S",
-          "rank": 2,
-          "via": "Dynamax Hydreigon",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Great League",
-          "rank": 70
-        },
-        "pve": {
-          "type": "dark",
-          "tier": "A",
-          "rank": 12
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "dark",
-            "tier": "A",
-            "rank": 12,
-            "via": "Hydreigon"
-          },
-          {
-            "type": "dragon",
-            "tier": "C",
-            "rank": 48,
-            "via": "Hydreigon"
-          }
-        ],
-        "max": [
-          {
-            "type": "dark",
-            "tier": "S",
-            "rank": 2,
-            "via": "Dynamax Hydreigon"
-          },
-          {
-            "type": "dragon",
-            "tier": "B",
-            "rank": 6,
-            "via": "Dynamax Hydreigon"
-          },
-          {
-            "type": "normal",
-            "tier": "D",
-            "rank": 36,
-            "via": "Dynamax Deino"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -9554,17 +8949,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -9935,79 +9322,6 @@
       }
     },
     {
-      "name": "Bounsweet",
-      "speciesId": "bounsweet",
-      "dex": 761,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pve",
-          "type": "grass",
-          "tier": "A",
-          "rank": 29,
-          "via": "Tsareena",
-          "viaSpecies": "Tsareena",
-          "mega": false,
-          "moveset": [
-            "Magical Leaf",
-            "Grass Knot"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 322
-        },
-        "pve": {
-          "type": "grass",
-          "tier": "A",
-          "rank": 29
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "grass",
-            "tier": "A",
-            "rank": 29,
-            "via": "Tsareena"
-          }
-        ],
-        "max": [
-          {
-            "type": "grass",
-            "tier": "B",
-            "rank": 4,
-            "via": "Dynamax Tsareena"
-          },
-          {
-            "type": "fairy",
-            "tier": "B",
-            "rank": 6,
-            "via": "Dynamax Tsareena"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Wimpod",
       "speciesId": "wimpod",
       "dex": 767,
@@ -10291,25 +9605,13 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -10383,25 +9685,13 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -10501,111 +9791,14 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Spotlight Hour: Grookey, Scorbunny, and Sobble Spotlight Hour",
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
-        ]
-      }
-    },
-    {
-      "name": "Rookidee",
-      "speciesId": "rookidee",
-      "dex": 821,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Great League",
-          "rank": 8,
-          "via": "Corviknight",
-          "moveset": [
-            "Sand Attack",
-            "Air Cutter",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Air Cutter",
-            "Iron Head"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        },
-        {
-          "kind": "pvp",
-          "league": "Ultra League",
-          "rank": 2,
-          "via": "Corviknight",
-          "moveset": [
-            "Sand Attack",
-            "Air Cutter",
-            "Iron Head"
-          ],
-          "specialMoves": [
-            "Air Cutter",
-            "Iron Head"
-          ],
-          "ivs": "low Attack, high Defense/HP (check a PvP IV rank checker)"
-        }
-      ],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 2
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "flying",
-            "tier": "A",
-            "rank": 4,
-            "via": "Dynamax Corviknight"
-          },
-          {
-            "type": "steel",
-            "tier": "E",
-            "rank": 12,
-            "via": "Dynamax Corviknight"
-          },
-          {
-            "type": "ground",
-            "tier": "E",
-            "rank": 15,
-            "via": "Dynamax Corviknight"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -10712,210 +9905,6 @@
       "sections": {
         "research": [
           "Field Research"
-        ]
-      }
-    },
-    {
-      "name": "Hatenna",
-      "speciesId": "hatenna",
-      "dex": 856,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pve",
-          "type": "fairy",
-          "tier": "A",
-          "rank": 20,
-          "via": "Hatterene",
-          "viaSpecies": "Hatterene",
-          "mega": false,
-          "moveset": [
-            "Charm",
-            "Dazzling Gleam"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "fairy",
-          "tier": "SS",
-          "rank": 2,
-          "via": "Dynamax Hatterene",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "max",
-          "type": "psychic",
-          "tier": "S",
-          "rank": 7,
-          "via": "Dynamax Hatterene",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 469
-        },
-        "pve": {
-          "type": "fairy",
-          "tier": "A",
-          "rank": 20
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "fairy",
-            "tier": "A",
-            "rank": 20,
-            "via": "Hatterene"
-          }
-        ],
-        "max": [
-          {
-            "type": "fairy",
-            "tier": "SS",
-            "rank": 2,
-            "via": "Dynamax Hatterene"
-          },
-          {
-            "type": "psychic",
-            "tier": "S",
-            "rank": 7,
-            "via": "Dynamax Hatterene"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Eternatus",
-      "speciesId": "eternatus",
-      "dex": 890,
-      "shadow": false,
-      "verdict": "KEEP",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pvp",
-          "league": "Master League",
-          "rank": 17,
-          "via": "Eternatus",
-          "moveset": [
-            "Dragon Tail",
-            "Dynamax Cannon",
-            "Flamethrower"
-          ],
-          "specialMoves": [
-            "Dynamax Cannon"
-          ],
-          "ivs": "15/15/15 or close to it"
-        },
-        {
-          "kind": "pve",
-          "type": "dragon",
-          "tier": "SS",
-          "rank": 2,
-          "via": "Eternatus",
-          "viaSpecies": "Eternatus",
-          "mega": false,
-          "moveset": [
-            "Dragon Tail",
-            "Dynamax Cannon"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "pve",
-          "type": "poison",
-          "tier": "SS",
-          "rank": 3,
-          "via": "Eternatus",
-          "viaSpecies": "Eternatus",
-          "mega": false,
-          "moveset": [
-            "Poison Jab",
-            "Sludge Bomb"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "dragon",
-          "tier": "SS",
-          "rank": 1,
-          "via": "Eternatus",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 17
-        },
-        "pve": {
-          "type": "dragon",
-          "tier": "SS",
-          "rank": 2
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "dragon",
-            "tier": "SS",
-            "rank": 2,
-            "via": "Eternatus"
-          },
-          {
-            "type": "poison",
-            "tier": "SS",
-            "rank": 3,
-            "via": "Eternatus"
-          }
-        ],
-        "max": [
-          {
-            "type": "dragon",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Eternatus"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails"
-      ],
-      "sections": {
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -11503,23 +10492,13 @@
       },
       "obtainedFrom": [
         "Egg: 1 km",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 1 km"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -11716,161 +10695,11 @@
         "max": []
       },
       "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Raid: Twilight Wishes (starts 2026-11-24)",
-        "Wild: Dynamax Trails"
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "raids": [
           "Raid: Twilight Wishes (starts 2026-11-24)"
-        ]
-      }
-    },
-    {
-      "name": "Abra",
-      "speciesId": "abra",
-      "dex": 63,
-      "shadow": false,
-      "verdict": "KEEP_ONE",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [
-        {
-          "kind": "pve",
-          "type": "fairy",
-          "tier": "S",
-          "rank": 6,
-          "via": "Mega Alakazam",
-          "viaSpecies": "Alakazam",
-          "mega": true,
-          "moveset": [
-            "Psycho Cut",
-            "Dazzling Gleam"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "pve",
-          "type": "psychic",
-          "tier": "A",
-          "rank": 4,
-          "via": "Mega Alakazam",
-          "viaSpecies": "Alakazam",
-          "mega": true,
-          "moveset": [
-            "Confusion",
-            "Psychic"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        },
-        {
-          "kind": "pve",
-          "type": "ghost",
-          "tier": "A",
-          "rank": 11,
-          "via": "Mega Alakazam",
-          "viaSpecies": "Alakazam",
-          "mega": true,
-          "moveset": [
-            "Psycho Cut",
-            "Shadow Ball"
-          ],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "psychic",
-          "tier": "SS",
-          "rank": 1,
-          "via": "Dynamax Alakazam",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 310
-        },
-        "pve": {
-          "type": "fairy",
-          "tier": "S",
-          "rank": 6
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "fairy",
-            "tier": "S",
-            "rank": 6,
-            "via": "Mega Alakazam",
-            "mega": true
-          },
-          {
-            "type": "psychic",
-            "tier": "A",
-            "rank": 4,
-            "via": "Mega Alakazam",
-            "mega": true
-          },
-          {
-            "type": "ghost",
-            "tier": "A",
-            "rank": 11,
-            "via": "Mega Alakazam",
-            "mega": true
-          },
-          {
-            "type": "fighting",
-            "tier": "B",
-            "rank": 21,
-            "via": "Mega Alakazam",
-            "mega": true
-          }
-        ],
-        "max": [
-          {
-            "type": "psychic",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Dynamax Alakazam"
-          },
-          {
-            "type": "fighting",
-            "tier": "A",
-            "rank": 7,
-            "via": "Dynamax Alakazam"
-          },
-          {
-            "type": "electric",
-            "tier": "D",
-            "rank": 12,
-            "via": "Dynamax Abra"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -12120,17 +10949,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -13218,17 +12039,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -14355,129 +13168,6 @@
       }
     },
     {
-      "name": "Falinks",
-      "speciesId": "falinks",
-      "dex": 870,
-      "shadow": false,
-      "verdict": "KEEP_ONE",
-      "dynamaxVerdict": "KEEP_ONE",
-      "reasons": [
-        {
-          "kind": "pve",
-          "type": "fighting",
-          "tier": "A",
-          "rank": 5,
-          "via": "Mega Falinks",
-          "viaSpecies": "Falinks",
-          "mega": true,
-          "moveset": [
-            "Counter",
-            "Brick Break"
-          ],
-          "specialMoves": [
-            "Brick Break"
-          ],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 606
-        },
-        "pve": {
-          "type": "fighting",
-          "tier": "A",
-          "rank": 5
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "fighting",
-            "tier": "A",
-            "rank": 5,
-            "via": "Mega Falinks",
-            "mega": true
-          }
-        ],
-        "max": [
-          {
-            "type": "fighting",
-            "tier": "B",
-            "rank": 11,
-            "via": "Dynamax Falinks"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Caterpie",
-      "speciesId": "caterpie",
-      "dex": 10,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Great League",
-          "rank": 1141
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "bug",
-            "tier": "SS",
-            "rank": 2,
-            "via": "Gigantamax Butterfree",
-            "gmax": true
-          },
-          {
-            "type": "psychic",
-            "tier": "D",
-            "rank": 23,
-            "via": "Dynamax Butterfree"
-          },
-          {
-            "type": "normal",
-            "tier": "F",
-            "rank": 43,
-            "via": "Dynamax Caterpie"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Weedle",
       "speciesId": "weedle",
       "dex": 13,
@@ -15084,17 +13774,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -15155,64 +13837,6 @@
       "sections": {
         "research": [
           "Field Research"
-        ]
-      }
-    },
-    {
-      "name": "Machop",
-      "speciesId": "machop",
-      "dex": 66,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 184
-        },
-        "pve": {
-          "type": "fighting",
-          "tier": "C",
-          "rank": 36
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "fighting",
-            "tier": "C",
-            "rank": 36,
-            "via": "Machamp"
-          }
-        ],
-        "max": [
-          {
-            "type": "fighting",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Gigantamax Machamp",
-            "gmax": true
-          },
-          {
-            "type": "steel",
-            "tier": "D",
-            "rank": 10,
-            "via": "Dynamax Machamp"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -15600,70 +14224,6 @@
       }
     },
     {
-      "name": "Krabby",
-      "speciesId": "krabby",
-      "dex": 98,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 693
-        },
-        "pve": {
-          "type": "water",
-          "tier": "B",
-          "rank": 22
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "water",
-            "tier": "B",
-            "rank": 22,
-            "via": "Kingler"
-          }
-        ],
-        "max": [
-          {
-            "type": "water",
-            "tier": "S",
-            "rank": 2,
-            "via": "Gigantamax Kingler",
-            "gmax": true
-          },
-          {
-            "type": "ground",
-            "tier": "A",
-            "rank": 5,
-            "via": "Dynamax Kingler"
-          },
-          {
-            "type": "steel",
-            "tier": "D",
-            "rank": 8,
-            "via": "Dynamax Kingler"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Voltorb",
       "speciesId": "voltorb",
       "dex": 100,
@@ -15758,46 +14318,6 @@
       "name": "Hitmonlee",
       "speciesId": "hitmonlee",
       "dex": 106,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 358
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "fighting",
-            "tier": "A",
-            "rank": 6,
-            "via": "Dynamax Hitmonlee"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Hitmonlee",
-      "speciesId": "hitmonlee",
-      "dex": 106,
       "shadow": true,
       "verdict": "TRASH",
       "dynamaxVerdict": "TRASH",
@@ -15820,52 +14340,6 @@
       "sections": {
         "rocket": [
           "Team Rocket: Fighting-type Female Grunt"
-        ]
-      }
-    },
-    {
-      "name": "Hitmonchan",
-      "speciesId": "hitmonchan",
-      "dex": 107,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 638
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "fighting",
-            "tier": "B",
-            "rank": 10,
-            "via": "Dynamax Hitmonchan"
-          },
-          {
-            "type": "steel",
-            "tier": "E",
-            "rank": 13,
-            "via": "Dynamax Hitmonchan"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -15970,52 +14444,6 @@
       }
     },
     {
-      "name": "Chansey",
-      "speciesId": "chansey",
-      "dex": 113,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 403
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "normal",
-            "tier": "C",
-            "rank": 20,
-            "via": "Dynamax Blissey"
-          },
-          {
-            "type": "psychic",
-            "tier": "E",
-            "rank": 28,
-            "via": "Dynamax Blissey"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Magmar",
       "speciesId": "magmar",
       "dex": 126,
@@ -16036,17 +14464,9 @@
         "max": []
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -16222,17 +14642,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -16290,17 +14702,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -16401,58 +14805,6 @@
       "sections": {
         "eggs": [
           "Egg: 1 km"
-        ]
-      }
-    },
-    {
-      "name": "Hoothoot",
-      "speciesId": "hoothoot",
-      "dex": 163,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Great League",
-          "rank": 251
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "flying",
-            "tier": "B",
-            "rank": 6,
-            "via": "Dynamax Noctowl"
-          },
-          {
-            "type": "psychic",
-            "tier": "E",
-            "rank": 25,
-            "via": "Dynamax Noctowl"
-          },
-          {
-            "type": "dark",
-            "tier": "F",
-            "rank": 20,
-            "via": "Dynamax Hoothoot"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -16813,49 +15165,6 @@
       }
     },
     {
-      "name": "Shuckle",
-      "speciesId": "shuckle",
-      "dex": 213,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": null,
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "rock",
-            "tier": "F",
-            "rank": 10,
-            "via": "Dynamax Shuckle"
-          },
-          {
-            "type": "bug",
-            "tier": "F",
-            "rank": 12,
-            "via": "Dynamax Shuckle"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Sneasel (Hisuian)",
       "speciesId": "sneasel_hisuian",
       "dex": 215,
@@ -17011,46 +15320,6 @@
         "eggs": [
           "Egg: 5 km",
           "Event egg 5 km: Twilight Trails"
-        ]
-      }
-    },
-    {
-      "name": "Hitmontop",
-      "speciesId": "hitmontop",
-      "dex": 237,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 446
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "fighting",
-            "tier": "C",
-            "rank": 15,
-            "via": "Dynamax Hitmontop"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -17685,17 +15954,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -17781,17 +16042,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -17971,11 +16224,13 @@
         "max": []
       },
       "obtainedFrom": [
-        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
-          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -17997,11 +16252,13 @@
         "max": []
       },
       "obtainedFrom": [
-        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
-          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -18037,11 +16294,13 @@
         "max": []
       },
       "obtainedFrom": [
-        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+        "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+        "Raid: Twilight Wishes (starts 2026-11-24)"
       ],
       "sections": {
         "raids": [
-          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)"
+          "Raid: Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles (starts 2026-11-25)",
+          "Raid: Twilight Wishes (starts 2026-11-24)"
         ]
       }
     },
@@ -18244,17 +16503,9 @@
         "max": []
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -18669,126 +16920,6 @@
       }
     },
     {
-      "name": "Pidove",
-      "speciesId": "pidove",
-      "dex": 519,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "KEEP",
-      "reasons": [],
-      "maxReasons": [
-        {
-          "kind": "max",
-          "type": "flying",
-          "tier": "S",
-          "rank": 2,
-          "via": "Dynamax Unfezant",
-          "moveset": [],
-          "specialMoves": [],
-          "ivs": "high Attack IV; level it up as far as you can"
-        }
-      ],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 800
-        },
-        "pve": {
-          "type": "flying",
-          "tier": "C",
-          "rank": 44
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "flying",
-            "tier": "C",
-            "rank": 44,
-            "via": "Unfezant"
-          }
-        ],
-        "max": [
-          {
-            "type": "flying",
-            "tier": "S",
-            "rank": 2,
-            "via": "Dynamax Unfezant"
-          },
-          {
-            "type": "steel",
-            "tier": "D",
-            "rank": 11,
-            "via": "Dynamax Unfezant"
-          },
-          {
-            "type": "normal",
-            "tier": "D",
-            "rank": 32,
-            "via": "Dynamax Pidove"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
-      "name": "Woobat",
-      "speciesId": "woobat",
-      "dex": 527,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Great League",
-          "rank": 548
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "flying",
-            "tier": "A",
-            "rank": 5,
-            "via": "Dynamax Swoobat"
-          },
-          {
-            "type": "psychic",
-            "tier": "C",
-            "rank": 17,
-            "via": "Dynamax Swoobat"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Audino",
       "speciesId": "audino",
       "dex": 531,
@@ -18884,17 +17015,9 @@
         "max": []
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -19054,17 +17177,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -19209,17 +17324,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -19568,15 +17675,11 @@
         ]
       },
       "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Max Battle: Dynamax Cryogonal during Max Monday (starts 2026-11-30)"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
         "dynamax": [
-          "Max Battle: Dynamax Trails"
+          "Max Battle: Dynamax Cryogonal during Max Monday (starts 2026-11-30)"
         ]
       }
     },
@@ -19846,35 +17949,6 @@
       "sections": {
         "rocket": [
           "Team Rocket: Sierra"
-        ]
-      }
-    },
-    {
-      "name": "Espurr",
-      "speciesId": "espurr",
-      "dex": 677,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 709
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": []
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Espurr during Max Monday (starts 2026-11-23)"
-      ],
-      "sections": {
-        "dynamax": [
-          "Max Battle: Dynamax Espurr during Max Monday (starts 2026-11-23)"
         ]
       }
     },
@@ -20374,52 +18448,6 @@
       }
     },
     {
-      "name": "Passimian",
-      "speciesId": "passimian",
-      "dex": 766,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Master League",
-          "rank": 213
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "normal",
-            "tier": "A",
-            "rank": 8,
-            "via": "Dynamax Passimian"
-          },
-          {
-            "type": "fighting",
-            "tier": "A",
-            "rank": 8,
-            "via": "Dynamax Passimian"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ]
-      }
-    },
-    {
       "name": "Sandygast",
       "speciesId": "sandygast",
       "dex": 769,
@@ -20524,24 +18552,14 @@
       "obtainedFrom": [
         "Egg: 10 km",
         "Event egg 10 km: Twilight Trails",
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 10 km",
           "Event egg 10 km: Twilight Trails"
         ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -20592,17 +18610,9 @@
         ]
       },
       "obtainedFrom": [
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
           "Field Research"
         ]
@@ -20634,52 +18644,6 @@
       "sections": {
         "research": [
           "Field Research"
-        ]
-      }
-    },
-    {
-      "name": "Wooloo",
-      "speciesId": "wooloo",
-      "dex": 831,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Great League",
-          "rank": 156
-        },
-        "pve": null
-      },
-      "tiers": {
-        "raid": [],
-        "max": [
-          {
-            "type": "normal",
-            "tier": "B",
-            "rank": 12,
-            "via": "Dynamax Dubwool"
-          },
-          {
-            "type": "fighting",
-            "tier": "E",
-            "rank": 21,
-            "via": "Dynamax Dubwool"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -20735,64 +18699,6 @@
       "sections": {
         "eggs": [
           "Egg: 10 km"
-        ]
-      }
-    },
-    {
-      "name": "Toxtricity",
-      "speciesId": "toxtricity",
-      "dex": 849,
-      "shadow": false,
-      "verdict": "TRASH",
-      "dynamaxVerdict": "TRASH",
-      "reasons": [],
-      "maxReasons": [],
-      "best": {
-        "pvp": {
-          "league": "Ultra League",
-          "rank": 221
-        },
-        "pve": {
-          "type": "electric",
-          "tier": "B",
-          "rank": 45
-        }
-      },
-      "tiers": {
-        "raid": [
-          {
-            "type": "electric",
-            "tier": "B",
-            "rank": 45,
-            "via": "Toxtricity (Low Key Form)"
-          }
-        ],
-        "max": [
-          {
-            "type": "electric",
-            "tier": "SS",
-            "rank": 1,
-            "via": "Gigantamax Toxtricity",
-            "gmax": true
-          },
-          {
-            "type": "poison",
-            "tier": "A",
-            "rank": 2,
-            "via": "Dynamax Toxtricity (Amped Form)"
-          }
-        ]
-      },
-      "obtainedFrom": [
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
-      ],
-      "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
         ]
       }
     },
@@ -20853,17 +18759,9 @@
       },
       "obtainedFrom": [
         "Egg: 5 km",
-        "Event egg 5 km: Twilight Trails",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Event egg 5 km: Twilight Trails"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "eggs": [
           "Egg: 5 km",
           "Event egg 5 km: Twilight Trails"
@@ -21076,20 +18974,10 @@
         ]
       },
       "obtainedFrom": [
-        "Event research: Dynamax Trails",
-        "Field Research",
-        "Max Battle: Dynamax Trails",
-        "Wild: Dynamax Trails"
+        "Field Research"
       ],
       "sections": {
-        "wild": [
-          "Wild: Dynamax Trails"
-        ],
-        "dynamax": [
-          "Max Battle: Dynamax Trails"
-        ],
         "research": [
-          "Event research: Dynamax Trails",
           "Field Research"
         ]
       }
@@ -21368,9 +19256,7 @@
       }
     }
   ],
-  "unmatched": [
-    "Minior (Meteor Form)"
-  ],
+  "unmatched": [],
   "unmatchedGoHub": [],
   "knownAnswerMismatches": []
 }
